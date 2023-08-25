@@ -11,3 +11,4 @@
 | 2023-06-07 | [Uniswap V3 Limit Orders](./reports/2023-06-07-cyfrin-uniswap-v3-limit-orders.pdf)   |
 | 2023-06-13 | [Bankless/Earni.fi DropClaim](./reports/2023-06-13-cyfrin-drop-claim-report-v2.pdf)  |
 | 2023-06-16 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)              |
+| 2023-08-25 | [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)              |
