@@ -12,3 +12,4 @@
 | 2023-06-13 | [Bankless/Earni.fi DropClaim](./reports/2023-06-13-cyfrin-drop-claim-report-v2.pdf)  |
 | 2023-06-16 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)              |
 | 2023-08-25 | [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)              |
+| 2023-09-06 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)              |
