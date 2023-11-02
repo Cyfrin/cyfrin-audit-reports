@@ -13,3 +13,5 @@
 | 2023-06-16 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)              |
 | 2023-08-25 | [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)              |
 | 2023-09-06 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)              |
+| 2023-09-19 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)              |
+| 2023-09-19 | [Swap Exchange](./reports/2023-09-19-cyfrin-swapexchange.pdf)              |
