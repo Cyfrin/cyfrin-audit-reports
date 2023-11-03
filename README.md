@@ -15,3 +15,4 @@
 | 2023-09-06 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)              |
 | 2023-09-19 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)              |
 | 2023-09-19 | [Swap Exchange](./reports/2023-09-19-cyfrin-swapexchange.pdf)              |
+| 2023-11-03 | [Streamr Network Incentive Layer](./reports/2023-11-03-cyfrin-streamr-v2.0.pdf)              |
