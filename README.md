@@ -16,3 +16,4 @@
 | 2023-09-19 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)              |
 | 2023-09-19 | [Swap Exchange](./reports/2023-09-19-cyfrin-swapexchange.pdf)              |
 | 2023-11-03 | [Streamr Network Incentive Layer](./reports/2023-11-03-cyfrin-streamr-v2.0.pdf)              |
+| 2023-11-05 | [Farcaster](./reports/2023-11-05-cyfrin-farcaster-v1.0.pdf)              |
