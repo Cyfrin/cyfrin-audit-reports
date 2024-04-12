@@ -19,3 +19,4 @@
 | 2023-11-05 | [Farcaster](./reports/2023-11-05-cyfrin-farcaster-v1.0.pdf)              |
 | 2023-11-10 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf)                        |
 | 2023-11-20 | [Mode EARNM](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)            |
+| 2024-04-06 | [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)         |
