@@ -20,3 +20,4 @@
 | 2023-11-10 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf)                        |
 | 2023-11-20 | [Mode EARNM](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)            |
 | 2024-04-06 | [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)         |
+| 2024-04-14 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)         |
