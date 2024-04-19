@@ -26,3 +26,7 @@
 | 2024-04-06 | [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)          |
 | 2024-04-06 | [Wormhole EVM-NTT](./reports/2024-04-11-cyfrin-wormhole-evm-ntt-v2.pdf)              |
 | 2024-04-14 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                        |
+| 2024-04-18 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                    |
+
+
+
