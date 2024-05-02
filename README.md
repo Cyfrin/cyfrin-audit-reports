@@ -31,7 +31,7 @@
 | 2024-04-06 | [Wormhole EVM-NTT](./reports/2024-04-11-cyfrin-wormhole-evm-ntt-v2.pdf)              | 0   | 2   | 8   | 5   | 6   | 4   |
 | 2024-04-14 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                        | 0   | 6   | 6   | 7   | 2   | 5   |
 | 2024-04-18 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                    | 0   | 0   | 0   | 7   | 7   | 10  |
-| **Total**  |                                                                                      | 6   | 50  | 109 | 123 | 213 | 134 |
+| **Total**  |  _(27 reports)_                                                                                   | 6   | 50  | 109 | 123 | 213 | 134 |
 
 ## Legend
 
