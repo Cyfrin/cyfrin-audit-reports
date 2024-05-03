@@ -22,7 +22,7 @@
 | 2023-11-05 | 2023-10-24  | 2023-11-05 | [Farcaster](./reports/2023-11-05-cyfrin-farcaster-v1.0.pdf)                          | 0   | 0   | 4   | 2   | 0   | 0   |
 | 2023-11-10 | 2023-09-14  | 2023-10-27 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf)                                    | 3   | 9   | 14  | 4   | 8   | 8   |
 | 2023-11-20 | 2023-11-13  | 2023-11-17 | [Mode EARNM](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                        | 2   | 3   | 2   | 1   | 4   | 8   |
-| 2024-01-10 | 2023-12-15  | 2023-12-27 | [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.0.pdf)            | 0   | 1   | 2   | 1   | 5   | 3   |
+| 2024-01-10 | 2023-12-15  | 2023-12-27 | [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)            | 0   | 1   | 2   | 1   | 5   | 3   |
 | 2024-01-24 | 2024-01-12  | 2024-01-24 | [Solidly V3](./reports/2024-01-24-cyfrin-solidlyV3-v2.0.pdf)                         | 0   | 0   | 3   | 4   | 8   | 6   |
 | 2024-02-23 | 2024-01-29  | 2024-02-21 | [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)              | 0   | 0   | 2   | 11  | 4   | 7   |
 | 2024-04-06 | 2024-03-18  | 2024-04-01 | [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)   | 1   | 1   | 4   | 10  | 9   | 9   |
