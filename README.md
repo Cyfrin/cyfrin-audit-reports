@@ -32,7 +32,8 @@
 | 2024-04-18 | 2024-04-08  | 2024-04-18 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                    | 0   | 0   | 0   | 7   | 7   | 10  |
 | 2024-05-02 | 2023-10-16  | 2023-11-20 | [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)            | 0   | 2   | 4   | 6   | 9   | 6   |
 | 2024-05-04 | 2024-04-22  | 2024-04-29 | [Memebox by Solidly Labs](./reports/2024-05-04-cyfrin-solidly-v2-memecore-v2-2)      | 0   | 0   | 1   | 3   | 5   | 1   |
-|            | **Total**   |            | _(28 reports)_                                                                       | 6   | 50  | 110 | 126 | 218 | 135 |
+| 2024-05-24 | 2024-04-29  | 2024-05-17 | [Linea](./reports/2024-05-24-cyfrin-linea-v2.0.pdf)                                  | 0   | 2   | 2   | 4   | 6   | 13  |
+|            | **Total**   |            | _(29 reports)_                                                                       | 6   | 52  | 112 | 130 | 224 | 148 |
 
 ## Legend
 
