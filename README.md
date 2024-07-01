@@ -20,7 +20,7 @@
 | 2023-10-13 | 2023-09-12  | 2023-09-26 | [Beanstalk BIP-38](./reports/2023-10-13-cyfrin-beanstalk-bip-38.pdf)                 | 0   | 1   | 1   | 1   | 13  | 0   |
 | 2023-11-03 | 2023-10-09  | 2023-11-02 | [Streamr Network Incentive Layer](./reports/2023-11-03-cyfrin-streamr-v2.0.pdf)      | 0   | 4   | 6   | 1   | 3   | 0   |
 | 2023-11-05 | 2023-10-24  | 2023-11-05 | [Farcaster](./reports/2023-11-05-cyfrin-farcaster-v1.0.pdf)                          | 0   | 0   | 4   | 2   | 0   | 0   |
-| 2023-11-10 | 2023-09-14  | 2023-10-27 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (*)                                | 3   | 9   | 14  | 4   | 8   | 8   |
+| 2023-11-10 | 2023-09-14  | 2023-10-27 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                               | 3   | 9   | 14  | 4   | 8   | 8   |
 | 2023-11-20 | 2023-11-13  | 2023-11-17 | [Mode EARNM](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                        | 2   | 3   | 2   | 1   | 4   | 8   |
 | 2024-01-10 | 2023-12-15  | 2023-12-27 | [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)            | 0   | 1   | 2   | 1   | 5   | 3   |
 | 2024-01-24 | 2024-01-12  | 2024-01-24 | [Solidly V3](./reports/2024-01-24-cyfrin-solidlyV3-v2.0.pdf)                         | 0   | 0   | 3   | 4   | 8   | 6   |
@@ -33,18 +33,19 @@
 | 2024-05-02 | 2023-10-16  | 2023-11-20 | [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)            | 0   | 2   | 4   | 6   | 9   | 6   |
 | 2024-05-04 | 2024-04-22  | 2024-04-29 | [Memebox by Solidly Labs](./reports/2024-05-04-cyfrin-solidly-v2-memecore-v2-2)      | 0   | 0   | 1   | 3   | 5   | 1   |
 | 2024-05-24 | 2024-04-29  | 2024-05-17 | [Linea](./reports/2024-05-24-cyfrin-linea-v2.0.pdf)                                  | 0   | 2   | 2   | 4   | 6   | 13  |
-| 2024-06-18 | 2024-05-20  | 2024-05-31 | [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                          | 0   | 3   | 10   | 4   | 4   | 0  |
-|            | **Total**   |            | _(30 reports)_                                                                       | 6   | 51  | 110 | 121 | 214 | 135 |
+| 2024-06-18 | 2024-05-20  | 2024-05-31 | [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                          | 0   | 3   | 10  | 4   | 4   | 0   |
+| 2024-07-01 | 2024-06-17  | 2024-06-25 | [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                  | 1   | 0   | 5  | 0   | 3   | 0   |
+|            | **Total**   |            | _(31 reports)_                                                                       | 7   | 51  | 115 | 121 | 217 | 135 |
 
 ## Legend
 
 | Symbol | Description   |
 | ------ | ------------- |
-| C      | Critical (*)  |
+| C      | Critical (\*) |
 | H      | High          |
 | M      | Medium        |
 | L      | Low           |
 | I      | Informational |
 | G      | Gas           |
 
-(*) - Critical category was introduced with DeXe audit 2023-09-14. Prior to this all Critical findings were listed as High.
+(\*) - Critical category was introduced with DeXe audit 2023-09-14. Prior to this all Critical findings were listed as High.
