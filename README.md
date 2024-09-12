@@ -37,7 +37,8 @@
 | 2024-07-01 | 2024-06-17  | 2024-06-25 | [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                  | 1   | 0   | 5   | 0   | 3   | 0   |
 | 2024-07-10 | 2024-04-23  | 2024-05-17 | [Casimir](./reports/2024-07-10-cyfrin-casimir-v2.0.pdf)                                  | 6   | 6   | 5  | 5  | 5   | 0  |
 | 2024-07-16 | 2024-05-30  | 2024-06-20 | [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                  | 5   | 3   | 12  | 12  | 7   | 24  |
-|            | **Total**   |            | _(32 reports)_                                                                       | 18  | 60  | 132 | 138 | 229 | 159 |
+| 2024-09-12 | 2024-08-14  | 2024-08-21 | [Chaos Labs Risk Oracle](./reports/2024-08-21-cyfrin-chaos-labs-risk-oracle-v2.0.pdf)| 0   | 0   | 1  | 0  | 5   | 2  |
+|            | **Total**   |            | _(33 reports)_                                                                       | 18  | 60  | 133 | 138 | 234 | 161 |
 
 ## Legend
 
