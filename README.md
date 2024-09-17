@@ -38,7 +38,7 @@
 | 2024-07-10 | 2024-04-23  | 2024-05-17 | [Casimir](./reports/2024-07-10-cyfrin-casimir-v2.0.pdf)                                  | 6   | 6   | 5  | 5  | 5   | 0  |
 | 2024-07-16 | 2024-05-30  | 2024-06-20 | [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                  | 5   | 3   | 12  | 12  | 7   | 24  |
 | 2024-09-12 | 2024-08-14  | 2024-08-21 | [Chaos Labs Risk Oracle](./reports/2024-08-21-cyfrin-chaos-labs-risk-oracle-v2.0.pdf)| 0   | 0   | 1  | 0  | 5   | 2  |
-| 2024-09-15 | 2024-08-26  | 2024-09-04 | [The Standard Smart Vault]./(reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf)| 2   | 2   | 3  | 8  | 5   | 2  |
+| 2024-09-15 | 2024-08-26  | 2024-09-04 | [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf)| 2   | 2   | 3  | 8  | 5   | 2  |
 |            | **Total**   |            | _(34 reports)_                                                                       | 20  | 62  | 136 | 146 | 239 | 163 |
 
 ## Legend
