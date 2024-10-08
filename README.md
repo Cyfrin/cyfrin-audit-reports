@@ -37,6 +37,7 @@
 | 2024-07-01 | 2024-06-17  | 2024-06-25 | [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                       | 1   | 0   | 5   | 0   | 3   | 0   |
 | 2024-07-10 | 2024-04-23  | 2024-05-17 | [Casimir](./reports/2024-07-10-cyfrin-casimir-v2.0.pdf)                                   | 6   | 6   | 5   | 5   | 5   | 0   |
 | 2024-07-16 | 2024-05-30  | 2024-06-20 | [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       | 5   | 3   | 12  | 12  | 7   | 24  |
+| 2024-07-23 | 2024-07-18  | 2024-07-18 | [Wormhole EVM-NTT Diff](./reports/2024-07-23-cyfrin-wormhole-NTT-Diff-v1.0.pdf)           | 0   | 0   | 0   | 0   | 4   | 0   |
 | 2024-08-15 | 2024-07-29  | 2024-08-14 | [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       | 1   | 0   | 2   | 2   | 7   | 25  |
 | 2024-09-12 | 2024-08-14  | 2024-08-21 | [Chaos Labs Risk Oracle](./reports/2024-08-21-cyfrin-chaos-labs-risk-oracle-v2.0.pdf)     | 0   | 0   | 1   | 0   | 5   | 2   |
 | 2024-09-15 | 2024-08-26  | 2024-09-04 | [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) | 2   | 2   | 3   | 8   | 5   | 2   |
@@ -44,7 +45,7 @@
 | 2024-08-15 | 2024-09-23  | 2024-09-04 | [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | 0   | 4   | 9   | 17  | 18  | 15  |
 | 2024-10-04 | 2024-08-26  | 2024-09-09 | [Wormhole MultiGov](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)               | 0   | 0   | 0   | 9   | 6   | 2   |
 | 2024-10-07 | 2024-09-23  | 2024-10-04 | [PancakeSwap Universal Router](./reports/2024-10-07-cyfrin-pancakeswap-v2.0.pdf)          | 0   | 0   | 2   | 0   | 3   | 0   |
-|            | **Total**   |            | _(40 reports)_                                                                            | 23  | 71  | 155 | 179 | 273 | 208 |
+|            | **Total**   |            | _(41 reports)_                                                                            | 23  | 71  | 155 | 179 | 277 | 208 |
 
 ## Legend
 
