@@ -43,7 +43,8 @@
 | 2024-09-17 | 2024-07-29  | 2024-08-16 | [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             | 2   | 5   | 6   | 5   | 0   | 3   |
 | 2024-08-15 | 2024-09-23  | 2024-09-04 | [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | 0   | 4   | 9   | 17  | 18  | 15  |
 | 2024-10-04 | 2024-08-26  | 2024-09-09 | [Wormhole MultiGov](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)               | 0   | 0   | 0   | 9   | 6   | 2   |
-|            | **Total**   |            | _(39 reports)_                                                                            | 23  | 71  | 153 | 179 | 270 | 208 |
+| 2024-10-07 | 2024-09-23  | 2024-10-04 | [PancakeSwap Universal Router](./reports/2024-10-07-cyfrin-pancakeswap-v2.0.pdf)          | 0   | 0   | 2   | 0   | 3   | 0   |
+|            | **Total**   |            | _(40 reports)_                                                                            | 23  | 71  | 155 | 179 | 273 | 208 |
 
 ## Legend
 
