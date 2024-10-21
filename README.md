@@ -12,7 +12,7 @@
 | 2023-06-13 | 2023-05-22  | 2023-05-29 | [Bankless/Earni.fi DropClaim](./reports/2023-06-13-cyfrin-drop-claim-report-v2.pdf)       | 0   | 0   | 0   | 2   | 1   | 2   |
 | 2023-06-16 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | 0   | 4   | 2   | 3   | 18  | 2   |
 | 2023-08-25 | 2023-08-14  | 2023-08-21 | [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)                                  | 0   | 0   | 2   | 1   | 3   | 0   |
-| 2023-08-26 | 2023-07-12  | 2023-07-14 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin)                            | 0   | 0   | 5   | 6   | 4   | 0   |
+| 2023-08-26 | 2023-07-12  | 2023-07-14 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                            | 0   | 0   | 5   | 6   | 4   | 0   |
 | 2023-09-06 | 2023-08-31  | 2023-09-01 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | 0   | 0   | 2   | 1   | 3   | 4   |
 | 2023-09-12 | 2023-07-24  | 2023-09-11 | [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | 0   | 2   | 4   | 11  | 35  | 11  |
 | 2023-09-19 | 2023-09-01  | 2023-09-08 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | 0   | 2   | 1   | 2   | 0   | 6   |
