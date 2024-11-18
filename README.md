@@ -46,7 +46,8 @@
 | 2024-10-04 | 2024-08-26  | 2024-09-09 | [Wormhole Multi Governance](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)       | 0   | 0   | 0   | 9   | 6   | 2   |
 | 2024-10-07 | 2024-09-23  | 2024-10-04 | [PancakeSwap Universal Router](./reports/2024-10-07-cyfrin-pancakeswap-v2.0.pdf)          | 0   | 0   | 2   | 0   | 3   | 0   |
 | 2024-10-29 | 2024-10-07  | 2024-10-15 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)        | 2   | 2   | 8   | 5   | 20  | 1   |
-|            | **Total**   |            | _(42 reports)_                                                                            | 25  | 73  | 163 | 184 | 297 | 209 |
+| 2024-11-18 | 2024-10-14  | 2024-10-25 | [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf)        | 0   | 3   | 2   | 1   | 0  | 0   |
+|            | **Total**   |            | _(43 reports)_                                                                            | 25  | 76  | 165 | 185 | 297 | 209 |
 
 ## Legend
 
