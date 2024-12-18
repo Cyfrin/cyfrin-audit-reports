@@ -48,7 +48,8 @@
 | 2024-10-29 | 2024-10-07  | 2024-10-15 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)        | 2   | 2   | 8   | 5   | 20  | 1   |
 | 2024-11-18 | 2024-10-14  | 2024-10-25 | [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf)        | 0   | 3   | 2   | 1   | 0  | 0   |
 | 2024-12-04 | 2024-10-21  | 2024-11-04 | [Linea Update](./reports/2024-12-04-cyfrin-linea-v2.1.pdf)        | 0   | 0   | 1   | 1   | 5  | 5   |
-|            | **Total**   |            | _(44 reports)_                                                                            | 25  | 76  | 166 | 186 | 302 | 214 |
+| 2024-12-18 | 2024-09-16  | 2024-09-26 | [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf)                         | 0   | 1   | 5   | 5   | 14  | 5   |
+|            | **Total**   |            | _(45 reports)_                                                                            | 25  | 77  | 171 | 191 | 316 | 219 |
 
 ## Legend
 
