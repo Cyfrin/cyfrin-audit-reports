@@ -12,7 +12,7 @@
 | 2023-06-13 | 2023-05-22  | 2023-05-29 | [Bankless/Earni.fi DropClaim](./reports/2023-06-13-cyfrin-drop-claim-report-v2.pdf)       | 0   | 0   | 0   | 2   | 1   | 2   |
 | 2023-06-16 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | 0   | 4   | 2   | 3   | 18  | 2   |
 | 2023-08-25 | 2023-08-14  | 2023-08-21 | [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)                                  | 0   | 0   | 2   | 1   | 3   | 0   |
-| 2023-08-26 | 2023-07-12  | 2023-07-14 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                            | 0   | 0   | 5   | 6   | 4   | 0   |
+| 2023-08-26 | 2023-07-12  | 2023-07-14 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | 0   | 0   | 5   | 6   | 4   | 0   |
 | 2023-09-06 | 2023-08-31  | 2023-09-01 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | 0   | 0   | 2   | 1   | 3   | 4   |
 | 2023-09-12 | 2023-07-24  | 2023-09-11 | [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | 0   | 2   | 4   | 11  | 35  | 11  |
 | 2023-09-19 | 2023-09-01  | 2023-09-08 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | 0   | 2   | 1   | 2   | 0   | 6   |
@@ -45,11 +45,12 @@
 | 2024-09-27 | 2024-08-15  | 2024-09-23 | [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | 0   | 4   | 9   | 17  | 18  | 15  |
 | 2024-10-04 | 2024-08-26  | 2024-09-09 | [Wormhole Multi Governance](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)       | 0   | 0   | 0   | 9   | 6   | 2   |
 | 2024-10-07 | 2024-09-23  | 2024-10-04 | [PancakeSwap Universal Router](./reports/2024-10-07-cyfrin-pancakeswap-v2.0.pdf)          | 0   | 0   | 2   | 0   | 3   | 0   |
-| 2024-10-29 | 2024-10-07  | 2024-10-15 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)        | 2   | 2   | 8   | 5   | 20  | 1   |
-| 2024-11-18 | 2024-10-14  | 2024-10-25 | [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf)        | 0   | 3   | 2   | 1   | 0  | 0   |
-| 2024-12-04 | 2024-10-21  | 2024-11-04 | [Linea Update](./reports/2024-12-04-cyfrin-linea-v2.1.pdf)        | 0   | 0   | 1   | 1   | 5  | 5   |
+| 2024-10-29 | 2024-10-07  | 2024-10-15 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)               | 2   | 2   | 8   | 5   | 20  | 1   |
+| 2024-11-18 | 2024-10-14  | 2024-10-25 | [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) | 0   | 3   | 2   | 1   | 0   | 0   |
+| 2024-12-04 | 2024-10-21  | 2024-11-04 | [Linea Update](./reports/2024-12-04-cyfrin-linea-v2.1.pdf)                                | 0   | 0   | 1   | 1   | 5   | 5   |
 | 2024-12-18 | 2024-09-16  | 2024-09-26 | [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf)                         | 0   | 1   | 5   | 5   | 14  | 5   |
-|            | **Total**   |            | _(45 reports)_                                                                            | 25  | 77  | 171 | 191 | 316 | 219 |
+| 2024-12-19 | 2024-11-26  | 2024-11-26 | [M^0](./reports/2024-11-26-cyfrin-m0-v2.0.pdf)                                            | 0   | 0   | 1   | 0   | 1   | 0   |
+|            | **Total**   |            | _(45 reports)_                                                                            | 25  | 77  | 172 | 191 | 317 | 219 |
 
 ## Legend
 
