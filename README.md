@@ -47,7 +47,7 @@
 | 2024-10-07 | 2024-09-23  | 2024-10-04 | [PancakeSwap Universal Router](./reports/2024-10-07-cyfrin-pancakeswap-v2.0.pdf)          | 0   | 0   | 2   | 0   | 3   | 0   |
 | 2024-10-29 | 2024-10-07  | 2024-10-15 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)               | 2   | 2   | 8   | 5   | 20  | 1   |
 | 2024-11-18 | 2024-10-14  | 2024-10-25 | [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) | 0   | 3   | 2   | 1   | 0   | 0   |
-| 2024-12-04 | 2024-10-21  | 2024-11-04 | [Linea Update](./reports/2024-12-04-cyfrin-linea-v2.1.pdf)                                | 0   | 0   | 1   | 1   | 5   | 5   |
+| 2025-01-06 | 2024-10-21  | 2024-11-04 | [Linea Update](./reports/2025-01-06-cyfrin-linea-v2.2.pdf)                                | 0   | 0   | 1   | 1   | 5   | 5   |
 | 2024-12-18 | 2024-09-16  | 2024-09-26 | [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf)                         | 0   | 1   | 5   | 5   | 14  | 5   |
 | 2024-12-19 | 2024-11-26  | 2024-11-26 | [M^0](./reports/2024-11-26-cyfrin-m0-v2.0.pdf)                                            | 0   | 0   | 2   | 0   | 1   | 0   |
 | 2024-12-20 | 2024-12-17  | 2024-12-17 | [QuantAMM](./reports/2024-12-17-cyfrin-quantamm-v1.2.pdf)                                 | 0   | 4   | 7   | 3   | 5   | 0   |
