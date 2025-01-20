@@ -52,7 +52,8 @@
 | 2024-12-19 | 2024-11-26  | 2024-11-26 | [M^0](./reports/2024-11-26-cyfrin-m0-v2.0.pdf)                                            | 0   | 0   | 2   | 0   | 1   | 0   |
 | 2024-12-20 | 2024-12-17  | 2024-12-17 | [QuantAMM](./reports/2024-12-17-cyfrin-quantamm-v1.2.pdf)                                 | 0   | 4   | 7   | 3   | 5   | 0   |
 | 2025-01-13 | 2024-12-09  | 2024-12-18 | [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) | 2   | 4   | 5   | 2   | 8   | 0   |
-|            | **Total**   |            | _(48 reports)_                                                                            | 27  | 85  | 185 | 196 | 330 | 219 |
+| 2025-01-20 | 2024-01-07  | 2024-01-16 | [Stake.Link Staking Proxy](./reports/2025-01-20-cyfrin-stakedotlink-stakingproxy-v2.0.pdf) | 1   | 0   | 0   | 2   | 0   | 0   |
+|            | **Total**   |            | _(49 reports)_                                                                            | 28  | 85  | 185 | 198 | 330 | 219 |
 
 ## Legend
 
