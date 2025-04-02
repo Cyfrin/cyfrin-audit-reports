@@ -55,9 +55,11 @@
 | 2025-01-20 | 2024-01-07  | 2024-01-16 | [Stake.Link Staking Proxy](./reports/2025-01-20-cyfrin-stakedotlink-stakingproxy-v2.0.pdf) | 1   | 0   | 0   | 2   | 0   | 0   |
 | 2025-02-24 | 2025-01-10  | 2025-02-14 | [D2](./reports/2025-02-24-cyfrin-d2-v2.1.pdf)                                             | 2   | 2   | 7   | 7   | 6   | 0   |
 | 2025-03-01 | 2025-02-25  | 2025-02-28 | [Stake.Link PR#140](./reports/2025-02-28-cyfrin-stakedotlink-v2.0.pdf)                    | 0   | 0   | 0   | 0   | 1   | 1   |
+| 2025-03-18 | 2025-02-12  | 2025-02-26 | [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf)                    | 0   | 1   | 2   | 5   | 4   | 1   |
 | 2025-03-19 | 2025-03-11  | 2025-03-14 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     | 0   | 0   | 1   | 3   | 4   | 0   |
 | 2025-03-28 | 2025-03-17  | 2025-03-21 | [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   | 0   | 0   | 0   | 2   | 8   | 9   |
-|            | **Total**   |            | _(50 reports)_                                                                            | 30  | 87  | 193 | 210 | 349 | 229 |
+| 2025-04-01 | 2025-03-10  | 2025-03-14 | [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf)                    | 0   | 0   | 4   | 2   | 1   | 3   |
+|            | **Total**   |            | _(52 reports)_                                                                            | 30  | 88  | 199 | 217 | 354 | 233 |
 
 
 
