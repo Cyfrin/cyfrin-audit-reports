@@ -59,7 +59,8 @@
 | 2025-03-19 | 2025-03-11  | 2025-03-14 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     | 0   | 0   | 1   | 3   | 4   | 0   |
 | 2025-03-28 | 2025-03-17  | 2025-03-21 | [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   | 0   | 0   | 0   | 2   | 8   | 9   |
 | 2025-04-01 | 2025-03-10  | 2025-03-14 | [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf)                    | 0   | 0   | 4   | 2   | 1   | 3   |
-|            | **Total**   |            | _(52 reports)_                                                                            | 30  | 88  | 199 | 217 | 354 | 233 |
+| 2025-04-09 | 2025-04-02  | 2025-04-04 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             | 0   | 0   | 0   | 4   | 10  | 3   |
+|            | **Total**   |            | _(56 reports)_                                                                            | 30  | 88  | 199 | 221 | 364 | 236 |
 
 
 
