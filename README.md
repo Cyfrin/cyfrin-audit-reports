@@ -60,7 +60,8 @@
 | 2025-03-28 | 2025-03-17  | 2025-03-21 | [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   | 0   | 0   | 0   | 2   | 8   | 9   |
 | 2025-04-01 | 2025-03-10  | 2025-03-14 | [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf)                    | 0   | 0   | 4   | 2   | 1   | 3   |
 | 2025-04-09 | 2025-04-02  | 2025-04-04 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             | 0   | 0   | 0   | 4   | 10  | 3   |
-|            | **Total**   |            | _(56 reports)_                                                                            | 30  | 88  | 199 | 221 | 364 | 236 |
+| 2025-04-16 | 2024-12-12  | 2024-12-18 | [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      | 0   | 0   | 0   | 1   | 5  | 0   |
+|            | **Total**   |            | _(57 reports)_                                                                            | 30  | 88  | 199 | 222 | 369 | 236 |
 
 
 
