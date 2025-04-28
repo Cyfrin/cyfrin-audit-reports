@@ -63,7 +63,8 @@
 | 2025-04-16 | 2024-12-12  | 2024-12-18 | [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      | 0   | 0   | 0   | 1   | 5   | 0   |
 | 2025-04-24 | 2025-04-21  | 2025-04-22 | [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           | 0   | 0   | 1   | 6   | 5   | 6   |
 | 2025-04-24 | 2025-04-01  | 2025-04-10 | [YieldFi](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                                   | 2   | 1   | 5   | 7   | 10  | 4   |
-|            | **Total**   |            | _(58 reports)_                                                                            | 32  | 89  | 205 | 235 | 384 | 246 |
+| 2025-04-25 | 2025-03-20  | 2025-04-10 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf)                    | 0   | 1   | 1   | 3   | 3   | 1   |
+|            | **Total**   |            | _(59 reports)_                                                                            | 32  | 90  | 206 | 238 | 387 | 247 |
 
 
 
