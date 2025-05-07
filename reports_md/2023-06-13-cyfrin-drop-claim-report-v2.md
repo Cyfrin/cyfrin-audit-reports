@@ -7,7 +7,7 @@
 
 However, it is important to note that the `setClaims` function allows contract owners to add or update a claim with an expiry date that has already passed. While this may initially seem like a harmless side-effect, as claimers cannot claim on such contracts, it has a more significant implication. Contract owners can effectively revive airdrops that have already expired, enabling them to carry out airdrops that should no longer be active.
 
-[Affected lines of code in `DropClaims::setClaims`](https://github.com/kadenzipfel/drop-claim/blob/9fb36aab457b1ad3ea27351b004ddcdc5ef30682/src/DropClaim.sol#L77-L83)
+[Affected lines of code in `DropClaims::setClaims`]()
 
 **Impact:** Contract owners can modify a claim even after it has expired. This allows retroactively adding claimers by extending the validity period of a claim that should have already ended.
 
@@ -163,23 +163,23 @@ To avoid copying every element of the struct when only one element is required, 
 -   ClaimData memory claimData = claims[getClaimContractHash(claimContract, salt)];
 +   ClaimData storage claimData = claims[getClaimContractHash(claimContract, salt)];
 ```
-[Line 100](https://github.com/kadenzipfel/drop-claim/blob/9fb36aab457b1ad3ea27351b004ddcdc5ef30682/src/DropClaim.sol#L100)
+[Line 100]()
 
 ```diff
 // DropClaim::batchClaim
 -   ClaimData memory claimData = claims[getClaimContractHash(claimContracts[i], salts[i])];
 +   ClaimData storage claimData = claims[getClaimContractHash(claimContracts[i], salts[i])];
 ```
-[Line 131](https://github.com/kadenzipfel/drop-claim/blob/9fb36aab457b1ad3ea27351b004ddcdc5ef30682/src/DropClaim.sol#L131)
+[Line 131]()
 
 ```diff
 // DropClaim::_claim
 -   ClaimData memory claimData = claims[getClaimContractHash(claimContract, salt)];
 +   ClaimData storage claimData = claims[getClaimContractHash(claimContract, salt)];
 ```
-[Line 200](https://github.com/kadenzipfel/drop-claim/blob/9fb36aab457b1ad3ea27351b004ddcdc5ef30682/src/DropClaim.sol#L200)
+[Line 200]()
 
-**Bankless:** Acknowledged & fixed in [commit 020bb4c49a281af32898f951b784d7748dac049f](https://github.com/kadenzipfel/drop-claim/commit/020bb4c49a281af32898f951b784d7748dac049f).
+**Bankless:** Acknowledged & fixed in [commit 020bb4c49a281af32898f951b784d7748dac049f]().
 
 **Cyfrin:** Verified.
 
@@ -193,16 +193,16 @@ Comparing to a constant (true or false) is a bit more expensive than directly ch
 -   if (MerkleProof.verify(merkleProof, merkleRoot, bytes32(uint256(uint160(msg.sender)))) == false) {
 +   if (!MerkleProof.verify(merkleProof, merkleRoot, bytes32(uint256(uint160(msg.sender))))) {
 ```
-[Line 158](https://github.com/kadenzipfel/drop-claim/blob/9fb36aab457b1ad3ea27351b004ddcdc5ef30682/src/DropClaim.sol#L158)
+[Line 158]()
 
 ```diff
 // DropClaim::allowlistBatchClaim
 -   if (MerkleProof.verify(merkleProof, merkleRoot, bytes32(uint256(uint160(msg.sender)))) == false) {
 +   if (!MerkleProof.verify(merkleProof, merkleRoot, bytes32(uint256(uint160(msg.sender))))) {
 ```
-[Line 181](https://github.com/kadenzipfel/drop-claim/blob/9fb36aab457b1ad3ea27351b004ddcdc5ef30682/src/DropClaim.sol#L181)
+[Line 181]()
 
-**Bankless:** Acknowledged & fixed in [commit 0d3ccd6eb7ad266be54598a52d321cb9bb17e7af](https://github.com/kadenzipfel/drop-claim/commit/0d3ccd6eb7ad266be54598a52d321cb9bb17e7af).
+**Bankless:** Acknowledged & fixed in [commit 0d3ccd6eb7ad266be54598a52d321cb9bb17e7af]().
 
 **Cyfrin:** Verified
 
