@@ -64,8 +64,8 @@
 | 2025-04-24 | 2025-04-21  | 2025-04-22 | [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           | 0   | 0   | 1   | 6   | 5   | 6   |
 | 2025-04-24 | 2025-04-01  | 2025-04-10 | [YieldFi](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                                   | 2   | 1   | 5   | 7   | 10  | 4   |
 | 2025-04-25 | 2025-03-20  | 2025-04-10 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf)                    | 0   | 1   | 1   | 3   | 3   | 1   |
-| 2025-05-08 | 2025-05-05  | 2025-05-08 | [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | 0   | 0   | 0   | 0   | 0   | 25  |
-|            | **Total**   |            | _(60 reports)_                                                                            | 32  | 90  | 206 | 238 | 387 | 272 |
+| 2025-05-08 | 2025-05-05  | 2025-05-08 | [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | 0   | 0   | 0   | 0   | 0   | 26  |
+|            | **Total**   |            | _(60 reports)_                                                                            | 32  | 90  | 206 | 238 | 387 | 273 |
 
 
 
