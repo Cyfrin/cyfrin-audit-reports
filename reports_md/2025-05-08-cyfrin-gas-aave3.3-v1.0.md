@@ -3,6 +3,7 @@
 [Dacian](https://x.com/DevDacian)
 **Assisting Auditors**
 
+ 
 
 
 ---
@@ -547,7 +548,11 @@ Note: there were more benefits as well from later commits.
 
 ### Exit quickly in `RewardsDistributor::_updateData` when `numAvailableRewards == 0`
 
-**Description:** Exit quickly in `RewardsDistributor::_updateData` when `numAvailableRewards == 0` to avoid unnecessary storage reads.
+**Description:** Exit quickly in `RewardsDistributor::_updateData` when `numAvailableRewards == 0` to avoid unnecessary work prior to exiting.
+
+This optimization improves performance of any functions where the most common case is `numAvailableRewards = 0`, but results in worse performance when claiming rewards when `numAvailableRewards != 0`.
+
+Hence it is a trade-off that should be considered based on what is the most likely case.
 
 **Impact:** `snapshots/AToken.transfer.json`:
 ```diff
@@ -610,7 +615,7 @@ Note: there were more benefits as well from later commits.
 +  "supply: collateralEnabled": "146359",
 ```
 
-`snapshots/RewardsController.json`: (seem to be worse which is weird)
+`snapshots/RewardsController.json`: (claiming worse)
 ```diff
 -   "claimAllRewards: one reward type": "50131",
 -   "claimAllRewardsToSelf: one reward type": "49927",
