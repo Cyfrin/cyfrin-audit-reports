@@ -65,7 +65,7 @@
 |  2025-04-02 | 2025-04-04 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             | Real-World Assets, LayerZero, Chainlink CCIP | 0   | 0   | 0   | 4   | 10  | 3   |
 |  2025-04-21 | 2025-04-22 | [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           | NFT                 | 0   | 0   | 1   | 6   | 5   | 6   |
 |  2025-05-05 | 2025-05-08 | [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | Gas Optimization, AaveV3 | 0   | 0   | 0   | 0   | 0   | 26  |
-|            | **Total**   |            | _(60 reports)_                                                                            |                     | 32  | 90  | 206 | 238 | 387 | 273 |
+|             | **Total**  |                                                                                           | _(60 reports)_      | 32  | 90  | 206 | 238 | 387 | 273 |
 
 
 
