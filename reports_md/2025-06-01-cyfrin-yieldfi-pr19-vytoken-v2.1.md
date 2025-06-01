@@ -2,6 +2,12 @@
 
 [Immeas](https://twitter.com/0ximmeas)
 
+**Assisting Auditors**
+
+[Alex Roan](https://twitter.com/alexroan)
+
+[Giovanni Di Siena](https://twitter.com/giovannidisiena)
+
 ---
 
 # Findings
