@@ -41,7 +41,7 @@
 |  2024-07-29 | 2024-08-14 | [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       | Lottery, NFT, Chainlink VRF & Functions | 1   | 0   | 2   | 2   | 7   | 25  |
 |  2024-07-29 | 2024-08-16 | [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             | Liquid Staking, Chainlink | 2   | 5   | 6   | 5   | 0   | 3   |
 |  2024-08-14 | 2024-08-21 | [Chaos Labs Risk Oracle](./reports/2024-08-21-cyfrin-chaos-labs-risk-oracle-v2.0.pdf)     | Risk Oracle         | 0   | 0   | 1   | 0   | 5   | 2   |
-|  2024-08-15 | 2024-09-23 | [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | Stablecoin, Lending, Vault, Vesting | 0   | 4   | 9   | 17  | 18  | 15  |
+|  2024-08-15 | 2024-09-23 | [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | Stablecoin, Lending, Vault, Vesting, LayerZero | 0   | 4   | 9   | 17  | 18  | 15  |
 |  2024-08-26 | 2024-09-04 | [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) | Stablecoin, Lending, Vault | 2   | 2   | 3   | 8   | 5   | 2   |
 |  2024-08-26 | 2024-09-09 | [Wormhole Multi Governance](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)       | DAO, Cross-chain, Wormhole | 0   | 0   | 0   | 9   | 6   | 2   |
 |  2024-09-16 | 2024-09-26 | [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf)                         | Liquid Staking      | 0   | 1   | 5   | 5   | 14  | 5   |
