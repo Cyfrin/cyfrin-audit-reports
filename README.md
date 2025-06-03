@@ -66,9 +66,10 @@
 |  2025-04-21 | 2025-04-22 | [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           | NFT                 | 0   | 0   | 1   | 6   | 5   | 6   |
 |  2025-05-05 | 2025-05-08 | [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | Gas Optimization, AaveV3 | 0   | 0   | 0   | 0   | 0   | 26  |
 |  2025-05-05 | 2025-05-09 | [EulerSwap](./reports/2025-05-26-cyfrin-eulerswap-v2.0.pdf)                               | Vault, AMM, UniswapV4 | 0   | 0   | 0   | 2   | 3  |  2   |
+|  2025-05-12 | 2025-05-13 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   | DAO, Timelock       | 0   | 0   | 0   | 4   | 4  |  1   |
 |  2025-05-26 | 2025-05-27 | [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        | Vault, Yield, Chainlink CCIP, LayerZero | 0   | 0   | 0   | 0   | 2  | 1   |
 |  2025-05-29 | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle | 0   | 0   | 0   | 5   | 6  | 4   |
-|             | **Total**  |                                                                                           | _(63 reports)_      | 32  | 90  | 206 | 245 | 398 | 280 |
+|             | **Total**  |                                                                                           | _(64 reports)_      | 32  | 90  | 206 | 249 | 402 | 281 |
 
 
 
