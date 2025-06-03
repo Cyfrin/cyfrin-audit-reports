@@ -28,7 +28,7 @@
 |  2024-01-15 | 2024-02-12 | [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)               | Cross-Chain, Wormhole, Circle | 0   | 0   | 2   | 3   | 8   | 0   |
 |  2024-01-29 | 2024-02-21 | [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)                   | Liquid Staking, NFT | 0   | 0   | 2   | 11  | 4   | 7   |
 |  2024-02-26 | 2024-03-22 | [Wormhole EVM-NTT](./reports/2024-04-11-cyfrin-wormhole-evm-ntt-v2.pdf)                   | Cross-Chain, Wormhole | 0   | 2   | 8   | 5   | 6   | 4   |
-|  2024-03-18 | 2024-04-01 | [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)        | Concentrated Liquidity Manager | 1   | 1   | 4   | 10  | 9   | 9   |
+|  2024-03-18 | 2024-04-01 | [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)        | Concentrated Liquidity Manager, CLM/AMM | 1   | 1   | 4   | 10  | 9   | 9   |
 |  2024-03-18 | 2024-04-08 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             | DAO, AMM, Lending, Vault, Yield | 0   | 6   | 6   | 7   | 2   | 5   |
 |  2024-04-08 | 2024-04-18 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         | Real-World Assets   | 0   | 0   | 0   | 7   | 7   | 10  |
 |  2024-04-22 | 2024-04-29 | [Memebox by Solidly Labs](./reports/2024-05-04-cyfrin-solidly-v2-memecore-v2-2.pdf)       | DEX/AMM             | 0   | 0   | 1   | 3   | 5   | 1   |
