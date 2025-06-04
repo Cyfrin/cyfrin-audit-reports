@@ -68,8 +68,9 @@
 |  2025-05-05 | 2025-05-09 | [EulerSwap](./reports/2025-05-26-cyfrin-eulerswap-v2.0.pdf)                               | Vault, AMM, UniswapV4 | 0   | 0   | 0   | 2   | 3  |  2   |
 |  2025-05-12 | 2025-05-13 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   | DAO, Timelock       | 0   | 0   | 0   | 4   | 4  |  1   |
 |  2025-05-26 | 2025-05-27 | [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        | Vault, Yield, Chainlink CCIP, LayerZero | 0   | 0   | 0   | 0   | 2  | 1   |
+|  2025-05-28 | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink | 0   | 0   | 0   | 3   | 3  | 2   |
 |  2025-05-29 | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle | 0   | 0   | 0   | 5   | 6  | 4   |
-|             | **Total**  |                                                                                           | _(64 reports)_      | 32  | 90  | 206 | 249 | 402 | 281 |
+|             | **Total**  |                                                                                           | _(65 reports)_      | 32  | 90  | 206 | 252 | 405 | 283 |
 
 
 
