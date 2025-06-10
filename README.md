@@ -61,6 +61,7 @@
 |  2025-03-11 | 2025-03-14 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     | Lottery, NFT, Gelato VRF | 0   | 0   | 1   | 3   | 4   | 0   |
 |  2025-03-17 | 2025-03-21 | [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   | Lending, DeFi Integrations | 0   | 0   | 0   | 2   | 8   | 9   |
 |  2025-03-20 | 2025-04-10 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) | DEX, Leverage Trading, Vault | 0   | 1   | 1   | 3   | 3   | 1   |
+|  2025-03-24 | 2025-05-16 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      | CLM/DEX/AMM, Concentrated Liquidity Manager, Vault, UniswapV4 | 1   | 0   | 15   | 7   | 19   | 5   |
 |  2025-04-01 | 2025-04-10 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              | Vault, Yield, Chainlink CCIP, LayerZero | 2   | 1   | 5   | 7   | 10  | 4   |
 |  2025-04-02 | 2025-04-04 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             | Real-World Assets, LayerZero, Chainlink CCIP | 0   | 0   | 0   | 4   | 10  | 3   |
 |  2025-04-21 | 2025-04-22 | [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           | NFT                 | 0   | 0   | 1   | 6   | 5   | 6   |
@@ -70,7 +71,7 @@
 |  2025-05-26 | 2025-05-27 | [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        | Vault, Yield, Chainlink CCIP, LayerZero | 0   | 0   | 0   | 0   | 2  | 1   |
 |  2025-05-28 | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink | 0   | 0   | 0   | 3   | 3  | 2   |
 |  2025-05-29 | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle | 0   | 0   | 0   | 5   | 6  | 4   |
-|             | **Total**  |                                                                                           | _(65 reports)_      | 32  | 90  | 206 | 252 | 405 | 283 |
+|             | **Total**  |                                                                                           | _(66 reports)_      | 33  | 90  | 221 | 259 | 424 | 288 |
 
 
 
