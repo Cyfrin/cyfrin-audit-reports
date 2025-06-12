@@ -72,7 +72,7 @@
 |  2025-05-26 | 2025-05-28 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield         | 1   | 1   | 3   | 16   | 9  | 8   |
 |  2025-05-28 | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink | 0   | 0   | 0   | 3   | 3  | 2   |
 |  2025-05-29 | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle | 0   | 0   | 0   | 5   | 6  | 4   |
-|             | **Total**  |                                                                                           | _(67 reports)_      | 34  | 92  | 224 | 275 | 433 | 296 |
+|             | **Total**  |                                                                                           | _(68 reports)_      | 34 | 92 | 225 | 275 | 434 | 296 |
 
 
 
