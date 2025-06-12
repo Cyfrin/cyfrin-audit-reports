@@ -109,7 +109,7 @@
 | [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf) | 0 | 0 | 0 | 0 | 2 | 1 |
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf) | 1 | 1 | 3 | 16 | 9 | 8 |
 |                                                                **Total**  _(15 reports)_ | 10 | 28 | 70 | 88 | 98 | 53 |
-|  **Average Findings Per Audit** Crit/High 2.53, Medium 4.67, Low 5.87, Info 6.53, Gas 3.53 |
+| **Average Findings Per Audit**<br>* Crit/High 2.53<br>* Medium 4.67<br>* Low 5.87<br>* Info 6.53<br>* Gas 3.53 |
 
 
 
@@ -133,7 +133,7 @@
 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf) | 1 | 1 | 16 | 7 | 20 | 5 |
 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf) | 0 | 0 | 0 | 2 | 3 | 2 |
 |                                                                **Total**  _(15 reports)_ | 2 | 24 | 63 | 58 | 105 | 48 |
-|  **Average Findings Per Audit** Crit/High 1.73, Medium 4.2, Low 3.87, Info 7, Gas 3.2 |
+| **Average Findings Per Audit**<br>* Crit/High 1.73<br>* Medium 4.2<br>* Low 3.87<br>* Info 7<br>* Gas 3.2 |
 
 
 
@@ -157,7 +157,7 @@
 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf) | 0 | 0 | 0 | 4 | 10 | 3 |
 | [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf) | 0 | 0 | 0 | 0 | 2 | 1 |
 |                                                                **Total**  _(15 reports)_ | 2 | 13 | 35 | 54 | 101 | 50 |
-|  **Average Findings Per Audit** Crit/High 1, Medium 2.33, Low 3.6, Info 6.73, Gas 3.33 |
+| **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.33<br>* Low 3.6<br>* Info 6.73<br>* Gas 3.33 |
 
 
 
@@ -178,7 +178,7 @@
 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | 0 | 0 | 0 | 3 | 3 | 2 |
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf) | 0 | 0 | 0 | 5 | 6 | 4 |
 |                                                                **Total**  _(12 reports)_ | 8 | 12 | 23 | 32 | 54 | 50 |
-|  **Average Findings Per Audit** Crit/High 1.67, Medium 1.92, Low 2.67, Info 4.5, Gas 4.17 |
+| **Average Findings Per Audit**<br>* Crit/High 1.67<br>* Medium 1.92<br>* Low 2.67<br>* Info 4.5<br>* Gas 4.17 |
 
 
 
@@ -198,7 +198,7 @@
 | [Stake.Link PR#140](./reports/2025-02-28-cyfrin-stakedotlink-v2.0.pdf) | 0 | 0 | 0 | 0 | 1 | 1 |
 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | 0 | 0 | 0 | 3 | 3 | 2 |
 |                                                                **Total**  _(11 reports)_ | 9 | 20 | 37 | 47 | 43 | 31 |
-|  **Average Findings Per Audit** Crit/High 2.64, Medium 3.36, Low 4.27, Info 3.91, Gas 2.82 |
+| **Average Findings Per Audit**<br>* Crit/High 2.64<br>* Medium 3.36<br>* Low 4.27<br>* Info 3.91<br>* Gas 2.82 |
 
 
 
@@ -217,7 +217,7 @@
 | [Stake.Link PR#140](./reports/2025-02-28-cyfrin-stakedotlink-v2.0.pdf) | 0 | 0 | 0 | 0 | 1 | 1 |
 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | 0 | 0 | 0 | 3 | 3 | 2 |
 |                                                                **Total**  _(10 reports)_ | 9 | 17 | 27 | 43 | 39 | 31 |
-|  **Average Findings Per Audit** Crit/High 2.6, Medium 2.7, Low 4.3, Info 3.9, Gas 3.1 |
+| **Average Findings Per Audit**<br>* Crit/High 2.6<br>* Medium 2.7<br>* Low 4.3<br>* Info 3.9<br>* Gas 3.1 |
 
 
 
@@ -235,7 +235,7 @@
 | [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf) | 0 | 0 | 0 | 2 | 8 | 9 |
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) | 0 | 1 | 1 | 3 | 3 | 1 |
 |                                                                **Total**  _(9 reports)_ | 11 | 22 | 48 | 64 | 61 | 56 |
-|  **Average Findings Per Audit** Crit/High 3.67, Medium 5.33, Low 7.11, Info 6.78, Gas 6.22 |
+| **Average Findings Per Audit**<br>* Crit/High 3.67<br>* Medium 5.33<br>* Low 7.11<br>* Info 6.78<br>* Gas 6.22 |
 
 
 
@@ -252,7 +252,7 @@
 | [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf) | 0 | 0 | 1 | 6 | 5 | 6 |
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf) | 0 | 0 | 0 | 5 | 6 | 4 |
 |                                                                **Total**  _(8 reports)_ | 4 | 14 | 25 | 36 | 40 | 60 |
-|  **Average Findings Per Audit** Crit/High 2.25, Medium 3.12, Low 4.5, Info 5, Gas 7.5 |
+| **Average Findings Per Audit**<br>* Crit/High 2.25<br>* Medium 3.12<br>* Low 4.5<br>* Info 5<br>* Gas 7.5 |
 
 
 
@@ -267,7 +267,7 @@
 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf) | 2 | 2 | 8 | 5 | 20 | 1 |
 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf) | 0 | 0 | 0 | 4 | 4 | 1 |
 |                                                                **Total**  _(6 reports)_ | 5 | 20 | 38 | 33 | 44 | 17 |
-|  **Average Findings Per Audit** Crit/High 4.17, Medium 6.33, Low 5.5, Info 7.33, Gas 2.83 |
+| **Average Findings Per Audit**<br>* Crit/High 4.17<br>* Medium 6.33<br>* Low 5.5<br>* Info 7.33<br>* Gas 2.83 |
 
 
 
@@ -282,7 +282,7 @@
 | [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) | 2 | 2 | 3 | 8 | 5 | 2 |
 | [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) | 2 | 4 | 5 | 2 | 8 | 0 |
 |                                                                **Total**  _(6 reports)_ | 4 | 15 | 26 | 45 | 88 | 34 |
-|  **Average Findings Per Audit** Crit/High 3.17, Medium 4.33, Low 7.5, Info 14.67, Gas 5.67 |
+| **Average Findings Per Audit**<br>* Crit/High 3.17<br>* Medium 4.33<br>* Low 7.5<br>* Info 14.67<br>* Gas 5.67 |
 
 
 
@@ -294,7 +294,7 @@
 | [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf) | 1 | 0 | 2 | 2 | 7 | 25 |
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf) | 0 | 0 | 1 | 3 | 4 | 0 |
 |                                                                **Total**  _(3 reports)_ | 3 | 3 | 5 | 6 | 15 | 33 |
-|  **Average Findings Per Audit** Crit/High 2, Medium 1.67, Low 2, Info 5, Gas 11 |
+| **Average Findings Per Audit**<br>* Crit/High 2<br>* Medium 1.67<br>* Low 2<br>* Info 5<br>* Gas 11 |
 
 
 
@@ -305,7 +305,7 @@
 | [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) | 0 | 1 | 2 | 5 | 4 | 1 |
 | [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) | 0 | 0 | 4 | 2 | 1 | 3 |
 |                                                                **Total**  _(2 reports)_ | 0 | 1 | 6 | 7 | 5 | 4 |
-|  **Average Findings Per Audit** Crit/High 0.5, Medium 3, Low 3.5, Info 2.5, Gas 2 |
+| **Average Findings Per Audit**<br>* Crit/High 0.5<br>* Medium 3<br>* Low 3.5<br>* Info 2.5<br>* Gas 2 |
 
 
 
@@ -316,7 +316,7 @@
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf) | 0 | 0 | 0 | 7 | 7 | 10 |
 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf) | 0 | 0 | 0 | 4 | 10 | 3 |
 |                                                                **Total**  _(2 reports)_ | 0 | 0 | 0 | 11 | 17 | 13 |
-|  **Average Findings Per Audit** Crit/High 0, Medium 0, Low 5.5, Info 8.5, Gas 6.5 |
+| **Average Findings Per Audit**<br>* Crit/High 0<br>* Medium 0<br>* Low 5.5<br>* Info 8.5<br>* Gas 6.5 |
 
 
 
@@ -326,6 +326,7 @@
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*) | 3 | 9 | 14 | 4 | 8 | 8 |
 |                                                                **Total**  _(1 reports)_ | 3 | 9 | 14 | 4 | 8 | 8 |
-|  **Average Findings Per Audit** Crit/High 12, Medium 14, Low 4, Info 8, Gas 8 |
+| **Average Findings Per Audit**<br>* Crit/High 12<br>* Medium 14<br>* Low 4<br>* Info 8<br>* Gas 8 |
+
 
 

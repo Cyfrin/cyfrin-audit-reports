@@ -96,9 +96,16 @@ def create_total_row(sums, num_rows):
     return f"|             | **Total**  |                                                                                           | _({num_rows} reports)_      | {sums['C']} | {sums['H']} | {sums['M']} | {sums['L']} | {sums['I']} | {sums['G']} |"
 
 def create_averages_row(avgs):
-    # Format the averages row with values substituted into the label
-    values = f"Crit/High {avgs['C+H']}, Medium {avgs['M']}, Low {avgs['L']}, Info {avgs['I']}, Gas {avgs['G']}"
-    return f"|  **Average Findings Per Audit** {values} |"
+    # Format the averages row with bullet points and line breaks
+    values = (
+        f"**Average Findings Per Audit**<br>"
+        f"* Crit/High {avgs['C+H']}<br>"
+        f"* Medium {avgs['M']}<br>"
+        f"* Low {avgs['L']}<br>"
+        f"* Info {avgs['I']}<br>"
+        f"* Gas {avgs['G']}"
+    )
+    return f"| {values} |"
 
 def create_additional_table(df, heading):
     # Filter rows for the heading
