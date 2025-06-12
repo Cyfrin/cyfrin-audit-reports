@@ -182,26 +182,6 @@
 
 
 
-## Staking
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf) | n/a | 2 | 5 | 10 | 9 | 13 |
-| [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf) | n/a | 0 | 2 | 1 | 3 | 0 |
-| [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf) | 0 | 0 | 2 | 11 | 4 | 7 |
-| [Casimir](./reports/2024-07-10-cyfrin-casimir-v2.0.pdf) | 6 | 6 | 5 | 5 | 5 | 0 |
-| [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf) | 0 | 3 | 10 | 4 | 4 | 0 |
-| [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf) | 2 | 5 | 6 | 5 | 0 | 3 |
-| [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf) | 0 | 1 | 5 | 5 | 14 | 5 |
-| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) | 0 | 3 | 2 | 1 | 0 | 0 |
-| [Stake.Link Staking Proxy](./reports/2025-01-20-cyfrin-stakedotlink-stakingproxy-v2.0.pdf) | 1 | 0 | 0 | 2 | 0 | 0 |
-| [Stake.Link PR#140](./reports/2025-02-28-cyfrin-stakedotlink-v2.0.pdf) | 0 | 0 | 0 | 0 | 1 | 1 |
-| [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | 0 | 0 | 0 | 3 | 3 | 2 |
-|                                                                **Total**  _(11 reports)_ | 9 | 20 | 37 | 47 | 43 | 31 |
-| **Average Findings Per Audit**<br>* Crit/High 2.64<br>* Medium 3.36<br>* Low 4.27<br>* Info 3.91<br>* Gas 2.82 |
-
-
-
 ## Liquid Staking
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -327,6 +307,17 @@
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*) | 3 | 9 | 14 | 4 | 8 | 8 |
 |                                                                **Total**  _(1 reports)_ | 3 | 9 | 14 | 4 | 8 | 8 |
 | **Average Findings Per Audit**<br>* Crit/High 12<br>* Medium 14<br>* Low 4<br>* Info 8<br>* Gas 8 |
+
+
+
+## Staking
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf) | 0 | 3 | 10 | 4 | 4 | 0 |
+|                                                                **Total**  _(1 reports)_ | 0 | 3 | 10 | 4 | 4 | 0 |
+| **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 10<br>* Low 4<br>* Info 4<br>* Gas 0 |
+
 
 
 

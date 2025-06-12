@@ -109,7 +109,13 @@ def create_averages_row(avgs):
 
 def create_additional_table(df, heading):
     # Filter rows for the heading
-    rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
+    if heading == 'Staking':
+        # For Staking, include rows with "Staking" but exclude "Liquid Staking"
+        rows = df[df['Tech'].apply(lambda x: any('Staking' in tech and 'Liquid Staking' not in tech for tech in x.split(',')))]
+    else:
+        # For other headings, match any tech item in the mapping
+        rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
+    
     if rows.empty:
         return ""
     
@@ -143,7 +149,7 @@ def map_tech_to_headings():
         'Stablecoin': ['Stablecoin'],
         'ERC4337/Account Abstraction/Smart Wallet': ['ERC4337', 'Account Abstraction', 'Smart Wallet'],
         'Gaming/Lottery': ['Lottery', 'Gaming'],
-        'Staking': ['Staking'],
+        'Staking': ['Staking'],  # Note: Exclusion of Liquid Staking handled in filtering
         'RWA/Real World Assets': ['RWA', 'Real-World Assets', 'Real World Asset'],
         'Token Sale/Crowd Funding': ['Token Sale', 'Crowdfunding', 'Crowd Funding'],
         'Perpetuals / Leverage / Lending / Borrowing': ['Leverage', 'Lending', 'Borrowing', 'Trading', 'Perpetual']
@@ -180,7 +186,13 @@ def update_readme(file_path):
         # Calculate report counts and AVG(C+H) for each heading
         heading_metrics = {}
         for heading in heading_tech_map.keys():
-            rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
+            if heading == 'Staking':
+                # For Staking, include rows with "Staking" but exclude "Liquid Staking"
+                rows = df[df['Tech'].apply(lambda x: any('Staking' in tech and 'Liquid Staking' not in tech for tech in x.split(',')))]
+            else:
+                # For other headings, match any tech item in the mapping
+                rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
+            
             if not rows.empty:
                 report_count = len(rows)
                 avgs = calculate_averages(rows)
