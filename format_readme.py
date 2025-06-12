@@ -93,7 +93,7 @@ def calculate_averages(df):
     return avgs
 
 def create_total_row(sums, num_rows):
-    return f"|             | **Total**  |                                                                                           | _({num_rows} reports)_      | {sums['C']} | {sums['H']} | {sums['M']} | {sums['L']} | {sums['I']} | {sums['G']} |"
+    return f"|             | **Total**  |                                                                                           | _({num_rows} reports)_ | {sums['C']} | {sums['H']} | {sums['M']} | {sums['L']} | {sums['I']} | {sums['G']} |"
 
 def create_averages_row(avgs):
     # Format the averages row with bullet points and line breaks
@@ -178,10 +178,12 @@ def update_readme(file_path):
         additional_content = content[table_end + len(total_row) + newline_count:]
         existing_tables = {}
         for heading in heading_tech_map.keys():
-            heading_pattern = rf'\n\n## {re.escape(heading)}\n\n{re.escape("| Report                                                                                    | C   | H   | M   | L   | I   | G   |")}\n\|[-|\s:]*\n(?:\|[^\n]*\n)*'
-            match = re.search(heading_pattern, additional_content, re.MULTILINE)
-            if match:
-                existing_tables[heading] = (match.start() + table_end + len(total_row) + newline_count, match.end() + table_end + len(total_row) + newline_count)
+            # Escape the heading and replace / with regex to match any number of spaces
+            escaped_heading = re.escape(heading).replace(r'\/', r'\s*/\s*')
+            heading_pattern = rf'\n\n## {escaped_heading}\n\n{re.escape("| Report                                                                                    | C   | H   | M   | L   | I   | G   |")}\n\|[-|\s:]*\n(?:\|[^\n]*\n)*'
+            matches = list(re.finditer(heading_pattern, additional_content, re.MULTILINE))
+            for match in matches:
+                existing_tables[heading] = existing_tables.get(heading, []) + [(match.start() + table_end + len(total_row) + newline_count, match.end() + table_end + len(total_row) + newline_count)]
         
         # Calculate report counts and AVG(C+H) for each heading
         heading_metrics = {}
@@ -208,16 +210,23 @@ def update_readme(file_path):
         for heading in sorted_headings:
             table_content = create_additional_table(df, heading)
             if table_content:
-                additional_tables_content += f"\n\n## {heading}\n\n{table_content}\n"
+                # Format heading with exactly one space around /
+                formatted_heading = re.sub(r'\s*/\s*', ' / ', heading)
+                additional_tables_content += f"\n\n## {formatted_heading}\n\n{table_content}\n"
         
         # Replace or append additional tables
         if existing_tables:
-            # Find the earliest and latest positions of existing tables
-            min_start = min(start for start, _ in existing_tables.values())
-            max_end = max(end for _, end in existing_tables.values())
-            new_content = new_content[:min_start] + additional_tables_content + new_content[max_end:]
+            # Flatten all start/end positions from existing tables
+            all_positions = [pos for positions in existing_tables.values() for pos in positions]
+            if all_positions:
+                min_start = min(start for start, _ in all_positions)
+                max_end = max(end for _, end in all_positions)
+                new_content = new_content[:min_start] + additional_tables_content + new_content[max_end:]
+            else:
+                # No valid existing tables found, append at the end
+                new_content = new_content.rstrip('\n') + additional_tables_content
         else:
-            # Append at the end of the file
+            # No existing tables, append at the end
             new_content = new_content.rstrip('\n') + additional_tables_content
         
         # Save updated content

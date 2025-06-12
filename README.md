@@ -72,7 +72,7 @@
 |  2025-05-26 | 2025-05-28 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield         | 1   | 1   | 3   | 16   | 9  | 8   |
 |  2025-05-28 | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink | 0   | 0   | 0   | 3   | 3  | 2   |
 |  2025-05-29 | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle | 0   | 0   | 0   | 5   | 6  | 4   |
-|             | **Total**  |                                                                                           | _(68 reports)_      | 34 | 92 | 225 | 275 | 434 | 296 |
+|             | **Total**  |                                                                                           | _(68 reports)_ | 34 | 92 | 225 | 275 | 434 | 296 |
 
 
 
@@ -89,7 +89,9 @@
 
 (\*) - Critical category was introduced with DeXe audit 2023-09-14. Prior to this all Critical findings were listed as High.
 
-## ERC4626/Vault/Yield
+## 
+
+## ERC4626 / Vault / Yield
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
@@ -113,7 +115,7 @@
 
 
 
-## CLM/DEX/AMM/Concentrated Liquidity
+## CLM / DEX / AMM / Concentrated Liquidity
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
@@ -266,7 +268,7 @@
 
 
 
-## Gaming/Lottery
+## Gaming / Lottery
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
@@ -278,7 +280,7 @@
 
 
 
-## ERC4337/Account Abstraction/Smart Wallet
+## ERC4337 / Account Abstraction / Smart Wallet
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
@@ -289,7 +291,7 @@
 
 
 
-## RWA/Real World Assets
+## RWA / Real World Assets
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
@@ -300,7 +302,7 @@
 
 
 
-## Token Sale/Crowd Funding
+## Token Sale / Crowd Funding
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
@@ -317,7 +319,4 @@
 | [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf) | 0 | 3 | 10 | 4 | 4 | 0 |
 |                                                                **Total**  _(1 reports)_ | 0 | 3 | 10 | 4 | 4 | 0 |
 | **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 10<br>* Low 4<br>* Info 4<br>* Gas 0 |
-
-
-
 
