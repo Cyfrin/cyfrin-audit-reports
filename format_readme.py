@@ -6,16 +6,21 @@ def read_first_table_under_heading(file_path, heading):
         content = file.read()
     
     # Find the heading
-    heading_pattern = rf'^# {heading}\n+'
-    heading_match = re.search(heading_pattern, content, re.MULTILINE)
+    heading_pattern = rf'^\s*#+\s*{re.escape(heading)}\s*$'
+    heading_match = None
+    for line in content.splitlines():
+        if re.match(heading_pattern, line, re.MULTILINE):
+            heading_match = re.search(heading_pattern, line, re.MULTILINE)
+            break
+    
     if not heading_match:
         raise ValueError(f"Heading '# {heading}' not found in {file_path}")
     
     # Get content after the heading
-    start_idx = heading_match.end()
+    start_idx = heading_match.end() + content[heading_match.end():].find('\n') + 1
     remaining_content = content[start_idx:]
     
-    # Find the first table
+    # Find the table
     table_pattern = r'(\|[^\n]*\n\|[-|\s:]*\n(?:\|[^\n]*\n)*)'
     table_match = re.search(table_pattern, remaining_content, re.MULTILINE)
     if not table_match:
@@ -23,39 +28,45 @@ def read_first_table_under_heading(file_path, heading):
     
     table_content = table_match.group(1)
     
-    # Process table lines
-    lines = table_content.strip().split('\n')
-    header = lines[0]
-    separator = lines[1]
-    data_lines = lines[2:]
+    # Normalize line endings and whitespace
+    table_content = table_content.replace('\r\n', '\n').replace('\r', '\n')
+    table_content = table_content.replace('\xa0', ' ')
+    
+    # Split lines
+    lines = table_content.splitlines()
+    valid_lines = [line for line in lines if line.strip()]
+    
+    if len(valid_lines) < 2:
+        raise ValueError(f"Table has insufficient lines: {len(valid_lines)}")
+    
+    header = valid_lines[0]
+    separator = valid_lines[1]
+    data_lines = valid_lines[2:]
     
     # Define column names
     columns = ['Audit Start', 'Audit End', 'Report', 'Tech', 'C', 'H', 'M', 'L', 'I', 'G']
     
-    # Process each data row, excluding "Total" row
+    # Process data rows, excluding "Total" row
     data = []
     has_total_row = False
-    total_row_line = None
-    if data_lines and '**Total**' in data_lines[-1]:
-        has_total_row = True
-        total_row_line = data_lines[-1]
-        data_lines = data_lines[:-1]  # Exclude the Total row
+    
+    for i in range(len(data_lines) - 1, -1, -1):
+        fields = [re.sub(r'\s+', ' ', field).strip() for field in data_lines[i].split('|')[1:-1]]
+        if len(fields) >= 4 and fields[1] == '**Total**' and '_(' in fields[3]:
+            has_total_row = True
+            data_lines = data_lines[:i] + data_lines[i+1:]
+            break
     
     for line in data_lines:
-        fields = [field.strip() for field in line.split('|')[1:-1]]  # Skip leading/trailing |
-        if len(fields) != len(columns):
-            raise ValueError(f"Row has {len(fields)} fields, expected {len(columns)}: {line}")
-        data.append(fields)
+        fields = [re.sub(r'\s+', ' ', field).strip() for field in line.split('|')[1:-1]]
+        if len(fields) == len(columns):
+            data.append(fields)
     
     # Create DataFrame
     df = pd.DataFrame(data, columns=columns)
     
-    # Calculate table_end and count newlines after table
-    table_end = table_match.end() + start_idx
-    if has_total_row:
-        table_end -= len(total_row_line) + 1  # Subtract length of Total row and newline
-    
-    # Count newlines after the table
+    # Calculate table_end and newline_count
+    table_end = start_idx + len(table_content.rstrip('\n'))
     post_table_content = content[table_end:]
     newline_count = 0
     for char in post_table_content:
@@ -63,10 +74,9 @@ def read_first_table_under_heading(file_path, heading):
             break
         newline_count += 1
     
-    return df, content, table_match.start() + start_idx, table_end, has_total_row, newline_count, total_row_line
+    return df, content, table_end, newline_count, has_total_row, header
 
 def calculate_totals(df):
-    # Calculate sums, treating 'n/a' as 0
     sums = {}
     for col in ['C', 'H', 'M', 'L', 'I', 'G']:
         if col == 'C':
@@ -76,16 +86,12 @@ def calculate_totals(df):
     return sums, len(df)
 
 def calculate_averages(df):
-    # Calculate averages, treating 'n/a' as 0
-    # Create a copy to avoid SettingWithCopyWarning
     df = df.copy()
     avgs = {}
-    # Compute AVG(C+H)
     df['C+H'] = df['C'].replace('n/a', 0).astype(int) + df['H'].astype(int)
     avgs['C+H'] = df['C+H'].mean()
     avgs['C+H'] = int(avgs['C+H']) if avgs['C+H'].is_integer() else round(avgs['C+H'], 2)
     
-    # Compute averages for M, L, I, G
     for col in ['M', 'L', 'I', 'G']:
         avgs[col] = df[col].astype(int).mean()
         avgs[col] = int(avgs[col]) if avgs[col].is_integer() else round(avgs[col], 2)
@@ -93,10 +99,9 @@ def calculate_averages(df):
     return avgs
 
 def create_total_row(sums, num_rows):
-    return f"|             | **Total**  |                                                                                           | _({num_rows} reports)_ | {sums['C']} | {sums['H']} | {sums['M']} | {sums['L']} | {sums['I']} | {sums['G']} |"
+    return f"|             | **Total**  |                                                                                           | _({num_rows} reports)_ | {sums['C']:>3} | {sums['H']:>3} | {sums['M']:>3} | {sums['L']:>3} | {sums['I']:>3} | {sums['G']:>3} |"
 
 def create_averages_row(avgs):
-    # Format the averages row with bullet points and line breaks
     values = (
         f"**Average Findings Per Audit**<br>"
         f"* Crit/High {avgs['C+H']}<br>"
@@ -108,30 +113,25 @@ def create_averages_row(avgs):
     return f"| {values} |"
 
 def create_additional_table(df, heading):
-    # Filter rows for the heading
     if heading == 'Staking':
-        # For Staking, include rows with "Staking" but exclude "Liquid Staking"
         rows = df[df['Tech'].apply(lambda x: any('Staking' in tech and 'Liquid Staking' not in tech for tech in x.split(',')))]
     else:
-        # For other headings, match any tech item in the mapping
         rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
     
     if rows.empty:
         return ""
     
-    # Create table header
     table = "| Report                                                                                    | C   | H   | M   | L   | I   | G   |\n"
     table += "| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |\n"
     
-    # Add data rows
     for _, row in rows.iterrows():
-        table += f"| {row['Report']} | {row['C']} | {row['H']} | {row['M']} | {row['L']} | {row['I']} | {row['G']} |\n"
+        table += f"| {row['Report']:<89} | {row['C']:>3} | {row['H']:>3} | {row['M']:>3} | {row['L']:>3} | {row['I']:>3} | {row['G']:>3} |\n"
     
-    # Calculate and add Total row
     sums, num_rows = calculate_totals(rows)
-    table += f"|                                                                **Total**  _({num_rows} reports)_ | {sums['C']} | {sums['H']} | {sums['M']} | {sums['L']} | {sums['I']} | {sums['G']} |\n"
+    total_row_text = f"**Total** _({num_rows:d} reports)_".rstrip()
+    padded_total_row = f"{total_row_text:<89}"
+    table += f"| {padded_total_row} | {sums['C']:>3} | {sums['H']:>3} | {sums['M']:>3} | {sums['L']:>3} | {sums['I']:>3} | {sums['G']:>3} |\n"
     
-    # Calculate and add Averages row
     avgs = calculate_averages(rows)
     table += create_averages_row(avgs) + "\n"
     
@@ -141,7 +141,7 @@ def map_tech_to_headings():
     return {
         'Liquid Staking': ['Liquid Staking'],
         'CLM/DEX/AMM/Concentrated Liquidity': ['AMM', 'DEX', 'CLM', 'Concentrated'],
-        'Cross-Chain': ['Cross-Chain', 'Wormhole', 'CCIP', 'LayerZero'],
+        'Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1': ['Cross-Chain', 'Wormhole', 'CCIP', 'LayerZero', 'Layer Zero', 'L2'],
         'DAO': ['DAO'],
         'ERC4626/Vault/Yield': ['ERC4626', 'Vault', 'Yield'],
         'Chainlink Integration': ['Chainlink', 'Gelato'],
@@ -149,7 +149,7 @@ def map_tech_to_headings():
         'Stablecoin': ['Stablecoin'],
         'ERC4337/Account Abstraction/Smart Wallet': ['ERC4337', 'Account Abstraction', 'Smart Wallet'],
         'Gaming/Lottery': ['Lottery', 'Gaming'],
-        'Staking': ['Staking'],  # Note: Exclusion of Liquid Staking handled in filtering
+        'Staking': ['Staking'],
         'RWA/Real World Assets': ['RWA', 'Real-World Assets', 'Real World Asset'],
         'Token Sale/Crowd Funding': ['Token Sale', 'Crowdfunding', 'Crowd Funding'],
         'Perpetuals / Leverage / Lending / Borrowing': ['Leverage', 'Lending', 'Borrowing', 'Trading', 'Perpetual']
@@ -161,38 +161,58 @@ def update_readme(file_path):
     
     try:
         # Read first table and content
-        df, content, table_start, table_end, has_total_row, newline_count, total_row_line = read_first_table_under_heading(file_path, 'Cyfrin Audit Reports')
+        df, content, table_end, newline_count, has_total_row, header = read_first_table_under_heading(file_path, 'Cyfrin Audit Reports')
         
-        # Calculate totals for first table
+        # Rebuild table from DataFrame with input-like formatting
+        new_table = []
+        new_table.append("| Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |")
+        new_table.append("| ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |")
+        for _, row in df.iterrows():
+            formatted_row = [
+                str(row['Audit Start']).ljust(11),
+                str(row['Audit End']).ljust(10),
+                str(row['Report']).ljust(89),
+                str(row['Tech']).ljust(19),
+                str(row['C']).rjust(3),
+                str(row['H']).rjust(3),
+                str(row['M']).rjust(3),
+                str(row['L']).rjust(3),
+                str(row['I']).rjust(3),
+                str(row['G']).rjust(3)
+            ]
+            new_table.append("| " + " | ".join(formatted_row) + " |")
+        
+        # Calculate totals and append Total row
         sums, num_rows = calculate_totals(df)
         total_row = create_total_row(sums, num_rows)
+        new_table.append(total_row)
         
-        # Update first table's Total row
-        newlines = '\n' * (newline_count + 1) if newline_count > 0 else '\n'
-        if has_total_row:
-            new_content = content[:table_end] + total_row + newlines + content[table_end + len(total_row_line) + 1:]
+        # Replace old table in content using regex
+        header_pattern = r'\|\s*Audit Start\s*\|\s*Audit End\s*\|\s*Report\s*\|\s*Tech\s*\|\s*C\s*\|\s*H\s*\|\s*M\s*\|\s*L\s*\|\s*I\s*\|\s*G\s*\|'
+        table_start_match = re.search(header_pattern, content)
+        if not table_start_match:
+            raise ValueError("Table header not found in content")
+        table_start = table_start_match.start()
+        old_table_end = content.find('\n\n## Legend', table_start)
+        if old_table_end == -1:
+            old_table_end = len(content)
+        new_content = content[:table_start] + "\n".join(new_table) + "\n" * (newline_count + 1)
+        
+        # Find the end of the "## Legend" section
+        legend_match = re.search(r'\n\n## Legend\n.*?(?=\n\n##|\Z)', content[table_end:], re.DOTALL)
+        if legend_match:
+            legend_end = table_end + legend_match.end()
+            legend_content = legend_match.group(0)
         else:
-            new_content = content[:table_end] + total_row + newlines + content[table_end:]
-        
-        # Find existing additional tables
-        additional_content = content[table_end + len(total_row) + newline_count:]
-        existing_tables = {}
-        for heading in heading_tech_map.keys():
-            # Escape the heading and replace / with regex to match any number of spaces
-            escaped_heading = re.escape(heading).replace(r'\/', r'\s*/\s*')
-            heading_pattern = rf'\n\n## {escaped_heading}\n\n{re.escape("| Report                                                                                    | C   | H   | M   | L   | I   | G   |")}\n\|[-|\s:]*\n(?:\|[^\n]*\n)*'
-            matches = list(re.finditer(heading_pattern, additional_content, re.MULTILINE))
-            for match in matches:
-                existing_tables[heading] = existing_tables.get(heading, []) + [(match.start() + table_end + len(total_row) + newline_count, match.end() + table_end + len(total_row) + newline_count)]
+            legend_end = len(content)
+            legend_content = ""
         
         # Calculate report counts and AVG(C+H) for each heading
         heading_metrics = {}
         for heading in heading_tech_map.keys():
             if heading == 'Staking':
-                # For Staking, include rows with "Staking" but exclude "Liquid Staking"
                 rows = df[df['Tech'].apply(lambda x: any('Staking' in tech and 'Liquid Staking' not in tech for tech in x.split(',')))]
             else:
-                # For other headings, match any tech item in the mapping
                 rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
             
             if not rows.empty:
@@ -200,38 +220,29 @@ def update_readme(file_path):
                 avgs = calculate_averages(rows)
                 heading_metrics[heading] = (report_count, avgs['C+H'])
             else:
-                heading_metrics[heading] = (0, 0)  # No reports, lowest priority
+                heading_metrics[heading] = (0, 0)
         
-        # Sort headings by report count (descending), then AVG(C+H) (descending), then alphabetically
+        # Sort headings
         sorted_headings = sorted(heading_tech_map.keys(), key=lambda h: (-heading_metrics[h][0], -heading_metrics[h][1], h))
         
-        # Generate new additional tables in sorted order
+        # Generate new additional tables
         additional_tables_content = ""
+        generated_headings = set()
         for heading in sorted_headings:
+            if heading in generated_headings:
+                continue
             table_content = create_additional_table(df, heading)
             if table_content:
-                # Format heading with exactly one space around /
                 formatted_heading = re.sub(r'\s*/\s*', ' / ', heading)
-                additional_tables_content += f"\n\n## {formatted_heading}\n\n{table_content}\n"
+                additional_tables_content += f"\n\n## {formatted_heading}\n\n{table_content}"
+                generated_headings.add(heading)
         
-        # Replace or append additional tables
-        if existing_tables:
-            # Flatten all start/end positions from existing tables
-            all_positions = [pos for positions in existing_tables.values() for pos in positions]
-            if all_positions:
-                min_start = min(start for start, _ in all_positions)
-                max_end = max(end for _, end in all_positions)
-                new_content = new_content[:min_start] + additional_tables_content + new_content[max_end:]
-            else:
-                # No valid existing tables found, append at the end
-                new_content = new_content.rstrip('\n') + additional_tables_content
-        else:
-            # No existing tables, append at the end
-            new_content = new_content.rstrip('\n') + additional_tables_content
+        # Preserve the "## Legend" section and append new tables
+        new_content = new_content + legend_content + additional_tables_content
         
         # Save updated content
         with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(new_content)
+            file.write(new_content.rstrip() + '\n')
     
     except Exception as e:
         print(f"Error: {str(e)}")
