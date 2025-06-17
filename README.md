@@ -68,11 +68,11 @@
 | 2025-05-05  | 2025-05-08 | [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | Gas Optimization, AaveV3 |   0 |   0 |   0 |   0 |   0 |  26 |
 | 2025-05-05  | 2025-05-09 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               | Vault, AMM, UniswapV4 |   0 |   0 |   0 |   2 |   3 |   2 |
 | 2025-05-12  | 2025-05-13 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   | DAO, Timelock       |   0 |   0 |   0 |   4 |   4 |   1 |
-| 2025-05-26  | 2025-05-27 | [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        | Vault, Yield, Chainlink CCIP, LayerZero |   0 |   0 |   0 |   0 |   2 |   1 |
+| 2025-05-26  | 2025-05-27 | [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        | Vault, Yield, Chainlink CCIP, LayerZero |   0 |   0 |   0 |   1 |   3 |   1 |
 | 2025-05-26  | 2025-05-28 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield        |   1 |   1 |   3 |  16 |   9 |   8 |
 | 2025-05-28  | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink |   0 |   0 |   0 |   3 |   3 |   2 |
 | 2025-05-29  | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
-|             | **Total**  |                                                                                           | _(68 reports)_ |  34 |  92 | 225 | 275 | 434 | 296 |
+|             | **Total**  |                                                                                           | _(68 reports)_ |  34 |  92 | 225 | 276 | 435 | 296 |
 
 
 ## Legend
@@ -105,10 +105,10 @@
 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   0 |   2 |   1 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               |   1 |   1 |   3 |  16 |   9 |   8 |
-| **Total** _(15 reports)_                                                                  |  10 |  28 |  70 |  88 |  98 |  53 |
-| **Average Findings Per Audit**<br>* Crit/High 2.53<br>* Medium 4.67<br>* Low 5.87<br>* Info 6.53<br>* Gas 3.53 |
+| **Total** _(15 reports)_                                                                  |  10 |  28 |  70 |  89 |  99 |  53 |
+| **Average Findings Per Audit**<br>* Crit/High 2.53<br>* Medium 4.67<br>* Low 5.93<br>* Info 6.6<br>* Gas 3.53 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -152,9 +152,9 @@
 | [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   0 |   2 |   1 |
-| **Total** _(15 reports)_                                                                  |   2 |  13 |  35 |  54 | 101 |  50 |
-| **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.33<br>* Low 3.6<br>* Info 6.73<br>* Gas 3.33 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
+| **Total** _(15 reports)_                                                                  |   2 |  13 |  35 |  55 | 102 |  50 |
+| **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.33<br>* Low 3.67<br>* Info 6.8<br>* Gas 3.33 |
 
 
 ## Chainlink Integration
@@ -170,11 +170,11 @@
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   0 |   2 |   1 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
-| **Total** _(12 reports)_                                                                  |   8 |  12 |  23 |  32 |  54 |  50 |
-| **Average Findings Per Audit**<br>* Crit/High 1.67<br>* Medium 1.92<br>* Low 2.67<br>* Info 4.5<br>* Gas 4.17 |
+| **Total** _(12 reports)_                                                                  |   8 |  12 |  23 |  33 |  55 |  50 |
+| **Average Findings Per Audit**<br>* Crit/High 1.67<br>* Medium 1.92<br>* Low 2.75<br>* Info 4.58<br>* Gas 4.17 |
 
 
 ## Liquid Staking

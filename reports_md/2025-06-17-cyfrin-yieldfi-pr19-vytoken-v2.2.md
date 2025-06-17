@@ -11,6 +11,31 @@
 ---
 
 # Findings
+## Low Risk
+
+
+### Instant withdrawals via Manager bypass withdrawal fee
+
+**Description:** When a user performs a withdrawal, if the amount is small enough and sufficient assets are available in the `Manager`, the withdrawal can be completed instantly in [`Manager::redeem`](https://github.com/YieldFiLabs/contracts/blob/e43fa029e2af65dae447882c53777e3bed387385/contracts/core/Manager.sol#L203-L208):
+
+```solidity
+// if redeeming yToken.asset() and vaultAssetAmount is less than maxRedeemCap and balance of contract is greater than vaultAssetAmount, redeem immediately and return
+if (_asset == IERC4626(_yToken).asset() && vaultAssetAmount <= maxRedeemCap[_yToken] && IERC20(_asset).balanceOf(address(this)) >= vaultAssetAmount) {
+    IERC20(_asset).safeTransfer(_receiver, vaultAssetAmount);
+    emit InstantRedeem(caller, _yToken, _asset, _receiver, vaultAssetAmount);
+    return;
+}
+```
+
+However, this bypasses the fee applied in the asynchronous [`_withdraw`](https://github.com/YieldFiLabs/contracts/blob/e43fa029e2af65dae447882c53777e3bed387385/contracts/core/Manager.sol#L379-L395) flow.
+
+**Impact:** Withdrawals can be initiated through both the `ERC4626` YToken vaults and directly via the `Manager` contract. This allows users to circumvent the fee applied in the YToken withdrawal path by opting for instant withdrawals directly through the `Manager`.
+
+**Recommended Mitigation:** Consider taking the fee also in the instant withdrawal flow.
+
+**YieldFi:** Acknowledged. Currently fees are set to 0 hence this doesn't affect the protocol fees.
+
+\clearpage
 ## Informational
 
 
@@ -46,6 +71,20 @@ Consider omitting the parameter to make its unused status explicit:
 Consider removing the `virtual` modifier from both `YToken::_withdraw` and `YTokenL2::_withdraw` to clarify intent and avoid misleading extensibility.
 
 **YieldFi:** Acknowledged.
+
+
+### Price Change Sensitivity in Instant Withdrawals
+
+**Description:** Since instant withdrawals allow users to withdraw the underlying asset immediately, they can potentially react to price changes in a way that introduces economic inefficiencies. Because prices are delivered via an oracle on L2, this creates two potential vectors for abuse:
+
+1. Cross-chain arbitrage: Large price discrepancies between L1 and L2 can be exploited by users performing arbitrage across chains.
+2. Sandwiching price updates: If a user observes a significant price movement, they can deposit just before the change and withdraw immediately after—capturing the gain at the expense of existing holders. This also works in reverse: a user can withdraw just before a large drop, avoiding losses that others would bear.
+
+This behavior is already mitigated to some extent by the cap on instant withdrawals, which limits the amount a user can redeem at once, and by keeping only a limited balance available for instant redemptions.
+
+However, it may be beneficial to monitor the price delta between L1 and L2 or to detect significant price swings. In such cases, consider pausing the contract to prevent potential abuse during volatile conditions.
+
+**YieldFi:** Acknowledged. The price differences between L1 and L2, as well as short-term price movements, are typically small. Under normal conditions, this behavior is unlikely to be profitable. In the case of a catastrophic event, the affected vaults can be paused while changes are addressed.
 
 \clearpage
 ## Gas Optimization
