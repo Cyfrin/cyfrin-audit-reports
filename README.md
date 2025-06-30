@@ -72,7 +72,8 @@
 | 2025-05-26  | 2025-05-28 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield        |   1 |   1 |   3 |  16 |   9 |   8 |
 | 2025-05-28  | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink |   0 |   0 |   0 |   3 |   3 |   2 |
 | 2025-05-29  | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
-|             | **Total**  |                                                                                           | _(68 reports)_ |  34 |  92 | 225 | 276 | 435 | 296 |
+| 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
+|             | **Total**  |                                                                                           | _(69 reports)_ |  34 |  92 | 225 | 278 | 441 | 299 |
 
 
 ## Legend
@@ -105,7 +106,7 @@
 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               |   1 |   1 |   3 |  16 |   9 |   8 |
 | **Total** _(15 reports)_                                                                  |  10 |  28 |  70 |  89 |  99 |  53 |
 | **Average Findings Per Audit**<br>* Crit/High 2.53<br>* Medium 4.67<br>* Low 5.93<br>* Info 6.6<br>* Gas 3.53 |
@@ -152,7 +153,7 @@
 | [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | **Total** _(15 reports)_                                                                  |   2 |  13 |  35 |  55 | 102 |  50 |
 | **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.33<br>* Low 3.67<br>* Info 6.8<br>* Gas 3.33 |
 
@@ -170,11 +171,12 @@
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
 | [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-01-cyfrin-yieldfi-pr19-vytoken-v2.1.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
-| **Total** _(12 reports)_                                                                  |   8 |  12 |  23 |  33 |  55 |  50 |
-| **Average Findings Per Audit**<br>* Crit/High 1.67<br>* Medium 1.92<br>* Low 2.75<br>* Info 4.58<br>* Gas 4.17 |
+| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
+| **Total** _(13 reports)_                                                                  |   8 |  12 |  23 |  35 |  61 |  53 |
+| **Average Findings Per Audit**<br>* Crit/High 1.54<br>* Medium 1.77<br>* Low 2.69<br>* Info 4.69<br>* Gas 4.08 |
 
 
 ## Liquid Staking
@@ -263,8 +265,9 @@
 | [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
 | [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
-| **Total** _(3 reports)_                                                                   |   3 |   3 |   5 |   6 |  15 |  33 |
-| **Average Findings Per Audit**<br>* Crit/High 2<br>* Medium 1.67<br>* Low 2<br>* Info 5<br>* Gas 11 |
+| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
+| **Total** _(4 reports)_                                                                   |   3 |   3 |   5 |   8 |  21 |  36 |
+| **Average Findings Per Audit**<br>* Crit/High 1.5<br>* Medium 1.25<br>* Low 2<br>* Info 5.25<br>* Gas 9 |
 
 
 ## ERC4337 / Account Abstraction / Smart Wallet
