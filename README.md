@@ -68,12 +68,13 @@
 | 2025-05-05  | 2025-05-08 | [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | Gas Optimization, AaveV3 |   0 |   0 |   0 |   0 |   0 |  26 |
 | 2025-05-05  | 2025-05-09 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               | Vault, AMM, UniswapV4 |   0 |   0 |   0 |   2 |   3 |   2 |
 | 2025-05-12  | 2025-05-13 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   | DAO, Timelock       |   0 |   0 |   0 |   4 |   4 |   1 |
+| 2025-05-20  | 2025-06-09 | [Suzaku Core](./reports/2025-07-07-cyfrin-suzaku-core-v2.0.pdf)                           | Liquid Staking, Vault |   2 |  10 |  19 |  13 |   1 |   6 |
 | 2025-05-26  | 2025-05-27 | [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        | Vault, Yield, Chainlink CCIP, LayerZero |   0 |   0 |   0 |   1 |   3 |   1 |
 | 2025-05-26  | 2025-05-28 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield        |   1 |   1 |   3 |  16 |   9 |   8 |
 | 2025-05-28  | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink |   0 |   0 |   0 |   3 |   3 |   2 |
 | 2025-05-29  | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
-|             | **Total**  |                                                                                           | _(69 reports)_ |  34 |  92 | 225 | 278 | 441 | 299 |
+|             | **Total**  |                                                                                           | _(70 reports)_ |  36 | 102 | 244 | 291 | 442 | 305 |
 
 
 ## Legend
@@ -106,10 +107,11 @@
 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
 | [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
+| [Suzaku Core](./reports/2025-07-07-cyfrin-suzaku-core-v2.0.pdf)                           |   2 |  10 |  19 |  13 |   1 |   6 |
 | [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               |   1 |   1 |   3 |  16 |   9 |   8 |
-| **Total** _(15 reports)_                                                                  |  10 |  28 |  70 |  89 |  99 |  53 |
-| **Average Findings Per Audit**<br>* Crit/High 2.53<br>* Medium 4.67<br>* Low 5.93<br>* Info 6.6<br>* Gas 3.53 |
+| **Total** _(16 reports)_                                                                  |  12 |  38 |  89 | 102 | 100 |  59 |
+| **Average Findings Per Audit**<br>* Crit/High 3.12<br>* Medium 5.56<br>* Low 6.38<br>* Info 6.25<br>* Gas 3.69 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -192,9 +194,10 @@
 | [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
 | [Stake.Link Staking Proxy](./reports/2025-01-20-cyfrin-stakedotlink-stakingproxy-v2.0.pdf) |   1 |   0 |   0 |   2 |   0 |   0 |
 | [Stake.Link PR#140](./reports/2025-02-28-cyfrin-stakedotlink-v2.0.pdf)                    |   0 |   0 |   0 |   0 |   1 |   1 |
+| [Suzaku Core](./reports/2025-07-07-cyfrin-suzaku-core-v2.0.pdf)                           |   2 |  10 |  19 |  13 |   1 |   6 |
 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
-| **Total** _(10 reports)_                                                                  |   9 |  17 |  27 |  43 |  39 |  31 |
-| **Average Findings Per Audit**<br>* Crit/High 2.6<br>* Medium 2.7<br>* Low 4.3<br>* Info 3.9<br>* Gas 3.1 |
+| **Total** _(11 reports)_                                                                  |  11 |  27 |  46 |  56 |  40 |  37 |
+| **Average Findings Per Audit**<br>* Crit/High 3.45<br>* Medium 4.18<br>* Low 5.09<br>* Info 3.64<br>* Gas 3.36 |
 
 
 ## Perpetuals / Leverage / Lending / Borrowing
