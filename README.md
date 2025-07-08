@@ -73,8 +73,9 @@
 | 2025-05-26  | 2025-05-28 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield        |   1 |   1 |   3 |  16 |   9 |   8 |
 | 2025-05-28  | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink |   0 |   0 |   0 |   3 |   3 |   2 |
 | 2025-05-29  | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
+| 2025-06-23  | 2025-06-30 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       | Real-World Assets, Yield, Crowdfunding |   3 |   3 |  17 |  13 |   9 |  12 |
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
-|             | **Total**  |                                                                                           | _(70 reports)_ |  36 | 102 | 244 | 291 | 442 | 305 |
+|             | **Total**  |                                                                                           | _(71 reports)_ |  39 | 105 | 261 | 304 | 451 | 317 |
 
 
 ## Legend
@@ -110,8 +111,9 @@
 | [Suzaku Core](./reports/2025-07-07-cyfrin-suzaku-core-v2.0.pdf)                           |   2 |  10 |  19 |  13 |   1 |   6 |
 | [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               |   1 |   1 |   3 |  16 |   9 |   8 |
-| **Total** _(16 reports)_                                                                  |  12 |  38 |  89 | 102 | 100 |  59 |
-| **Average Findings Per Audit**<br>* Crit/High 3.12<br>* Medium 5.56<br>* Low 6.38<br>* Info 6.25<br>* Gas 3.69 |
+| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
+| **Total** _(17 reports)_                                                                  |  15 |  41 | 106 | 115 | 109 |  71 |
+| **Average Findings Per Audit**<br>* Crit/High 3.29<br>* Medium 6.24<br>* Low 6.76<br>* Info 6.41<br>* Gas 4.18 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -273,6 +275,27 @@
 | **Average Findings Per Audit**<br>* Crit/High 1.5<br>* Medium 1.25<br>* Low 2<br>* Info 5.25<br>* Gas 9 |
 
 
+## RWA / Real World Assets
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
+| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
+| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
+| **Total** _(3 reports)_                                                                   |   3 |   3 |  17 |  24 |  26 |  25 |
+| **Average Findings Per Audit**<br>* Crit/High 2<br>* Medium 5.67<br>* Low 8<br>* Info 8.67<br>* Gas 8.33 |
+
+
+## Token Sale / Crowd Funding
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
+| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
+| **Total** _(2 reports)_                                                                   |   6 |  12 |  31 |  17 |  17 |  20 |
+| **Average Findings Per Audit**<br>* Crit/High 9<br>* Medium 15.5<br>* Low 8.5<br>* Info 8.5<br>* Gas 10 |
+
+
 ## ERC4337 / Account Abstraction / Smart Wallet
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -281,25 +304,6 @@
 | [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
 | **Total** _(2 reports)_                                                                   |   0 |   1 |   6 |   7 |   5 |   4 |
 | **Average Findings Per Audit**<br>* Crit/High 0.5<br>* Medium 3<br>* Low 3.5<br>* Info 2.5<br>* Gas 2 |
-
-
-## RWA / Real World Assets
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| **Total** _(2 reports)_                                                                   |   0 |   0 |   0 |  11 |  17 |  13 |
-| **Average Findings Per Audit**<br>* Crit/High 0<br>* Medium 0<br>* Low 5.5<br>* Info 8.5<br>* Gas 6.5 |
-
-
-## Token Sale / Crowd Funding
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
-| **Total** _(1 reports)_                                                                   |   3 |   9 |  14 |   4 |   8 |   8 |
-| **Average Findings Per Audit**<br>* Crit/High 12<br>* Medium 14<br>* Low 4<br>* Info 8<br>* Gas 8 |
 
 
 ## Staking
