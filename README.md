@@ -1,6 +1,6 @@
 # Cyfrin Audit Reports
 
-<img src="./cyfrin-logo.png" alt="Cyfrin" width="200" >
+<img src="./Cyfrin Mark - Color.png" alt="Cyfrin" width="200" >
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
