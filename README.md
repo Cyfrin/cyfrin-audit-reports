@@ -78,7 +78,8 @@
 | 2025-05-29  | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
 | 2025-06-23  | 2025-06-30 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       | Real-World Assets, Yield, Crowdfunding |   3 |   3 |  17 |  13 |   9 |  12 |
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
-|             | **Total**  |                                                                                           | _(74 reports)_ |  39 | 105 | 263 | 308 | 463 | 319 |
+| 2025-07-04  | 2025-07-10 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   | Euler V2, UniswapV3, UniswapV4, Lending, Vault, Concentrated |   1 |   2 |   2 |   3 |   2 |   0 |
+|             | **Total**  |                                                                                           | _(75 reports)_ |  40 | 107 | 265 | 311 | 465 | 319 |
 
 
 ## Legend
@@ -115,8 +116,9 @@
 | [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               |   1 |   1 |   3 |  16 |   9 |   8 |
 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
-| **Total** _(17 reports)_                                                                  |  15 |  41 | 106 | 115 | 109 |  71 |
-| **Average Findings Per Audit**<br>* Crit/High 3.29<br>* Medium 6.24<br>* Low 6.76<br>* Info 6.41<br>* Gas 4.18 |
+| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| **Total** _(18 reports)_                                                                  |  16 |  43 | 108 | 118 | 111 |  71 |
+| **Average Findings Per Audit**<br>* Crit/High 3.28<br>* Medium 6<br>* Low 6.56<br>* Info 6.17<br>* Gas 3.94 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -138,8 +140,9 @@
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
-| **Total** _(15 reports)_                                                                  |   2 |  24 |  63 |  58 | 105 |  48 |
-| **Average Findings Per Audit**<br>* Crit/High 1.73<br>* Medium 4.2<br>* Low 3.87<br>* Info 7<br>* Gas 3.2 |
+| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| **Total** _(16 reports)_                                                                  |   3 |  26 |  65 |  61 | 107 |  48 |
+| **Average Findings Per Audit**<br>* Crit/High 1.81<br>* Medium 4.06<br>* Low 3.81<br>* Info 6.69<br>* Gas 3 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -220,8 +223,9 @@
 | [D2](./reports/2025-02-24-cyfrin-d2-v2.1.pdf)                                             |   2 |   2 |   7 |   7 |   6 |   0 |
 | [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   |   0 |   0 |   0 |   2 |   8 |   9 |
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
-| **Total** _(9 reports)_                                                                   |  11 |  22 |  48 |  64 |  61 |  56 |
-| **Average Findings Per Audit**<br>* Crit/High 3.67<br>* Medium 5.33<br>* Low 7.11<br>* Info 6.78<br>* Gas 6.22 |
+| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| **Total** _(10 reports)_                                                                  |  12 |  24 |  50 |  67 |  63 |  56 |
+| **Average Findings Per Audit**<br>* Crit/High 3.6<br>* Medium 5<br>* Low 6.7<br>* Info 6.3<br>* Gas 5.6 |
 
 
 ## NFT
