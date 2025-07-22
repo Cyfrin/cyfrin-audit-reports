@@ -79,7 +79,8 @@
 | 2025-06-23  | 2025-06-30 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       | Real-World Assets, Yield, Crowdfunding |   3 |   3 |  17 |  13 |   9 |  12 |
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
 | 2025-07-04  | 2025-07-10 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   | Euler V2, UniswapV3, UniswapV4, Lending, Vault, Concentrated |   1 |   2 |   2 |   3 |   2 |   0 |
-|             | **Total**  |                                                                                           | _(75 reports)_ |  40 | 107 | 265 | 311 | 465 | 319 |
+| 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
+|             | **Total**  |                                                                                           | _(76 reports)_ |  40 | 107 | 266 | 312 | 469 | 319 |
 
 
 ## Legend
