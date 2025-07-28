@@ -82,7 +82,8 @@
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
 | 2025-07-04  | 2025-07-10 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   | Euler V2, UniswapV3, UniswapV4, Lending, Vault, Concentrated |   1 |   2 |   2 |   3 |   2 |   0 |
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
-|             | **Total**  |                                                                                           | _(78 reports)_ |  43 | 120 | 278 | 322 | 479 | 328 |
+| 2025-07-04  | 2025-07-08 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   | Vesting, Staking    |   0 |   2 |   0 |   4 |  11 |   0 |
+|             | **Total**  |                                                                                           | _(79 reports)_ |  43 | 122 | 278 | 326 | 490 | 328 |
 
 
 ## Legend
@@ -327,5 +328,6 @@
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                               |   0 |   3 |  10 |   4 |   4 |   0 |
-| **Total** _(1 reports)_                                                                   |   0 |   3 |  10 |   4 |   4 |   0 |
-| **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 10<br>* Low 4<br>* Info 4<br>* Gas 0 |
+| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
+| **Total** _(2 reports)_                                                                   |   0 |   5 |  10 |   8 |  15 |   0 |
+| **Average Findings Per Audit**<br>* Crit/High 2.5<br>* Medium 5<br>* Low 4<br>* Info 7.5<br>* Gas 0 |
