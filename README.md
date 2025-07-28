@@ -82,7 +82,7 @@
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
 | 2025-07-04  | 2025-07-10 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   | Euler V2, UniswapV3, UniswapV4, Lending, Vault, Concentrated |   1 |   2 |   2 |   3 |   2 |   0 |
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
-| 2025-07-04  | 2025-07-08 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   | Vesting, Staking    |   0 |   2 |   0 |   4 |  11 |   0 |
+| 2025-07-04  | 2025-07-08 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   | Solana, Vesting, Staking    |   0 |   2 |   0 |   4 |  11 |   0 |
 |             | **Total**  |                                                                                           | _(79 reports)_ |  43 | 122 | 278 | 326 | 490 | 328 |
 
 
