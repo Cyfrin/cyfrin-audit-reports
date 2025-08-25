@@ -85,8 +85,9 @@
 | 2025-07-04  | 2025-07-08 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   | Solana, Vesting, Staking |   0 |   2 |   0 |   4 |  11 |   0 |
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
 | 2025-07-15  | 2025-07-24 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  | Prediction Market, AMM |   0 |   0 |   0 |   6 |   9 |   0 |
+| 2025-07-28  | 2025-08-01 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | Vault, Yield        |   0 |   1 |   1 |   7 |  19 |   6 |
 | 2025-07-30  | 2025-08-01 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        | Liquid Staking      |   0 |   0 |   1 |   0 |   7 |   4 |
-|             | **Total**  |                                                                                           | _(82 reports)_ |  43 | 122 | 279 | 336 | 508 | 332 |
+|             | **Total**  |                                                                                           | _(83 reports)_ |  43 | 123 | 280 | 343 | 527 | 338 |
 
 
 ## Legend
@@ -124,8 +125,9 @@
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               |   1 |   1 |   3 |  16 |   9 |   8 |
 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
-| **Total** _(18 reports)_                                                                  |  16 |  43 | 108 | 118 | 111 |  71 |
-| **Average Findings Per Audit**<br>* Crit/High 3.28<br>* Medium 6<br>* Low 6.56<br>* Info 6.17<br>* Gas 3.94 |
+| [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               |   0 |   1 |   1 |   7 |  19 |   6 |
+| **Total** _(19 reports)_                                                                  |  16 |  44 | 109 | 125 | 130 |  77 |
+| **Average Findings Per Audit**<br>* Crit/High 3.16<br>* Medium 5.74<br>* Low 6.58<br>* Info 6.84<br>* Gas 4.05 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
