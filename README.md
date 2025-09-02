@@ -87,7 +87,7 @@
 | 2025-07-15  | 2025-07-24 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  | Prediction Market, AMM |   0 |   0 |   0 |   6 |   9 |   0 |
 | 2025-07-28  | 2025-08-01 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | Vault, Yield        |   0 |   1 |   1 |   7 |  19 |   6 |
 | 2025-07-30  | 2025-08-01 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        | Liquid Staking      |   0 |   0 |   1 |   0 |   7 |   4 |
-| 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [Formal Verf.](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) | Lending, UniswapV4  |   2 |   2 |   1 |   4 |  13 |   0 |
+| 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf) [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) | Lending, UniswapV4  |   2 |   2 |   1 |   4 |  13 |   0 |
 | 2025-08-22  | 2025-08-26 | [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
 |             | **Total**  |                                                                                           | _(85 reports)_ |  45 | 125 | 281 | 349 | 547 | 343 |
 
@@ -240,7 +240,7 @@
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
 | [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
-| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [Formal Verf.](2025-09-01-cyfrin-licredity-v2.0.FV.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [Formal Verf.](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
 | **Total** _(12 reports)_                                                                  |  14 |  26 |  51 |  75 |  78 |  56 |
 | **Average Findings Per Audit**<br>* Crit/High 3.33<br>* Medium 4.25<br>* Low 6.25<br>* Info 6.5<br>* Gas 4.67 |
 
@@ -273,6 +273,20 @@
 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   |   0 |   0 |   0 |   4 |   4 |   1 |
 | **Total** _(6 reports)_                                                                   |   5 |  20 |  38 |  33 |  44 |  17 |
 | **Average Findings Per Audit**<br>* Crit/High 4.17<br>* Medium 6.33<br>* Low 5.5<br>* Info 7.33<br>* Gas 2.83 |
+
+
+## UniswapV4 Hooks
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Paladin Valkyrie](./reports/2025-03-12-cyfrin-paladin-valkyrie-v2.0.pdf)                 |   3 |  12 |   7 |   7 |   6 |   6 |
+| [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
+| [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
+| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   0 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf) [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| **Total** _(6 reports)_                                                                   |   7 |  17 |  27 |  24 |  48 |  13 |
+| **Average Findings Per Audit**<br>* Crit/High 4<br>* Medium 4.5<br>* Low 4<br>* Info 8<br>* Gas 2.17 |
 
 
 ## Stablecoin
