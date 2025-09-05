@@ -87,7 +87,7 @@
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
 | 2025-07-15  | 2025-07-24 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  | Prediction Market, AMM |   0 |   0 |   0 |   6 |   9 |   0 |
 | 2025-07-15  | 2025-08-04 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.0.pdf)                               | Liquid Staking, Vault |   0 |   0 |   3 |   2 |   5 |   3 |
-| 2025-07-25  | 2025-07-29 | [Linea tokens](./reports/2025-07-31-cyfrin-linea-tokens-v2.3.pdf)                         | Cross-chain         |   0 |   0 |   0 |   0 |   5 |   0 |
+| 2025-07-25  | 2025-07-29 | [Linea tokens](./reports/2025-07-31-cyfrin-linea-tokens-v2.3.pdf)                         | Cross-Chain         |   0 |   0 |   0 |   0 |   5 |   0 |
 | 2025-07-28  | 2025-08-01 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | Vault, Yield        |   0 |   1 |   1 |   7 |  19 |   6 |
 | 2025-07-30  | 2025-08-01 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        | Liquid Staking      |   0 |   0 |   1 |   0 |   7 |   4 |
 | 2025-08-06  | 2025-08-08 | [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) | ERC4337, Account Abstraction, Smart Wallet |   0 |   1 |   0 |   1 |   3 |   0 |
@@ -166,6 +166,30 @@
 | **Average Findings Per Audit**<br>* Crit/High 2.44<br>* Medium 4<br>* Low 4.11<br>* Info 6.78<br>* Gas 3 |
 
 
+## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Hyperliquid Dex](./reports/2023-04-11-cyfrin-hyperliquid-dex-report.pdf)                 | n/a |   0 |   2 |   1 |  15 |   0 |
+| [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)                 |   0 |   1 |   2 |   1 |   5 |   3 |
+| [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)               |   0 |   0 |   2 |   3 |   8 |   0 |
+| [Wormhole EVM-NTT](./reports/2024-04-11-cyfrin-wormhole-evm-ntt-v2.pdf)                   |   0 |   2 |   8 |   5 |   6 |   4 |
+| [Linea](./reports/2024-05-24-cyfrin-linea-v2.0.pdf)                                       |   0 |   2 |   2 |   4 |   6 |  13 |
+| [Wormhole EVM-NTT Diff](./reports/2024-07-23-cyfrin-wormhole-NTT-Diff-v1.0.pdf)           |   0 |   0 |   0 |   0 |   4 |   0 |
+| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
+| [Wormhole Multi Governance](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)       |   0 |   0 |   0 |   9 |   6 |   2 |
+| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
+| [Linea Update](./reports/2025-01-06-cyfrin-linea-v2.2.pdf)                                |   0 |   0 |   1 |   1 |   5 |   5 |
+| [M^0](./reports/2024-11-26-cyfrin-m0-v2.0.pdf)                                            |   0 |   0 |   2 |   0 |   1 |   0 |
+| [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
+| [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
+| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
+| [Linea tokens](./reports/2025-07-31-cyfrin-linea-tokens-v2.3.pdf)                         |   0 |   0 |   0 |   0 |   5 |   0 |
+| **Total** _(16 reports)_                                                                  |   2 |  13 |  35 |  55 | 107 |  50 |
+| **Average Findings Per Audit**<br>* Crit/High 0.94<br>* Medium 2.19<br>* Low 3.44<br>* Info 6.69<br>* Gas 3.12 |
+
+
 ## Liquid Staking
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -187,29 +211,6 @@
 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        |   0 |   0 |   1 |   0 |   7 |   4 |
 | **Total** _(15 reports)_                                                                  |  11 |  27 |  52 |  66 |  62 |  46 |
 | **Average Findings Per Audit**<br>* Crit/High 2.53<br>* Medium 3.47<br>* Low 4.4<br>* Info 4.13<br>* Gas 3.07 |
-
-
-## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Hyperliquid Dex](./reports/2023-04-11-cyfrin-hyperliquid-dex-report.pdf)                 | n/a |   0 |   2 |   1 |  15 |   0 |
-| [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)                 |   0 |   1 |   2 |   1 |   5 |   3 |
-| [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)               |   0 |   0 |   2 |   3 |   8 |   0 |
-| [Wormhole EVM-NTT](./reports/2024-04-11-cyfrin-wormhole-evm-ntt-v2.pdf)                   |   0 |   2 |   8 |   5 |   6 |   4 |
-| [Linea](./reports/2024-05-24-cyfrin-linea-v2.0.pdf)                                       |   0 |   2 |   2 |   4 |   6 |  13 |
-| [Wormhole EVM-NTT Diff](./reports/2024-07-23-cyfrin-wormhole-NTT-Diff-v1.0.pdf)           |   0 |   0 |   0 |   0 |   4 |   0 |
-| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
-| [Wormhole Multi Governance](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)       |   0 |   0 |   0 |   9 |   6 |   2 |
-| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
-| [Linea Update](./reports/2025-01-06-cyfrin-linea-v2.2.pdf)                                |   0 |   0 |   1 |   1 |   5 |   5 |
-| [M^0](./reports/2024-11-26-cyfrin-m0-v2.0.pdf)                                            |   0 |   0 |   2 |   0 |   1 |   0 |
-| [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
-| [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
-| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
-| **Total** _(15 reports)_                                                                  |   2 |  13 |  35 |  55 | 102 |  50 |
-| **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.33<br>* Low 3.67<br>* Info 6.8<br>* Gas 3.33 |
 
 
 ## Chainlink Integration
