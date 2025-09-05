@@ -78,7 +78,7 @@
 | 2025-05-26  | 2025-05-28 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield        |   1 |   1 |   3 |  16 |   9 |   8 |
 | 2025-05-28  | 2025-06-03 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) | Liquid Staking, Chainlink |   0 |   0 |   0 |   3 |   3 |   2 |
 | 2025-05-29  | 2025-05-30 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
-| 2025-06-23  | 2025-06-27 | [OctoDeFi Strategy Builder Plugin](./reports/2025-07-17-cyfrin-octodefi-v2.0.pdf)         | DeFi, ERC6900, Account Abstraction, Smart Wallet |   0 |   1 |   5 |   3 |   4 |   3 |
+| 2025-06-23  | 2025-06-27 | [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         | DeFi, ERC6900, Account Abstraction, Smart Wallet |   0 |   1 |   5 |   3 |   4 |   3 |
 | 2025-06-23  | 2025-06-30 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   3 |   3 |  17 |  13 |   9 |  12 |
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
 | 2025-07-01  | 2025-07-14 | [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           | Real-World Assets, Securities Tokenization, Stablecoin |   0 |   0 |   0 |   2 |  10 |   0 |
@@ -335,7 +335,7 @@
 | [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
 | [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
-| [OctoDeFi Strategy Builder Plugin](./reports/2025-07-17-cyfrin-octodefi-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
+| [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
 | [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
 | **Total** _(6 reports)_                                                                   |   0 |   3 |  11 |  11 |  16 |   7 |
 | **Average Findings Per Audit**<br>* Crit/High 0.5<br>* Medium 1.83<br>* Low 1.83<br>* Info 2.67<br>* Gas 1.17 |
