@@ -87,6 +87,7 @@
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
 | 2025-07-15  | 2025-07-24 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  | Prediction Market, AMM |   0 |   0 |   0 |   6 |   9 |   0 |
 | 2025-07-15  | 2025-08-04 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.0.pdf)                               | Liquid Staking, Vault |   0 |   0 |   3 |   2 |   5 |   3 |
+| 2025-07-25  | 2025-07-29 | [Linea tokens](./reports/2025-07-31-cyfrin-linea-tokens-v2.3.pdf)                         | Cross-chain         |   0 |   0 |   0 |   0 |   5 |   0 |
 | 2025-07-28  | 2025-08-01 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | Vault, Yield        |   0 |   1 |   1 |   7 |  19 |   6 |
 | 2025-07-30  | 2025-08-01 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        | Liquid Staking      |   0 |   0 |   1 |   0 |   7 |   4 |
 | 2025-08-06  | 2025-08-08 | [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) | ERC4337, Account Abstraction, Smart Wallet |   0 |   1 |   0 |   1 |   3 |   0 |
@@ -94,7 +95,7 @@
 | 2025-08-13  | 2025-08-15 | [World Liberty Financial](./reports/2025-09-05-cyfrin-wlf-v2.1.pdf)                       | Real-World Assets, Tokenization |   0 |   0 |   5 |   4 |   6 |   2 |
 | 2025-08-19  | 2025-09-01 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         | Stablecoin, Vault, Real-World Assets |   0 |   0 |   4 |   7 |   6 |   1 |
 | 2025-08-22  | 2025-08-26 | [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
-|             | **Total**  |                                                                                           | _(90 reports)_ |  45 | 126 | 293 | 365 | 577 | 349 |
+|             | **Total**  |                                                                                           | _(91 reports)_ |  45 | 126 | 293 | 365 | 582 | 349 |
 
 
 ## Legend
