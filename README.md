@@ -86,11 +86,15 @@
 | 2025-07-04  | 2025-07-08 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   | Solana, Vesting, Staking |   0 |   2 |   0 |   4 |  11 |   0 |
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
 | 2025-07-15  | 2025-07-24 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  | Prediction Market, AMM |   0 |   0 |   0 |   6 |   9 |   0 |
+| 2025-07-15  | 2025-08-04 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.0.pdf)                               | Liquid Staking, Vault |   0 |   0 |   3 |   2 |   5 |   3 |
 | 2025-07-28  | 2025-08-01 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | Vault, Yield        |   0 |   1 |   1 |   7 |  19 |   6 |
 | 2025-07-30  | 2025-08-01 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        | Liquid Staking      |   0 |   0 |   1 |   0 |   7 |   4 |
+| 2025-08-06  | 2025-08-08 | [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) | ERC4337, Account Abstraction, Smart Wallet |   0 |   1 |   0 |   1 |   3 |   0 |
 | 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) | Lending, UniswapV4  |   2 |   2 |   1 |   4 |  13 |   0 |
+| 2025-08-13  | 2025-08-15 | [World Liberty Financial](./reports/2025-09-05-cyfrin-wlf-v2.1.pdf)                       | Real-World Assets, Tokenization |   0 |   0 |   5 |   4 |   6 |   2 |
+| 2025-08-19  | 2025-09-01 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         | Stablecoin, Vault, Real-World Assets |   0 |   0 |   4 |   7 |   6 |   1 |
 | 2025-08-22  | 2025-08-26 | [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
-|             | **Total**  |                                                                                           | _(86 reports)_ |  45 | 125 | 281 | 351 | 557 | 343 |
+|             | **Total**  |                                                                                           | _(90 reports)_ |  45 | 126 | 293 | 365 | 577 | 349 |
 
 
 ## Legend
@@ -128,9 +132,11 @@
 | [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               |   1 |   1 |   3 |  16 |   9 |   8 |
 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.0.pdf)                               |   0 |   0 |   3 |   2 |   5 |   3 |
 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               |   0 |   1 |   1 |   7 |  19 |   6 |
-| **Total** _(19 reports)_                                                                  |  16 |  44 | 109 | 125 | 130 |  77 |
-| **Average Findings Per Audit**<br>* Crit/High 3.16<br>* Medium 5.74<br>* Low 6.58<br>* Info 6.84<br>* Gas 4.05 |
+| [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
+| **Total** _(21 reports)_                                                                  |  16 |  44 | 116 | 134 | 141 |  81 |
+| **Average Findings Per Audit**<br>* Crit/High 2.86<br>* Medium 5.52<br>* Low 6.38<br>* Info 6.71<br>* Gas 3.86 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -159,6 +165,29 @@
 | **Average Findings Per Audit**<br>* Crit/High 2.44<br>* Medium 4<br>* Low 4.11<br>* Info 6.78<br>* Gas 3 |
 
 
+## Liquid Staking
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | n/a |   2 |   5 |  10 |   9 |  13 |
+| [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)                                  | n/a |   0 |   2 |   1 |   3 |   0 |
+| [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)                   |   0 |   0 |   2 |  11 |   4 |   7 |
+| [Casimir](./reports/2024-07-10-cyfrin-casimir-v2.0.pdf)                                   |   6 |   6 |   5 |   5 |   5 |   0 |
+| [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             |   2 |   5 |   6 |   5 |   0 |   3 |
+| [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf)                         |   0 |   1 |   5 |   5 |  14 |   5 |
+| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
+| [Stake.Link Staking Proxy](./reports/2025-01-20-cyfrin-stakedotlink-stakingproxy-v2.0.pdf) |   1 |   0 |   0 |   2 |   0 |   0 |
+| [Stake.Link PR#140](./reports/2025-02-28-cyfrin-stakedotlink-v2.0.pdf)                    |   0 |   0 |   0 |   0 |   1 |   1 |
+| [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
+| [Stake.Link Polygon Staking](./reports/2025-05-19-cyfrin-stakedotlink-polygon-staking-v2.0.pdf) |   0 |   0 |   2 |   4 |   8 |   2 |
+| [Suzaku Core](./reports/2025-07-07-cyfrin-suzaku-core-v2.0.pdf)                           |   2 |  10 |  19 |  13 |   1 |   6 |
+| [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
+| [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.0.pdf)                               |   0 |   0 |   3 |   2 |   5 |   3 |
+| [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        |   0 |   0 |   1 |   0 |   7 |   4 |
+| **Total** _(15 reports)_                                                                  |  11 |  27 |  52 |  66 |  62 |  46 |
+| **Average Findings Per Audit**<br>* Crit/High 2.53<br>* Medium 3.47<br>* Low 4.4<br>* Info 4.13<br>* Gas 3.07 |
+
+
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -180,28 +209,6 @@
 | [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
 | **Total** _(15 reports)_                                                                  |   2 |  13 |  35 |  55 | 102 |  50 |
 | **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.33<br>* Low 3.67<br>* Info 6.8<br>* Gas 3.33 |
-
-
-## Liquid Staking
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | n/a |   2 |   5 |  10 |   9 |  13 |
-| [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)                                  | n/a |   0 |   2 |   1 |   3 |   0 |
-| [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)                   |   0 |   0 |   2 |  11 |   4 |   7 |
-| [Casimir](./reports/2024-07-10-cyfrin-casimir-v2.0.pdf)                                   |   6 |   6 |   5 |   5 |   5 |   0 |
-| [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             |   2 |   5 |   6 |   5 |   0 |   3 |
-| [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf)                         |   0 |   1 |   5 |   5 |  14 |   5 |
-| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
-| [Stake.Link Staking Proxy](./reports/2025-01-20-cyfrin-stakedotlink-stakingproxy-v2.0.pdf) |   1 |   0 |   0 |   2 |   0 |   0 |
-| [Stake.Link PR#140](./reports/2025-02-28-cyfrin-stakedotlink-v2.0.pdf)                    |   0 |   0 |   0 |   0 |   1 |   1 |
-| [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
-| [Stake.Link Polygon Staking](./reports/2025-05-19-cyfrin-stakedotlink-polygon-staking-v2.0.pdf) |   0 |   0 |   2 |   4 |   8 |   2 |
-| [Suzaku Core](./reports/2025-07-07-cyfrin-suzaku-core-v2.0.pdf)                           |   2 |  10 |  19 |  13 |   1 |   6 |
-| [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
-| [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        |   0 |   0 |   1 |   0 |   7 |   4 |
-| **Total** _(14 reports)_                                                                  |  11 |  27 |  49 |  64 |  57 |  43 |
-| **Average Findings Per Audit**<br>* Crit/High 2.71<br>* Medium 3.5<br>* Low 4.57<br>* Info 4.07<br>* Gas 3.07 |
 
 
 ## Chainlink Integration
@@ -246,6 +253,22 @@
 | **Average Findings Per Audit**<br>* Crit/High 3.33<br>* Medium 4.25<br>* Low 6.25<br>* Info 6.5<br>* Gas 4.67 |
 
 
+## Stablecoin
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | n/a |   2 |   4 |  11 |  35 |  11 |
+| [Beanstalk BIP-38](./reports/2023-10-13-cyfrin-beanstalk-bip-38.pdf)                      | n/a |   1 |   1 |   1 |  13 |   0 |
+| [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)                 |   0 |   2 |   4 |   6 |   9 |   6 |
+| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
+| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
+| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
+| [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           |   0 |   0 |   0 |   2 |  10 |   0 |
+| [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
+| **Total** _(8 reports)_                                                                   |   4 |  15 |  30 |  54 | 104 |  35 |
+| **Average Findings Per Audit**<br>* Crit/High 2.38<br>* Medium 3.75<br>* Low 6.75<br>* Info 13<br>* Gas 4.38 |
+
+
 ## NFT
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -260,21 +283,6 @@
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
 | **Total** _(8 reports)_                                                                   |   4 |  14 |  25 |  36 |  40 |  60 |
 | **Average Findings Per Audit**<br>* Crit/High 2.25<br>* Medium 3.12<br>* Low 4.5<br>* Info 5<br>* Gas 7.5 |
-
-
-## Stablecoin
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | n/a |   2 |   4 |  11 |  35 |  11 |
-| [Beanstalk BIP-38](./reports/2023-10-13-cyfrin-beanstalk-bip-38.pdf)                      | n/a |   1 |   1 |   1 |  13 |   0 |
-| [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)                 |   0 |   2 |   4 |   6 |   9 |   6 |
-| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
-| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
-| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
-| [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           |   0 |   0 |   0 |   2 |  10 |   0 |
-| **Total** _(7 reports)_                                                                   |   4 |  15 |  26 |  47 |  98 |  34 |
-| **Average Findings Per Audit**<br>* Crit/High 2.71<br>* Medium 3.71<br>* Low 6.71<br>* Info 14<br>* Gas 4.86 |
 
 
 ## DAO
@@ -305,6 +313,20 @@
 | **Average Findings Per Audit**<br>* Crit/High 4<br>* Medium 4.5<br>* Low 4<br>* Info 8<br>* Gas 2.17 |
 
 
+## RWA / Real World Assets / Tokenization
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
+| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
+| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
+| [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           |   0 |   0 |   0 |   2 |  10 |   0 |
+| [World Liberty Financial](./reports/2025-09-05-cyfrin-wlf-v2.1.pdf)                       |   0 |   0 |   5 |   4 |   6 |   2 |
+| [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
+| **Total** _(6 reports)_                                                                   |   3 |   3 |  26 |  37 |  48 |  28 |
+| **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 4.33<br>* Low 6.17<br>* Info 8<br>* Gas 4.67 |
+
+
 ## ERC4337 / Account Abstraction / Smart Wallet
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -314,8 +336,9 @@
 | [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [OctoDeFi Strategy Builder Plugin](./reports/2025-07-17-cyfrin-octodefi-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
-| **Total** _(5 reports)_                                                                   |   0 |   2 |  11 |  10 |  13 |   7 |
-| **Average Findings Per Audit**<br>* Crit/High 0.4<br>* Medium 2.2<br>* Low 2<br>* Info 2.6<br>* Gas 1.4 |
+| [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
+| **Total** _(6 reports)_                                                                   |   0 |   3 |  11 |  11 |  16 |   7 |
+| **Average Findings Per Audit**<br>* Crit/High 0.5<br>* Medium 1.83<br>* Low 1.83<br>* Info 2.67<br>* Gas 1.17 |
 
 
 ## Gaming / Lottery
@@ -328,18 +351,6 @@
 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
 | **Total** _(4 reports)_                                                                   |   3 |   3 |   5 |   8 |  21 |  36 |
 | **Average Findings Per Audit**<br>* Crit/High 1.5<br>* Medium 1.25<br>* Low 2<br>* Info 5.25<br>* Gas 9 |
-
-
-## RWA / Real World Assets / Tokenization
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
-| [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           |   0 |   0 |   0 |   2 |  10 |   0 |
-| **Total** _(4 reports)_                                                                   |   3 |   3 |  17 |  26 |  36 |  25 |
-| **Average Findings Per Audit**<br>* Crit/High 1.5<br>* Medium 4.25<br>* Low 6.5<br>* Info 9<br>* Gas 6.25 |
 
 
 ## Token Sale / Crowd Funding
