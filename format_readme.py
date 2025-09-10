@@ -150,10 +150,11 @@ def map_tech_to_headings():
         'ERC4337/Account Abstraction/Smart Wallet': ['ERC4337', 'Account Abstraction', 'Smart Wallet'],
         'Gaming/Lottery': ['Lottery', 'Gaming'],
         'Staking': ['Staking'],
-        'RWA/Real World Assets/Tokenization': ['RWA', 'Real-World Assets', 'Real World Asset', 'Tokenization'],
+        'TradFi/RWA/Real World Assets/Tokenization': ['TradFi', 'RWA', 'Real-World Assets', 'Real World Asset', 'Tokenization'],
         'Token Sale/Crowd Funding': ['Token Sale', 'Crowdfunding', 'Crowd Funding'],
         'Perpetuals / Leverage / Lending / Borrowing': ['Leverage', 'Lending', 'Borrowing', 'Trading', 'Perpetual'],
-        'UniswapV4 Hooks': ['UniswapV4']
+        'UniswapV4 Hooks': ['UniswapV4'],
+        'Solana': ['Solana']
     }
 
 def update_readme(file_path):
