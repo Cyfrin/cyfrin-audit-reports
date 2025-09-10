@@ -119,8 +119,8 @@
 | 2025-08-19  | 2025-08-25 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization |   0 |   1 |   2 |   1 |   3 |   0 |
 | 2025-08-19  | 2025-09-01 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         | Stablecoin, Vault, Real-World Assets |   0 |   0 |   4 |   7 |   6 |   1 |
 | 2025-08-22  | 2025-08-26 | [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
-| 2025-08-26  | 2025-08-29 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments, Rust, Solana |   0 |   0 |   0 |   2 |   7 |   5 |
-|             | **Total**  |                                                                                           | _(116 reports)_ |  73 | 169 | 372 | 499 | 749 | 483 |
+| 2025-08-26  | 2025-08-29 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments, Rust, Solana |   1 |   0 |   2 |   2 |   3 |   0 |
+|             | **Total**  |                                                                                           | _(116 reports)_ |  74 | 169 | 374 | 499 | 745 | 478 |
 
 
 ## Legend
@@ -198,9 +198,9 @@
 | REDACTED                                                                                  |   0 |   3 |   2 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   1 |   1 |   2 |   0 |   1 |   5 |
 | REDACTED                                                                                  |   1 |   0 |   0 |   2 |   3 |   0 |
-| REDACTED                                                                                  |   0 |   0 |   0 |   2 |   7 |   5 |
-| **Total** _(24 reports)_                                                                  |   6 |  19 |  49 |  81 | 144 |  75 |
-| **Average Findings Per Audit**<br>* Crit/High 1.04<br>* Medium 2.04<br>* Low 3.38<br>* Info 6<br>* Gas 3.12 |
+| REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
+| **Total** _(24 reports)_                                                                  |   7 |  19 |  51 |  81 | 140 |  70 |
+| **Average Findings Per Audit**<br>* Crit/High 1.08<br>* Medium 2.12<br>* Low 3.38<br>* Info 5.83<br>* Gas 2.92 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -229,9 +229,9 @@
 | REDACTED                                                                                  |   1 |   0 |   0 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   0 |   1 |   2 |   1 |   3 |   0 |
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
-| REDACTED                                                                                  |   0 |   0 |   0 |   2 |   7 |   5 |
-| **Total** _(23 reports)_                                                                  |  11 |  19 |  69 | 123 | 156 | 114 |
-| **Average Findings Per Audit**<br>* Crit/High 1.3<br>* Medium 3<br>* Low 5.35<br>* Info 6.78<br>* Gas 4.96 |
+| REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
+| **Total** _(23 reports)_                                                                  |  12 |  19 |  71 | 123 | 152 | 109 |
+| **Average Findings Per Audit**<br>* Crit/High 1.35<br>* Medium 3.09<br>* Low 5.35<br>* Info 6.61<br>* Gas 4.74 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -449,6 +449,6 @@
 | REDACTED                                                                                  |   0 |   1 |   1 |   5 |   3 |   0 |
 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
 | REDACTED                                                                                  |   0 |   3 |   2 |   2 |   3 |   0 |
-| REDACTED                                                                                  |   0 |   0 |   0 |   2 |   7 |   5 |
-| **Total** _(4 reports)_                                                                   |   0 |   6 |   3 |  13 |  24 |   5 |
-| **Average Findings Per Audit**<br>* Crit/High 1.5<br>* Medium 0.75<br>* Low 3.25<br>* Info 6<br>* Gas 1.25 |
+| REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
+| **Total** _(4 reports)_                                                                   |   1 |   6 |   5 |  13 |  20 |   0 |
+| **Average Findings Per Audit**<br>* Crit/High 1.75<br>* Medium 1.25<br>* Low 3.25<br>* Info 5<br>* Gas 0 |
