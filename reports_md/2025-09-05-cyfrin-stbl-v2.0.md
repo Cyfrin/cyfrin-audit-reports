@@ -641,7 +641,7 @@ function exit(uint256 _assetID, address _from, uint256 _tokenID, uint256 _value)
 
 **Recommended Mitigation:** Consider preventing disabling of assets with active deposits.
 
-**STBL:** Acknowledged. This is by design - disabled assets are expired and will be phased out.
+**STBL:** Acknowledged.
 
 **Cyfrin:** Acknowledged.
 

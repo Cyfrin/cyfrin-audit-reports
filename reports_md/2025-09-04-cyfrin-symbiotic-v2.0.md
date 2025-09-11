@@ -635,7 +635,7 @@ function _validateConfig(
     }
 }
 ```
-**Symbiotic:** Fixed in [84fa428](https://github.com/symbioticfi/relay-contracts/commit/84fa428dbd8b113c56f92bf91481997d6eedc288).
+**Symbiotic:** Fixed in [625ea22](https://github.com/symbioticfi/relay-contracts/commit/625ea22865b7b03b61d4bbc6d3cf35a1a1cd81fc).
 
 **Cyfrin:** Verified.
 
@@ -874,9 +874,9 @@ function _contains(Set storage set, bytes32 value) private view returns (bool) {
 
 This saves ~2100-4200 gas per function call by eliminating redundant storage reads.
 
-**Symbiotic:** Acknowledged. Unchanged to keep it compatible with OpenZeppelin code.
+**Symbiotic:** Fixed in [dcb1d5a](https://github.com/symbioticfi/relay-contracts/pull/36/commits/dcb1d5a294129ca9eacffd16b41ee4d451ae8519#diff-3e26ce80002242995f03115edf52736f8a38a0b4a1a83a82efef003383b68252).
 
-**Cyfrin:** Acknowledged.
+**Cyfrin:** Verified.
 
 
 ### Cache storage reads in `upperLookupRecentCheckpoint`
