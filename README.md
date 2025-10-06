@@ -121,8 +121,9 @@
 | 2025-08-22  | 2025-08-26 | [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
 | 2025-08-26  | 2025-08-29 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments, Rust, Solana |   1 |   0 |   2 |   2 |   3 |   0 |
 | 2025-09-01  | 2025-09-16 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rust |   0 |   3 |   4 |   4 |   6 |   0 |
+| 2025-09-09  | 2025-09-22 | [L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
-|             | **Total**  |                                                                                           | _(118 reports)_ |  74 | 173 | 379 | 510 | 761 | 479 |
+|             | **Total**  |                                                                                           | _(119 reports)_ |  74 | 174 | 383 | 515 | 769 | 485 |
 
 
 ## Legend
@@ -261,8 +262,9 @@
 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  |   0 |   0 |   0 |   6 |   9 |   0 |
 | REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
-| **Total** _(19 reports)_                                                                  |  12 |  51 |  83 |  89 | 151 |  80 |
-| **Average Findings Per Audit**<br>* Crit/High 3.32<br>* Medium 4.37<br>* Low 4.68<br>* Info 7.95<br>* Gas 4.21 |
+| [L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
+| **Total** _(20 reports)_                                                                  |  12 |  52 |  87 |  94 | 159 |  86 |
+| **Average Findings Per Audit**<br>* Crit/High 3.2<br>* Medium 4.35<br>* Low 4.7<br>* Info 7.95<br>* Gas 4.3 |
 
 
 ## Liquid Staking
@@ -330,6 +332,23 @@
 | **Average Findings Per Audit**<br>* Crit/High 3.33<br>* Medium 4.25<br>* Low 6.25<br>* Info 6.5<br>* Gas 4.67 |
 
 
+## UniswapV4 Hooks
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Paladin Valkyrie](./reports/2025-03-12-cyfrin-paladin-valkyrie-v2.0.pdf)                 |   3 |  12 |   7 |   7 |   6 |   6 |
+| [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
+| [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
+| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   0 |
+| REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| REDACTED                                                                                  |   0 |   2 |   3 |   2 |   0 |   1 |
+| [L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
+| **Total** _(9 reports)_                                                                   |  13 |  33 |  45 |  46 |  85 |  46 |
+| **Average Findings Per Audit**<br>* Crit/High 5.11<br>* Medium 5<br>* Low 5.11<br>* Info 9.44<br>* Gas 5.11 |
+
+
 ## NFT
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -345,22 +364,6 @@
 | REDACTED                                                                                  |   1 |   0 |   4 |   3 |   5 |   2 |
 | **Total** _(9 reports)_                                                                   |   5 |  14 |  29 |  39 |  45 |  62 |
 | **Average Findings Per Audit**<br>* Crit/High 2.11<br>* Medium 3.22<br>* Low 4.33<br>* Info 5<br>* Gas 6.89 |
-
-
-## UniswapV4 Hooks
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Paladin Valkyrie](./reports/2025-03-12-cyfrin-paladin-valkyrie-v2.0.pdf)                 |   3 |  12 |   7 |   7 |   6 |   6 |
-| [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
-| [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
-| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
-| [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   0 |
-| REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
-| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
-| REDACTED                                                                                  |   0 |   2 |   3 |   2 |   0 |   1 |
-| **Total** _(8 reports)_                                                                   |  13 |  32 |  41 |  41 |  77 |  40 |
-| **Average Findings Per Audit**<br>* Crit/High 5.62<br>* Medium 5.12<br>* Low 5.12<br>* Info 9.62<br>* Gas 5 |
 
 
 ## Stablecoin
