@@ -121,9 +121,11 @@
 | 2025-08-22  | 2025-08-26 | [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
 | 2025-08-26  | 2025-08-29 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments, Rust, Solana |   1 |   0 |   2 |   2 |   3 |   0 |
 | 2025-09-01  | 2025-09-16 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rust |   0 |   3 |   4 |   4 |   6 |   0 |
+| 2025-09-01  | 2025-09-19 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rebasing |   1 |   0 |  10 |  23 |  25 |  20 |
 | 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
-|             | **Total**  |                                                                                           | _(119 reports)_ |  74 | 174 | 383 | 515 | 769 | 485 |
+| 2025-09-22  | 2025-09-26 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
+|             | **Total**  |                                                                                           | _(121 reports)_ |  75 | 174 | 397 | 542 | 809 | 514 |
 
 
 ## Legend
@@ -203,8 +205,10 @@
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
 | REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   0 |   3 |   4 |   4 |   6 |   0 |
-| **Total** _(24 reports)_                                                                  |  12 |  22 |  75 | 127 | 158 | 109 |
-| **Average Findings Per Audit**<br>* Crit/High 1.42<br>* Medium 3.12<br>* Low 5.29<br>* Info 6.58<br>* Gas 4.54 |
+| REDACTED                                                                                  |   1 |   0 |  10 |  23 |  25 |  20 |
+| REDACTED                                                                                  |   0 |   0 |   4 |   4 |  15 |   9 |
+| **Total** _(26 reports)_                                                                  |  13 |  22 |  89 | 154 | 198 | 138 |
+| **Average Findings Per Audit**<br>* Crit/High 1.35<br>* Medium 3.42<br>* Low 5.92<br>* Info 7.62<br>* Gas 5.31 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -235,8 +239,9 @@
 | REDACTED                                                                                  |   1 |   1 |   2 |   0 |   1 |   5 |
 | REDACTED                                                                                  |   1 |   0 |   0 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
-| **Total** _(24 reports)_                                                                  |   7 |  19 |  51 |  81 | 140 |  70 |
-| **Average Findings Per Audit**<br>* Crit/High 1.08<br>* Medium 2.12<br>* Low 3.38<br>* Info 5.83<br>* Gas 2.92 |
+| REDACTED                                                                                  |   0 |   0 |   4 |   4 |  15 |   9 |
+| **Total** _(25 reports)_                                                                  |   7 |  19 |  55 |  85 | 155 |  79 |
+| **Average Findings Per Audit**<br>* Crit/High 1.04<br>* Medium 2.2<br>* Low 3.4<br>* Info 6.2<br>* Gas 3.16 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
