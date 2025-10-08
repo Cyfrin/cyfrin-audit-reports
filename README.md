@@ -25,7 +25,7 @@
 | 2023-11-13  | 2023-11-17 | [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       | Lottery, Chainlink VRF, ERC1155 |   2 |   3 |   2 |   1 |   4 |   8 |
 | 2023-12-15  | 2023-12-27 | [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)                 | Cross-Chain, Wormhole |   0 |   1 |   2 |   1 |   5 |   3 |
 | 2024-01-12  | 2024-01-24 | [Solidly V3](./reports/2024-01-24-cyfrin-solidlyV3-v2.0.pdf)                              | UniswapV3 Fork, DEX/AMM |   0 |   0 |   3 |   4 |   8 |   6 |
-| 2024-01-15  | 2024-02-12 | [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)               | Cross-Chain, Wormhole, Circle |   0 |   0 |   2 |   3 |   8 |   0 |
+| 2024-01-15  | 2024-02-12 | [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)               | Cross-Chain, Wormhole, Circle CCTPv1 |   0 |   0 |   2 |   3 |   8 |   0 |
 | 2024-01-29  | 2024-02-21 | [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)                   | Liquid Staking, NFT |   0 |   0 |   2 |  11 |   4 |   7 |
 | 2024-02-26  | 2024-03-22 | [Wormhole EVM-NTT](./reports/2024-04-11-cyfrin-wormhole-evm-ntt-v2.pdf)                   | Cross-Chain, Wormhole |   0 |   2 |   8 |   5 |   6 |   4 |
 | 2024-03-18  | 2024-04-01 | [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)        | Concentrated Liquidity Manager, CLM/AMM |   1 |   1 |   4 |  10 |   9 |   9 |
@@ -97,7 +97,7 @@
 | 2025-07-01  | 2025-07-14 | [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           | Real-World Assets, Securities Tokenization, Stablecoin |   0 |   0 |   0 |   2 |  10 |   0 |
 | 2025-07-04  | 2025-07-10 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   | Euler V2, UniswapV3, UniswapV4, Lending, Vault, Concentrated |   1 |   2 |   2 |   3 |   2 |   0 |
 | 2025-07-04  | 2025-07-08 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   | Rust, Solana, Vesting, Staking |   0 |   2 |   0 |   4 |  11 |   0 |
-| 2025-07-07  | 2025-07-14 | REDACTED                                                                                  | TradFi, Real-World Assets, Cross-Chain, Circle CCTP |   1 |   0 |   4 |   9 |  10 |   0 |
+| 2025-07-07  | 2025-07-14 | REDACTED                                                                                  | TradFi, Real-World Assets, Cross-Chain, Wormhole, Circle CCTPv1 |   1 |   0 |   4 |   9 |  10 |   0 |
 | 2025-07-07  | 2025-07-11 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   1 |   1 |   4 |   6 |   5 |
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
 | 2025-07-14  | 2025-07-21 | REDACTED                                                                                  | Gaming              |   3 |   5 |   9 |   7 |  14 |   8 |
@@ -124,7 +124,7 @@
 | 2025-09-01  | 2025-09-19 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rebasing |   1 |   0 |  10 |  23 |  25 |  20 |
 | 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
-| 2025-09-22  | 2025-09-26 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
+| 2025-09-22  | 2025-09-26 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
 |             | **Total**  |                                                                                           | _(121 reports)_ |  75 | 174 | 397 | 542 | 809 | 514 |
 
 
