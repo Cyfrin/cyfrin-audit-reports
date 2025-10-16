@@ -111,7 +111,7 @@
 | 2025-08-05  | 2025-08-18 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Rust, Solana |   0 |   3 |   2 |   2 |   3 |   0 |
 | 2025-08-06  | 2025-08-08 | [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) | ERC4337, Account Abstraction, Smart Wallet |   0 |   1 |   0 |   1 |   3 |   0 |
 | 2025-08-08  | 2025-08-08 | REDACTED                                                                                  | NFT, Crowdfunding   |   1 |   0 |   4 |   3 |   5 |   2 |
-| 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) | Lending, UniswapV4  |   2 |   2 |   1 |   4 |  13 |   0 |
+| 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) | Lending, UniswapV4  |   2 |   2 |   1 |   4 |  13 |   0 |
 | 2025-08-11  | 2025-08-13 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments |   1 |   1 |   2 |   0 |   1 |   5 |
 | 2025-08-11  | 2025-08-15 | REDACTED                                                                                  | UniswapV4           |   0 |   2 |   3 |   2 |   0 |   1 |
 | 2025-08-13  | 2025-08-15 | [World Liberty Financial](./reports/2025-09-05-cyfrin-wlf-v2.1.pdf)                       | Real-World Assets, Tokenization |   0 |   0 |   5 |   4 |   6 |   2 |
@@ -125,8 +125,9 @@
 | 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
 | 2025-09-22  | 2025-09-26 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
+| 2025-09-22  | 2025-10-08 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf)                           | Vault, Lending      |   4 |   2 |  12 |   5 |   9 |   1 |
 | 2025-10-13  | 2025-10-14 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   0 |   0 |   2 |   3 |   2 |
-|             | **Total**  |                                                                                           | _(122 reports)_ |  75 | 174 | 397 | 544 | 812 | 516 |
+|             | **Total**  |                                                                                           | _(123 reports)_ |  79 | 176 | 409 | 549 | 821 | 517 |
 
 
 ## Legend
@@ -174,9 +175,10 @@
 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               |   0 |   1 |   1 |   7 |  19 |   6 |
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             |   0 |   1 |   1 |   7 |  10 |   1 |
+| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf)                           |   4 |   2 |  12 |   5 |   9 |   1 |
 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             |   0 |   0 |   0 |   2 |   3 |   2 |
-| **Total** _(29 reports)_                                                                  |  30 |  60 | 136 | 180 | 205 | 115 |
-| **Average Findings Per Audit**<br>* Crit/High 3.1<br>* Medium 4.69<br>* Low 6.21<br>* Info 7.07<br>* Gas 3.97 |
+| **Total** _(30 reports)_                                                                  |  34 |  62 | 148 | 185 | 214 | 116 |
+| **Average Findings Per Audit**<br>* Crit/High 3.2<br>* Medium 4.93<br>* Low 6.17<br>* Info 7.13<br>* Gas 3.87 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -335,8 +337,9 @@
 | [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.FV.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
-| **Total** _(12 reports)_                                                                  |  14 |  26 |  51 |  75 |  78 |  56 |
-| **Average Findings Per Audit**<br>* Crit/High 3.33<br>* Medium 4.25<br>* Low 6.25<br>* Info 6.5<br>* Gas 4.67 |
+| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf)                           |   4 |   2 |  12 |   5 |   9 |   1 |
+| **Total** _(13 reports)_                                                                  |  18 |  28 |  63 |  80 |  87 |  57 |
+| **Average Findings Per Audit**<br>* Crit/High 3.54<br>* Medium 4.85<br>* Low 6.15<br>* Info 6.69<br>* Gas 4.38 |
 
 
 ## UniswapV4 Hooks
