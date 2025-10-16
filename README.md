@@ -125,7 +125,8 @@
 | 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
 | 2025-09-22  | 2025-09-26 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
-|             | **Total**  |                                                                                           | _(121 reports)_ |  75 | 174 | 397 | 542 | 809 | 514 |
+| 2025-10-13  | 2025-10-14 | [D2 Hype CoreWriter](./reports/2025-10-26-cyfrin-d2-hype-corewriter-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   0 |   0 |   2 |   3 |   2 |
+|             | **Total**  |                                                                                           | _(122 reports)_ |  75 | 174 | 397 | 544 | 812 | 516 |
 
 
 ## Legend
@@ -173,8 +174,9 @@
 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               |   0 |   1 |   1 |   7 |  19 |   6 |
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             |   0 |   1 |   1 |   7 |  10 |   1 |
-| **Total** _(28 reports)_                                                                  |  30 |  60 | 136 | 178 | 202 | 113 |
-| **Average Findings Per Audit**<br>* Crit/High 3.21<br>* Medium 4.86<br>* Low 6.36<br>* Info 7.21<br>* Gas 4.04 |
+| [D2 Hype CoreWriter](./reports/2025-10-26-cyfrin-d2-hype-corewriter-v2.0.pdf)             |   0 |   0 |   0 |   2 |   3 |   2 |
+| **Total** _(29 reports)_                                                                  |  30 |  60 | 136 | 180 | 205 | 115 |
+| **Average Findings Per Audit**<br>* Crit/High 3.1<br>* Medium 4.69<br>* Low 6.21<br>* Info 7.07<br>* Gas 3.97 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
