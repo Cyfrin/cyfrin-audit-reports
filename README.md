@@ -122,6 +122,7 @@
 | 2025-08-26  | 2025-08-29 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments, Rust, Solana |   1 |   0 |   2 |   2 |   3 |   0 |
 | 2025-09-01  | 2025-09-16 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rust |   0 |   3 |   4 |   4 |   6 |   0 |
 | 2025-09-01  | 2025-09-19 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rebasing |   1 |   0 |  10 |  23 |  25 |  20 |
+| 2025-09-08  | 2025-09-26 | REDACTED                                                                                  | Cross-Chain, Wormhole |   0 |   1 |   3 |   3 |   4 |   0 |
 | 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
 | 2025-09-22  | 2025-09-26 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
@@ -129,7 +130,8 @@
 | 2025-09-22  | 2025-10-08 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) | Vault, Lending      |   4 |   2 |  12 |   5 |   9 |   1 |
 | 2025-10-12  | 2025-10-15 | [VeeFriends](./reports/2025-10-15-cyfrin-veefriends-v2.0.pdf)                             | NFT                 |   0 |   0 |   0 |   2 |   1 |   1 |
 | 2025-10-13  | 2025-10-14 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   0 |   0 |   2 |   3 |   2 |
-|             | **Total**  |                                                                                           | _(125 reports)_ |  80 | 178 | 415 | 556 | 834 | 520 |
+| 2025-10-20  | 2025-10-22 | REDACTED                                                                                  | Real-World Assets, Commodities Tokenization, Solana |   0 |   0 |   2 |   2 |   2 |   0 |
+|             | **Total**  |                                                                                           | _(127 reports)_ |  80 | 179 | 420 | 561 | 840 | 520 |
 
 
 ## Legend
@@ -214,8 +216,9 @@
 | REDACTED                                                                                  |   0 |   3 |   4 |   4 |   6 |   0 |
 | REDACTED                                                                                  |   1 |   0 |  10 |  23 |  25 |  20 |
 | REDACTED                                                                                  |   0 |   0 |   4 |   4 |  15 |   9 |
-| **Total** _(26 reports)_                                                                  |  13 |  22 |  89 | 154 | 198 | 138 |
-| **Average Findings Per Audit**<br>* Crit/High 1.35<br>* Medium 3.42<br>* Low 5.92<br>* Info 7.62<br>* Gas 5.31 |
+| REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
+| **Total** _(27 reports)_                                                                  |  13 |  22 |  91 | 156 | 200 | 138 |
+| **Average Findings Per Audit**<br>* Crit/High 1.3<br>* Medium 3.37<br>* Low 5.78<br>* Info 7.41<br>* Gas 5.11 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -246,9 +249,10 @@
 | REDACTED                                                                                  |   1 |   1 |   2 |   0 |   1 |   5 |
 | REDACTED                                                                                  |   1 |   0 |   0 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
+| REDACTED                                                                                  |   0 |   1 |   3 |   3 |   4 |   0 |
 | REDACTED                                                                                  |   0 |   0 |   4 |   4 |  15 |   9 |
-| **Total** _(25 reports)_                                                                  |   7 |  19 |  55 |  85 | 155 |  79 |
-| **Average Findings Per Audit**<br>* Crit/High 1.04<br>* Medium 2.2<br>* Low 3.4<br>* Info 6.2<br>* Gas 3.16 |
+| **Total** _(26 reports)_                                                                  |   7 |  20 |  58 |  88 | 159 |  79 |
+| **Average Findings Per Audit**<br>* Crit/High 1.04<br>* Medium 2.23<br>* Low 3.38<br>* Info 6.12<br>* Gas 3.04 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -451,6 +455,19 @@
 | **Average Findings Per Audit**<br>* Crit/High 2.8<br>* Medium 2.8<br>* Low 3<br>* Info 7<br>* Gas 8.8 |
 
 
+## Solana
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED                                                                                  |   0 |   1 |   1 |   5 |   3 |   0 |
+| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   2 |   2 |   3 |   0 |
+| REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
+| REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
+| **Total** _(5 reports)_                                                                   |   1 |   6 |   7 |  15 |  22 |   0 |
+| **Average Findings Per Audit**<br>* Crit/High 1.4<br>* Medium 1.4<br>* Low 3<br>* Info 4.4<br>* Gas 0 |
+
+
 ## Staking
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -461,15 +478,3 @@
 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
 | **Total** _(4 reports)_                                                                   |   8 |   6 |  13 |  14 |  25 |   1 |
 | **Average Findings Per Audit**<br>* Crit/High 3.5<br>* Medium 3.25<br>* Low 3.5<br>* Info 6.25<br>* Gas 0.25 |
-
-
-## Solana
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED                                                                                  |   0 |   1 |   1 |   5 |   3 |   0 |
-| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
-| REDACTED                                                                                  |   0 |   3 |   2 |   2 |   3 |   0 |
-| REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
-| **Total** _(4 reports)_                                                                   |   1 |   6 |   5 |  13 |  20 |   0 |
-| **Average Findings Per Audit**<br>* Crit/High 1.75<br>* Medium 1.25<br>* Low 3.25<br>* Info 5<br>* Gas 0 |
