@@ -131,8 +131,9 @@
 | 2025-10-02  | 2025-10-10 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   2 |   4 |   7 |   4 |   6 |   0 |
 | 2025-10-12  | 2025-10-15 | [VeeFriends](./reports/2025-10-15-cyfrin-veefriends-v2.0.pdf)                             | NFT                 |   0 |   0 |   0 |   2 |   1 |   1 |
 | 2025-10-13  | 2025-10-14 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   0 |   0 |   2 |   3 |   2 |
+| 2025-10-13  | 2025-10-16 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Staking |   6 |   2 |   3 |   4 |   4 |   2 |
 | 2025-10-20  | 2025-10-22 | REDACTED                                                                                  | Real-World Assets, Commodities Tokenization, Solana |   0 |   0 |   2 |   2 |   2 |   0 |
-|             | **Total**  |                                                                                           | _(128 reports)_ |  82 | 183 | 427 | 565 | 846 | 520 |
+|             | **Total**  |                                                                                           | _(129 reports)_ |  88 | 185 | 430 | 569 | 850 | 522 |
 
 
 ## Legend
@@ -184,8 +185,9 @@
 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             |   0 |   0 |   0 |   2 |   3 |   2 |
-| **Total** _(32 reports)_                                                                  |  37 |  68 | 161 | 194 | 232 | 118 |
-| **Average Findings Per Audit**<br>* Crit/High 3.28<br>* Medium 5.03<br>* Low 6.06<br>* Info 7.25<br>* Gas 3.69 |
+| REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
+| **Total** _(33 reports)_                                                                  |  43 |  70 | 164 | 198 | 236 | 120 |
+| **Average Findings Per Audit**<br>* Crit/High 3.42<br>* Medium 4.97<br>* Low 6<br>* Info 7.15<br>* Gas 3.64 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -219,9 +221,10 @@
 | REDACTED                                                                                  |   1 |   0 |  10 |  23 |  25 |  20 |
 | REDACTED                                                                                  |   0 |   0 |   4 |   4 |  15 |   9 |
 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
+| REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
-| **Total** _(28 reports)_                                                                  |  15 |  26 |  98 | 160 | 206 | 138 |
-| **Average Findings Per Audit**<br>* Crit/High 1.46<br>* Medium 3.5<br>* Low 5.71<br>* Info 7.36<br>* Gas 4.93 |
+| **Total** _(29 reports)_                                                                  |  21 |  28 | 101 | 164 | 210 | 140 |
+| **Average Findings Per Audit**<br>* Crit/High 1.69<br>* Medium 3.48<br>* Low 5.66<br>* Info 7.24<br>* Gas 4.83 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -399,8 +402,9 @@
 | [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
 | [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           |   0 |   0 |   0 |   2 |  10 |   0 |
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
-| **Total** _(8 reports)_                                                                   |   4 |  15 |  30 |  54 | 104 |  35 |
-| **Average Findings Per Audit**<br>* Crit/High 2.38<br>* Medium 3.75<br>* Low 6.75<br>* Info 13<br>* Gas 4.38 |
+| REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
+| **Total** _(9 reports)_                                                                   |  10 |  17 |  33 |  58 | 108 |  37 |
+| **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 3.67<br>* Low 6.44<br>* Info 12<br>* Gas 4.11 |
 
 
 ## DAO
@@ -446,6 +450,19 @@
 | **Average Findings Per Audit**<br>* Crit/High 0.5<br>* Medium 1.83<br>* Low 1.83<br>* Info 2.67<br>* Gas 1.17 |
 
 
+## Staking
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                               |   0 |   3 |  10 |   4 |   4 |   0 |
+| REDACTED                                                                                  |   2 |   0 |   0 |   2 |   4 |   0 |
+| REDACTED                                                                                  |   6 |   1 |   3 |   4 |   6 |   1 |
+| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
+| REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
+| **Total** _(5 reports)_                                                                   |  14 |   8 |  16 |  18 |  29 |   3 |
+| **Average Findings Per Audit**<br>* Crit/High 4.4<br>* Medium 3.2<br>* Low 3.6<br>* Info 5.8<br>* Gas 0.6 |
+
+
 ## Gaming / Lottery
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -470,15 +487,3 @@
 | REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
 | **Total** _(5 reports)_                                                                   |   1 |   6 |   7 |  15 |  22 |   0 |
 | **Average Findings Per Audit**<br>* Crit/High 1.4<br>* Medium 1.4<br>* Low 3<br>* Info 4.4<br>* Gas 0 |
-
-
-## Staking
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                               |   0 |   3 |  10 |   4 |   4 |   0 |
-| REDACTED                                                                                  |   2 |   0 |   0 |   2 |   4 |   0 |
-| REDACTED                                                                                  |   6 |   1 |   3 |   4 |   6 |   1 |
-| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
-| **Total** _(4 reports)_                                                                   |   8 |   6 |  13 |  14 |  25 |   1 |
-| **Average Findings Per Audit**<br>* Crit/High 3.5<br>* Medium 3.25<br>* Low 3.5<br>* Info 6.25<br>* Gas 0.25 |
