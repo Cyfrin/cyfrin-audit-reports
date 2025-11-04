@@ -134,7 +134,8 @@
 | 2025-10-13  | 2025-10-14 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   0 |   0 |   2 |   3 |   2 |
 | 2025-10-13  | 2025-10-16 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Staking |   6 |   2 |   3 |   4 |   4 |   2 |
 | 2025-10-20  | 2025-10-22 | REDACTED                                                                                  | Real-World Assets, Commodities Tokenization, Solana |   0 |   0 |   2 |   2 |   2 |   0 |
-|             | **Total**  |                                                                                           | _(130 reports)_ |  88 | 186 | 430 | 573 | 852 | 522 |
+| 2025-10-20  | 2025-10-24 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   | L2, Cross-Chain     |   0 |   0 |   0 |   1 |  10 |   2 |
+|             | **Total**  |                                                                                           | _(131 reports)_ |  88 | 186 | 430 | 574 | 862 | 524 |
 
 
 ## Legend
@@ -258,8 +259,9 @@
 | REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   0 |   1 |   3 |   3 |   4 |   0 |
 | REDACTED                                                                                  |   0 |   0 |   4 |   4 |  15 |   9 |
-| **Total** _(26 reports)_                                                                  |   7 |  20 |  58 |  88 | 159 |  79 |
-| **Average Findings Per Audit**<br>* Crit/High 1.04<br>* Medium 2.23<br>* Low 3.38<br>* Info 6.12<br>* Gas 3.04 |
+| [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   |   0 |   0 |   0 |   1 |  10 |   2 |
+| **Total** _(27 reports)_                                                                  |   7 |  20 |  58 |  89 | 169 |  81 |
+| **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.15<br>* Low 3.3<br>* Info 6.26<br>* Gas 3 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
