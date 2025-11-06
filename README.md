@@ -135,7 +135,8 @@
 | 2025-10-13  | 2025-10-16 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Staking |   6 |   2 |   3 |   4 |   4 |   2 |
 | 2025-10-20  | 2025-10-22 | REDACTED                                                                                  | Real-World Assets, Commodities Tokenization, Solana |   0 |   0 |   2 |   2 |   2 |   0 |
 | 2025-10-20  | 2025-10-24 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   | L2, Cross-Chain     |   0 |   0 |   0 |   1 |  10 |   2 |
-|             | **Total**  |                                                                                           | _(131 reports)_ |  88 | 186 | 430 | 574 | 862 | 524 |
+| 2025-10-27  | 2025-10-29 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
+|             | **Total**  |                                                                                           | _(132 reports)_ |  88 | 186 | 433 | 577 | 868 | 528 |
 
 
 ## Legend
@@ -225,8 +226,9 @@
 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
-| **Total** _(29 reports)_                                                                  |  21 |  28 | 101 | 164 | 210 | 140 |
-| **Average Findings Per Audit**<br>* Crit/High 1.69<br>* Medium 3.48<br>* Low 5.66<br>* Info 7.24<br>* Gas 4.83 |
+| REDACTED                                                                                  |   0 |   0 |   3 |   3 |   6 |   4 |
+| **Total** _(30 reports)_                                                                  |  21 |  28 | 104 | 167 | 216 | 144 |
+| **Average Findings Per Audit**<br>* Crit/High 1.63<br>* Medium 3.47<br>* Low 5.57<br>* Info 7.2<br>* Gas 4.8 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
