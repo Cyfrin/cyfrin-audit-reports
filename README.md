@@ -137,7 +137,8 @@
 | 2025-10-20  | 2025-10-24 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   | L2, Cross-Chain     |   0 |   0 |   0 |   1 |  10 |   2 |
 | 2025-10-20  | 2025-10-31 | REDACTED                                                                                  | Stablecoin, Lending, Vault |   5 |   5 |   6 |   4 |   1 |   4 |
 | 2025-10-27  | 2025-10-29 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
-|             | **Total**  |                                                                                           | _(133 reports)_ |  93 | 191 | 439 | 581 | 869 | 532 |
+| 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
+|             | **Total**  |                                                                                           | _(134 reports)_ |  93 | 194 | 441 | 583 | 871 | 532 |
 
 
 ## Legend
@@ -432,6 +433,21 @@
 | **Average Findings Per Audit**<br>* Crit/High 4.29<br>* Medium 6<br>* Low 5.43<br>* Info 6.86<br>* Gas 2.43 |
 
 
+## ERC4337 / Account Abstraction / Smart Wallet
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
+| [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
+| [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
+| [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
+| [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
+| [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   2 |   2 |   2 |   0 |
+| **Total** _(7 reports)_                                                                   |   0 |   6 |  13 |  13 |  18 |   7 |
+| **Average Findings Per Audit**<br>* Crit/High 0.86<br>* Medium 1.86<br>* Low 1.86<br>* Info 2.57<br>* Gas 1 |
+
+
 ## Token Sale / Crowd Funding
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -444,20 +460,6 @@
 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
 | **Total** _(6 reports)_                                                                   |  11 |  18 |  45 |  41 |  44 |  38 |
 | **Average Findings Per Audit**<br>* Crit/High 4.83<br>* Medium 7.5<br>* Low 6.83<br>* Info 7.33<br>* Gas 6.33 |
-
-
-## ERC4337 / Account Abstraction / Smart Wallet
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
-| [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
-| [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
-| [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
-| [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
-| [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
-| **Total** _(6 reports)_                                                                   |   0 |   3 |  11 |  11 |  16 |   7 |
-| **Average Findings Per Audit**<br>* Crit/High 0.5<br>* Medium 1.83<br>* Low 1.83<br>* Info 2.67<br>* Gas 1.17 |
 
 
 ## Staking
