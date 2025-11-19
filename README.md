@@ -137,8 +137,9 @@
 | 2025-10-20  | 2025-10-24 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   | L2, Cross-Chain     |   0 |   0 |   0 |   1 |  10 |   2 |
 | 2025-10-20  | 2025-10-31 | REDACTED                                                                                  | Stablecoin, Lending, Vault |   5 |   5 |   6 |   4 |   1 |   4 |
 | 2025-10-27  | 2025-10-29 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
+| 2025-10-29  | 2025-11-10 | [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 | Governance, DAO     |   0 |   0 |   0 |  11 |   5 |   5 |
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
-|             | **Total**  |                                                                                           | _(134 reports)_ |  93 | 194 | 441 | 583 | 871 | 532 |
+|             | **Total**  |                                                                                           | _(135 reports)_ |  93 | 194 | 441 | 594 | 876 | 537 |
 
 
 ## Legend
@@ -429,8 +430,9 @@
 | REDACTED                                                                                  |   0 |   5 |   4 |   5 |   4 |   0 |
 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)               |   2 |   2 |   8 |   5 |  20 |   1 |
 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   |   0 |   0 |   0 |   4 |   4 |   1 |
-| **Total** _(7 reports)_                                                                   |   5 |  25 |  42 |  38 |  48 |  17 |
-| **Average Findings Per Audit**<br>* Crit/High 4.29<br>* Medium 6<br>* Low 5.43<br>* Info 6.86<br>* Gas 2.43 |
+| [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 |   0 |   0 |   0 |  11 |   5 |   5 |
+| **Total** _(8 reports)_                                                                   |   5 |  25 |  42 |  49 |  53 |  22 |
+| **Average Findings Per Audit**<br>* Crit/High 3.75<br>* Medium 5.25<br>* Low 6.12<br>* Info 6.62<br>* Gas 2.75 |
 
 
 ## ERC4337 / Account Abstraction / Smart Wallet
