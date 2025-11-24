@@ -139,7 +139,8 @@
 | 2025-10-27  | 2025-10-29 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
 | 2025-10-29  | 2025-11-10 | [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 | Governance, DAO     |   0 |   0 |   0 |  11 |   5 |   5 |
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
-|             | **Total**  |                                                                                           | _(135 reports)_ |  93 | 194 | 441 | 594 | 876 | 537 |
+| 2025-11-13  | 2025-11-21 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
+|             | **Total**  |                                                                                           | _(136 reports)_ |  93 | 194 | 444 | 597 | 882 | 538 |
 
 
 ## Legend
@@ -193,8 +194,9 @@
 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             |   0 |   0 |   0 |   2 |   3 |   2 |
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
-| **Total** _(34 reports)_                                                                  |  48 |  75 | 170 | 202 | 237 | 124 |
-| **Average Findings Per Audit**<br>* Crit/High 3.62<br>* Medium 5<br>* Low 5.94<br>* Info 6.97<br>* Gas 3.65 |
+| [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     |   0 |   0 |   3 |   3 |   6 |   1 |
+| **Total** _(35 reports)_                                                                  |  48 |  75 | 173 | 205 | 243 | 125 |
+| **Average Findings Per Audit**<br>* Crit/High 3.51<br>* Medium 4.94<br>* Low 5.86<br>* Info 6.94<br>* Gas 3.57 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
