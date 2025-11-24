@@ -122,6 +122,7 @@
 | 2025-08-26  | 2025-08-29 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments, Rust, Solana |   1 |   0 |   2 |   2 |   3 |   0 |
 | 2025-09-01  | 2025-09-16 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rust |   0 |   3 |   4 |   4 |   6 |   0 |
 | 2025-09-01  | 2025-09-19 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Rebasing |   1 |   0 |  10 |  23 |  25 |  20 |
+| 2025-09-02  | 2025-09-09 | [Illuvium Staking V3](./reports/2025-10-01-cyfrin-illuvium-stakingv3-v2.0.pdf),           | Vault               |   0 |   0 |   0 |   7 |   8 |   1 |
 | 2025-09-08  | 2025-09-26 | REDACTED                                                                                  | Cross-Chain, Wormhole |   0 |   1 |   3 |   3 |   4 |   0 |
 | 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
@@ -140,7 +141,7 @@
 | 2025-10-29  | 2025-11-10 | [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 | Governance, DAO     |   0 |   0 |   0 |  11 |   5 |   5 |
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
 | 2025-11-13  | 2025-11-21 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
-|             | **Total**  |                                                                                           | _(136 reports)_ |  93 | 194 | 444 | 597 | 882 | 538 |
+|             | **Total**  |                                                                                           | _(137 reports)_ |  93 | 194 | 444 | 604 | 890 | 539 |
 
 
 ## Legend
@@ -187,6 +188,7 @@
 | REDACTED                                                                                  |   0 |   0 |   1 |   7 |   5 |   3 |
 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               |   0 |   1 |   1 |   7 |  19 |   6 |
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
+| [Illuvium Staking V3](./reports/2025-10-01-cyfrin-illuvium-stakingv3-v2.0.pdf),           |   0 |   0 |   0 |   7 |   8 |   1 |
 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             |   0 |   1 |   1 |   7 |  10 |   1 |
 | [Strata Tranches](./reports/2025-10-08-cyfrin-strata-tranches-v2.0.pdf)                   |   1 |   2 |   6 |   5 |  12 |   2 |
 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
@@ -195,8 +197,8 @@
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     |   0 |   0 |   3 |   3 |   6 |   1 |
-| **Total** _(35 reports)_                                                                  |  48 |  75 | 173 | 205 | 243 | 125 |
-| **Average Findings Per Audit**<br>* Crit/High 3.51<br>* Medium 4.94<br>* Low 5.86<br>* Info 6.94<br>* Gas 3.57 |
+| **Total** _(36 reports)_                                                                  |  48 |  75 | 173 | 212 | 251 | 126 |
+| **Average Findings Per Audit**<br>* Crit/High 3.42<br>* Medium 4.81<br>* Low 5.89<br>* Info 6.97<br>* Gas 3.5 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
