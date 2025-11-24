@@ -188,7 +188,7 @@
 | REDACTED                                                                                  |   0 |   0 |   1 |   7 |   5 |   3 |
 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               |   0 |   1 |   1 |   7 |  19 |   6 |
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
-| [Illuvium Staking V3](./reports/2025-10-01-cyfrin-illuvium-stakingv3-v2.0.pdf),           |   0 |   0 |   0 |   7 |   8 |   1 |
+| [Illuvium Staking V3](./reports/2025-10-21-cyfrin-illuvium-stakingv3-v2.0.pdf),           |   0 |   0 |   0 |   7 |   8 |   1 |
 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             |   0 |   1 |   1 |   7 |  10 |   1 |
 | [Strata Tranches](./reports/2025-10-08-cyfrin-strata-tranches-v2.0.pdf)                   |   1 |   2 |   6 |   5 |  12 |   2 |
 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
