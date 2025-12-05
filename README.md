@@ -143,7 +143,8 @@
 | 2025-10-30  | 2025-10-31 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   0 |   3 |   0 |
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
 | 2025-11-13  | 2025-11-21 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
-|             | **Total**  |                                                                                           | _(139 reports)_ |  93 | 194 | 445 | 604 | 894 | 539 |
+| 2025-11-17  | 2025-11-19 | [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
+|             | **Total**  |                                                                                           | _(140 reports)_ |  93 | 194 | 446 | 604 | 895 | 540 |
 
 
 ## Legend
@@ -199,8 +200,9 @@
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     |   0 |   0 |   3 |   3 |   6 |   1 |
-| **Total** _(36 reports)_                                                                  |  48 |  75 | 173 | 212 | 251 | 126 |
-| **Average Findings Per Audit**<br>* Crit/High 3.42<br>* Medium 4.81<br>* Low 5.89<br>* Info 6.97<br>* Gas 3.5 |
+| [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               |   0 |   0 |   1 |   0 |   1 |   1 |
+| **Total** _(37 reports)_                                                                  |  48 |  75 | 174 | 212 | 252 | 127 |
+| **Average Findings Per Audit**<br>* Crit/High 3.32<br>* Medium 4.7<br>* Low 5.73<br>* Info 6.81<br>* Gas 3.43 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -239,8 +241,9 @@
 | REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
 | [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) |   0 |   0 |   3 |   3 |   6 |   4 |
 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
-| **Total** _(32 reports)_                                                                  |  21 |  28 | 105 | 167 | 220 | 144 |
-| **Average Findings Per Audit**<br>* Crit/High 1.53<br>* Medium 3.28<br>* Low 5.22<br>* Info 6.88<br>* Gas 4.5 |
+| [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               |   0 |   0 |   1 |   0 |   1 |   1 |
+| **Total** _(33 reports)_                                                                  |  21 |  28 | 106 | 167 | 221 | 145 |
+| **Average Findings Per Audit**<br>* Crit/High 1.48<br>* Medium 3.21<br>* Low 5.06<br>* Info 6.7<br>* Gas 4.39 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -443,6 +446,21 @@
 | **Average Findings Per Audit**<br>* Crit/High 3.75<br>* Medium 5.25<br>* Low 6.12<br>* Info 6.62<br>* Gas 2.75 |
 
 
+## Token Sale / Crowd Funding
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
+| REDACTED                                                                                  |   1 |   1 |   1 |   2 |   3 |   0 |
+| REDACTED                                                                                  |   1 |   1 |   2 |  15 |  13 |  16 |
+| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
+| REDACTED                                                                                  |   1 |   0 |   4 |   3 |   5 |   2 |
+| [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
+| [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               |   0 |   0 |   1 |   0 |   1 |   1 |
+| **Total** _(7 reports)_                                                                   |  11 |  18 |  46 |  41 |  45 |  39 |
+| **Average Findings Per Audit**<br>* Crit/High 4.14<br>* Medium 6.57<br>* Low 5.86<br>* Info 6.43<br>* Gas 5.57 |
+
+
 ## Solana
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -471,20 +489,6 @@
 | REDACTED                                                                                  |   0 |   3 |   2 |   2 |   2 |   0 |
 | **Total** _(7 reports)_                                                                   |   0 |   6 |  13 |  13 |  18 |   7 |
 | **Average Findings Per Audit**<br>* Crit/High 0.86<br>* Medium 1.86<br>* Low 1.86<br>* Info 2.57<br>* Gas 1 |
-
-
-## Token Sale / Crowd Funding
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
-| REDACTED                                                                                  |   1 |   1 |   1 |   2 |   3 |   0 |
-| REDACTED                                                                                  |   1 |   1 |   2 |  15 |  13 |  16 |
-| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
-| REDACTED                                                                                  |   1 |   0 |   4 |   3 |   5 |   2 |
-| [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
-| **Total** _(6 reports)_                                                                   |  11 |  18 |  45 |  41 |  44 |  38 |
-| **Average Findings Per Audit**<br>* Crit/High 4.83<br>* Medium 7.5<br>* Low 6.83<br>* Info 7.33<br>* Gas 6.33 |
 
 
 ## Staking
