@@ -141,7 +141,7 @@
 | 2025-10-20  | 2025-10-24 | REDACTED                                                                                  | Gaming, Wagering, Rust, Solana |   0 |   1 |   3 |   3 |   2 |   0 |
 | 2025-10-27  | 2025-10-29 | [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
 | 2025-10-27  | 2025-11-07 | REDACTED                                                                                  | DLT Consensus, Node client, Off-chain |   0 |   1 |   3 |   2 |   2 |   0 |
-| 2025-10-29  | 2025-12-01 | REDACTED                                                                                  | DEX/AMM, CLOB, Perpetuals, DAO, Rust, Solana |   0 |  20 |  37 |  18 |  24 |   0 |
+| 2025-10-29  | 2025-12-01 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       | DEX/AMM, CLOB, Perpetuals, DAO, Rust, Solana |   0 |  20 |  37 |  18 |  24 |   0 |
 | 2025-10-29  | 2025-11-10 | [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 | Governance, DAO     |   0 |   0 |   0 |  11 |   5 |   5 |
 | 2025-10-30  | 2025-10-31 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   0 |   3 |   0 |
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
@@ -308,7 +308,7 @@
 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  |   0 |   0 |   0 |   6 |   9 |   0 |
 | REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
-| REDACTED                                                                                  |   0 |  20 |  37 |  18 |  24 |   0 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
 | **Total** _(21 reports)_                                                                  |  12 |  72 | 124 | 112 | 183 |  86 |
 | **Average Findings Per Audit**<br>* Crit/High 4<br>* Medium 5.9<br>* Low 5.33<br>* Info 8.71<br>* Gas 4.1 |
 
@@ -355,7 +355,7 @@
 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
-| REDACTED                                                                                  |   0 |  20 |  37 |  18 |  24 |   0 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
 | **Total** _(15 reports)_                                                                  |  23 |  53 | 106 | 102 | 112 |  61 |
 | **Average Findings Per Audit**<br>* Crit/High 5.07<br>* Medium 7.07<br>* Low 6.8<br>* Info 7.47<br>* Gas 4.07 |
 
@@ -429,7 +429,7 @@
 | REDACTED                                                                                  |   0 |   5 |   4 |   5 |   4 |   0 |
 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)               |   2 |   2 |   8 |   5 |  20 |   1 |
 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   |   0 |   0 |   0 |   4 |   4 |   1 |
-| REDACTED                                                                                  |   0 |  20 |  37 |  18 |  24 |   0 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
 | [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 |   0 |   0 |   0 |  11 |   5 |   5 |
 | **Total** _(9 reports)_                                                                   |   5 |  45 |  79 |  67 |  77 |  22 |
 | **Average Findings Per Audit**<br>* Crit/High 5.56<br>* Medium 8.78<br>* Low 7.44<br>* Info 8.56<br>* Gas 2.44 |
@@ -463,7 +463,7 @@
 | REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
 | REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
-| REDACTED                                                                                  |   0 |  20 |  37 |  18 |  24 |   0 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
 | **Total** _(9 reports)_                                                                   |   1 |  28 |  49 |  37 |  54 |   0 |
 | **Average Findings Per Audit**<br>* Crit/High 3.22<br>* Medium 5.44<br>* Low 4.11<br>* Info 6<br>* Gas 0 |
