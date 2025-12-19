@@ -147,7 +147,9 @@
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
 | 2025-11-13  | 2025-11-21 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
 | 2025-11-17  | 2025-11-19 | [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
-|             | **Total**  |                                                                                           | _(143 reports)_ |  93 | 216 | 489 | 627 | 923 | 540 |
+| 2025-11-26  | 2025-11-28 | [Symbiotic KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf)      | Liquid Staking, Vault, Cryptography, BLS Signatures |   0 |   0 |   0 |   0 |   1 |   0 |
+| 2025-12-01  | 2025-12-03 | [Symbiotic BLS12-381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)            | Liquid Staking, Vault, Cryptography, BLS Signatures |   0 |   0 |   0 |   0 |   2 |   1 |
+|             | **Total**  |                                                                                           | _(145 reports)_ |  93 | 216 | 489 | 627 | 926 | 541 |
 
 
 ## Legend
@@ -204,8 +206,10 @@
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     |   0 |   0 |   3 |   3 |   6 |   1 |
 | [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               |   0 |   0 |   1 |   0 |   1 |   1 |
-| **Total** _(37 reports)_                                                                  |  48 |  75 | 174 | 212 | 252 | 127 |
-| **Average Findings Per Audit**<br>* Crit/High 3.32<br>* Medium 4.7<br>* Low 5.73<br>* Info 6.81<br>* Gas 3.43 |
+| [Symbiotic KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf)      |   0 |   0 |   0 |   0 |   1 |   0 |
+| [Symbiotic BLS12-381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)            |   0 |   0 |   0 |   0 |   2 |   1 |
+| **Total** _(39 reports)_                                                                  |  48 |  75 | 174 | 212 | 255 | 128 |
+| **Average Findings Per Audit**<br>* Crit/High 3.15<br>* Medium 4.46<br>* Low 5.44<br>* Info 6.54<br>* Gas 3.28 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -333,8 +337,10 @@
 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.1.pdf)                               |   0 |   0 |   3 |   2 |   5 |   3 |
 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        |   0 |   0 |   1 |   0 |   7 |   4 |
 | [Suzaku Validator](./reports/2025-10-10-cyfrin-suzaku-balancer-validator-v2.0.pdf)        |   0 |   1 |   0 |   4 |   2 |   0 |
-| **Total** _(16 reports)_                                                                  |  11 |  28 |  52 |  70 |  64 |  46 |
-| **Average Findings Per Audit**<br>* Crit/High 2.44<br>* Medium 3.25<br>* Low 4.38<br>* Info 4<br>* Gas 2.88 |
+| [Symbiotic KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf)      |   0 |   0 |   0 |   0 |   1 |   0 |
+| [Symbiotic BLS12-381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)            |   0 |   0 |   0 |   0 |   2 |   1 |
+| **Total** _(18 reports)_                                                                  |  11 |  28 |  52 |  70 |  67 |  47 |
+| **Average Findings Per Audit**<br>* Crit/High 2.17<br>* Medium 2.89<br>* Low 3.89<br>* Info 3.72<br>* Gas 2.61 |
 
 
 ## Perpetuals / Leverage / Lending / Borrowing
