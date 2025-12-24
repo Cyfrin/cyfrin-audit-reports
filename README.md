@@ -149,7 +149,10 @@
 | 2025-11-13  | 2025-11-21 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
 | 2025-11-17  | 2025-11-19 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
 | 2025-11-26  | 2025-11-28 | Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] | Cryptography, BLS12381 |   0 |   0 |   0 |   0 |   3 |   1 |
-|             | **Total**  |                                                                                           | _(145 reports)_ |  93 | 219 | 495 | 648 | 946 | 547 |
+| 2025-11-27  | 2025-11-28 | REDACTED                                                                                  | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
+| 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
+| 2025-12-01  | 2025-12-10 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
+|             | **Total**  |                                                                                           | _(148 reports)_ |  94 | 226 | 511 | 688 | 974 | 570 |
 
 
 ## Legend
@@ -206,8 +209,9 @@
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               |   0 |   0 |   3 |   3 |   6 |   1 |
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
-| **Total** _(37 reports)_                                                                  |  48 |  75 | 174 | 212 | 252 | 127 |
-| **Average Findings Per Audit**<br>* Crit/High 3.32<br>* Medium 4.7<br>* Low 5.73<br>* Info 6.81<br>* Gas 3.43 |
+| REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
+| **Total** _(38 reports)_                                                                  |  49 |  82 | 183 | 234 | 259 | 132 |
+| **Average Findings Per Audit**<br>* Crit/High 3.45<br>* Medium 4.82<br>* Low 6.16<br>* Info 6.82<br>* Gas 3.47 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -247,8 +251,10 @@
 | [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) |   0 |   0 |   3 |   3 |   6 |   4 |
 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
-| **Total** _(33 reports)_                                                                  |  21 |  28 | 106 | 167 | 221 | 145 |
-| **Average Findings Per Audit**<br>* Crit/High 1.48<br>* Medium 3.21<br>* Low 5.06<br>* Info 6.7<br>* Gas 4.39 |
+| REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
+| REDACTED                                                                                  |   0 |   0 |   4 |  14 |  10 |  13 |
+| **Total** _(35 reports)_                                                                  |  22 |  35 | 119 | 203 | 238 | 163 |
+| **Average Findings Per Audit**<br>* Crit/High 1.63<br>* Medium 3.4<br>* Low 5.8<br>* Info 6.8<br>* Gas 4.66 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -310,8 +316,9 @@
 | REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
-| **Total** _(20 reports)_                                                                  |  11 |  70 | 122 | 109 | 181 |  86 |
-| **Average Findings Per Audit**<br>* Crit/High 4.05<br>* Medium 6.1<br>* Low 5.45<br>* Info 9.05<br>* Gas 4.3 |
+| REDACTED                                                                                  |   0 |   0 |   4 |  14 |  10 |  13 |
+| **Total** _(21 reports)_                                                                  |  11 |  70 | 126 | 123 | 191 |  99 |
+| **Average Findings Per Audit**<br>* Crit/High 3.86<br>* Medium 6<br>* Low 5.86<br>* Info 9.1<br>* Gas 4.71 |
 
 
 ## Perpetuals / Leverage / Lending / Borrowing
@@ -471,6 +478,22 @@
 | **Average Findings Per Audit**<br>* Crit/High 3.22<br>* Medium 5.44<br>* Low 4.11<br>* Info 6<br>* Gas 0 |
 
 
+## Gaming / Lottery
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
+| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
+| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
+| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
+| REDACTED                                                                                  |   3 |   5 |   9 |   7 |  14 |   8 |
+| REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
+| REDACTED                                                                                  |   0 |   0 |   3 |   4 |  11 |   5 |
+| **Total** _(8 reports)_                                                                   |   6 |  12 |  26 |  43 |  68 |  55 |
+| **Average Findings Per Audit**<br>* Crit/High 2.25<br>* Medium 3.25<br>* Low 5.38<br>* Info 8.5<br>* Gas 6.88 |
+
+
 ## Token Sale / Crowd Funding
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -484,21 +507,6 @@
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
 | **Total** _(7 reports)_                                                                   |  11 |  18 |  46 |  41 |  45 |  39 |
 | **Average Findings Per Audit**<br>* Crit/High 4.14<br>* Medium 6.57<br>* Low 5.86<br>* Info 6.43<br>* Gas 5.57 |
-
-
-## Gaming / Lottery
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
-| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
-| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
-| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
-| REDACTED                                                                                  |   3 |   5 |   9 |   7 |  14 |   8 |
-| REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
-| REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
-| **Total** _(7 reports)_                                                                   |   6 |  12 |  23 |  39 |  57 |  50 |
-| **Average Findings Per Audit**<br>* Crit/High 2.57<br>* Medium 3.29<br>* Low 5.57<br>* Info 8.14<br>* Gas 7.14 |
 
 
 ## ERC4337 / Account Abstraction / Smart Wallet
