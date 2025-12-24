@@ -154,7 +154,8 @@ def map_tech_to_headings():
         'Token Sale/Crowd Funding': ['Token Sale', 'Crowdfunding', 'Crowd Funding'],
         'Perpetuals / Leverage / Lending / Borrowing': ['Leverage', 'Lending', 'Borrowing', 'Trading', 'Perpetual'],
         'UniswapV4 Hooks': ['UniswapV4'],
-        'Solana': ['Solana']
+        'Solana': ['Solana'],
+        'Formal Verification': ['Formal Verification']
     }
 
 def update_readme(file_path):

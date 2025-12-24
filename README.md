@@ -96,7 +96,7 @@
 | 2025-06-23  | 2025-06-30 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   3 |   3 |  17 |  13 |   9 |  12 |
 | 2025-06-24  | 2025-06-28 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               | Lottery, Gelato VRF |   0 |   0 |   0 |   2 |   6 |   3 |
 | 2025-07-01  | 2025-07-14 | [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           | Real-World Assets, Securities Tokenization, Stablecoin |   0 |   0 |   0 |   2 |  10 |   0 |
-| 2025-07-04  | 2025-07-10 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   | Euler V2, UniswapV3, UniswapV4, Lending, Vault, Concentrated |   1 |   2 |   2 |   3 |   2 |   0 |
+| 2025-07-04  | 2025-07-10 | [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   | Euler V2, UniswapV3, UniswapV4, Lending, Vault |   1 |   2 |   2 |   3 |   2 |   0 |
 | 2025-07-04  | 2025-07-08 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   | Rust, Solana, Vesting, Staking |   0 |   2 |   0 |   4 |  11 |   0 |
 | 2025-07-07  | 2025-07-14 | [Securitize On-Off Ramp & Bridge](./reports/2025-07-23-cyfrin-securitize-onofframp-bridge-v2.1.pdf) | TradFi, Real-World Assets, Cross-Chain, Wormhole, Circle CCTPv1 |   1 |   0 |   4 |   9 |  10 |   0 |
 | 2025-07-07  | 2025-07-11 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   1 |   1 |   4 |   6 |   5 |
@@ -104,7 +104,7 @@
 | 2025-07-14  | 2025-07-21 | REDACTED                                                                                  | Gaming              |   3 |   5 |   9 |   7 |  14 |   8 |
 | 2025-07-15  | 2025-07-24 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  | Prediction Market, AMM |   0 |   0 |   0 |   6 |   9 |   0 |
 | 2025-07-15  | 2025-08-04 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.1.pdf)                               | Liquid Staking, Vault |   0 |   0 |   3 |   2 |   5 |   3 |
-| 2025-07-21  | 2025-08-08 | REDACTED                                                                                  | CLM/DEX/AMM, Concentrated Liquidity Manager, Vault, UniswapV4 |   6 |  13 |  11 |  15 |  29 |  26 |
+| 2025-07-21  | 2025-08-08 | REDACTED                                                                                  | CLM/DEX/AMM, Concentrated Liquidity Manager, Vault, UniswapV4, Formal Verification |   6 |  13 |  11 |  15 |  29 |  26 |
 | 2025-07-21  | 2025-08-01 | [Securitize VaultV2 & RWASegWrap](./reports/2025-08-04-cyfrin-securitize-vaultv2-rwasegwrap-v2.2.pdf) | TradFi, Real-World Assets, Vault, Yield |   0 |   0 |   1 |   7 |   5 |   3 |
 | 2025-07-25  | 2025-07-29 | [Linea Tokens](./reports/2025-09-10-cyfrin-linea-tokens-v2.5.pdf)                         | Cross-Chain         |   0 |   0 |   0 |   0 |   5 |   0 |
 | 2025-07-28  | 2025-08-01 | [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | TradFi, Vault, Yield |   0 |   1 |   1 |   7 |  19 |   6 |
@@ -112,7 +112,7 @@
 | 2025-08-05  | 2025-08-18 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Rust, Solana |   0 |   3 |   2 |   2 |   3 |   0 |
 | 2025-08-06  | 2025-08-08 | [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) | ERC4337, Account Abstraction, Smart Wallet |   0 |   1 |   0 |   1 |   3 |   0 |
 | 2025-08-08  | 2025-08-08 | REDACTED                                                                                  | NFT, Crowdfunding   |   1 |   0 |   4 |   3 |   5 |   2 |
-| 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) | Lending, UniswapV4  |   2 |   2 |   1 |   4 |  13 |   0 |
+| 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) | Lending, UniswapV4, Formal Verification |   2 |   2 |   1 |   4 |  13 |   0 |
 | 2025-08-11  | 2025-08-13 | REDACTED                                                                                  | TradFi, Cross-Chain, Payments |   1 |   1 |   2 |   0 |   1 |   5 |
 | 2025-08-11  | 2025-08-15 | REDACTED                                                                                  | UniswapV4           |   0 |   2 |   3 |   2 |   0 |   1 |
 | 2025-08-13  | 2025-08-15 | [World Liberty Financial](./reports/2025-09-05-cyfrin-wlf-v2.1.pdf)                       | Real-World Assets, Tokenization |   0 |   0 |   5 |   4 |   6 |   2 |
@@ -125,11 +125,11 @@
 | 2025-09-01  | 2025-09-19 | [Securitize DSToken Rebasing](./reports/2025-10-10-cyfrin-securitize-dstoken-rebasing-v2.1.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rebasing |   1 |   0 |  10 |  23 |  25 |  20 |
 | 2025-09-02  | 2025-09-09 | [Illuvium Staking V3](./reports/2025-10-21-cyfrin-illuvium-stakingv3-v2.0.pdf),           | Vault               |   0 |   0 |   0 |   7 |   8 |   1 |
 | 2025-09-08  | 2025-09-26 | REDACTED                                                                                  | Cross-Chain, Wormhole |   0 |   1 |   3 |   3 |   4 |   0 |
-| 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM |   0 |   1 |   4 |   5 |   8 |   6 |
+| 2025-09-09  | 2025-09-22 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) | UniswapV4, CLM/DEX/AMM, Formal Verification |   0 |   1 |   4 |   5 |   8 |   6 |
 | 2025-09-15  | 2025-09-19 | [Button Basis Trade](./reports/2025-09-25-cyfrin-button-basis-trade-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   1 |   1 |   7 |  10 |   1 |
 | 2025-09-22  | 2025-09-26 | [Securitize Bridge CCTPv2](./reports/2025-10-07-cyfrin-securitize-bridge-cctpv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
 | 2025-09-22  | 2025-10-01 | [Strata Tranches](./reports/2025-10-08-cyfrin-strata-tranches-v2.0.pdf)                   | Vault, Yield        |   1 |   2 |   6 |   5 |  12 |   2 |
-| 2025-09-22  | 2025-10-08 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) | Vault, Lending      |   4 |   2 |  12 |   5 |   9 |   1 |
+| 2025-09-22  | 2025-10-08 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) | Vault, Lending, Formal Verification |   4 |   2 |  12 |   5 |   9 |   1 |
 | 2025-10-02  | 2025-10-10 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   2 |   4 |   7 |   4 |   6 |   0 |
 | 2025-10-06  | 2025-10-10 | [Suzaku Validator](./reports/2025-10-10-cyfrin-suzaku-balancer-validator-v2.0.pdf)        | Liquid Staking      |   0 |   1 |   0 |   4 |   2 |   0 |
 | 2025-10-12  | 2025-10-15 | [VeeFriends](./reports/2025-10-15-cyfrin-veefriends-v2.0.pdf)                             | NFT                 |   0 |   0 |   0 |   2 |   1 |   1 |
@@ -141,15 +141,15 @@
 | 2025-10-20  | 2025-10-24 | REDACTED                                                                                  | Gaming, Wagering, Rust, Solana |   0 |   1 |   3 |   3 |   2 |   0 |
 | 2025-10-27  | 2025-10-29 | [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
 | 2025-10-27  | 2025-11-07 | REDACTED                                                                                  | DLT Consensus, Node client, Off-chain |   0 |   1 |   3 |   2 |   2 |   0 |
-| 2025-10-29  | 2025-12-01 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       | DEX/AMM, CLOB, Perpetuals, DAO, Rust, Solana |   0 |  20 |  37 |  18 |  24 |   0 |
+| 2025-10-29  | 2025-12-01 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       | DEX/AMM, CLOB, Perpetuals, DAO, Rust, Solana, Formal Verification |   0 |  20 |  37 |  18 |  24 |   0 |
 | 2025-10-29  | 2025-11-10 | [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 | Governance, DAO     |   0 |   0 |   0 |  11 |   5 |   5 |
 | 2025-10-30  | 2025-10-31 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   0 |   3 |   0 |
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
-| 2025-11-13  | 2025-11-21 | [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
-| 2025-11-17  | 2025-11-19 | [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
-| 2025-11-26  | 2025-11-28 | [Symbiotic KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf)      | Liquid Staking, Vault, Cryptography, BLS Signatures |   0 |   0 |   0 |   0 |   1 |   0 |
-| 2025-12-01  | 2025-12-03 | [Symbiotic BLS12-381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)            | Liquid Staking, Vault, Cryptography, BLS Signatures |   0 |   0 |   0 |   0 |   2 |   1 |
-|             | **Total**  |                                                                                           | _(145 reports)_ |  93 | 216 | 489 | 627 | 926 | 541 |
+| 2025-11-10  | 2025-11-28 | REDACTED                                                                                  | Trading, Gaming, GMXv2, Formal Verification |   0 |   3 |   6 |  21 |  20 |   6 |
+| 2025-11-13  | 2025-11-21 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
+| 2025-11-17  | 2025-11-19 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
+| 2025-11-26  | 2025-11-28 | Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] | Cryptography, BLS12381 |   0 |   0 |   0 |   0 |   3 |   1 |
+|             | **Total**  |                                                                                           | _(145 reports)_ |  93 | 219 | 495 | 648 | 946 | 547 |
 
 
 ## Legend
@@ -204,12 +204,10 @@
 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             |   0 |   0 |   0 |   2 |   3 |   2 |
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
-| [Sherpa](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                                     |   0 |   0 |   3 |   3 |   6 |   1 |
-| [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               |   0 |   0 |   1 |   0 |   1 |   1 |
-| [Symbiotic KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf)      |   0 |   0 |   0 |   0 |   1 |   0 |
-| [Symbiotic BLS12-381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)            |   0 |   0 |   0 |   0 |   2 |   1 |
-| **Total** _(39 reports)_                                                                  |  48 |  75 | 174 | 212 | 255 | 128 |
-| **Average Findings Per Audit**<br>* Crit/High 3.15<br>* Medium 4.46<br>* Low 5.44<br>* Info 6.54<br>* Gas 3.28 |
+| [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               |   0 |   0 |   3 |   3 |   6 |   1 |
+| [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
+| **Total** _(37 reports)_                                                                  |  48 |  75 | 174 | 212 | 252 | 127 |
+| **Average Findings Per Audit**<br>* Crit/High 3.32<br>* Medium 4.7<br>* Low 5.73<br>* Info 6.81<br>* Gas 3.43 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -248,7 +246,7 @@
 | REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
 | [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) |   0 |   0 |   3 |   3 |   6 |   4 |
 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
-| [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               |   0 |   0 |   1 |   0 |   1 |   1 |
+| [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
 | **Total** _(33 reports)_                                                                  |  21 |  28 | 106 | 167 | 221 | 145 |
 | **Average Findings Per Audit**<br>* Crit/High 1.48<br>* Medium 3.21<br>* Low 5.06<br>* Info 6.7<br>* Gas 4.39 |
 
@@ -308,13 +306,36 @@
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
-| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  |   0 |   0 |   0 |   6 |   9 |   0 |
 | REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
-| **Total** _(21 reports)_                                                                  |  12 |  72 | 124 | 112 | 183 |  86 |
-| **Average Findings Per Audit**<br>* Crit/High 4<br>* Medium 5.9<br>* Low 5.33<br>* Info 8.71<br>* Gas 4.1 |
+| **Total** _(20 reports)_                                                                  |  11 |  70 | 122 | 109 | 181 |  86 |
+| **Average Findings Per Audit**<br>* Crit/High 4.05<br>* Medium 6.1<br>* Low 5.45<br>* Info 9.05<br>* Gas 4.3 |
+
+
+## Perpetuals / Leverage / Lending / Borrowing
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
+| [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
+| [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       |   5 |   3 |  12 |  12 |   7 |  24 |
+| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
+| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
+| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
+| [D2](./reports/2025-02-24-cyfrin-d2-v2.1.pdf)                                             |   2 |   2 |   7 |   7 |   6 |   0 |
+| [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   |   0 |   0 |   0 |   2 |   8 |   9 |
+| [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
+| [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
+| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
+| REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
+| **Total** _(16 reports)_                                                                  |  23 |  56 | 112 | 123 | 132 |  67 |
+| **Average Findings Per Audit**<br>* Crit/High 4.94<br>* Medium 7<br>* Low 7.69<br>* Info 8.25<br>* Gas 4.19 |
 
 
 ## Liquid Staking
@@ -337,33 +358,8 @@
 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.1.pdf)                               |   0 |   0 |   3 |   2 |   5 |   3 |
 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        |   0 |   0 |   1 |   0 |   7 |   4 |
 | [Suzaku Validator](./reports/2025-10-10-cyfrin-suzaku-balancer-validator-v2.0.pdf)        |   0 |   1 |   0 |   4 |   2 |   0 |
-| [Symbiotic KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf)      |   0 |   0 |   0 |   0 |   1 |   0 |
-| [Symbiotic BLS12-381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)            |   0 |   0 |   0 |   0 |   2 |   1 |
-| **Total** _(18 reports)_                                                                  |  11 |  28 |  52 |  70 |  67 |  47 |
-| **Average Findings Per Audit**<br>* Crit/High 2.17<br>* Medium 2.89<br>* Low 3.89<br>* Info 3.72<br>* Gas 2.61 |
-
-
-## Perpetuals / Leverage / Lending / Borrowing
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
-| [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       |   5 |   3 |  12 |  12 |   7 |  24 |
-| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
-| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
-| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
-| [D2](./reports/2025-02-24-cyfrin-d2-v2.1.pdf)                                             |   2 |   2 |   7 |   7 |   6 |   0 |
-| [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   |   0 |   0 |   0 |   2 |   8 |   9 |
-| [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
-| [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
-| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
-| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
-| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
-| REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
-| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
-| **Total** _(15 reports)_                                                                  |  23 |  53 | 106 | 102 | 112 |  61 |
-| **Average Findings Per Audit**<br>* Crit/High 5.07<br>* Medium 7.07<br>* Low 6.8<br>* Info 7.47<br>* Gas 4.07 |
+| **Total** _(16 reports)_                                                                  |  11 |  28 |  52 |  70 |  64 |  46 |
+| **Average Findings Per Audit**<br>* Crit/High 2.44<br>* Medium 3.25<br>* Low 4.38<br>* Info 4<br>* Gas 2.88 |
 
 
 ## Chainlink Integration
@@ -485,9 +481,24 @@
 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
 | REDACTED                                                                                  |   1 |   0 |   4 |   3 |   5 |   2 |
 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
-| [Remora](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                               |   0 |   0 |   1 |   0 |   1 |   1 |
+| [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
 | **Total** _(7 reports)_                                                                   |  11 |  18 |  46 |  41 |  45 |  39 |
 | **Average Findings Per Audit**<br>* Crit/High 4.14<br>* Medium 6.57<br>* Low 5.86<br>* Info 6.43<br>* Gas 5.57 |
+
+
+## Gaming / Lottery
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
+| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
+| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
+| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
+| REDACTED                                                                                  |   3 |   5 |   9 |   7 |  14 |   8 |
+| REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
+| **Total** _(7 reports)_                                                                   |   6 |  12 |  23 |  39 |  57 |  50 |
+| **Average Findings Per Audit**<br>* Crit/High 2.57<br>* Medium 3.29<br>* Low 5.57<br>* Info 8.14<br>* Gas 7.14 |
 
 
 ## ERC4337 / Account Abstraction / Smart Wallet
@@ -505,18 +516,18 @@
 | **Average Findings Per Audit**<br>* Crit/High 0.86<br>* Medium 1.86<br>* Low 1.86<br>* Info 2.57<br>* Gas 1 |
 
 
-## Gaming / Lottery
+## Formal Verification
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
-| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
-| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
-| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
-| REDACTED                                                                                  |   3 |   5 |   9 |   7 |  14 |   8 |
-| REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
-| **Total** _(6 reports)_                                                                   |   6 |   9 |  17 |  18 |  37 |  44 |
-| **Average Findings Per Audit**<br>* Crit/High 2.5<br>* Medium 2.83<br>* Low 3<br>* Info 6.17<br>* Gas 7.33 |
+| REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
+| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf)                       |   0 |  20 |  37 |  18 |  24 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
+| **Total** _(6 reports)_                                                                   |  12 |  41 |  71 |  68 | 103 |  39 |
+| **Average Findings Per Audit**<br>* Crit/High 8.83<br>* Medium 11.83<br>* Low 11.33<br>* Info 17.17<br>* Gas 6.5 |
 
 
 ## Staking
