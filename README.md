@@ -133,6 +133,7 @@
 | 2025-09-22  | 2025-10-08 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) | Vault, Lending, Formal Verification |   4 |   2 |  12 |   5 |   9 |   1 |
 | 2025-10-02  | 2025-10-10 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   2 |   4 |   7 |   4 |   6 |   0 |
 | 2025-10-06  | 2025-10-10 | [Suzaku Validator](./reports/2025-10-10-cyfrin-suzaku-balancer-validator-v2.0.pdf)        | Liquid Staking      |   0 |   1 |   0 |   4 |   2 |   0 |
+| 2025-10-06  | 2025-11-14 | REDACTED                                                                                  | L2, Cross-Chain     |   0 |   0 |   2 |   7 |   6 |   0 |
 | 2025-10-12  | 2025-10-15 | [VeeFriends](./reports/2025-10-15-cyfrin-veefriends-v2.0.pdf)                             | NFT                 |   0 |   0 |   0 |   2 |   1 |   1 |
 | 2025-10-13  | 2025-10-14 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             | Vault, Hyperliquid  |   0 |   0 |   0 |   2 |   3 |   2 |
 | 2025-10-13  | 2025-10-16 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Staking |   6 |   2 |   3 |   4 |   4 |   2 |
@@ -154,7 +155,7 @@
 | 2025-11-27  | 2025-11-28 | REDACTED                                                                                  | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
 | 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
 | 2025-12-01  | 2025-12-10 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
-|             | **Total**  |                                                                                           | _(150 reports)_ |  96 | 231 | 518 | 698 | 991 | 570 |
+|             | **Total**  |                                                                                           | _(151 reports)_ |  96 | 231 | 520 | 705 | 997 | 570 |
 
 
 ## Legend
@@ -291,9 +292,10 @@
 | REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
 | REDACTED                                                                                  |   0 |   1 |   3 |   3 |   4 |   0 |
 | [Securitize Bridge CCTPv2](./reports/2025-10-07-cyfrin-securitize-bridge-cctpv2-v2.0.pdf) |   0 |   0 |   4 |   4 |  15 |   9 |
+| REDACTED                                                                                  |   0 |   0 |   2 |   7 |   6 |   0 |
 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   |   0 |   0 |   0 |   1 |  10 |   2 |
-| **Total** _(27 reports)_                                                                  |   7 |  20 |  58 |  89 | 169 |  81 |
-| **Average Findings Per Audit**<br>* Crit/High 1<br>* Medium 2.15<br>* Low 3.3<br>* Info 6.26<br>* Gas 3 |
+| **Total** _(28 reports)_                                                                  |   7 |  20 |  60 |  96 | 175 |  81 |
+| **Average Findings Per Audit**<br>* Crit/High 0.96<br>* Medium 2.14<br>* Low 3.43<br>* Info 6.25<br>* Gas 2.89 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
