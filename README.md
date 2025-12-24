@@ -86,6 +86,7 @@
 | 2025-05-05  | 2025-05-09 | [Stake.Link Polygon Staking](./reports/2025-05-19-cyfrin-stakedotlink-polygon-staking-v2.0.pdf) | Liquid Staking, Chainlink |   0 |   0 |   2 |   4 |   8 |   2 |
 | 2025-05-12  | 2025-05-19 | [Securitize Solana Vault](./reports/2025-05-23-cyfrin-securitize-solana-vault-v2.0.pdf)   | TradFi, Real-World Assets, Vault, Yield, Rust, Solana |   0 |   1 |   1 |   5 |   3 |   0 |
 | 2025-05-12  | 2025-05-13 | [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   | DAO, Timelock       |   0 |   0 |   0 |   4 |   4 |   1 |
+| 2025-05-13  | 2025-05-15 | REDACTED                                                                                  | Move, Aptos, Oracle |   0 |   0 |   1 |   3 |   8 |   0 |
 | 2025-05-14  | 2025-05-23 | REDACTED                                                                                  | Crowdfunding        |   1 |   1 |   2 |  15 |  13 |  16 |
 | 2025-05-20  | 2025-06-09 | [Suzaku Core](./reports/2025-07-07-cyfrin-suzaku-core-v2.0.pdf)                           | Liquid Staking, Vault |   2 |  10 |  19 |  13 |   1 |   6 |
 | 2025-05-26  | 2025-05-27 | [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        | Vault, Yield, Chainlink CCIP, LayerZero |   0 |   0 |   0 |   1 |   3 |   1 |
@@ -153,7 +154,7 @@
 | 2025-11-27  | 2025-11-28 | REDACTED                                                                                  | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
 | 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
 | 2025-12-01  | 2025-12-10 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
-|             | **Total**  |                                                                                           | _(149 reports)_ |  96 | 231 | 517 | 695 | 983 | 570 |
+|             | **Total**  |                                                                                           | _(150 reports)_ |  96 | 231 | 518 | 698 | 991 | 570 |
 
 
 ## Legend
