@@ -148,11 +148,12 @@
 | 2025-11-10  | 2025-11-28 | REDACTED                                                                                  | Trading, Gaming, GMXv2, Formal Verification |   0 |   3 |   6 |  21 |  20 |   6 |
 | 2025-11-13  | 2025-11-21 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
 | 2025-11-17  | 2025-11-19 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
+| 2025-11-24  | 2025-12-05 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets |   2 |   5 |   6 |   7 |   9 |   0 |
 | 2025-11-26  | 2025-11-28 | Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] | Cryptography, BLS12381 |   0 |   0 |   0 |   0 |   3 |   1 |
 | 2025-11-27  | 2025-11-28 | REDACTED                                                                                  | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
 | 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
 | 2025-12-01  | 2025-12-10 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
-|             | **Total**  |                                                                                           | _(148 reports)_ |  94 | 226 | 511 | 688 | 974 | 570 |
+|             | **Total**  |                                                                                           | _(149 reports)_ |  96 | 231 | 517 | 695 | 983 | 570 |
 
 
 ## Legend
@@ -209,9 +210,10 @@
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               |   0 |   0 |   3 |   3 |   6 |   1 |
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
+| REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
-| **Total** _(38 reports)_                                                                  |  49 |  82 | 183 | 234 | 259 | 132 |
-| **Average Findings Per Audit**<br>* Crit/High 3.45<br>* Medium 4.82<br>* Low 6.16<br>* Info 6.82<br>* Gas 3.47 |
+| **Total** _(39 reports)_                                                                  |  51 |  87 | 189 | 241 | 268 | 132 |
+| **Average Findings Per Audit**<br>* Crit/High 3.54<br>* Medium 4.85<br>* Low 6.18<br>* Info 6.87<br>* Gas 3.38 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -251,10 +253,11 @@
 | [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) |   0 |   0 |   3 |   3 |   6 |   4 |
 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
+| REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
 | REDACTED                                                                                  |   0 |   0 |   4 |  14 |  10 |  13 |
-| **Total** _(35 reports)_                                                                  |  22 |  35 | 119 | 203 | 238 | 163 |
-| **Average Findings Per Audit**<br>* Crit/High 1.63<br>* Medium 3.4<br>* Low 5.8<br>* Info 6.8<br>* Gas 4.66 |
+| **Total** _(36 reports)_                                                                  |  24 |  40 | 125 | 210 | 247 | 163 |
+| **Average Findings Per Audit**<br>* Crit/High 1.78<br>* Medium 3.47<br>* Low 5.83<br>* Info 6.86<br>* Gas 4.53 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -405,8 +408,9 @@
 | [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
-| **Total** _(10 reports)_                                                                  |  15 |  22 |  39 |  62 | 109 |  41 |
-| **Average Findings Per Audit**<br>* Crit/High 3.7<br>* Medium 3.9<br>* Low 6.2<br>* Info 10.9<br>* Gas 4.1 |
+| REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
+| **Total** _(11 reports)_                                                                  |  17 |  27 |  45 |  69 | 118 |  41 |
+| **Average Findings Per Audit**<br>* Crit/High 4<br>* Medium 4.09<br>* Low 6.27<br>* Info 10.73<br>* Gas 3.73 |
 
 
 ## NFT
