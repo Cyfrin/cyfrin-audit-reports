@@ -152,7 +152,7 @@
 | 2025-11-17  | 2025-11-19 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
 | 2025-11-24  | 2025-12-05 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets |   2 |   5 |   6 |   7 |   9 |   0 |
 | 2025-11-26  | 2025-11-28 | Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] | Cryptography, BLS12381 |   0 |   0 |   0 |   0 |   3 |   1 |
-| 2025-11-27  | 2025-11-28 | REDACTED                                                                                  | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
+| 2025-11-27  | 2025-11-28 | [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
 | 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
 | 2025-12-01  | 2025-12-10 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
 |             | **Total**  |                                                                                           | _(151 reports)_ |  96 | 231 | 520 | 705 | 997 | 570 |
@@ -496,7 +496,7 @@
 | REDACTED                                                                                  |   3 |   5 |   9 |   7 |  14 |   8 |
 | REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
 | REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
-| REDACTED                                                                                  |   0 |   0 |   3 |   4 |  11 |   5 |
+| [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             |   0 |   0 |   3 |   4 |  11 |   5 |
 | **Total** _(8 reports)_                                                                   |   6 |  12 |  26 |  43 |  68 |  55 |
 | **Average Findings Per Audit**<br>* Crit/High 2.25<br>* Medium 3.25<br>* Low 5.38<br>* Info 8.5<br>* Gas 6.88 |
 
