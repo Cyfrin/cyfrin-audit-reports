@@ -154,7 +154,7 @@
 | 2025-11-26  | 2025-11-28 | Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] | Cryptography, BLS12381 |   0 |   0 |   0 |   0 |   3 |   1 |
 | 2025-11-27  | 2025-11-28 | [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
 | 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
-| 2025-12-01  | 2025-12-10 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
+| 2025-12-01  | 2025-12-10 | [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
 |             | **Total**  |                                                                                           | _(151 reports)_ |  96 | 231 | 520 | 705 | 997 | 570 |
 
 
@@ -257,7 +257,7 @@
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
-| REDACTED                                                                                  |   0 |   0 |   4 |  14 |  10 |  13 |
+| [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) |   0 |   0 |   4 |  14 |  10 |  13 |
 | **Total** _(36 reports)_                                                                  |  24 |  40 | 125 | 210 | 247 | 163 |
 | **Average Findings Per Audit**<br>* Crit/High 1.78<br>* Medium 3.47<br>* Low 5.83<br>* Info 6.86<br>* Gas 4.53 |
 
@@ -322,7 +322,7 @@
 | REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
-| REDACTED                                                                                  |   0 |   0 |   4 |  14 |  10 |  13 |
+| [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) |   0 |   0 |   4 |  14 |  10 |  13 |
 | **Total** _(21 reports)_                                                                  |  11 |  70 | 126 | 123 | 191 |  99 |
 | **Average Findings Per Audit**<br>* Crit/High 3.86<br>* Medium 6<br>* Low 5.86<br>* Info 9.1<br>* Gas 4.71 |
 
