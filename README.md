@@ -155,7 +155,8 @@
 | 2025-11-27  | 2025-11-28 | [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
 | 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
 | 2025-12-01  | 2025-12-10 | [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
-|             | **Total**  |                                                                                           | _(151 reports)_ |  96 | 231 | 520 | 705 | 997 | 570 |
+| 2025-12-29  | 2026-01-08 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 | Vault, Yield, Stablecoin |   0 |   0 |   0 |   3 |   9 |   0 |
+|             | **Total**  |                                                                                           | _(152 reports)_ |  96 | 231 | 520 | 708 | 1006 | 570 |
 
 
 ## Legend
@@ -214,8 +215,9 @@
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
-| **Total** _(39 reports)_                                                                  |  51 |  87 | 189 | 241 | 268 | 132 |
-| **Average Findings Per Audit**<br>* Crit/High 3.54<br>* Medium 4.85<br>* Low 6.18<br>* Info 6.87<br>* Gas 3.38 |
+| [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
+| **Total** _(40 reports)_                                                                  |  51 |  87 | 189 | 244 | 277 | 132 |
+| **Average Findings Per Audit**<br>* Crit/High 3.45<br>* Medium 4.72<br>* Low 6.1<br>* Info 6.92<br>* Gas 3.3 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -412,8 +414,9 @@
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
-| **Total** _(11 reports)_                                                                  |  17 |  27 |  45 |  69 | 118 |  41 |
-| **Average Findings Per Audit**<br>* Crit/High 4<br>* Medium 4.09<br>* Low 6.27<br>* Info 10.73<br>* Gas 3.73 |
+| [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
+| **Total** _(12 reports)_                                                                  |  17 |  27 |  45 |  72 | 127 |  41 |
+| **Average Findings Per Audit**<br>* Crit/High 3.67<br>* Medium 3.75<br>* Low 6<br>* Info 10.58<br>* Gas 3.42 |
 
 
 ## NFT
