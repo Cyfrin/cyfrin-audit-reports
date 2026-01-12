@@ -150,13 +150,15 @@
 | 2025-11-10  | 2025-11-28 | REDACTED                                                                                  | Trading, Gaming, GMXv2, Formal Verification |   0 |   3 |   6 |  21 |  20 |   6 |
 | 2025-11-13  | 2025-11-21 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
 | 2025-11-17  | 2025-11-19 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   0 |   0 |   1 |   0 |   1 |   1 |
+| 2025-11-20  | 2025-11-21 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   5 |   1 |   3 |
 | 2025-11-24  | 2025-12-05 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets |   2 |   5 |   6 |   7 |   9 |   0 |
 | 2025-11-26  | 2025-11-28 | Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] | Cryptography, BLS12381 |   0 |   0 |   0 |   0 |   3 |   1 |
 | 2025-11-27  | 2025-11-28 | [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
 | 2025-11-28  | 2025-12-12 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Yield |   1 |   7 |   9 |  22 |   7 |   5 |
 | 2025-12-01  | 2025-12-10 | [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
+| 2025-12-01  | 2025-12-15 | REDACTED                                                                                  | Cross-Chain, Bridge, Chainlink CRE, Messaging Middleware |   2 |  14 |  21 |   8 |   6 |   0 |
 | 2025-12-29  | 2026-01-08 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 | Vault, Yield, Stablecoin |   0 |   0 |   0 |   3 |   9 |   0 |
-|             | **Total**  |                                                                                           | _(152 reports)_ |  96 | 231 | 520 | 708 | 1006 | 570 |
+|             | **Total**  |                                                                                           | _(154 reports)_ |  98 | 245 | 541 | 721 | 1013 | 573 |
 
 
 ## Legend
@@ -257,11 +259,12 @@
 | [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) |   0 |   0 |   3 |   3 |   6 |   4 |
 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
+| REDACTED                                                                                  |   0 |   0 |   0 |   5 |   1 |   3 |
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
 | [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) |   0 |   0 |   4 |  14 |  10 |  13 |
-| **Total** _(36 reports)_                                                                  |  24 |  40 | 125 | 210 | 247 | 163 |
-| **Average Findings Per Audit**<br>* Crit/High 1.78<br>* Medium 3.47<br>* Low 5.83<br>* Info 6.86<br>* Gas 4.53 |
+| **Total** _(37 reports)_                                                                  |  24 |  40 | 125 | 215 | 248 | 166 |
+| **Average Findings Per Audit**<br>* Crit/High 1.73<br>* Medium 3.38<br>* Low 5.81<br>* Info 6.7<br>* Gas 4.49 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -296,8 +299,9 @@
 | [Securitize Bridge CCTPv2](./reports/2025-10-07-cyfrin-securitize-bridge-cctpv2-v2.0.pdf) |   0 |   0 |   4 |   4 |  15 |   9 |
 | REDACTED                                                                                  |   0 |   0 |   2 |   7 |   6 |   0 |
 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   |   0 |   0 |   0 |   1 |  10 |   2 |
-| **Total** _(28 reports)_                                                                  |   7 |  20 |  60 |  96 | 175 |  81 |
-| **Average Findings Per Audit**<br>* Crit/High 0.96<br>* Medium 2.14<br>* Low 3.43<br>* Info 6.25<br>* Gas 2.89 |
+| REDACTED                                                                                  |   2 |  14 |  21 |   8 |   6 |   0 |
+| **Total** _(29 reports)_                                                                  |   9 |  34 |  81 | 104 | 181 |  81 |
+| **Average Findings Per Audit**<br>* Crit/High 1.48<br>* Medium 2.79<br>* Low 3.59<br>* Info 6.24<br>* Gas 2.79 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -395,8 +399,9 @@
 | [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
-| **Total** _(14 reports)_                                                                  |   8 |  12 |  25 |  39 |  69 |  55 |
-| **Average Findings Per Audit**<br>* Crit/High 1.43<br>* Medium 1.79<br>* Low 2.79<br>* Info 4.93<br>* Gas 3.93 |
+| REDACTED                                                                                  |   2 |  14 |  21 |   8 |   6 |   0 |
+| **Total** _(15 reports)_                                                                  |  10 |  26 |  46 |  47 |  75 |  55 |
+| **Average Findings Per Audit**<br>* Crit/High 2.4<br>* Medium 3.07<br>* Low 3.13<br>* Info 5<br>* Gas 3.67 |
 
 
 ## Stablecoin
