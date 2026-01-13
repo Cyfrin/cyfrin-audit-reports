@@ -159,7 +159,8 @@
 | 2025-12-01  | 2025-12-19 | REDACTED                                                                                  | Cross-Chain, Bridge, Chainlink CRE, Messaging Middleware |   2 |  14 |  21 |   8 |   6 |   0 |
 | 2025-12-01  | 2025-12-19 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 | L2, Staking, DAO, Vault |   2 |   6 |   8 |   8 |   9 |   0 |
 | 2025-12-29  | 2026-01-08 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 | Vault, Yield, Stablecoin |   0 |   0 |   0 |   3 |   9 |   0 |
-|             | **Total**  |                                                                                           | _(155 reports)_ | 100 | 251 | 549 | 729 | 1022 | 573 |
+| 2026-01-05  | 2026-01-09 | [Safe Harbor](./reports/2026-01-13-cyfrin-safe-harbor-v2.0.pdf)                           | Legal Framework     |   0 |   0 |   1 |   4 |   4 |   3 |
+|             | **Total**  |                                                                                           | _(156 reports)_ | 100 | 251 | 550 | 733 | 1026 | 576 |
 
 
 ## Legend
