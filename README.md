@@ -158,9 +158,10 @@
 | 2025-12-01  | 2025-12-10 | [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
 | 2025-12-01  | 2025-12-19 | REDACTED                                                                                  | Cross-Chain, Bridge, Chainlink CRE, Messaging Middleware |   2 |  14 |  21 |   8 |   6 |   0 |
 | 2025-12-01  | 2025-12-19 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 | L2, Staking, DAO, Vault |   2 |   6 |   8 |   8 |   9 |   0 |
+| 2025-12-15  | 2025-12-19 | [Lido Earn](./reports/2025-12-19-cyfrin-lido-earn-v2.0.pdf)                               | Lido, Vault         |   0 |   0 |   0 |   5 |   6 |   2 |
 | 2025-12-29  | 2026-01-08 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 | Vault, Yield, Stablecoin |   0 |   0 |   0 |   3 |   9 |   0 |
 | 2026-01-05  | 2026-01-09 | [Safe Harbor](./reports/2026-01-13-cyfrin-safe-harbor-v2.0.pdf)                           | Legal Framework     |   0 |   0 |   1 |   4 |   4 |   3 |
-|             | **Total**  |                                                                                           | _(156 reports)_ | 100 | 251 | 550 | 733 | 1026 | 576 |
+|             | **Total**  |                                                                                           | _(157 reports)_ | 100 | 251 | 550 | 738 | 1032 | 578 |
 
 
 ## Legend
@@ -220,9 +221,10 @@
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
+| [Lido Earn](./reports/2025-12-19-cyfrin-lido-earn-v2.0.pdf)                               |   0 |   0 |   0 |   5 |   6 |   2 |
 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
-| **Total** _(41 reports)_                                                                  |  53 |  93 | 197 | 252 | 286 | 132 |
-| **Average Findings Per Audit**<br>* Crit/High 3.56<br>* Medium 4.8<br>* Low 6.15<br>* Info 6.98<br>* Gas 3.22 |
+| **Total** _(42 reports)_                                                                  |  53 |  93 | 197 | 257 | 292 | 134 |
+| **Average Findings Per Audit**<br>* Crit/High 3.48<br>* Medium 4.69<br>* Low 6.12<br>* Info 6.95<br>* Gas 3.19 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
