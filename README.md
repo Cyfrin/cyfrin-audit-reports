@@ -102,7 +102,7 @@
 | 2025-07-07  | 2025-07-14 | [Securitize On-Off Ramp & Bridge](./reports/2025-07-23-cyfrin-securitize-onofframp-bridge-v2.1.pdf) | TradFi, Real-World Assets, Cross-Chain, Wormhole, Circle CCTPv1 |   1 |   0 |   4 |   9 |  10 |   0 |
 | 2025-07-07  | 2025-07-11 | REDACTED                                                                                  | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   1 |   1 |   4 |   6 |   5 |
 | 2025-07-11  | 2025-07-14 | [Bunni Fee Override Hooklet](./reports/2025-07-19-cyfrin-bunni-fee-override-hooklet-v2.0.pdf) | UniswapV4           |   0 |   0 |   1 |   1 |   4 |   0 |
-| 2025-07-14  | 2025-07-21 | REDACTED                                                                                  | Gaming              |   3 |   5 |   9 |   7 |  14 |   8 |
+| 2025-07-14  | 2025-07-21 | [Majority](./reports/2026-01-27-cyfrin-majority-protocol-v2.0.pdf)                        | Gaming              |   3 |   5 |   9 |   7 |  14 |   8 |
 | 2025-07-15  | 2025-07-24 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  | Prediction Market, AMM |   0 |   0 |   0 |   6 |   9 |   0 |
 | 2025-07-15  | 2025-08-04 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.1.pdf)                               | Liquid Staking, Vault |   0 |   0 |   3 |   2 |   5 |   3 |
 | 2025-07-21  | 2025-08-08 | REDACTED                                                                                  | CLM/DEX/AMM, Concentrated Liquidity Manager, Vault, UniswapV4, Formal Verification |   6 |  13 |  11 |  15 |  29 |  26 |
@@ -509,7 +509,7 @@
 | [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
-| REDACTED                                                                                  |   3 |   5 |   9 |   7 |  14 |   8 |
+| [Majority](./reports/2026-01-27-cyfrin-majority-protocol-v2.0.pdf)                        |   3 |   5 |   9 |   7 |  14 |   8 |
 | REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
 | REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
 | [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             |   0 |   0 |   3 |   4 |  11 |   5 |
