@@ -162,7 +162,9 @@
 | 2025-12-29  | 2026-01-08 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 | Vault, Yield, Stablecoin |   0 |   0 |   0 |   3 |   9 |   0 |
 | 2026-01-05  | 2026-01-09 | [Safe Harbor](./reports/2026-01-13-cyfrin-safe-harbor-v2.0.pdf)                           | Legal Framework     |   0 |   0 |   1 |   4 |   4 |   3 |
 | 2026-01-09  | 2026-01-13 | [Story IP Derivative Agent](./reports/2026-01-15-cyfrin-story-ip-derivative-agent-v2.1.pdf) | Wrapper             |   0 |   0 |   0 |   1 |   3 |   1 |
-|             | **Total**  |                                                                                           | _(158 reports)_ | 100 | 251 | 550 | 739 | 1035 | 579 |
+| 2026-01-19  | 2026-01-23 | [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           | Vault, Lending      |   0 |   0 |   0 |   5 |   7 |   5 |
+| 2026-01-26  | 2026-01-30 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 | Vault, Lending      |   0 |   0 |   5 |   6 |   4 |   7 |
+|             | **Total**  |                                                                                           | _(160 reports)_ | 100 | 251 | 555 | 750 | 1046 | 591 |
 
 
 ## Legend
@@ -224,8 +226,10 @@
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
 | [Lido Earn](./reports/2025-12-19-cyfrin-lido-earn-v2.0.pdf)                               |   0 |   0 |   0 |   5 |   6 |   2 |
 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
-| **Total** _(42 reports)_                                                                  |  53 |  93 | 197 | 257 | 292 | 134 |
-| **Average Findings Per Audit**<br>* Crit/High 3.48<br>* Medium 4.69<br>* Low 6.12<br>* Info 6.95<br>* Gas 3.19 |
+| [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           |   0 |   0 |   0 |   5 |   7 |   5 |
+| [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
+| **Total** _(44 reports)_                                                                  |  53 |  93 | 202 | 268 | 303 | 146 |
+| **Average Findings Per Audit**<br>* Crit/High 3.32<br>* Medium 4.59<br>* Low 6.09<br>* Info 6.89<br>* Gas 3.32 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -360,8 +364,10 @@
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
 | REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
-| **Total** _(16 reports)_                                                                  |  23 |  56 | 112 | 123 | 132 |  67 |
-| **Average Findings Per Audit**<br>* Crit/High 4.94<br>* Medium 7<br>* Low 7.69<br>* Info 8.25<br>* Gas 4.19 |
+| [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           |   0 |   0 |   0 |   5 |   7 |   5 |
+| [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
+| **Total** _(18 reports)_                                                                  |  23 |  56 | 117 | 134 | 143 |  79 |
+| **Average Findings Per Audit**<br>* Crit/High 4.39<br>* Medium 6.5<br>* Low 7.44<br>* Info 7.94<br>* Gas 4.39 |
 
 
 ## Liquid Staking
