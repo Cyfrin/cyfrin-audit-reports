@@ -162,9 +162,12 @@
 | 2025-12-29  | 2026-01-08 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 | Vault, Yield, Stablecoin |   0 |   0 |   0 |   3 |   9 |   0 |
 | 2026-01-05  | 2026-01-09 | [Safe Harbor](./reports/2026-01-13-cyfrin-safe-harbor-v2.0.pdf)                           | Legal Framework     |   0 |   0 |   1 |   4 |   4 |   3 |
 | 2026-01-09  | 2026-01-13 | [Story IP Derivative Agent](./reports/2026-01-15-cyfrin-story-ip-derivative-agent-v2.1.pdf) | Wrapper             |   0 |   0 |   0 |   1 |   3 |   1 |
+| 2026-01-09  | 2026-01-15 | REDACTED                                                                                  | Vault, Yield        |   0 |   0 |   6 |   3 |  10 |   2 |
 | 2026-01-19  | 2026-01-23 | [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           | Vault, Lending      |   0 |   0 |   0 |   5 |   7 |   5 |
+| 2026-01-19  | 2025-01-22 | REDACTED [EVM, Sui]                                                                       | Real-World Assets, Commodities Tokenization, LayerZero, Chainlink CCIP, Sui, Move |   0 |   0 |   0 |   6 |  23 |   3 |
+| 2026-01-21  | 2026-01-30 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Rust, Stellar |   2 |   5 |   3 |   6 |   4 |   1 |
 | 2026-01-26  | 2026-01-30 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 | Vault, Lending      |   0 |   0 |   5 |   6 |   4 |   7 |
-|             | **Total**  |                                                                                           | _(160 reports)_ | 100 | 251 | 555 | 750 | 1046 | 591 |
+|             | **Total**  |                                                                                           | _(163 reports)_ | 102 | 256 | 564 | 765 | 1083 | 597 |
 
 
 ## Legend
@@ -226,10 +229,12 @@
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
 | [Lido Earn](./reports/2025-12-19-cyfrin-lido-earn-v2.0.pdf)                               |   0 |   0 |   0 |   5 |   6 |   2 |
 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
+| REDACTED                                                                                  |   0 |   0 |   6 |   3 |  10 |   2 |
 | [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           |   0 |   0 |   0 |   5 |   7 |   5 |
+| REDACTED                                                                                  |   2 |   5 |   3 |   6 |   4 |   1 |
 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
-| **Total** _(44 reports)_                                                                  |  53 |  93 | 202 | 268 | 303 | 146 |
-| **Average Findings Per Audit**<br>* Crit/High 3.32<br>* Medium 4.59<br>* Low 6.09<br>* Info 6.89<br>* Gas 3.32 |
+| **Total** _(46 reports)_                                                                  |  55 |  98 | 211 | 277 | 317 | 149 |
+| **Average Findings Per Audit**<br>* Crit/High 3.33<br>* Medium 4.59<br>* Low 6.02<br>* Info 6.89<br>* Gas 3.24 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -273,8 +278,10 @@
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | REDACTED                                                                                  |   1 |   7 |   9 |  22 |   7 |   5 |
 | [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) |   0 |   0 |   4 |  14 |  10 |  13 |
-| **Total** _(37 reports)_                                                                  |  24 |  40 | 125 | 215 | 248 | 166 |
-| **Average Findings Per Audit**<br>* Crit/High 1.73<br>* Medium 3.38<br>* Low 5.81<br>* Info 6.7<br>* Gas 4.49 |
+| REDACTED [EVM, Sui]                                                                       |   0 |   0 |   0 |   6 |  23 |   3 |
+| REDACTED                                                                                  |   2 |   5 |   3 |   6 |   4 |   1 |
+| **Total** _(39 reports)_                                                                  |  26 |  45 | 128 | 227 | 275 | 170 |
+| **Average Findings Per Audit**<br>* Crit/High 1.82<br>* Medium 3.28<br>* Low 5.82<br>* Info 7.05<br>* Gas 4.36 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -311,8 +318,9 @@
 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   |   0 |   0 |   0 |   1 |  10 |   2 |
 | REDACTED                                                                                  |   2 |  14 |  21 |   8 |   6 |   0 |
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
-| **Total** _(30 reports)_                                                                  |  11 |  40 |  89 | 112 | 190 |  81 |
-| **Average Findings Per Audit**<br>* Crit/High 1.7<br>* Medium 2.97<br>* Low 3.73<br>* Info 6.33<br>* Gas 2.7 |
+| REDACTED [EVM, Sui]                                                                       |   0 |   0 |   0 |   6 |  23 |   3 |
+| **Total** _(31 reports)_                                                                  |  11 |  40 |  89 | 118 | 213 |  84 |
+| **Average Findings Per Audit**<br>* Crit/High 1.65<br>* Medium 2.87<br>* Low 3.81<br>* Info 6.87<br>* Gas 2.71 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -413,8 +421,9 @@
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
 | [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
 | REDACTED                                                                                  |   2 |  14 |  21 |   8 |   6 |   0 |
-| **Total** _(15 reports)_                                                                  |  10 |  26 |  46 |  47 |  75 |  55 |
-| **Average Findings Per Audit**<br>* Crit/High 2.4<br>* Medium 3.07<br>* Low 3.13<br>* Info 5<br>* Gas 3.67 |
+| REDACTED [EVM, Sui]                                                                       |   0 |   0 |   0 |   6 |  23 |   3 |
+| **Total** _(16 reports)_                                                                  |  10 |  26 |  46 |  53 |  98 |  58 |
+| **Average Findings Per Audit**<br>* Crit/High 2.25<br>* Medium 2.88<br>* Low 3.31<br>* Info 6.12<br>* Gas 3.62 |
 
 
 ## Stablecoin
@@ -433,8 +442,9 @@
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
-| **Total** _(12 reports)_                                                                  |  17 |  27 |  45 |  72 | 127 |  41 |
-| **Average Findings Per Audit**<br>* Crit/High 3.67<br>* Medium 3.75<br>* Low 6<br>* Info 10.58<br>* Gas 3.42 |
+| REDACTED                                                                                  |   2 |   5 |   3 |   6 |   4 |   1 |
+| **Total** _(13 reports)_                                                                  |  19 |  32 |  48 |  78 | 131 |  42 |
+| **Average Findings Per Audit**<br>* Crit/High 3.92<br>* Medium 3.69<br>* Low 6<br>* Info 10.08<br>* Gas 3.23 |
 
 
 ## DAO
