@@ -167,7 +167,8 @@
 | 2026-01-19  | 2025-01-22 | REDACTED [EVM, Sui]                                                                       | Real-World Assets, Commodities Tokenization, LayerZero, Chainlink CCIP, Sui, Move |   0 |   0 |   0 |   6 |  23 |   3 |
 | 2026-01-21  | 2026-01-30 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Rust, Stellar |   2 |   5 |   3 |   6 |   4 |   1 |
 | 2026-01-26  | 2026-01-30 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 | Vault, Lending      |   0 |   0 |   5 |   6 |   4 |   7 |
-|             | **Total**  |                                                                                           | _(163 reports)_ | 102 | 256 | 564 | 765 | 1083 | 597 |
+| 2026-01-26  | 2026-01-28 | REDACTED                                                                                  | Vault, Yield, Pendle PT |   0 |   1 |   4 |   7 |   1 |   0 |
+|             | **Total**  |                                                                                           | _(164 reports)_ | 102 | 257 | 568 | 772 | 1084 | 597 |
 
 
 ## Legend
@@ -233,8 +234,9 @@
 | [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           |   0 |   0 |   0 |   5 |   7 |   5 |
 | REDACTED                                                                                  |   2 |   5 |   3 |   6 |   4 |   1 |
 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
-| **Total** _(46 reports)_                                                                  |  55 |  98 | 211 | 277 | 317 | 149 |
-| **Average Findings Per Audit**<br>* Crit/High 3.33<br>* Medium 4.59<br>* Low 6.02<br>* Info 6.89<br>* Gas 3.24 |
+| REDACTED                                                                                  |   0 |   1 |   4 |   7 |   1 |   0 |
+| **Total** _(47 reports)_                                                                  |  55 |  99 | 215 | 284 | 318 | 149 |
+| **Average Findings Per Audit**<br>* Crit/High 3.28<br>* Medium 4.57<br>* Low 6.04<br>* Info 6.77<br>* Gas 3.17 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
