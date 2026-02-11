@@ -166,7 +166,7 @@
 | 2026-01-19  | 2026-01-23 | [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           | Vault, Lending      |   0 |   0 |   0 |   5 |   7 |   5 |
 | 2026-01-19  | 2025-01-22 | REDACTED [EVM, Sui]                                                                       | Real-World Assets, Commodities Tokenization, LayerZero, Chainlink CCIP, Sui, Move |   0 |   0 |   0 |   6 |  23 |   3 |
 | 2026-01-21  | 2026-01-30 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Rust, Stellar |   2 |   5 |   3 |   6 |   4 |   1 |
-| 2026-01-21  | 2026-01-27 | [Predict.Fun](./reports/2026-01-27-cyfrin-predict-dot-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) | Prediction Market, Venus |   0 |   0 |   1 |   1 |   3 |   0 |
+| 2026-01-21  | 2026-01-27 | [Predict.Fun](./reports/2026-01-27-cyfrin-predict-dot-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) | Prediction Market, Venus, Formal Verification |   0 |   0 |   1 |   1 |   3 |   0 |
 | 2026-01-26  | 2026-01-30 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 | Vault, Lending      |   0 |   0 |   5 |   6 |   4 |   7 |
 | 2026-01-26  | 2026-01-28 | REDACTED                                                                                  | Vault, Yield, Pendle PT |   0 |   1 |   4 |   7 |   1 |   0 |
 |             | **Total**  |                                                                                           | _(165 reports)_ | 102 | 257 | 569 | 773 | 1087 | 597 |
@@ -536,6 +536,21 @@
 | **Average Findings Per Audit**<br>* Crit/High 2.25<br>* Medium 3.25<br>* Low 5.38<br>* Info 8.5<br>* Gas 6.88 |
 
 
+## Formal Verification
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
+| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
+| [Predict.Fun](./reports/2026-01-27-cyfrin-predict-dot-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   3 |   0 |
+| **Total** _(7 reports)_                                                                   |  12 |  41 |  72 |  69 | 106 |  39 |
+| **Average Findings Per Audit**<br>* Crit/High 7.57<br>* Medium 10.29<br>* Low 9.86<br>* Info 15.14<br>* Gas 5.57 |
+
+
 ## Token Sale / Crowd Funding
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -564,20 +579,6 @@
 | REDACTED                                                                                  |   0 |   3 |   2 |   2 |   2 |   0 |
 | **Total** _(7 reports)_                                                                   |   0 |   6 |  13 |  13 |  18 |   7 |
 | **Average Findings Per Audit**<br>* Crit/High 0.86<br>* Medium 1.86<br>* Low 1.86<br>* Info 2.57<br>* Gas 1 |
-
-
-## Formal Verification
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED                                                                                  |   6 |  13 |  11 |  15 |  29 |  26 |
-| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
-| [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
-| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
-| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
-| REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
-| **Total** _(6 reports)_                                                                   |  12 |  41 |  71 |  68 | 103 |  39 |
-| **Average Findings Per Audit**<br>* Crit/High 8.83<br>* Medium 11.83<br>* Low 11.33<br>* Info 17.17<br>* Gas 6.5 |
 
 
 ## Staking
