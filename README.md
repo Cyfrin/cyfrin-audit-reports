@@ -146,6 +146,7 @@
 | 2025-10-29  | 2025-12-01 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) | DEX/AMM, CLOB, Perpetuals, DAO, Rust, Solana, Formal Verification |   0 |  20 |  37 |  18 |  24 |   0 |
 | 2025-10-29  | 2025-11-10 | [BENQI Governance](./reports/2025-11-10-cyfrin-benqi-governance-v2.0.pdf)                 | Governance, DAO     |   0 |   0 |   0 |  11 |   5 |   5 |
 | 2025-10-30  | 2025-10-31 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   0 |   3 |   0 |
+| 2025-11-03  | 2025-11-14 | [Linea Yield Manager](./reports/2026-02-12-cyfrin-linea-yield-manager-v2.0.pdf)           | L2, Cross-Chain, LidoV3, Yield |   0 |   1 |   7 |   6 |   9 |   2 |
 | 2025-11-04  | 2025-11-11 | REDACTED                                                                                  | Account Abstraction, Smart Wallet, ERC4337, EIP7702, ERC7579, ERC7484, ERC7780, ERC1271, ERC7739 |   0 |   3 |   2 |   2 |   2 |   0 |
 | 2025-11-10  | 2025-11-28 | REDACTED                                                                                  | Trading, Gaming, GMXv2, Formal Verification |   0 |   3 |   6 |  21 |  20 |   6 |
 | 2025-11-13  | 2025-11-21 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               | Vault, Yield        |   0 |   0 |   3 |   3 |   6 |   1 |
@@ -171,7 +172,7 @@
 | 2026-01-26  | 2026-01-28 | REDACTED                                                                                  | Vault, Yield, Pendle PT |   0 |   1 |   4 |   7 |   1 |   0 |
 | 2026-01-26  | 2026-02-02 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) | Vault, Liquid Staking |   0 |   0 |   2 |   5 |   2 |   0 |
 | 2026-01-26  | 2026-02-02 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   0 |   1 |   1 |   4 |   2 |
-|             | **Total**  |                                                                                           | _(167 reports)_ | 102 | 257 | 572 | 779 | 1093 | 599 |
+|             | **Total**  |                                                                                           | _(168 reports)_ | 102 | 258 | 579 | 785 | 1102 | 601 |
 
 
 ## Legend
@@ -226,6 +227,7 @@
 | [D2 Hype CoreWriter](./reports/2025-10-16-cyfrin-d2-hype-corewriter-v2.0.pdf)             |   0 |   0 |   0 |   2 |   3 |   2 |
 | REDACTED                                                                                  |   6 |   2 |   3 |   4 |   4 |   2 |
 | REDACTED                                                                                  |   5 |   5 |   6 |   4 |   1 |   4 |
+| [Linea Yield Manager](./reports/2026-02-12-cyfrin-linea-yield-manager-v2.0.pdf)           |   0 |   1 |   7 |   6 |   9 |   2 |
 | [Sherpa Vault](./reports/2025-11-23-cyfrin-sherpa-v2.0.pdf)                               |   0 |   0 |   3 |   3 |   6 |   1 |
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
 | REDACTED                                                                                  |   2 |   5 |   6 |   7 |   9 |   0 |
@@ -239,8 +241,8 @@
 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
 | REDACTED                                                                                  |   0 |   1 |   4 |   7 |   1 |   0 |
 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) |   0 |   0 |   2 |   5 |   2 |   0 |
-| **Total** _(48 reports)_                                                                  |  55 |  99 | 217 | 289 | 320 | 149 |
-| **Average Findings Per Audit**<br>* Crit/High 3.21<br>* Medium 4.52<br>* Low 6.02<br>* Info 6.67<br>* Gas 3.1 |
+| **Total** _(49 reports)_                                                                  |  55 | 100 | 224 | 295 | 329 | 151 |
+| **Average Findings Per Audit**<br>* Crit/High 3.16<br>* Medium 4.57<br>* Low 6.02<br>* Info 6.71<br>* Gas 3.08 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -323,12 +325,13 @@
 | [Securitize Bridge CCTPv2](./reports/2025-10-07-cyfrin-securitize-bridge-cctpv2-v2.0.pdf) |   0 |   0 |   4 |   4 |  15 |   9 |
 | REDACTED                                                                                  |   0 |   0 |   2 |   7 |   6 |   0 |
 | [Linea Burn Mechanism](./reports/2025-11-03-cyfrin-linea-burn-v2.2.pdf)                   |   0 |   0 |   0 |   1 |  10 |   2 |
+| [Linea Yield Manager](./reports/2026-02-12-cyfrin-linea-yield-manager-v2.0.pdf)           |   0 |   1 |   7 |   6 |   9 |   2 |
 | REDACTED                                                                                  |   2 |  14 |  21 |   8 |   6 |   0 |
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
 | REDACTED [EVM, Sui]                                                                       |   0 |   0 |   0 |   6 |  23 |   3 |
 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   2 |
-| **Total** _(32 reports)_                                                                  |  11 |  40 |  90 | 119 | 217 |  86 |
-| **Average Findings Per Audit**<br>* Crit/High 1.59<br>* Medium 2.81<br>* Low 3.72<br>* Info 6.78<br>* Gas 2.69 |
+| **Total** _(33 reports)_                                                                  |  11 |  41 |  97 | 125 | 226 |  88 |
+| **Average Findings Per Audit**<br>* Crit/High 1.58<br>* Medium 2.94<br>* Low 3.79<br>* Info 6.85<br>* Gas 2.67 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
