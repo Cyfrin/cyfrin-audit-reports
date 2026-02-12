@@ -50,7 +50,7 @@
 | 2024-08-26  | 2024-09-09 | [Wormhole Multi Governance](./reports/2024-10-04-cyfrin-wormhole-multigov-v2.0.pdf)       | DAO, Cross-chain, Wormhole |   0 |   0 |   0 |   9 |   6 |   2 |
 | 2024-09-02  | 2024-09-16 | REDACTED                                                                                  | DAO                 |   0 |   5 |   4 |   5 |   4 |   0 |
 | 2024-09-16  | 2024-09-26 | [BENQI Ignite](./reports/2024-12-11-cyfrin-benqi-ignite-v2.0.pdf)                         | Liquid Staking      |   0 |   1 |   5 |   5 |  14 |   5 |
-| 2024-09-23  | 2024-10-04 | [PancakeSwap Universal Router](./reports/2024-10-07-cyfrin-pancakeswap-v2.0.pdf)          | DEX/AMM             |   0 |   0 |   2 |   0 |   3 |   0 |
+| 2024-09-23  | 2024-10-04 | [PancakeSwap Infinity Router](./reports/2025-03-10-cyfrin-pancakeswap-v3.0.pdf)           | DEX/AMM             |   0 |   0 |   2 |   0 |   3 |   0 |
 | 2024-10-07  | 2024-10-15 | [One World Project](./reports/2024-10-29-cyfrin-one-world-project-v2.0.pdf)               | DAO, ERC1155        |   2 |   2 |   8 |   5 |  20 |   1 |
 | 2024-10-07  | 2024-10-14 | REDACTED                                                                                  | Crowdfunding, Bonding Curve |   1 |   1 |   1 |   2 |   3 |   0 |
 | 2024-10-14  | 2024-10-25 | [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) | Liquid Staking, Chainlink CCIP |   0 |   3 |   2 |   1 |   0 |   0 |
@@ -169,7 +169,9 @@
 | 2026-01-21  | 2026-01-27 | [Predict.Fun](./reports/2026-01-27-cyfrin-predict-dot-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) | Prediction Market, Venus, Formal Verification |   0 |   0 |   1 |   1 |   3 |   0 |
 | 2026-01-26  | 2026-01-30 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 | Vault, Lending      |   0 |   0 |   5 |   6 |   4 |   7 |
 | 2026-01-26  | 2026-01-28 | REDACTED                                                                                  | Vault, Yield, Pendle PT |   0 |   1 |   4 |   7 |   1 |   0 |
-|             | **Total**  |                                                                                           | _(165 reports)_ | 102 | 257 | 569 | 773 | 1087 | 597 |
+| 2026-01-26  | 2026-02-02 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) | Vault, Liquid Staking |   0 |   0 |   2 |   5 |   2 |   0 |
+| 2026-01-26  | 2026-02-02 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   0 |   1 |   1 |   4 |   2 |
+|             | **Total**  |                                                                                           | _(167 reports)_ | 102 | 257 | 572 | 779 | 1093 | 599 |
 
 
 ## Legend
@@ -236,8 +238,9 @@
 | REDACTED                                                                                  |   2 |   5 |   3 |   6 |   4 |   1 |
 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
 | REDACTED                                                                                  |   0 |   1 |   4 |   7 |   1 |   0 |
-| **Total** _(47 reports)_                                                                  |  55 |  99 | 215 | 284 | 318 | 149 |
-| **Average Findings Per Audit**<br>* Crit/High 3.28<br>* Medium 4.57<br>* Low 6.04<br>* Info 6.77<br>* Gas 3.17 |
+| [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) |   0 |   0 |   2 |   5 |   2 |   0 |
+| **Total** _(48 reports)_                                                                  |  55 |  99 | 217 | 289 | 320 | 149 |
+| **Average Findings Per Audit**<br>* Crit/High 3.21<br>* Medium 4.52<br>* Low 6.02<br>* Info 6.67<br>* Gas 3.1 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -283,8 +286,9 @@
 | [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) |   0 |   0 |   4 |  14 |  10 |  13 |
 | REDACTED [EVM, Sui]                                                                       |   0 |   0 |   0 |   6 |  23 |   3 |
 | REDACTED                                                                                  |   2 |   5 |   3 |   6 |   4 |   1 |
-| **Total** _(39 reports)_                                                                  |  26 |  45 | 128 | 227 | 275 | 170 |
-| **Average Findings Per Audit**<br>* Crit/High 1.82<br>* Medium 3.28<br>* Low 5.82<br>* Info 7.05<br>* Gas 4.36 |
+| [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   2 |
+| **Total** _(40 reports)_                                                                  |  26 |  45 | 129 | 228 | 279 | 172 |
+| **Average Findings Per Audit**<br>* Crit/High 1.78<br>* Medium 3.22<br>* Low 5.7<br>* Info 6.98<br>* Gas 4.3 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -322,8 +326,9 @@
 | REDACTED                                                                                  |   2 |  14 |  21 |   8 |   6 |   0 |
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
 | REDACTED [EVM, Sui]                                                                       |   0 |   0 |   0 |   6 |  23 |   3 |
-| **Total** _(31 reports)_                                                                  |  11 |  40 |  89 | 118 | 213 |  84 |
-| **Average Findings Per Audit**<br>* Crit/High 1.65<br>* Medium 2.87<br>* Low 3.81<br>* Info 6.87<br>* Gas 2.71 |
+| [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   2 |
+| **Total** _(32 reports)_                                                                  |  11 |  40 |  90 | 119 | 217 |  86 |
+| **Average Findings Per Audit**<br>* Crit/High 1.59<br>* Medium 2.81<br>* Low 3.72<br>* Info 6.78<br>* Gas 2.69 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -340,7 +345,7 @@
 | [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)        |   1 |   1 |   4 |  10 |   9 |   9 |
 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
 | [Memebox by Solidly Labs](./reports/2024-05-04-cyfrin-solidly-v2-memecore-v2-2.pdf)       |   0 |   0 |   1 |   3 |   5 |   1 |
-| [PancakeSwap Universal Router](./reports/2024-10-07-cyfrin-pancakeswap-v2.0.pdf)          |   0 |   0 |   2 |   0 |   3 |   0 |
+| [PancakeSwap Infinity Router](./reports/2025-03-10-cyfrin-pancakeswap-v3.0.pdf)           |   0 |   0 |   2 |   0 |   3 |   0 |
 | [QuantAMM](./reports/2024-12-17-cyfrin-quantamm-v1.2.pdf)                                 |   0 |   4 |   7 |   3 |   5 |   0 |
 | [Paladin Valkyrie](./reports/2025-03-12-cyfrin-paladin-valkyrie-v2.0.pdf)                 |   3 |  12 |   7 |   7 |   6 |   6 |
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
@@ -401,8 +406,9 @@
 | [Symbiotic](./reports/2025-09-04-cyfrin-symbiotic-v2.1.pdf)                               |   0 |   0 |   3 |   2 |   5 |   3 |
 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        |   0 |   0 |   1 |   0 |   7 |   4 |
 | [Suzaku Validator](./reports/2025-10-10-cyfrin-suzaku-balancer-validator-v2.0.pdf)        |   0 |   1 |   0 |   4 |   2 |   0 |
-| **Total** _(16 reports)_                                                                  |  11 |  28 |  52 |  70 |  64 |  46 |
-| **Average Findings Per Audit**<br>* Crit/High 2.44<br>* Medium 3.25<br>* Low 4.38<br>* Info 4<br>* Gas 2.88 |
+| [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) |   0 |   0 |   2 |   5 |   2 |   0 |
+| **Total** _(17 reports)_                                                                  |  11 |  28 |  54 |  75 |  66 |  46 |
+| **Average Findings Per Audit**<br>* Crit/High 2.29<br>* Medium 3.18<br>* Low 4.41<br>* Info 3.88<br>* Gas 2.71 |
 
 
 ## Chainlink Integration
