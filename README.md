@@ -172,7 +172,8 @@
 | 2026-01-26  | 2026-01-28 | REDACTED                                                                                  | Vault, Yield, Pendle PT |   0 |   1 |   4 |   7 |   1 |   0 |
 | 2026-01-26  | 2026-02-02 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) | Vault, Liquid Staking |   0 |   0 |   2 |   5 |   2 |   0 |
 | 2026-01-26  | 2026-02-02 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   0 |   1 |   1 |   4 |   2 |
-|             | **Total**  |                                                                                           | _(168 reports)_ | 102 | 258 | 579 | 785 | 1102 | 601 |
+| 2026-02-02  | 2026-02-06 | [Button Update](./reports/2026-02-13-cyfrin-button-update-v2.0.pdf)                       | Vault, Hyperliquid, Morpho |   0 |   0 |   1 |   5 |   7 |   1 |
+|             | **Total**  |                                                                                           | _(169 reports)_ | 102 | 258 | 580 | 790 | 1109 | 602 |
 
 
 ## Legend
@@ -241,8 +242,9 @@
 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
 | REDACTED                                                                                  |   0 |   1 |   4 |   7 |   1 |   0 |
 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) |   0 |   0 |   2 |   5 |   2 |   0 |
-| **Total** _(49 reports)_                                                                  |  55 | 100 | 224 | 295 | 329 | 151 |
-| **Average Findings Per Audit**<br>* Crit/High 3.16<br>* Medium 4.57<br>* Low 6.02<br>* Info 6.71<br>* Gas 3.08 |
+| [Button Update](./reports/2026-02-13-cyfrin-button-update-v2.0.pdf)                       |   0 |   0 |   1 |   5 |   7 |   1 |
+| **Total** _(50 reports)_                                                                  |  55 | 100 | 225 | 300 | 336 | 152 |
+| **Average Findings Per Audit**<br>* Crit/High 3.1<br>* Medium 4.5<br>* Low 6<br>* Info 6.72<br>* Gas 3.04 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
