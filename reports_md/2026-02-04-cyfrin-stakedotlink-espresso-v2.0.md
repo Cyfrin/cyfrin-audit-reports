@@ -2,7 +2,7 @@
 
 [Kage](https://x.com/0kage_eth)
 
-[Al Qa-qa](https://x.com/alqaqa)
+[Al Qa-qa](https://x.com/al_qa_qa)
 
 **Assisting Auditors**
 
