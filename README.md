@@ -167,13 +167,13 @@
 | 2026-01-19  | 2026-01-23 | [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           | Vault, Lending      |   0 |   0 |   0 |   5 |   7 |   5 |
 | 2026-01-19  | 2025-01-22 | REDACTED [EVM, Sui]                                                                       | Real-World Assets, Commodities Tokenization, LayerZero, Chainlink CCIP, Sui, Move |   0 |   0 |   0 |   6 |  23 |   3 |
 | 2026-01-21  | 2026-01-30 | REDACTED                                                                                  | Stablecoin, Vault, Real-World Assets, Rust, Stellar |   2 |   5 |   3 |   6 |   4 |   1 |
-| 2026-01-21  | 2026-01-27 | [Predict.Fun](./reports/2026-01-27-cyfrin-predict-dot-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) | Prediction Market, Venus, Formal Verification |   0 |   0 |   1 |   1 |   3 |   0 |
+| 2026-01-21  | 2026-01-27 | [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) | Prediction Market, Venus, Formal Verification |   0 |   0 |   1 |   1 |   2 |   0 |
 | 2026-01-26  | 2026-01-30 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 | Vault, Lending      |   0 |   0 |   5 |   6 |   4 |   7 |
 | 2026-01-26  | 2026-01-28 | REDACTED                                                                                  | Vault, Yield, Pendle PT |   0 |   1 |   4 |   7 |   1 |   0 |
 | 2026-01-26  | 2026-02-02 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) | Vault, Liquid Staking |   0 |   0 |   2 |   5 |   2 |   0 |
 | 2026-01-26  | 2026-02-02 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   0 |   1 |   1 |   4 |   2 |
 | 2026-02-02  | 2026-02-06 | [Button Update](./reports/2026-02-13-cyfrin-button-update-v2.0.pdf)                       | Vault, Hyperliquid, Morpho |   0 |   0 |   1 |   5 |   7 |   1 |
-|             | **Total**  |                                                                                           | _(169 reports)_ | 102 | 258 | 580 | 790 | 1109 | 602 |
+|             | **Total**  |                                                                                           | _(169 reports)_ | 102 | 258 | 580 | 790 | 1108 | 602 |
 
 
 ## Legend
@@ -557,9 +557,9 @@
 | [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
 | REDACTED                                                                                  |   0 |   3 |   6 |  21 |  20 |   6 |
-| [Predict.Fun](./reports/2026-01-27-cyfrin-predict-dot-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   3 |   0 |
-| **Total** _(7 reports)_                                                                   |  12 |  41 |  72 |  69 | 106 |  39 |
-| **Average Findings Per Audit**<br>* Crit/High 7.57<br>* Medium 10.29<br>* Low 9.86<br>* Info 15.14<br>* Gas 5.57 |
+| [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   2 |   0 |
+| **Total** _(7 reports)_                                                                   |  12 |  41 |  72 |  69 | 105 |  39 |
+| **Average Findings Per Audit**<br>* Crit/High 7.57<br>* Medium 10.29<br>* Low 9.86<br>* Info 15<br>* Gas 5.57 |
 
 
 ## Token Sale / Crowd Funding

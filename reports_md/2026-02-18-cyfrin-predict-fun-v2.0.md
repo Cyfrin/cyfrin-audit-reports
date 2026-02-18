@@ -301,35 +301,6 @@ function _beforeTokenTransfer(address from, address to, uint256) internal virtua
 
 
 
-### Venus Protocol V4 Isolated Pools incompatibility
-
-**Description:** [`Venus::_connectVTokenToUnderlying`](https://github.com/PredictDotFun/prediction-market/blob/main/contracts/YieldBearing/Venus.sol#L220) uses `isVToken` for validation, which only exists in Venus V3 Core Pool:
-
-```solidity
-function _connectVTokenToUnderlying(address vToken) internal returns (address underlying) {
-    if (!IVToken(vToken).isVToken()) {
-        revert NotYieldBearingToken();
-    }
-    // ...
-}
-```
-
-**Venus Version Comparison:**
-
-| Version | Source File | `isVToken` Support |
-|---------|-------------|-------------------|
-| V3 Core Pool | [VTokenInterfaces.sol](https://github.com/VenusProtocol/venus-protocol/blob/develop/contracts/Tokens/VTokens/VTokenInterfaces.sol) | `bool public constant isVToken = true;` |
-| V4 Isolated Pools | [VToken.sol](https://github.com/VenusProtocol/isolated-pools/blob/main/contracts/VToken.sol) | Does NOT exist |
-
-**Impact:** The contract is only compatible with Venus V3 Core Pool. Attempting to connect a V4 Isolated Pool vToken will revert (call to non-existent function).
-
-
-**Recommended Mitigation:** Document V3-only compatibility clearly in project documentation, or consider alternative validation methods if V4 support is needed in the future.
-
-**Predict.fun:** Acknowledged, we are only using v3 pools, not isolated pools. Isolated pools will not have enough liquidity.
-
-
-
 ### Consider upgrading to BLS12-381 constant-time hash-to-curve
 
 **Description:** [`CTHelpers::getCollectionId`](https://github.com/PredictDotFun/prediction-market/blob/main/contracts/ConditionalTokens/CTHelpers.sol#L393) uses a try-and-increment algorithm inherited from the original Gnosis Conditional Tokens (2019):
