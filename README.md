@@ -173,7 +173,8 @@
 | 2026-01-26  | 2026-02-02 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) | Vault, Liquid Staking |   0 |   0 |   2 |   5 |   2 |   0 |
 | 2026-01-26  | 2026-02-02 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain |   0 |   0 |   1 |   1 |   4 |   2 |
 | 2026-02-02  | 2026-02-06 | [Button Update](./reports/2026-02-13-cyfrin-button-update-v2.0.pdf)                       | Vault, Hyperliquid, Morpho |   0 |   0 |   1 |   5 |   7 |   1 |
-|             | **Total**  |                                                                                           | _(169 reports)_ | 102 | 258 | 580 | 790 | 1108 | 602 |
+| 2026-02-03  | 2026-02-19 | [Securitize Solana On/Off Ramp](./reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities, Solana |   1 |   0 |   1 |   9 |   6 |   0 |
+|             | **Total**  |                                                                                           | _(170 reports)_ | 103 | 258 | 581 | 799 | 1114 | 602 |
 
 
 ## Legend
@@ -291,8 +292,9 @@
 | REDACTED [EVM, Sui]                                                                       |   0 |   0 |   0 |   6 |  23 |   3 |
 | REDACTED                                                                                  |   2 |   5 |   3 |   6 |   4 |   1 |
 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   2 |
-| **Total** _(40 reports)_                                                                  |  26 |  45 | 129 | 228 | 279 | 172 |
-| **Average Findings Per Audit**<br>* Crit/High 1.78<br>* Medium 3.22<br>* Low 5.7<br>* Info 6.98<br>* Gas 4.3 |
+| [Securitize Solana On/Off Ramp](./reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) |   1 |   0 |   1 |   9 |   6 |   0 |
+| **Total** _(41 reports)_                                                                  |  27 |  45 | 130 | 237 | 285 | 172 |
+| **Average Findings Per Audit**<br>* Crit/High 1.76<br>* Medium 3.17<br>* Low 5.78<br>* Info 6.95<br>* Gas 4.2 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -479,6 +481,24 @@
 | **Average Findings Per Audit**<br>* Crit/High 5.8<br>* Medium 8.7<br>* Low 7.5<br>* Info 8.6<br>* Gas 2.2 |
 
 
+## Solana
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Securitize Solana Vault](./reports/2025-05-23-cyfrin-securitize-solana-vault-v2.0.pdf)   |   0 |   1 |   1 |   5 |   3 |   0 |
+| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
+| REDACTED                                                                                  |   0 |   3 |   2 |   2 |   3 |   0 |
+| [Securitize Solana Redemption](./reports/2025-08-29-cyfrin-securitize-solana-redemption-v2.0.pdf) |   0 |   1 |   2 |   1 |   3 |   0 |
+| REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
+| REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
+| REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
+| Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
+| [Securitize Solana On/Off Ramp](./reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) |   1 |   0 |   1 |   9 |   6 |   0 |
+| **Total** _(10 reports)_                                                                  |   2 |  28 |  50 |  46 |  60 |   0 |
+| **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 5<br>* Low 4.6<br>* Info 6<br>* Gas 0 |
+
+
 ## NFT
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -512,23 +532,6 @@
 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
 | **Total** _(9 reports)_                                                                   |  13 |  33 |  45 |  46 |  85 |  46 |
 | **Average Findings Per Audit**<br>* Crit/High 5.11<br>* Medium 5<br>* Low 5.11<br>* Info 9.44<br>* Gas 5.11 |
-
-
-## Solana
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Securitize Solana Vault](./reports/2025-05-23-cyfrin-securitize-solana-vault-v2.0.pdf)   |   0 |   1 |   1 |   5 |   3 |   0 |
-| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
-| REDACTED                                                                                  |   0 |   3 |   2 |   2 |   3 |   0 |
-| [Securitize Solana Redemption](./reports/2025-08-29-cyfrin-securitize-solana-redemption-v2.0.pdf) |   0 |   1 |   2 |   1 |   3 |   0 |
-| REDACTED                                                                                  |   1 |   0 |   2 |   2 |   3 |   0 |
-| REDACTED                                                                                  |   0 |   0 |   2 |   2 |   2 |   0 |
-| REDACTED                                                                                  |   0 |   1 |   3 |   3 |   2 |   0 |
-| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
-| Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
-| **Total** _(9 reports)_                                                                   |   1 |  28 |  49 |  37 |  54 |   0 |
-| **Average Findings Per Audit**<br>* Crit/High 3.22<br>* Medium 5.44<br>* Low 4.11<br>* Info 6<br>* Gas 0 |
 
 
 ## Gaming / Lottery
