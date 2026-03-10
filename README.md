@@ -43,7 +43,7 @@
 | 2024-07-25  | 2024-07-26 | REDACTED ZC G                                                                             | DAO, Governance     |   0 |   0 |   2 |   0 |   3 |   0 |
 | 2024-07-29  | 2024-08-14 | [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       | Lottery, NFT, Chainlink VRF & Functions |   1 |   0 |   2 |   2 |   7 |  25 |
 | 2024-07-29  | 2024-08-16 | [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             | Liquid Staking, Chainlink |   2 |   5 |   6 |   5 |   0 |   3 |
-| 2024-08-02  | 2024-08-05 | REDACTED                                                                                  | TradFi, Real-World Assets, Vault, Yield |   1 |   0 |   0 |   1 |   4 |   1 |
+| 2024-08-02  | 2024-08-05 | [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           | TradFi, Real-World Assets, Vault, Yield |   1 |   0 |   0 |   1 |   4 |   1 |
 | 2024-08-14  | 2024-08-21 | [Chaos Labs Risk Oracle](./reports/2024-08-21-cyfrin-chaos-labs-risk-oracle-v2.0.pdf)     | Risk Oracle         |   0 |   0 |   1 |   0 |   5 |   2 |
 | 2024-08-15  | 2024-09-23 | [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | Stablecoin, Lending, Vault, Vesting, LayerZero |   0 |   4 |   9 |  17 |  18 |  15 |
 | 2024-08-22  | 2024-08-28 | REDACTED ST                                                                               | Staking, Vault, Yield, Liquidity Manager |   6 |   1 |   3 |   4 |   6 |   1 |
@@ -204,7 +204,7 @@
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
-| REDACTED                                                                                  |   1 |   0 |   0 |   1 |   4 |   1 |
+| [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
 | REDACTED ST                                                                               |   6 |   1 |   3 |   4 |   6 |   1 |
 | [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
@@ -260,7 +260,7 @@
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
 | [Securitize Redemptions](./reports/2024-07-18-cyfrin-securitize-redemptions-v2.0.pdf)     |   2 |   3 |   4 |   6 |   3 |   0 |
-| REDACTED                                                                                  |   1 |   0 |   0 |   1 |   4 |   1 |
+| [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Securitize Bridge](./reports/2024-10-28-cyfrin-securitize-bridge-v2.0.pdf)               |   0 |   0 |   1 |   1 |   1 |   0 |
 | REDACTED EA U                                                                             |   0 |   0 |   0 |   3 |   4 |   0 |
 | [Securitize Redemptions/Swap/Vault/NavProvider](./reports/2024-12-17-cyfrin-securitize-redeem-swap-vault-nav-v2.0.pdf) |   1 |   0 |   3 |   5 |   4 |   0 |
