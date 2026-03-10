@@ -116,7 +116,7 @@
 | 2025-07-30  | 2025-08-01 | [Stake.Link Token Vesting](./reports/2025-08-02-cyfrin-stakelink-vesting-v2.0.pdf)        | Liquid Staking      |   0 |   0 |   1 |   0 |   7 |   4 |
 | 2025-08-05  | 2025-08-18 | REDACTED LE S G                                                                           | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Rust, Solana |   0 |   3 |   2 |   2 |   3 |   0 |
 | 2025-08-06  | 2025-08-08 | [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) | ERC4337, Account Abstraction, Smart Wallet |   0 |   1 |   0 |   1 |   3 |   0 |
-| 2025-08-08  | 2025-08-08 | REDACTED                                                                                  | NFT, Crowdfunding   |   1 |   0 |   4 |   3 |   5 |   2 |
+| 2025-08-08  | 2025-08-08 | REDACTED AA N                                                                             | NFT, Crowdfunding   |   1 |   0 |   4 |   3 |   5 |   2 |
 | 2025-08-11  | 2025-08-27 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) | Lending, UniswapV4, Formal Verification |   2 |   2 |   1 |   4 |  13 |   0 |
 | 2025-08-11  | 2025-08-13 | REDACTED AM E C                                                                           | TradFi, Cross-Chain, Payments |   1 |   1 |   2 |   0 |   1 |   5 |
 | 2025-08-11  | 2025-08-15 | REDACTED BI C D                                                                           | UniswapV4           |   0 |   2 |   3 |   2 |   0 |   1 |
@@ -525,7 +525,7 @@
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
 | [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           |   0 |   0 |   1 |   6 |   5 |   6 |
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
-| REDACTED                                                                                  |   1 |   0 |   4 |   3 |   5 |   2 |
+| REDACTED AA N                                                                             |   1 |   0 |   4 |   3 |   5 |   2 |
 | [VeeFriends](./reports/2025-10-15-cyfrin-veefriends-v2.0.pdf)                             |   0 |   0 |   0 |   2 |   1 |   1 |
 | **Total** _(10 reports)_                                                                  |   5 |  14 |  29 |  41 |  46 |  63 |
 | **Average Findings Per Audit**<br>* Crit/High 1.9<br>* Medium 2.9<br>* Low 4.1<br>* Info 4.6<br>* Gas 6.3 |
@@ -587,7 +587,7 @@
 | REDACTED SL                                                                               |   1 |   1 |   1 |   2 |   3 |   0 |
 | REDACTED PD C                                                                             |   1 |   1 |   2 |  15 |  13 |  16 |
 | [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
-| REDACTED                                                                                  |   1 |   0 |   4 |   3 |   5 |   2 |
+| REDACTED AA N                                                                             |   1 |   0 |   4 |   3 |   5 |   2 |
 | [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
 | [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
 | **Total** _(7 reports)_                                                                   |  11 |  18 |  46 |  41 |  45 |  39 |
