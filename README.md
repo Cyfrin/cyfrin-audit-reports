@@ -194,7 +194,9 @@
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
 | 2026-02-25  | 2026-02-25 | REDACTED EF S                                                                             | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
 | 2026-03-03  | 2026-03-09 | REDACTED BX                                                                               | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
-|             | **Total**  |                                                                                           | _(190 reports)_ | 105 | 259 | 600 | 864 | 1221 | 648 |
+| 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
+| 2026-03-10  | 2026-03-12 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   2 |   6 |   1 |
+|             | **Total**  |                                                                                           | _(192 reports)_ | 105 | 259 | 602 | 867 | 1233 | 650 |
 
 
 ## Legend
@@ -321,8 +323,10 @@
 | REDACTED KO H F A H                                                                       |   0 |   0 |   1 |   0 |   3 |   3 |
 | [Securitize Solana On/Off Ramp](./reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) |   1 |   0 |   1 |   9 |   6 |   0 |
 | REDACTED MK X                                                                             |   0 |   0 |   0 |   3 |   5 |   2 |
-| **Total** _(47 reports)_                                                                  |  27 |  45 | 132 | 243 | 307 | 179 |
-| **Average Findings Per Audit**<br>* Crit/High 1.53<br>* Medium 2.81<br>* Low 5.17<br>* Info 6.53<br>* Gas 3.81 |
+| [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) |   0 |   0 |   1 |   1 |   6 |   1 |
+| [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) |   0 |   0 |   1 |   2 |   6 |   1 |
+| **Total** _(49 reports)_                                                                  |  27 |  45 | 134 | 246 | 319 | 181 |
+| **Average Findings Per Audit**<br>* Crit/High 1.47<br>* Medium 2.73<br>* Low 5.02<br>* Info 6.51<br>* Gas 3.69 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -533,8 +537,10 @@
 | [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
 | Securitize Solana Whitelist [[DSToken](./reports/2025-11-07-cyfrin-securitize-dstoken-whitelist-svm-v2.0.pdf), [SPL Token](./reports/2025-10-31-cyfrin-securitize-spltoken-whitelist-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   0 |
 | [Securitize Solana On/Off Ramp](./reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) |   1 |   0 |   1 |   9 |   6 |   0 |
-| **Total** _(10 reports)_                                                                  |   2 |  28 |  50 |  46 |  60 |   0 |
-| **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 5<br>* Low 4.6<br>* Info 6<br>* Gas 0 |
+| [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) |   0 |   0 |   1 |   1 |   6 |   1 |
+| [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) |   0 |   0 |   1 |   2 |   6 |   1 |
+| **Total** _(12 reports)_                                                                  |   2 |  28 |  52 |  49 |  72 |   2 |
+| **Average Findings Per Audit**<br>* Crit/High 2.5<br>* Medium 4.33<br>* Low 4.08<br>* Info 6<br>* Gas 0.17 |
 
 
 ## NFT
