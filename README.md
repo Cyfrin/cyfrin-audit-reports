@@ -658,3 +658,17 @@
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
 | **Total** _(6 reports)_                                                                   |  16 |  14 |  24 |  26 |  38 |   3 |
 | **Average Findings Per Audit**<br>* Crit/High 5<br>* Medium 4<br>* Low 4.33<br>* Info 6.33<br>* Gas 0.5 |
+
+
+## Prediction Market
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED OE M                                                                             |   0 |   0 |   0 |   3 |   1 |   0 |
+| [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  |   0 |   0 |   0 |   6 |   9 |   0 |
+| [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   2 |   0 |
+| REDACTED PE V L Y                                                                         |   0 |   0 |   5 |   7 |   5 |   0 |
+| [Myriad CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf)                           |   0 |   2 |   1 |   7 |  14 |   4 |
+| [Myriad Realitio Oracle](./reports/2026-03-20-cyfrin-myriad-realitio-oracle-v2.0.pdf)     |   0 |   0 |   0 |   0 |   5 |   0 |
+| **Total** _(6 reports)_                                                                   |   0 |   2 |   7 |  24 |  36 |   4 |
+| **Average Findings Per Audit**<br>* Crit/High 0.33<br>* Medium 1.17<br>* Low 4<br>* Info 6<br>* Gas 0.67 |

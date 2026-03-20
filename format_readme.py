@@ -152,10 +152,11 @@ def map_tech_to_headings():
         'Staking': ['Staking'],
         'TradFi/RWA/Real World Assets/Tokenization': ['TradFi', 'RWA', 'Real-World Assets', 'Real World Asset', 'Tokenization'],
         'Token Sale/Crowd Funding': ['Token Sale', 'Crowdfunding', 'Crowd Funding'],
-        'Perpetuals / Leverage / Lending / Borrowing': ['Leverage', 'Lending', 'Borrowing', 'Trading', 'Perpetual'],
+        'Perpetuals / Leverage / Lending / Borrowing': ['Leverage', 'Lending', 'Borrowing', 'Trading', 'Perpetual', 'Perps'],
         'UniswapV4 Hooks': ['UniswapV4'],
         'Solana': ['Solana'],
-        'Formal Verification': ['Formal Verification']
+        'Formal Verification': ['Formal Verification'],
+        'Prediction Market': ['Prediction Market']
     }
 
 def update_readme(file_path):
