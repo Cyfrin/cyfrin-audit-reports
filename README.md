@@ -187,7 +187,7 @@
 | 2026-02-02  | 2026-02-06 | [Button Update](./reports/2026-02-13-cyfrin-button-update-v2.0.pdf)                       | Vault, Hyperliquid, Morpho |   0 |   0 |   1 |   5 |   7 |   1 |
 | 2026-02-03  | 2026-02-19 | [Securitize Solana On/Off Ramp](./reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities, Solana |   1 |   0 |   1 |   9 |   6 |   0 |
 | 2026-02-09  | 2026-02-16 | REDACTED AC B                                                                             | ERC4626, Vault, Yield, Formal Verification |   0 |   0 |   1 |  12 |  21 |  12 |
-| 2026-02-16  | 2026-03-09 | REDACTED BS                                                                               | Perps               |   0 |   7 |  22 |  29 |  23 |   6 |
+| 2026-02-16  | 2026-03-09 | REDACTED BS                                                                               | Perpetuals          |   0 |   7 |  22 |  29 |  23 |   6 |
 | 2026-02-18  | 2026-02-20 | REDACTED PE V L Y                                                                         | Prediction Market, Venus, ListaDAO, Yield |   0 |   0 |   5 |   7 |   5 |   0 |
 | 2026-02-18  | 2026-03-03 | REDACTED MK C                                                                             | Off-chain, Web2Sec, Typescript |   0 |   1 |   5 |   5 |   3 |   0 |
 | 2026-02-23  | 2026-02-23 | REDACTED MK R L                                                                           | Merkle, Rewards     |   0 |   0 |   1 |   3 |   3 |   1 |
@@ -428,9 +428,10 @@
 | REDACTED SK                                                                               |   0 |   3 |   6 |  21 |  20 |   6 |
 | [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           |   0 |   0 |   0 |   5 |   7 |   5 |
 | [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
+| REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
 | REDACTED FY                                                                               |   0 |   0 |   0 |   5 |   3 |   0 |
-| **Total** _(19 reports)_                                                                  |  23 |  56 | 117 | 139 | 146 |  79 |
-| **Average Findings Per Audit**<br>* Crit/High 4.16<br>* Medium 6.16<br>* Low 7.32<br>* Info 7.68<br>* Gas 4.16 |
+| **Total** _(20 reports)_                                                                  |  23 |  63 | 139 | 168 | 169 |  85 |
+| **Average Findings Per Audit**<br>* Crit/High 4.3<br>* Medium 6.95<br>* Low 8.4<br>* Info 8.45<br>* Gas 4.25 |
 
 
 ## Liquid Staking
