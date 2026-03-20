@@ -187,6 +187,7 @@
 | 2026-02-02  | 2026-02-06 | [Button Update](./reports/2026-02-13-cyfrin-button-update-v2.0.pdf)                       | Vault, Hyperliquid, Morpho |   0 |   0 |   1 |   5 |   7 |   1 |
 | 2026-02-03  | 2026-02-19 | [Securitize Solana On/Off Ramp](./reports/2026-02-19-cyfrin-securitize-svm-on-off-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities, Solana |   1 |   0 |   1 |   9 |   6 |   0 |
 | 2026-02-09  | 2026-02-16 | REDACTED AC B                                                                             | ERC4626, Vault, Yield, Formal Verification |   0 |   0 |   1 |  12 |  21 |  12 |
+| 2026-03-03  | 2026-03-09 | REDACTED BS                                                                               | Perps               |   0 |   7 |  22 |  29 |  23 |   6 |
 | 2026-02-18  | 2026-02-20 | REDACTED PE V L Y                                                                         | Prediction Market, Venus, ListaDAO, Yield |   0 |   0 |   5 |   7 |   5 |   0 |
 | 2026-02-18  | 2026-03-03 | REDACTED MK C                                                                             | Off-chain, Web2Sec, Typescript |   0 |   1 |   5 |   5 |   3 |   0 |
 | 2026-02-23  | 2026-02-23 | REDACTED MK R L                                                                           | Merkle, Rewards     |   0 |   0 |   1 |   3 |   3 |   1 |
@@ -194,9 +195,11 @@
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
 | 2026-02-25  | 2026-02-25 | [ETHCF Swapboard](./reports/2026-03-04-cyfrin-ethcf-swapboard-v2.0.pdf)                   | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
 | 2026-03-03  | 2026-03-09 | REDACTED BX                                                                               | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
+| 2026-03-05  | 2026-03-12 | [Myriad CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf)                           | Prediction Market, CLOB |   0 |   2 |   1 |   7 |  14 |   4 |
 | 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
 | 2026-03-10  | 2026-03-12 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   2 |   6 |   1 |
-|             | **Total**  |                                                                                           | _(192 reports)_ | 105 | 259 | 602 | 867 | 1233 | 650 |
+| 2026-03-16  | 2026-03-17 | [Myriad Realitio Oracle](./reports/2026-03-20-cyfrin-myriad-realitio-oracle-v2.0.pdf)     | Prediction Market, Oracle |   0 |   0 |   0 |   0 |   5 |   0 |
+|             | **Total**  |                                                                                           | _(195 reports)_ | 105 | 268 | 625 | 903 | 1275 | 660 |
 
 
 ## Legend
