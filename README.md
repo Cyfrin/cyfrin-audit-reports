@@ -192,7 +192,7 @@
 | 2026-02-23  | 2026-02-23 | REDACTED MK R L                                                                           | Merkle, Rewards     |   0 |   0 |   1 |   3 |   3 |   1 |
 | 2026-02-23  | 2026-02-27 | REDACTED FY                                                                               | Stablecoin, Lending, LiquityV2 |   0 |   0 |   0 |   5 |   3 |   0 |
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
-| 2026-02-25  | 2026-02-25 | REDACTED EF S                                                                             | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
+| 2026-02-25  | 2026-02-25 | [ETHCF Swapboard](./reports/2026-03-04-cyfrin-ethcf-swapboard-v2.0.pdf)                   | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
 | 2026-03-03  | 2026-03-09 | REDACTED BX                                                                               | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
 | 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
 | 2026-03-10  | 2026-03-12 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   2 |   6 |   1 |
