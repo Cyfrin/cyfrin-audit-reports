@@ -189,7 +189,7 @@
 | 2026-02-09  | 2026-02-16 | REDACTED AC B                                                                             | ERC4626, Vault, Yield, Formal Verification |   0 |   0 |   1 |  12 |  21 |  12 |
 | 2026-02-16  | 2026-03-03 | REDACTED BS                                                                               | Perpetuals, Formal Verification |   0 |   7 |  22 |  29 |  23 |   6 |
 | 2026-02-18  | 2026-02-20 | REDACTED PE V L Y                                                                         | Prediction Market, Venus, ListaDAO, Yield |   0 |   0 |   5 |   7 |   5 |   0 |
-| 2026-02-18  | 2026-03-03 | REDACTED MK C                                                                             | Off-chain, Web2Sec, Typescript |   0 |   1 |   5 |   5 |   3 |   0 |
+| 2026-02-18  | 2026-03-03 | [MetaMask Connect](./reports/2026-03-05-cyfrin-metamask-connect-v2.0.pdf)                 | Off-chain, Web2Sec, Typescript |   0 |   1 |   5 |   5 |   3 |   0 |
 | 2026-02-23  | 2026-02-23 | REDACTED MK R L                                                                           | Merkle, Rewards     |   0 |   0 |   1 |   3 |   3 |   1 |
 | 2026-02-23  | 2026-02-27 | REDACTED FY                                                                               | Stablecoin, Lending, LiquityV2 |   0 |   0 |   0 |   5 |   3 |   0 |
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
