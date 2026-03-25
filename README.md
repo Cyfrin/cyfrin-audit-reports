@@ -190,6 +190,7 @@
 | 2026-02-16  | 2026-03-03 | REDACTED BS                                                                               | Perpetuals, Formal Verification |   0 |   7 |  22 |  29 |  23 |   6 |
 | 2026-02-18  | 2026-02-20 | REDACTED PE V L Y                                                                         | Prediction Market, Venus, ListaDAO, Yield |   0 |   0 |   5 |   7 |   5 |   0 |
 | 2026-02-18  | 2026-03-03 | [MetaMask Connect](./reports/2026-03-05-cyfrin-metamask-connect-v2.0.pdf)                 | Off-chain, Web2Sec, Typescript |   0 |   1 |   5 |   5 |   3 |   0 |
+| 2026-02-19  | 2026-02-25 | [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(Formal Verf.)](./reports/2026-03-25-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) | Vault, Yield, Chainlink, Lido, Curve |   1 |   1 |   4 |  10 |   9 |  11 |
 | 2026-02-23  | 2026-02-23 | REDACTED MK R L                                                                           | Merkle, Rewards     |   0 |   0 |   1 |   3 |   3 |   1 |
 | 2026-02-23  | 2026-02-27 | REDACTED FY                                                                               | Stablecoin, Lending, LiquityV2 |   0 |   0 |   0 |   5 |   3 |   0 |
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
@@ -199,7 +200,7 @@
 | 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
 | 2026-03-10  | 2026-03-12 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   2 |   6 |   1 |
 | 2026-03-16  | 2026-03-17 | [Myriad Realitio Oracle](./reports/2026-03-20-cyfrin-myriad-realitio-oracle-v2.0.pdf)     | Prediction Market, Oracle |   0 |   0 |   0 |   0 |   5 |   0 |
-|             | **Total**  |                                                                                           | _(195 reports)_ | 105 | 268 | 625 | 903 | 1275 | 660 |
+|             | **Total**  |                                                                                           | _(196 reports)_ | 106 | 269 | 629 | 913 | 1284 | 671 |
 
 
 ## Legend
@@ -271,8 +272,9 @@
 | [Button Update](./reports/2026-02-13-cyfrin-button-update-v2.0.pdf)                       |   0 |   0 |   1 |   5 |   7 |   1 |
 | REDACTED AC B                                                                             |   0 |   0 |   1 |  12 |  21 |  12 |
 | REDACTED PE V L Y                                                                         |   0 |   0 |   5 |   7 |   5 |   0 |
-| **Total** _(52 reports)_                                                                  |  55 | 100 | 231 | 319 | 362 | 164 |
-| **Average Findings Per Audit**<br>* Crit/High 2.98<br>* Medium 4.44<br>* Low 6.13<br>* Info 6.96<br>* Gas 3.15 |
+| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(Formal Verf.)](./reports/2026-03-25-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
+| **Total** _(53 reports)_                                                                  |  56 | 101 | 235 | 329 | 371 | 175 |
+| **Average Findings Per Audit**<br>* Crit/High 2.96<br>* Medium 4.43<br>* Low 6.21<br>* Info 7<br>* Gas 3.3 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -434,6 +436,32 @@
 | **Average Findings Per Audit**<br>* Crit/High 4.3<br>* Medium 6.95<br>* Low 8.4<br>* Info 8.45<br>* Gas 4.25 |
 
 
+## Chainlink Integration
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
+| [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                       |   1 |   0 |   5 |   0 |   3 |   0 |
+| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
+| [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             |   2 |   5 |   6 |   5 |   0 |   3 |
+| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
+| [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
+| REDACTED SM S                                                                             |   0 |   0 |   0 |   1 |   5 |   0 |
+| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
+| [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
+| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
+| [Stake.Link Polygon Staking](./reports/2025-05-19-cyfrin-stakedotlink-polygon-staking-v2.0.pdf) |   0 |   0 |   2 |   4 |   8 |   2 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
+| [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
+| [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
+| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
+| REDACTED CO                                                                               |   2 |  14 |  21 |   8 |   6 |   0 |
+| REDACTED MK X E [EVM, Sui]                                                                |   0 |   0 |   0 |   6 |  23 |   3 |
+| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(Formal Verf.)](./reports/2026-03-25-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
+| **Total** _(18 reports)_                                                                  |  11 |  27 |  50 |  64 | 112 |  69 |
+| **Average Findings Per Audit**<br>* Crit/High 2.11<br>* Medium 2.78<br>* Low 3.56<br>* Info 6.22<br>* Gas 3.83 |
+
+
 ## Liquid Staking
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -457,31 +485,6 @@
 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) |   0 |   0 |   2 |   5 |   2 |   0 |
 | **Total** _(17 reports)_                                                                  |  11 |  28 |  54 |  75 |  66 |  46 |
 | **Average Findings Per Audit**<br>* Crit/High 2.29<br>* Medium 3.18<br>* Low 4.41<br>* Info 3.88<br>* Gas 2.71 |
-
-
-## Chainlink Integration
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
-| [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                       |   1 |   0 |   5 |   0 |   3 |   0 |
-| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
-| [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             |   2 |   5 |   6 |   5 |   0 |   3 |
-| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
-| [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
-| REDACTED SM S                                                                             |   0 |   0 |   0 |   1 |   5 |   0 |
-| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
-| [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
-| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [Stake.Link Polygon Staking](./reports/2025-05-19-cyfrin-stakedotlink-polygon-staking-v2.0.pdf) |   0 |   0 |   2 |   4 |   8 |   2 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
-| [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
-| [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
-| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
-| REDACTED CO                                                                               |   2 |  14 |  21 |   8 |   6 |   0 |
-| REDACTED MK X E [EVM, Sui]                                                                |   0 |   0 |   0 |   6 |  23 |   3 |
-| **Total** _(17 reports)_                                                                  |  10 |  26 |  46 |  54 | 103 |  58 |
-| **Average Findings Per Audit**<br>* Crit/High 2.12<br>* Medium 2.71<br>* Low 3.18<br>* Info 6.06<br>* Gas 3.41 |
 
 
 ## Stablecoin
