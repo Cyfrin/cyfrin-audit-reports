@@ -9,6 +9,7 @@
 | 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
 | 2026-03-05  | 2026-03-12 | [Myriad CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf)                           | Prediction Market, CLOB |   0 |   2 |   1 |   7 |  14 |   4 |
 | 2026-03-03  | 2026-03-09 | REDACTED BX                                                                               | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
+| 2026-03-02  | 2026-03-05 | REDACTED SE V                                                                             | Leverage, Yield, Lending, Morpho |   1 |   2 |   9 |   7 |  16 |   1 |
 | 2026-02-25  | 2026-02-25 | [ETHCF Swapboard](./reports/2026-03-04-cyfrin-ethcf-swapboard-v2.0.pdf)                   | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
 | 2026-02-23  | 2026-02-27 | REDACTED FY                                                                               | Stablecoin, Lending, LiquityV2 |   0 |   0 |   0 |   5 |   3 |   0 |
@@ -200,7 +201,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(196 reports)_ | 106 | 269 | 629 | 913 | 1284 | 671 |
+|             | **Total**  |                                                                                           | _(197 reports)_ | 107 | 271 | 638 | 920 | 1300 | 672 |
 
 
 ## Legend
@@ -220,6 +221,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED SE V                                                                             |   1 |   2 |   9 |   7 |  16 |   1 |
 | [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(Formal Verf.)](./reports/2026-03-25-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
 | REDACTED PE V L Y                                                                         |   0 |   0 |   5 |   7 |   5 |   0 |
 | REDACTED AC B                                                                             |   0 |   0 |   1 |  12 |  21 |  12 |
@@ -273,8 +275,8 @@
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(53 reports)_                                                                  |  56 | 101 | 235 | 329 | 371 | 175 |
-| **Average Findings Per Audit**<br>* Crit/High 2.96<br>* Medium 4.43<br>* Low 6.21<br>* Info 7<br>* Gas 3.3 |
+| **Total** _(54 reports)_                                                                  |  57 | 103 | 244 | 336 | 387 | 176 |
+| **Average Findings Per Audit**<br>* Crit/High 2.96<br>* Medium 4.52<br>* Low 6.22<br>* Info 7.17<br>* Gas 3.26 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -379,6 +381,35 @@
 | **Average Findings Per Audit**<br>* Crit/High 1.43<br>* Medium 2.65<br>* Low 3.62<br>* Info 6.76<br>* Gas 2.62 |
 
 
+## Perpetuals / Leverage / Lending / Borrowing
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED SE V                                                                             |   1 |   2 |   9 |   7 |  16 |   1 |
+| REDACTED FY                                                                               |   0 |   0 |   0 |   5 |   3 |   0 |
+| REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
+| [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
+| [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           |   0 |   0 |   0 |   5 |   7 |   5 |
+| REDACTED SK                                                                               |   0 |   3 |   6 |  21 |  20 |   6 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
+| REDACTED SE                                                                               |   5 |   5 |   6 |   4 |   1 |   4 |
+| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
+| [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
+| [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
+| [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   |   0 |   0 |   0 |   2 |   8 |   9 |
+| [D2](./reports/2025-02-24-cyfrin-d2-v2.1.pdf)                                             |   2 |   2 |   7 |   7 |   6 |   0 |
+| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
+| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
+| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
+| [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       |   5 |   3 |  12 |  12 |   7 |  24 |
+| [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
+| [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
+| **Total** _(21 reports)_                                                                  |  24 |  65 | 148 | 175 | 185 |  86 |
+| **Average Findings Per Audit**<br>* Crit/High 4.24<br>* Medium 7.05<br>* Low 8.33<br>* Info 8.81<br>* Gas 4.1 |
+
+
 ## CLM / DEX / AMM / Concentrated Liquidity
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -406,34 +437,6 @@
 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | n/a |   4 |   3 |   1 |  10 |   2 |
 | **Total** _(21 reports)_                                                                  |  11 |  70 | 126 | 123 | 191 |  99 |
 | **Average Findings Per Audit**<br>* Crit/High 3.86<br>* Medium 6<br>* Low 5.86<br>* Info 9.1<br>* Gas 4.71 |
-
-
-## Perpetuals / Leverage / Lending / Borrowing
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED FY                                                                               |   0 |   0 |   0 |   5 |   3 |   0 |
-| REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
-| [Accountable PR50](./reports/2026-01-30-cyfrin-accountable-pr50-v2.0.pdf)                 |   0 |   0 |   5 |   6 |   4 |   7 |
-| [Accountable Catchup](./reports/2026-01-30-cyfrin-accountable-catchup-v2.1.pdf)           |   0 |   0 |   0 |   5 |   7 |   5 |
-| REDACTED SK                                                                               |   0 |   3 |   6 |  21 |  20 |   6 |
-| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
-| REDACTED SE                                                                               |   5 |   5 |   6 |   4 |   1 |   4 |
-| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
-| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
-| [VII Finance](./reports/2025-07-15-cyfrin-vii-v2.0.pdf)                                   |   1 |   2 |   2 |   3 |   2 |   0 |
-| [Benqi Collateral Migrator](./reports/2025-04-06-cyfrin-benqi-collateral-migrator-v2.0.pdf) |   0 |   0 |   0 |   4 |   2 |   0 |
-| [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) |   0 |   1 |   1 |   3 |   3 |   1 |
-| [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   |   0 |   0 |   0 |   2 |   8 |   9 |
-| [D2](./reports/2025-02-24-cyfrin-d2-v2.1.pdf)                                             |   2 |   2 |   7 |   7 |   6 |   0 |
-| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
-| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
-| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
-| [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       |   5 |   3 |  12 |  12 |   7 |  24 |
-| [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
-| [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(20 reports)_                                                                  |  23 |  63 | 139 | 168 | 169 |  85 |
-| **Average Findings Per Audit**<br>* Crit/High 4.3<br>* Medium 6.95<br>* Low 8.4<br>* Info 8.45<br>* Gas 4.25 |
 
 
 ## Chainlink Integration
