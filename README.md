@@ -37,7 +37,7 @@
 | 2026-01-12  | 2026-01-14 | REDACTED VS S R                                                                           | Venus               |   0 |   0 |   0 |   4 |   1 |   0 |
 | 2026-01-09  | 2026-01-15 | [Strata Shares Cooldown](./reports/2026-01-23-cyfrin-strata-shares-cooldown-v2.0.pdf)     | Vault, Yield        |   0 |   0 |   6 |   3 |  10 |   2 |
 | 2026-01-09  | 2026-01-13 | [Story IP Derivative Agent](./reports/2026-01-15-cyfrin-story-ip-derivative-agent-v2.1.pdf) | Wrapper             |   0 |   0 |   0 |   1 |   3 |   1 |
-| 2026-01-05  | 2026-01-09 | REDACTED LA M U                                                                           | L2, Cross-Chain     |   1 |   0 |   0 |   1 |   6 |   0 |
+| 2026-01-05  | 2026-01-09 | [Linea Mixed Upgrade](./reports/2026-03-27-cyfrin-linea-mixed-upgrade-v2.0.pdf)           | L2, Cross-Chain     |   1 |   0 |   0 |   1 |   6 |   0 |
 | 2026-01-05  | 2026-01-09 | [Safe Harbor](./reports/2026-01-13-cyfrin-safe-harbor-v2.0.pdf)                           | Legal Framework     |   0 |   0 |   1 |   4 |   4 |   3 |
 | 2025-12-29  | 2026-01-08 | [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 | Vault, Yield, Stablecoin |   0 |   0 |   0 |   3 |   9 |   0 |
 | 2025-12-15  | 2025-12-19 | [Lido Earn](./reports/2025-12-19-cyfrin-lido-earn-v2.0.pdf)                               | Lido, Vault         |   0 |   0 |   0 |   5 |   6 |   2 |
@@ -346,7 +346,7 @@
 | [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
 | [Securitize Wormhole Executor](./reports/2026-02-10-cyfrin-securitize-bridge-wormhole-executor-v2.0.pdf) |   0 |   0 |   1 |   1 |   4 |   2 |
 | REDACTED MK X E [EVM, Sui]                                                                |   0 |   0 |   0 |   6 |  23 |   3 |
-| REDACTED LA M U                                                                           |   1 |   0 |   0 |   1 |   6 |   0 |
+| [Linea Mixed Upgrade](./reports/2026-03-27-cyfrin-linea-mixed-upgrade-v2.0.pdf)           |   1 |   0 |   0 |   1 |   6 |   0 |
 | [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
 | REDACTED CO                                                                               |   2 |  14 |  21 |   8 |   6 |   0 |
 | [Linea Yield Manager](./reports/2026-02-12-cyfrin-linea-yield-manager-v2.0.pdf)           |   0 |   1 |   7 |   6 |   9 |   2 |
