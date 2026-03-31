@@ -15,7 +15,7 @@
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
 | 2026-02-23  | 2026-02-27 | [Firm Money](./reports/2026-03-09-cyfrin-firm-money-v2.0.pdf)                             | Stablecoin, Lending, LiquityV2 |   0 |   0 |   0 |   5 |   3 |   0 |
 | 2026-02-23  | 2026-02-23 | REDACTED MK R L                                                                           | Merkle, Rewards     |   0 |   0 |   1 |   3 |   3 |   1 |
-| 2026-02-19  | 2026-02-25 | [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) | Vault, Yield, Chainlink, Lido, Curve |   1 |   1 |   4 |  10 |   9 |  11 |
+| 2026-02-19  | 2026-02-25 | [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) | Vault, Yield, Chainlink, Lido, Curve, Formal Verification |   1 |   1 |   4 |  10 |   9 |  11 |
 | 2026-02-18  | 2026-03-03 | [MetaMask Connect](./reports/2026-03-05-cyfrin-metamask-connect-v2.0.pdf)                 | Off-chain, Web2Sec, Typescript |   0 |   1 |   5 |   5 |   3 |   0 |
 | 2026-02-18  | 2026-02-20 | REDACTED PE V L Y                                                                         | Prediction Market, Venus, ListaDAO, Yield |   0 |   0 |   5 |   7 |   5 |   0 |
 | 2026-02-16  | 2026-03-06 | REDACTED HE                                                                               | Cross-Chain, Vault, TradFi, RWA, Teleporter, UCC Article 12, Formal Verification |   1 |   7 |  17 |   8 |   2 |   0 |
@@ -529,6 +529,7 @@
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) |   0 |   0 |   0 |   2 |   3 |   0 |
 | REDACTED BX                                                                               |   0 |   0 |   1 |   7 |  10 |   9 |
+| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
 | REDACTED HE                                                                               |   1 |   7 |  17 |   8 |   2 |   0 |
 | REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
 | [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
@@ -540,8 +541,8 @@
 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Human Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
 | REDACTED HD                                                                               |   6 |  13 |  11 |  15 |  29 |  26 |
-| **Total** _(13 reports)_                                                                  |  13 |  56 | 118 | 137 | 174 |  67 |
-| **Average Findings Per Audit**<br>* Crit/High 5.31<br>* Medium 9.08<br>* Low 10.54<br>* Info 13.38<br>* Gas 5.15 |
+| **Total** _(14 reports)_                                                                  |  14 |  57 | 122 | 147 | 183 |  78 |
+| **Average Findings Per Audit**<br>* Crit/High 5.07<br>* Medium 8.71<br>* Low 10.5<br>* Info 13.07<br>* Gas 5.57 |
 
 
 ## DAO
