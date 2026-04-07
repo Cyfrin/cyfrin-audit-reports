@@ -4,6 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-04-01  | 2026-04-03 | REDACTED PI N C                                                                           | NFT, ERC1155        |   0 |   0 |   0 |   3 |   5 |   4 |
 | 2026-03-31  | 2026-04-03 | REDACTED AD                                                                               | Gaming, Formal Verification |   0 |   0 |   0 |   4 |   9 |   7 |
 | 2026-03-17  | 2026-03-20 | [Securitize Bridge v2](./reports/2026-03-30-cyfrin-securitize-bridgev2-v2.0.pdf), [Vault Registrar v2](./reports/2026-03-30-cyfrin-securitize-vault-registrarv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole Executor Framework, Circle CCTPv2 |   0 |   0 |   2 |   2 |   2 |   1 |
 | 2026-03-16  | 2026-03-19 | [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             | L2, ZK, C++, Cryptography |   0 |   0 |   0 |   4 |   4 |   0 |
@@ -209,7 +210,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(205 reports)_ | 108 | 279 | 663 | 954 | 1334 | 682 |
+|             | **Total**  |                                                                                           | _(206 reports)_ | 108 | 279 | 663 | 957 | 1339 | 686 |
 
 
 ## Legend
@@ -603,6 +604,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED PI N C                                                                           |   0 |   0 |   0 |   3 |   5 |   4 |
 | [VeeFriends](./reports/2025-10-15-cyfrin-veefriends-v2.0.pdf)                             |   0 |   0 |   0 |   2 |   1 |   1 |
 | REDACTED AA N                                                                             |   1 |   0 |   4 |   3 |   5 |   2 |
 | [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
@@ -613,8 +615,8 @@
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Sudoswap sudoAMM v2](./reports/2023-06-01-sudoswap-report.pdf)                           | n/a |   3 |   4 |   3 |   6 |   4 |
-| **Total** _(10 reports)_                                                                  |   5 |  14 |  29 |  41 |  46 |  63 |
-| **Average Findings Per Audit**<br>* Crit/High 1.9<br>* Medium 2.9<br>* Low 4.1<br>* Info 4.6<br>* Gas 6.3 |
+| **Total** _(11 reports)_                                                                  |   5 |  14 |  29 |  44 |  51 |  67 |
+| **Average Findings Per Audit**<br>* Crit/High 1.73<br>* Medium 2.64<br>* Low 4<br>* Info 4.64<br>* Gas 6.09 |
 
 
 ## UniswapV4 Hooks
