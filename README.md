@@ -8,7 +8,7 @@
 | 2026-03-31  | 2026-04-03 | REDACTED AD                                                                               | Gaming, Formal Verification |   0 |   0 |   0 |   4 |   9 |   7 |
 | 2026-03-17  | 2026-03-20 | [Securitize Bridge v2](./reports/2026-03-30-cyfrin-securitize-bridgev2-v2.0.pdf), [Vault Registrar v2](./reports/2026-03-30-cyfrin-securitize-vault-registrarv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole Executor Framework, Circle CCTPv2 |   0 |   0 |   2 |   2 |   2 |   1 |
 | 2026-03-16  | 2026-03-19 | [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             | L2, ZK, C++, Cryptography |   0 |   0 |   0 |   4 |   4 |   0 |
-| 2026-03-16  | 2026-03-17 | [Myriad Realitio Oracle](./reports/2026-03-20-cyfrin-myriad-realitio-oracle-v2.0.pdf)     | Prediction Market, Oracle |   0 |   0 |   0 |   0 |   5 |   0 |
+| 2026-03-16  | 2026-03-17 | [Myriad Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf)     | Prediction Market, Oracle |   0 |   0 |   0 |   0 |   5 |   0 |
 | 2026-03-13  | 2026-03-16 | REDACTED WI S E                                                                           | Stablecoin, EIP3009 |   0 |   0 |   0 |   1 |   3 |   1 |
 | 2026-03-10  | 2026-03-12 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   2 |   6 |   1 |
 | 2026-03-09  | 2026-03-11 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) | DAO, Formal Verification |   0 |   0 |   0 |   2 |   3 |   0 |
@@ -701,7 +701,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Myriad Realitio Oracle](./reports/2026-03-20-cyfrin-myriad-realitio-oracle-v2.0.pdf)     |   0 |   0 |   0 |   0 |   5 |   0 |
+| [Myriad Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf)     |   0 |   0 |   0 |   0 |   5 |   0 |
 | [Myriad CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf)                           |   0 |   2 |   1 |   7 |  14 |   4 |
 | REDACTED PE V L Y                                                                         |   0 |   0 |   5 |   7 |   5 |   0 |
 | [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   2 |   0 |

@@ -88,8 +88,7 @@ For example, If the 10th pair has a trader who revoked approval or moved balance
 
 **Recommended Mitigation:** In both `matchMultipleOrdersWithFees` and `matchCrossMarketOrders`, check every trader balance and allowance before the match or transfer loop so any insufficient balance reverts before expensive work. Additionally document that operators should use private mempools.
 
-**ByteStrike:**
-We acknowledge this behaviour.
+**Myriad:** We acknowledge this behaviour.
 - We'll be the operators running the CLOB and intend to be using a private mempool
 - Balance/Allowance checks are done in our API before the order settlement is triggered
 - The sorting of the maker orders array can't be determined by an attacker, which therefore creates an unpredictability layer for the attacker
@@ -101,8 +100,7 @@ We acknowledge this behaviour.
 
 **Recommended Mitigation:** Validate `oracleData` question and close time match stored market values before calling oracle `initialize` in market creation and oracle update.
 
-**ByteStrike:**
-Fixed in commit [`b11e9e3`](https://github.com/Polkamarkets/polkamarkets-js/commit/b11e9e38f8bb651f2b6ffa43142600524126abbc)
+**Myriad:** Fixed in commit [`b11e9e3`](https://github.com/Polkamarkets/polkamarkets-js/commit/b11e9e38f8bb651f2b6ffa43142600524126abbc)
 
 **Cyfrin:** Verified.
 
