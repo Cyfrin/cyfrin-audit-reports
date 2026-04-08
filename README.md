@@ -4,16 +4,16 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-04-06  | 2026-04-07 | REDACTED LO C B                                                                           | Lido, Formal Verification |   0 |   0 |   0 |   0 |   2 |   3 |
 | 2026-04-01  | 2026-04-03 | REDACTED PI N C                                                                           | NFT, ERC1155        |   0 |   0 |   0 |   3 |   5 |   4 |
 | 2026-03-31  | 2026-04-03 | REDACTED AD                                                                               | Gaming, Formal Verification |   0 |   0 |   0 |   4 |   9 |   7 |
 | 2026-03-17  | 2026-03-20 | [Securitize Bridge v2](./reports/2026-03-30-cyfrin-securitize-bridgev2-v2.0.pdf), [Vault Registrar v2](./reports/2026-03-30-cyfrin-securitize-vault-registrarv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole Executor Framework, Circle CCTPv2 |   0 |   0 |   2 |   2 |   2 |   1 |
 | 2026-03-16  | 2026-03-19 | [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             | L2, ZK, C++, Cryptography |   0 |   0 |   0 |   4 |   4 |   0 |
-| 2026-03-16  | 2026-03-17 | [Myriad Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf)     | Prediction Market, Oracle |   0 |   0 |   0 |   0 |   5 |   0 |
 | 2026-03-13  | 2026-03-16 | REDACTED WI S E                                                                           | Stablecoin, EIP3009 |   0 |   0 |   0 |   1 |   3 |   1 |
 | 2026-03-10  | 2026-03-12 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   2 |   6 |   1 |
 | 2026-03-09  | 2026-03-11 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) | DAO, Formal Verification |   0 |   0 |   0 |   2 |   3 |   0 |
 | 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
-| 2026-03-05  | 2026-03-12 | [Myriad CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf)                           | Prediction Market, CLOB |   0 |   2 |   1 |   7 |  14 |   4 |
+| 2026-03-05  | 2026-04-06 | Myriad [[CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf), [Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf), [PR145](./reports/2026-04-07-cyfrin-myriad-pr145-v2.0.pdf)] | Prediction Market, CLOB, Oracle |   0 |   2 |   1 |   9 |  21 |   4 |
 | 2026-03-03  | 2026-03-09 | REDACTED BX                                                                               | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
 | 2026-03-02  | 2026-03-05 | REDACTED SE V                                                                             | Leverage, Yield, Lending, Morpho |   1 |   2 |   9 |   7 |  16 |   1 |
 | 2026-02-25  | 2026-02-25 | [ETHCF Swapboard](./reports/2026-03-04-cyfrin-ethcf-swapboard-v2.0.pdf)                   | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
@@ -210,7 +210,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(206 reports)_ | 108 | 279 | 663 | 957 | 1339 | 686 |
+|             | **Total**  |                                                                                           | _(206 reports)_ | 108 | 279 | 663 | 959 | 1343 | 689 |
 
 
 ## Legend
@@ -539,6 +539,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED LO C B                                                                           |   0 |   0 |   0 |   0 |   2 |   3 |
 | REDACTED AD                                                                               |   0 |   0 |   0 |   4 |   9 |   7 |
 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) |   0 |   0 |   0 |   2 |   3 |   0 |
 | REDACTED BX                                                                               |   0 |   0 |   1 |   7 |  10 |   9 |
@@ -554,8 +555,8 @@
 | [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Human Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
 | [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
 | REDACTED HD                                                                               |   6 |  13 |  11 |  15 |  29 |  26 |
-| **Total** _(15 reports)_                                                                  |  14 |  57 | 122 | 151 | 192 |  85 |
-| **Average Findings Per Audit**<br>* Crit/High 4.73<br>* Medium 8.13<br>* Low 10.07<br>* Info 12.8<br>* Gas 5.67 |
+| **Total** _(16 reports)_                                                                  |  14 |  57 | 122 | 151 | 194 |  88 |
+| **Average Findings Per Audit**<br>* Crit/High 4.44<br>* Medium 7.62<br>* Low 9.44<br>* Info 12.12<br>* Gas 5.5 |
 
 
 ## DAO
@@ -701,11 +702,10 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Myriad Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf)     |   0 |   0 |   0 |   0 |   5 |   0 |
-| [Myriad CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf)                           |   0 |   2 |   1 |   7 |  14 |   4 |
+| Myriad [[CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf), [Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf), [PR145](./reports/2026-04-07-cyfrin-myriad-pr145-v2.0.pdf)] |   0 |   2 |   1 |   9 |  21 |   4 |
 | REDACTED PE V L Y                                                                         |   0 |   0 |   5 |   7 |   5 |   0 |
 | [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   2 |   0 |
 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  |   0 |   0 |   0 |   6 |   9 |   0 |
 | REDACTED OE M                                                                             |   0 |   0 |   0 |   3 |   1 |   0 |
-| **Total** _(6 reports)_                                                                   |   0 |   2 |   7 |  24 |  36 |   4 |
-| **Average Findings Per Audit**<br>* Crit/High 0.33<br>* Medium 1.17<br>* Low 4<br>* Info 6<br>* Gas 0.67 |
+| **Total** _(5 reports)_                                                                   |   0 |   2 |   7 |  26 |  38 |   4 |
+| **Average Findings Per Audit**<br>* Crit/High 0.4<br>* Medium 1.4<br>* Low 5.2<br>* Info 7.6<br>* Gas 0.8 |
