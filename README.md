@@ -4,7 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
-| 2026-04-06  | 2026-04-07 | REDACTED LO C B                                                                           | Lido, Formal Verification |   0 |   0 |   0 |   0 |   2 |   3 |
+| 2026-04-06  | 2026-04-07 | [Lido Circuit Breaker](./reports/2026-04-08-cyfrin-lido-circuit-breaker-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) | Lido, Formal Verification |   0 |   0 |   0 |   0 |   2 |   3 |
 | 2026-04-01  | 2026-04-03 | REDACTED PI N C                                                                           | NFT, ERC1155        |   0 |   0 |   0 |   3 |   5 |   4 |
 | 2026-03-31  | 2026-04-03 | REDACTED AD                                                                               | Gaming, Formal Verification |   0 |   0 |   0 |   4 |   9 |   7 |
 | 2026-03-17  | 2026-03-20 | [Securitize Bridge v2](./reports/2026-03-30-cyfrin-securitize-bridgev2-v2.0.pdf), [Vault Registrar v2](./reports/2026-03-30-cyfrin-securitize-vault-registrarv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole Executor Framework, Circle CCTPv2 |   0 |   0 |   2 |   2 |   2 |   1 |
@@ -539,7 +539,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED LO C B                                                                           |   0 |   0 |   0 |   0 |   2 |   3 |
+| [Lido Circuit Breaker](./reports/2026-04-08-cyfrin-lido-circuit-breaker-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   3 |
 | REDACTED AD                                                                               |   0 |   0 |   0 |   4 |   9 |   7 |
 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) |   0 |   0 |   0 |   2 |   3 |   0 |
 | REDACTED BX                                                                               |   0 |   0 |   1 |   7 |  10 |   9 |
