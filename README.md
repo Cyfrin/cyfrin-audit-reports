@@ -4,6 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-04-06  | 2026-04-08 | [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       | Account Abstraction, Smart Wallet, ERC4337, BoringVault Integration |   0 |   0 |   0 |   3 |   2 |   2 |
 | 2026-04-06  | 2026-04-07 | [Lido Circuit Breaker](./reports/2026-04-15-cyfrin-lido-circuit-breaker-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) | Lido, Formal Verification |   0 |   0 |   0 |   0 |   2 |   3 |
 | 2026-04-01  | 2026-04-03 | REDACTED PI N C                                                                           | NFT, ERC1155        |   0 |   0 |   0 |   3 |   5 |   4 |
 | 2026-03-31  | 2026-04-03 | REDACTED AD                                                                               | Gaming, Formal Verification |   0 |   0 |   0 |   4 |   9 |   7 |
@@ -210,7 +211,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(206 reports)_ | 108 | 279 | 663 | 959 | 1343 | 689 |
+|             | **Total**  |                                                                                           | _(207 reports)_ | 108 | 279 | 663 | 962 | 1345 | 691 |
 
 
 ## Legend
@@ -230,6 +231,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       |   0 |   0 |   0 |   3 |   2 |   2 |
 | REDACTED SE V                                                                             |   1 |   2 |   9 |   7 |  16 |   1 |
 | [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
 | REDACTED PE V L Y                                                                         |   0 |   0 |   5 |   7 |   5 |   0 |
@@ -286,8 +288,8 @@
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(56 reports)_                                                                  |  58 | 111 | 266 | 354 | 399 | 177 |
-| **Average Findings Per Audit**<br>* Crit/High 3.02<br>* Medium 4.75<br>* Low 6.32<br>* Info 7.12<br>* Gas 3.16 |
+| **Total** _(57 reports)_                                                                  |  58 | 111 | 266 | 357 | 401 | 179 |
+| **Average Findings Per Audit**<br>* Crit/High 2.96<br>* Medium 4.67<br>* Low 6.26<br>* Info 7.04<br>* Gas 3.14 |
 
 
 ## TradFi / RWA / Real World Assets / Tokenization
@@ -654,6 +656,22 @@
 | **Average Findings Per Audit**<br>* Crit/High 2<br>* Medium 2.89<br>* Low 5.22<br>* Info 8.56<br>* Gas 6.89 |
 
 
+## ERC4337 / Account Abstraction / Smart Wallet
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       |   0 |   0 |   0 |   3 |   2 |   2 |
+| REDACTED RA S A                                                                           |   0 |   3 |   2 |   2 |   2 |   0 |
+| [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
+| [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
+| [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
+| [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
+| [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
+| [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
+| **Total** _(8 reports)_                                                                   |   0 |   6 |  13 |  16 |  20 |   9 |
+| **Average Findings Per Audit**<br>* Crit/High 0.75<br>* Medium 1.62<br>* Low 2<br>* Info 2.5<br>* Gas 1.12 |
+
+
 ## Token Sale / Crowd Funding
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -667,21 +685,6 @@
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
 | **Total** _(7 reports)_                                                                   |  11 |  18 |  46 |  41 |  45 |  39 |
 | **Average Findings Per Audit**<br>* Crit/High 4.14<br>* Medium 6.57<br>* Low 5.86<br>* Info 6.43<br>* Gas 5.57 |
-
-
-## ERC4337 / Account Abstraction / Smart Wallet
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED RA S A                                                                           |   0 |   3 |   2 |   2 |   2 |   0 |
-| [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
-| [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
-| [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
-| [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
-| [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
-| [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
-| **Total** _(7 reports)_                                                                   |   0 |   6 |  13 |  13 |  18 |   7 |
-| **Average Findings Per Audit**<br>* Crit/High 0.86<br>* Medium 1.86<br>* Low 1.86<br>* Info 2.57<br>* Gas 1 |
 
 
 ## Staking
