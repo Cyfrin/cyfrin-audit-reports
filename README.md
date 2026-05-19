@@ -13,11 +13,13 @@
 | 2026-04-06  | 2026-04-08 | [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       | Account Abstraction, Smart Wallet, ERC4337, BoringVault Integration |   0 |   0 |   0 |   3 |   2 |   2 |
 | 2026-04-06  | 2026-04-07 | [Lido Circuit Breaker](./reports/2026-05-01-cyfrin-lido-circuit-breaker-v2.1.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) | Lido, Formal Verification |   0 |   0 |   0 |   0 |   2 |   3 |
 | 2026-04-01  | 2026-04-03 | REDACTED PI N C                                                                           | NFT, ERC1155        |   0 |   0 |   0 |   3 |   5 |   4 |
+| 2026-04-01  | 2026-04-03 | REDACTED PE S U A                                                                         | Solana, Account Abstraction, Smart Wallet |   0 |   1 |   3 |   4 |   8 |   4 |
 | 2026-03-31  | 2026-04-09 | [Securitize Solana Bridge](./reports/2026-04-30-cyfrin-securitize-solana-bridge-v2.1.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole Executor Framework, Circle CCTPv2, Rust, Solana |   0 |   2 |   7 |  13 |  17 |   5 |
 | 2026-03-31  | 2026-04-03 | REDACTED AD                                                                               | Gaming, Formal Verification |   0 |   0 |   0 |   4 |   9 |   7 |
 | 2026-03-17  | 2026-03-20 | [Securitize Bridge v2](./reports/2026-03-30-cyfrin-securitize-bridgev2-v2.0.pdf), [Vault Registrar v2](./reports/2026-03-30-cyfrin-securitize-vault-registrarv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole Executor Framework, Circle CCTPv2 |   0 |   0 |   2 |   2 |   2 |   1 |
 | 2026-03-16  | 2026-03-19 | [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             | L2, ZK, C++, Cryptography |   0 |   0 |   0 |   4 |   4 |   0 |
 | 2026-03-13  | 2026-03-16 | REDACTED WI S E                                                                           | Stablecoin, EIP3009 |   0 |   0 |   0 |   1 |   3 |   1 |
+| 2026-03-11  | 2026-03-17 | REDACTED PE E U A                                                                         | ERC4337, Account Abstraction, Smart Wallet |   0 |   0 |   4 |   9 |   2 |   0 |
 | 2026-03-10  | 2026-03-12 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   2 |   6 |   1 |
 | 2026-03-09  | 2026-03-11 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) | DAO, Formal Verification |   0 |   0 |   0 |   2 |   3 |   0 |
 | 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
@@ -218,7 +220,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(214 reports)_ | 108 | 282 | 680 | 1023 | 1416 | 714 |
+|             | **Total**  |                                                                                           | _(216 reports)_ | 108 | 283 | 687 | 1036 | 1426 | 718 |
 
 
 ## Legend
@@ -584,6 +586,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED PE S U A                                                                         |   0 |   1 |   3 |   4 |   8 |   4 |
 | [Securitize Solana Bridge](./reports/2026-04-30-cyfrin-securitize-solana-bridge-v2.1.pdf) |   0 |   2 |   7 |  13 |  17 |   5 |
 | [Securitize Solana SPL ACL](./reports/2026-03-17-cyfrin-securitize-solana-spl-acl-v2.0.pdf) |   0 |   0 |   1 |   2 |   6 |   1 |
 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) |   0 |   0 |   1 |   1 |   6 |   1 |
@@ -598,8 +601,8 @@
 | REDACTED LE S G                                                                           |   0 |   3 |   2 |   2 |   3 |   0 |
 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
 | [Securitize Solana Vault](./reports/2025-05-23-cyfrin-securitize-solana-vault-v2.0.pdf)   |   0 |   1 |   1 |   5 |   3 |   0 |
-| **Total** _(14 reports)_                                                                  |   2 |  30 |  60 |  65 |  90 |   7 |
-| **Average Findings Per Audit**<br>* Crit/High 2.29<br>* Medium 4.29<br>* Low 4.64<br>* Info 6.43<br>* Gas 0.5 |
+| **Total** _(15 reports)_                                                                  |   2 |  31 |  63 |  69 |  98 |  11 |
+| **Average Findings Per Audit**<br>* Crit/High 2.2<br>* Medium 4.2<br>* Low 4.6<br>* Info 6.53<br>* Gas 0.73 |
 
 
 ## DAO
@@ -640,6 +643,24 @@
 | [Sudoswap sudoAMM v2](./reports/2023-06-01-sudoswap-report.pdf)                           | n/a |   3 |   4 |   3 |   6 |   4 |
 | **Total** _(11 reports)_                                                                  |   5 |  14 |  29 |  44 |  51 |  67 |
 | **Average Findings Per Audit**<br>* Crit/High 1.73<br>* Medium 2.64<br>* Low 4<br>* Info 4.64<br>* Gas 6.09 |
+
+
+## ERC4337 / Account Abstraction / Smart Wallet
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       |   0 |   0 |   0 |   3 |   2 |   2 |
+| REDACTED PE S U A                                                                         |   0 |   1 |   3 |   4 |   8 |   4 |
+| REDACTED PE E U A                                                                         |   0 |   0 |   4 |   9 |   2 |   0 |
+| REDACTED RA S A                                                                           |   0 |   3 |   2 |   2 |   2 |   0 |
+| [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
+| [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
+| [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
+| [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
+| [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
+| [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
+| **Total** _(10 reports)_                                                                  |   0 |   7 |  20 |  29 |  30 |  13 |
+| **Average Findings Per Audit**<br>* Crit/High 0.7<br>* Medium 2<br>* Low 2.9<br>* Info 3<br>* Gas 1.3 |
 
 
 ## UniswapV4 Hooks
@@ -690,22 +711,6 @@
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
 | **Total** _(8 reports)_                                                                   |  11 |  18 |  46 |  44 |  52 |  46 |
 | **Average Findings Per Audit**<br>* Crit/High 3.62<br>* Medium 5.75<br>* Low 5.5<br>* Info 6.5<br>* Gas 5.75 |
-
-
-## ERC4337 / Account Abstraction / Smart Wallet
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       |   0 |   0 |   0 |   3 |   2 |   2 |
-| REDACTED RA S A                                                                           |   0 |   3 |   2 |   2 |   2 |   0 |
-| [Metamask Delegation Framework 5](./reports/2025-09-01-cyfrin-metamask-TotalBalanceEnforcer-v2.0.pdf) |   0 |   1 |   0 |   1 |   3 |   0 |
-| [Pecunity Strategy Builder Plugin](./reports/2025-07-17-cyfrin-pecunity-v2.0.pdf)         |   0 |   1 |   5 |   3 |   4 |   3 |
-| [Metamask Delegation Framework 4](./reports/2025-05-07-cyfrin-metamask-delegationFramework-part4-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
-| [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
-| [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
-| [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
-| **Total** _(8 reports)_                                                                   |   0 |   6 |  13 |  16 |  20 |   9 |
-| **Average Findings Per Audit**<br>* Crit/High 0.75<br>* Medium 1.62<br>* Low 2<br>* Info 2.5<br>* Gas 1.12 |
 
 
 ## Staking
