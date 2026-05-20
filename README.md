@@ -24,7 +24,7 @@
 | 2026-03-09  | 2026-03-11 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) | DAO, Formal Verification |   0 |   0 |   0 |   2 |   3 |   0 |
 | 2026-03-06  | 2026-03-09 | [Securitize Solana Whitelister](./reports/2026-03-18-cyfrin-securitize-solana-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   1 |   1 |   6 |   1 |
 | 2026-03-05  | 2026-04-06 | Myriad [[CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf), [Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf), [PR145](./reports/2026-04-07-cyfrin-myriad-pr145-v2.0.pdf)] | Prediction Market, CLOB, Oracle |   0 |   2 |   1 |   9 |  21 |   4 |
-| 2026-03-03  | 2026-03-09 | REDACTED BX                                                                               | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
+| 2026-03-03  | 2026-03-09 | [BridgeX](./reports/2026-04-01-cyfrin-bridgex-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-13-cyfrin-bridgex-fv-v2.0.pdf) | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
 | 2026-03-02  | 2026-03-05 | REDACTED SE V                                                                             | Leverage, Yield, Lending, Morpho |   1 |   2 |   9 |   7 |  16 |   1 |
 | 2026-02-25  | 2026-02-25 | [ETHCF Swapboard](./reports/2026-03-04-cyfrin-ethcf-swapboard-v2.0.pdf)                   | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
 | 2026-02-24  | 2026-02-26 | REDACTED MK X                                                                             | Real-World Assets, Commodities Tokenization |   0 |   0 |   0 |   3 |   5 |   2 |
@@ -376,7 +376,7 @@
 | [Securitize Solana Bridge](./reports/2026-04-30-cyfrin-securitize-solana-bridge-v2.1.pdf) |   0 |   2 |   7 |  13 |  17 |   5 |
 | [Securitize Bridge v2](./reports/2026-03-30-cyfrin-securitize-bridgev2-v2.0.pdf), [Vault Registrar v2](./reports/2026-03-30-cyfrin-securitize-vault-registrarv2-v2.0.pdf) |   0 |   0 |   2 |   2 |   2 |   1 |
 | [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             |   0 |   0 |   0 |   4 |   4 |   0 |
-| REDACTED BX                                                                               |   0 |   0 |   1 |   7 |  10 |   9 |
+| [BridgeX](./reports/2026-04-01-cyfrin-bridgex-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-13-cyfrin-bridgex-fv-v2.0.pdf) |   0 |   0 |   1 |   7 |  10 |   9 |
 | REDACTED AM S V                                                                           |   0 |   0 |   1 |   3 |   1 |   0 |
 | REDACTED HE                                                                               |   1 |   7 |  17 |   8 |   2 |   0 |
 | [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
@@ -515,7 +515,7 @@
 | [Lido Circuit Breaker](./reports/2026-05-01-cyfrin-lido-circuit-breaker-v2.1.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   3 |
 | REDACTED AD                                                                               |   0 |   0 |   0 |   4 |   9 |   7 |
 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) |   0 |   0 |   0 |   2 |   3 |   0 |
-| REDACTED BX                                                                               |   0 |   0 |   1 |   7 |  10 |   9 |
+| [BridgeX](./reports/2026-04-01-cyfrin-bridgex-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-13-cyfrin-bridgex-fv-v2.0.pdf) |   0 |   0 |   1 |   7 |  10 |   9 |
 | [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
 | REDACTED HE                                                                               |   1 |   7 |  17 |   8 |   2 |   0 |
 | REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
