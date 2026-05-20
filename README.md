@@ -5,6 +5,7 @@
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
 | 2026-04-29  | 2026-04-29 | REDACTED WO                                                                               | Cross-Chain, LayerZero, OFT, Token Wrapper |   0 |   0 |   0 |   3 |   3 |   1 |
+| 2026-04-27  | 2026-05-06 | [Molecule OnChainLab](./reports/2026-05-12-cyfrin-molecule-onchainlab-v2.0.pdf)           | Account Abstraction, Smart Wallet, ERC4337, ERC7579, ERC6551, NFT, ERC1271, ERC7739 |   1 |   2 |   4 |  11 |  13 |   5 |
 | 2026-04-23  | 2026-04-24 | [WLFI Unlock](./reports/2026-05-06-cyfrin-wlfi-unlock-v2.0.pdf)                           | Token Vesting, Governance, Tokenization |   0 |   0 |   2 |   8 |   7 |   1 |
 | 2026-04-20  | 2026-04-24 | [Syntetika CCIP-CCT](./reports/2026-05-02-cyfrin-syntetika-ccip-cct-v2.0.pdf)             | TradFi, Vault, Yield, Cross-Chain, Chainlink CCIP |   0 |   1 |   3 |  13 |  17 |   2 |
 | 2026-04-20  | 2026-04-23 | [Predict.Fun CRE Integration](./reports/2026-04-25-cyfrin-predict-cre-integration-v2.1.pdf) | Chainlink CRE       |   0 |   0 |   5 |   6 |  12 |   7 |
@@ -220,7 +221,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(216 reports)_ | 108 | 283 | 687 | 1036 | 1426 | 718 |
+|             | **Total**  |                                                                                           | _(217 reports)_ | 109 | 285 | 691 | 1047 | 1439 | 723 |
 
 
 ## Legend
@@ -630,6 +631,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Molecule OnChainLab](./reports/2026-05-12-cyfrin-molecule-onchainlab-v2.0.pdf)           |   1 |   2 |   4 |  11 |  13 |   5 |
 | REDACTED PI N C                                                                           |   0 |   0 |   0 |   3 |   5 |   4 |
 | [VeeFriends](./reports/2025-10-15-cyfrin-veefriends-v2.0.pdf)                             |   0 |   0 |   0 |   2 |   1 |   1 |
 | REDACTED AA N                                                                             |   1 |   0 |   4 |   3 |   5 |   2 |
@@ -641,14 +643,15 @@
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Sudoswap sudoAMM v2](./reports/2023-06-01-sudoswap-report.pdf)                           | n/a |   3 |   4 |   3 |   6 |   4 |
-| **Total** _(11 reports)_                                                                  |   5 |  14 |  29 |  44 |  51 |  67 |
-| **Average Findings Per Audit**<br>* Crit/High 1.73<br>* Medium 2.64<br>* Low 4<br>* Info 4.64<br>* Gas 6.09 |
+| **Total** _(12 reports)_                                                                  |   6 |  16 |  33 |  55 |  64 |  72 |
+| **Average Findings Per Audit**<br>* Crit/High 1.83<br>* Medium 2.75<br>* Low 4.58<br>* Info 5.33<br>* Gas 6 |
 
 
 ## ERC4337 / Account Abstraction / Smart Wallet
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Molecule OnChainLab](./reports/2026-05-12-cyfrin-molecule-onchainlab-v2.0.pdf)           |   1 |   2 |   4 |  11 |  13 |   5 |
 | [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       |   0 |   0 |   0 |   3 |   2 |   2 |
 | REDACTED PE S U A                                                                         |   0 |   1 |   3 |   4 |   8 |   4 |
 | REDACTED PE E U A                                                                         |   0 |   0 |   4 |   9 |   2 |   0 |
@@ -659,8 +662,8 @@
 | [Metamask Delegation Framework 3](./reports/2025-05-01-cyfrin-metamask-delegationFramework-part3-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [Metamask Delegation Framework 2](./reports/2025-04-01-cyfrin-Metamask-DelegationFramework2-v2.0.pdf) |   0 |   0 |   4 |   2 |   1 |   3 |
 | [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
-| **Total** _(10 reports)_                                                                  |   0 |   7 |  20 |  29 |  30 |  13 |
-| **Average Findings Per Audit**<br>* Crit/High 0.7<br>* Medium 2<br>* Low 2.9<br>* Info 3<br>* Gas 1.3 |
+| **Total** _(11 reports)_                                                                  |   1 |   9 |  24 |  40 |  43 |  18 |
+| **Average Findings Per Audit**<br>* Crit/High 0.91<br>* Medium 2.18<br>* Low 3.64<br>* Info 3.91<br>* Gas 1.64 |
 
 
 ## UniswapV4 Hooks
