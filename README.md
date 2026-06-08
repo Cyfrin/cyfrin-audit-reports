@@ -4,7 +4,8 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
-| 2026-04-29  | 2026-04-29 | REDACTED WO                                                                               | Cross-Chain, LayerZero, OFT, Token Wrapper |   0 |   0 |   0 |   3 |   3 |   1 |
+| 2026-06-01  | 2026-06-02 | [Myriad PR151](./reports/2026-06-05-cyfrin-myriad-pr151-v2.0.pdf)                         | Prediction Market, CLOB, Oracle |   0 |   0 |   2 |   5 |   4 |   1 |
+| 2026-04-29  | 2026-04-29 | [wTAO](./reports/2026-05-01-cyfrin-wtao-v2.0.pdf)                                         | Cross-Chain, LayerZero, OFT, Token Wrapper |   0 |   0 |   0 |   3 |   3 |   1 |
 | 2026-04-27  | 2026-05-06 | [Molecule OnChainLab](./reports/2026-05-12-cyfrin-molecule-onchainlab-v2.0.pdf)           | Account Abstraction, Smart Wallet, ERC4337, ERC7579, ERC6551, NFT, ERC1271, ERC7739 |   1 |   2 |   4 |  11 |  13 |   5 |
 | 2026-04-23  | 2026-04-24 | [WLFI Unlock](./reports/2026-05-06-cyfrin-wlfi-unlock-v2.0.pdf)                           | Token Vesting, Governance, Tokenization |   0 |   0 |   2 |   8 |   7 |   1 |
 | 2026-04-21  | 2026-05-04 | [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) | DAO, Governance, Crowdfunding, Token Sale, Formal Verification |   0 |   3 |  10 |  15 |  15 |  11 |
@@ -222,7 +223,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(218 reports)_ | 109 | 288 | 701 | 1062 | 1454 | 734 |
+|             | **Total**  |                                                                                           | _(219 reports)_ | 109 | 288 | 703 | 1067 | 1458 | 735 |
 
 
 ## Legend
@@ -371,7 +372,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED WO                                                                               |   0 |   0 |   0 |   3 |   3 |   1 |
+| [wTAO](./reports/2026-05-01-cyfrin-wtao-v2.0.pdf)                                         |   0 |   0 |   0 |   3 |   3 |   1 |
 | [Syntetika CCIP-CCT](./reports/2026-05-02-cyfrin-syntetika-ccip-cct-v2.0.pdf)             |   0 |   1 |   3 |  13 |  17 |   2 |
 | REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
 | [Aztec Polynomial](./reports/2026-05-08-cyfrin-aztec-polynomial-v2.0.pdf)                 |   0 |   0 |   0 |  15 |   8 |   0 |
@@ -739,10 +740,11 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Myriad PR151](./reports/2026-06-05-cyfrin-myriad-pr151-v2.0.pdf)                         |   0 |   0 |   2 |   5 |   4 |   1 |
 | Myriad [[CLOB](./reports/2026-03-13-cyfrin-myriad-clob-v2.0.pdf), [Realitio Oracle](./reports/2026-04-08-cyfrin-myriad-realitio-oracle-v2.0.pdf), [PR145](./reports/2026-04-07-cyfrin-myriad-pr145-v2.0.pdf)] |   0 |   2 |   1 |   9 |  21 |   4 |
 | REDACTED PE V L Y                                                                         |   0 |   0 |   5 |   7 |   5 |   0 |
 | [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   2 |   0 |
 | [Myriad Prediction Markets](./reports/2025-07-25-cyfrin-myriad-v2.0.pdf)                  |   0 |   0 |   0 |   6 |   9 |   0 |
 | REDACTED OE M                                                                             |   0 |   0 |   0 |   3 |   1 |   0 |
-| **Total** _(5 reports)_                                                                   |   0 |   2 |   7 |  26 |  38 |   4 |
-| **Average Findings Per Audit**<br>* Crit/High 0.4<br>* Medium 1.4<br>* Low 5.2<br>* Info 7.6<br>* Gas 0.8 |
+| **Total** _(6 reports)_                                                                   |   0 |   2 |   9 |  31 |  42 |   5 |
+| **Average Findings Per Audit**<br>* Crit/High 0.33<br>* Medium 1.5<br>* Low 5.17<br>* Info 7<br>* Gas 0.83 |
