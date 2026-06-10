@@ -384,7 +384,7 @@ def update_readme(file_path):
             if not table_content:
                 continue
             if i == 0:
-                auditor_tables_content += "\n\n# Audits by Full-Time Auditor"
+                auditor_tables_content += "\n\n# Audits by Cyfrin Auditor"
             auditor_tables_content += f"\n\n## {name}\n\n{table_content}"
 
         # Preserve the "## Legend" section and append new tables

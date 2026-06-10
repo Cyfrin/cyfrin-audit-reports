@@ -750,7 +750,7 @@
 | **Average Findings Per Audit**<br>* Crit/High 0.33<br>* Medium 1.5<br>* Low 5.17<br>* Info 7<br>* Gas 0.83 |
 
 
-# Audits by Full-Time Auditor
+# Audits by Cyfrin Auditor
 
 ## Dacian
 
