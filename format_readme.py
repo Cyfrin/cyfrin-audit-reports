@@ -1,5 +1,129 @@
+import os
 import re
 import pandas as pd
+
+# Vendored full-time auditor roster. Confirmed 2026-06-10 against
+# cyfrin-manager-ai-skills auditors.json (type == "full-time"), extended with
+# the name variants that actually appear in the [Name](url) links of the report
+# markdown auditor sections (names were not standardized on older reports).
+# Each value is the set of lowercase identifiers to match against. Update this
+# when the full-time roster changes or a new name variant appears.
+FULLTIME_AUDITORS = [
+    ('Dacian', {'dacian'}),
+    ('Kage',   {'kage', '0kage'}),
+    ('Immeas', {'immeas', '0ximmeas', 'viktor'}),
+    ('Farouk', {'farouk'}),
+    ('Stalin', {'stalin', '0xstalin'}),
+    ('Alix40', {'alix40'}),
+]
+
+REPORTS_MD_DIR = 'reports_md'
+_PDF_LINK_RE = re.compile(r'\(([^)]*\.pdf)\)')
+_AUDITOR_LINK_RE = re.compile(r'\[([^\]]+)\]\(([^)]*)\)')
+
+
+def _norm_stem(filename):
+    """Normalize a report filename to a version-insensitive join key:
+    drop the extension, lowercase, and strip the trailing version (-v2.0) and
+    any Formal-Verification marker (-fv-/.fv/-FV-). README PDF links and their
+    reports_md/ counterparts often disagree on the -vN.N suffix, so matching on
+    this stem (date + slug) joins them reliably. FV files have no markdown and
+    normalize onto their main report's stem, which is harmless (deduped)."""
+    s = filename
+    for ext in ('.md', '.pdf'):
+        if s.endswith(ext):
+            s = s[:-len(ext)]
+            break
+    s = s.lower()
+    s = re.sub(r'\.fv$', '', s)                      # ...-v2.0.fv
+    s = re.sub(r'-fv(?=(-v[\d.]+)?$)', '', s)        # -fv or -fv-v2.0 (and -FV-)
+    s = re.sub(r'-v\d[\d.]*$', '', s)                # trailing -v2.0
+    return s
+
+
+_md_index_cache = None
+
+
+def _md_index():
+    """Build (once) a map from normalized stem -> list of reports_md filenames."""
+    global _md_index_cache
+    if _md_index_cache is None:
+        idx = {}
+        try:
+            names = os.listdir(REPORTS_MD_DIR)
+        except FileNotFoundError:
+            names = []
+        for fn in names:
+            if fn.endswith('.md'):
+                idx.setdefault(_norm_stem(fn), []).append(fn)
+        _md_index_cache = idx
+    return _md_index_cache
+
+
+def auditor_ids_for_md(md_filename):
+    """Return the set of lowercase auditor identifiers found in the
+    Lead+Assisting Auditors block of a report markdown file. Returns an empty
+    set if the file is missing (e.g. PDF-only reports) or has no auditor block
+    (a few very old reports)."""
+    path = os.path.join(REPORTS_MD_DIR, md_filename)
+    try:
+        with open(path, encoding='utf-8') as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        return set()
+    start = None
+    for i, line in enumerate(lines):
+        if '**Lead Auditors**' in line:
+            start = i
+            break
+    if start is None:
+        return set()
+    ids = set()
+    for line in lines[start:]:
+        if line.lstrip().startswith('# Findings'):
+            break
+        for text, url in _AUDITOR_LINK_RE.findall(line):
+            if url.startswith('#'):  # in-page anchor, not an auditor link
+                continue
+            ids.add(text.strip().lower())
+    return ids
+
+
+def auditor_ids_for_report_cell(report_cell):
+    """Map a README Report-column cell to the union of auditor identifiers
+    across every report markdown file it links to. Combined rows link multiple
+    reports; REDACTED rows link none (returns an empty set). The PDF link is
+    matched to its markdown via the version-insensitive normalized stem."""
+    idx = _md_index()
+    ids = set()
+    for pdf in _PDF_LINK_RE.findall(report_cell):
+        for md_filename in idx.get(_norm_stem(os.path.basename(pdf)), []):
+            ids |= auditor_ids_for_md(md_filename)
+    return ids
+
+
+def create_auditor_table(rows):
+    """Build a sub-table from the given DataFrame rows. Like create_additional_table
+    but also carries the Tech column (Report + Tech + C/H/M/L/I/G, Total, Average)."""
+    if rows.empty:
+        return ""
+
+    table = "| Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |\n"
+    table += "| ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |\n"
+
+    for _, row in rows.iterrows():
+        table += f"| {row['Report']:<89} | {str(row['Tech']):<19} | {row['C']:>3} | {row['H']:>3} | {row['M']:>3} | {row['L']:>3} | {row['I']:>3} | {row['G']:>3} |\n"
+
+    sums, num_rows = calculate_totals(rows)
+    total_row_text = f"**Total** _({num_rows:d} reports)_".rstrip()
+    padded_total_row = f"{total_row_text:<89}"
+    table += f"| {padded_total_row} | {'':<19} | {sums['C']:>3} | {sums['H']:>3} | {sums['M']:>3} | {sums['L']:>3} | {sums['I']:>3} | {sums['G']:>3} |\n"
+
+    avgs = calculate_averages(rows)
+    table += create_averages_row(avgs) + "\n"
+
+    return table
+
 
 def read_first_table_under_heading(file_path, heading):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -241,8 +365,30 @@ def update_readme(file_path):
                 additional_tables_content += f"\n\n## {formatted_heading}\n\n{table_content}"
                 generated_headings.add(heading)
         
+        # Generate per-auditor tables for full-time Cyfrin auditors.
+        # Read each report's markdown once to resolve its auditor identifiers.
+        audit_id_sets = [auditor_ids_for_report_cell(str(r['Report'])) for _, r in df.iterrows()]
+
+        auditor_entries = []
+        for name, variants in FULLTIME_AUDITORS:
+            mask = [bool(variants & s) for s in audit_id_sets]
+            if any(mask):
+                auditor_entries.append((name, sum(mask), mask))
+
+        # Sort by report count (desc), then name — matching the tech sub-tables.
+        auditor_entries.sort(key=lambda e: (-e[1], e[0].lower()))
+
+        auditor_tables_content = ""
+        for i, (name, _count, mask) in enumerate(auditor_entries):
+            table_content = create_auditor_table(df[mask])
+            if not table_content:
+                continue
+            if i == 0:
+                auditor_tables_content += "\n\n# Audits by Full-Time Auditor"
+            auditor_tables_content += f"\n\n## {name}\n\n{table_content}"
+
         # Preserve the "## Legend" section and append new tables
-        new_content = new_content + legend_content + additional_tables_content
+        new_content = new_content + legend_content + additional_tables_content + auditor_tables_content
         
         # Save updated content
         with open(file_path, 'w', encoding='utf-8') as file:
