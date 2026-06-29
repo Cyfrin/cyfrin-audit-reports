@@ -4,6 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-06-15  | 2026-06-19 | [Avant RequestManagerV2](./reports/2026-06-24-cyfrin-avant-requestmanagerv2-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-06-25-cyfrin-avant-requestmanagerv2-FV-v2.0.pdf) | Request-Based Token Wrap/Unwrap, Formal Verification |   0 |   0 |   0 |   1 |   3 |   1 |
 | 2026-06-10  | 2026-06-17 | [Securitize Bridge ACL Ext](./reports/2026-06-26-cyfrin-securitize-svm-bridge-acl-support-v2.0.pdf) | TradFi, Real-World Assets, Cross-Chain, Rust, Solana |   0 |   0 |   0 |   4 |   7 |   1 |
 | 2026-06-09  | 2026-06-10 | [Securitize MatchHandler](./reports/2026-06-11-cyfrin-securitize-matchHandler-v2.0.pdf)   | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   2 |   2 |   2 |
 | 2026-06-03  | 2026-06-04 | [Securitize ZKSync Exit Bridge](./reports/2026-06-10-cyfrin-securitize-zksync-exit-bridge-v2.0.pdf) | TradFi, Real-World Assets, Cross-Chain, ZKSync |   0 |   0 |   0 |   4 |   2 |   3 |
@@ -235,7 +236,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(231 reports)_ | 112 | 300 | 725 | 1146 | 1531 | 747 |
+|             | **Total**  |                                                                                           | _(232 reports)_ | 112 | 300 | 725 | 1147 | 1534 | 748 |
 
 
 ## Legend
@@ -537,6 +538,33 @@
 | **Average Findings Per Audit**<br>* Crit/High 1.9<br>* Medium 3<br>* Low 4.43<br>* Info 7.19<br>* Gas 3.76 |
 
 
+## Formal Verification
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Avant RequestManagerV2](./reports/2026-06-24-cyfrin-avant-requestmanagerv2-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-06-25-cyfrin-avant-requestmanagerv2-FV-v2.0.pdf) |   0 |   0 |   0 |   1 |   3 |   1 |
+| [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) |   0 |   3 |  10 |  15 |  15 |  11 |
+| REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
+| [Lido Circuit Breaker](./reports/2026-05-01-cyfrin-lido-circuit-breaker-v2.1.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   3 |
+| REDACTED AD                                                                               |   0 |   0 |   0 |   4 |   9 |   7 |
+| [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) |   0 |   0 |   0 |   2 |   3 |   0 |
+| [BridgeX](./reports/2026-04-01-cyfrin-bridgex-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-13-cyfrin-bridgex-fv-v2.0.pdf) |   0 |   0 |   1 |   7 |  10 |   9 |
+| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
+| REDACTED HE                                                                               |   1 |   7 |  17 |   8 |   2 |   0 |
+| REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
+| [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
+| [Aarc BTCY](./reports/2026-02-20-cyfrin-aarc-btcy-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-02-16-cyfrin-aarc-btcy-fv-v2.0.pdf) |   0 |   0 |   1 |  12 |  21 |  12 |
+| [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   2 |   0 |
+| REDACTED SK                                                                               |   0 |   3 |   6 |  21 |  20 |   6 |
+| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
+| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
+| [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Human Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
+| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
+| REDACTED HD                                                                               |   6 |  13 |  11 |  15 |  29 |  26 |
+| **Total** _(19 reports)_                                                                  |  14 |  60 | 132 | 170 | 219 | 107 |
+| **Average Findings Per Audit**<br>* Crit/High 3.89<br>* Medium 6.95<br>* Low 8.95<br>* Info 11.53<br>* Gas 5.63 |
+
+
 ## Solana
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -562,32 +590,6 @@
 | [Securitize Solana Vault](./reports/2025-05-23-cyfrin-securitize-solana-vault-v2.0.pdf)   |   0 |   1 |   1 |   5 |   3 |   0 |
 | **Total** _(19 reports)_                                                                  |   2 |  31 |  63 |  92 | 138 |  14 |
 | **Average Findings Per Audit**<br>* Crit/High 1.74<br>* Medium 3.32<br>* Low 4.84<br>* Info 7.26<br>* Gas 0.74 |
-
-
-## Formal Verification
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) |   0 |   3 |  10 |  15 |  15 |  11 |
-| REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
-| [Lido Circuit Breaker](./reports/2026-05-01-cyfrin-lido-circuit-breaker-v2.1.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   3 |
-| REDACTED AD                                                                               |   0 |   0 |   0 |   4 |   9 |   7 |
-| [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) |   0 |   0 |   0 |   2 |   3 |   0 |
-| [BridgeX](./reports/2026-04-01-cyfrin-bridgex-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-13-cyfrin-bridgex-fv-v2.0.pdf) |   0 |   0 |   1 |   7 |  10 |   9 |
-| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
-| REDACTED HE                                                                               |   1 |   7 |  17 |   8 |   2 |   0 |
-| REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
-| [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
-| [Aarc BTCY](./reports/2026-02-20-cyfrin-aarc-btcy-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-02-16-cyfrin-aarc-btcy-fv-v2.0.pdf) |   0 |   0 |   1 |  12 |  21 |  12 |
-| [Predict.Fun](./reports/2026-02-18-cyfrin-predict-fun-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-01-27-cyfrin-predict-dot-fun-FV-v2.0.pdf) |   0 |   0 |   1 |   1 |   2 |   0 |
-| REDACTED SK                                                                               |   0 |   3 |   6 |  21 |  20 |   6 |
-| [Deriverse DEX](./reports/2025-12-15-cyfrin-deriverse-dex-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-12-15-cyfrin-deriverse-dex-fv-v2.0.pdf) |   0 |  20 |  37 |  18 |  24 |   0 |
-| [Accountable](./reports/2025-10-16-cyfrin-accountable-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-10-16-cyfrin-accountable-v2.0.fv.pdf) |   4 |   2 |  12 |   5 |   9 |   1 |
-| [Sorella L2 Angstrom](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.pdf), [(Human Formal Verf.)](./reports/2025-10-01-cyfrin-sorella-l2-angstrom-v2.1.fv.pdf) |   0 |   1 |   4 |   5 |   8 |   6 |
-| [Licredity](./reports/2025-09-01-cyfrin-licredity-v2.0.pdf), [(Human Formal Verf.)](./reports/2025-09-01-cyfrin-licredity-v2.0.fv.pdf) |   2 |   2 |   1 |   4 |  13 |   0 |
-| REDACTED HD                                                                               |   6 |  13 |  11 |  15 |  29 |  26 |
-| **Total** _(18 reports)_                                                                  |  14 |  60 | 132 | 169 | 216 | 106 |
-| **Average Findings Per Audit**<br>* Crit/High 4.11<br>* Medium 7.33<br>* Low 9.39<br>* Info 12<br>* Gas 5.89 |
 
 
 ## Stablecoin
@@ -785,6 +787,55 @@
 
 # Audits by Cyfrin Auditor
 
+## Dacian
+
+| Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| [Avant RequestManagerV2](./reports/2026-06-24-cyfrin-avant-requestmanagerv2-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-06-25-cyfrin-avant-requestmanagerv2-FV-v2.0.pdf) | Request-Based Token Wrap/Unwrap, Formal Verification |   0 |   0 |   0 |   1 |   3 |   1 |
+| [Securitize ZKSync Exit Bridge](./reports/2026-06-10-cyfrin-securitize-zksync-exit-bridge-v2.0.pdf) | TradFi, Real-World Assets, Cross-Chain, ZKSync |   0 |   0 |   0 |   4 |   2 |   3 |
+| [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) | DAO, Governance, Crowdfunding, Token Sale, Formal Verification |   0 |   3 |  10 |  15 |  15 |  11 |
+| [Lido Circuit Breaker](./reports/2026-05-01-cyfrin-lido-circuit-breaker-v2.1.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) | Lido, Formal Verification |   0 |   0 |   0 |   0 |   2 |   3 |
+| [BridgeX](./reports/2026-04-01-cyfrin-bridgex-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-13-cyfrin-bridgex-fv-v2.0.pdf) | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
+| [ETHCF Swapboard](./reports/2026-03-04-cyfrin-ethcf-swapboard-v2.0.pdf)                   | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
+| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) | Vault, Yield, Chainlink, Lido, Curve, Formal Verification |   1 |   1 |   4 |  10 |   9 |  11 |
+| [Aarc BTCY](./reports/2026-02-20-cyfrin-aarc-btcy-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-02-16-cyfrin-aarc-btcy-fv-v2.0.pdf) | ERC4626, Vault, Yield, Formal Verification |   0 |   0 |   1 |  12 |  21 |  12 |
+| [Linea Forced Transactions](./reports/2026-06-18-cyfrin-linea-forced-txns-v2.0.pdf)       | L2, Cross-Chain     |   0 |   0 |   0 |   1 |   6 |   3 |
+| [Securitize EVM Whitelister](./reports/2026-02-11-cyfrin-securitize-evm-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   0 |   6 |   2 |
+| [Linea Mixed Upgrade](./reports/2026-03-27-cyfrin-linea-mixed-upgrade-v2.0.pdf)           | L2, Cross-Chain     |   1 |   0 |   0 |   1 |   6 |   0 |
+| [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
+| [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
+| [Linea Yield Manager](./reports/2026-02-12-cyfrin-linea-yield-manager-v2.0.pdf)           | L2, Cross-Chain, LidoV3, Yield |   0 |   1 |   7 |   6 |   9 |   2 |
+| [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
+| [Securitize Bridge CCTPv2](./reports/2025-10-07-cyfrin-securitize-bridge-cctpv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
+| [Securitize DSToken Rebasing](./reports/2025-10-10-cyfrin-securitize-dstoken-rebasing-v2.1.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rebasing |   1 |   0 |  10 |  23 |  25 |  20 |
+| [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
+| [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | TradFi, Vault, Yield |   0 |   1 |   1 |   7 |  19 |   6 |
+| [Majority](./reports/2026-01-27-cyfrin-majority-protocol-v2.0.pdf)                        | Gaming              |   3 |   5 |   9 |   7 |  14 |   8 |
+| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   3 |   3 |  17 |  13 |   9 |  12 |
+| [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
+| [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield        |   1 |   1 |   3 |  16 |   9 |   8 |
+| [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   | DAO, Timelock       |   0 |   0 |   0 |   4 |   4 |   1 |
+| [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | Gas Optimization, AaveV3 |   0 |   0 |   0 |   0 |   0 |  26 |
+| [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           | NFT                 |   0 |   0 |   1 |   6 |   5 |   6 |
+| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             | Real-World Assets, Commodities Tokenization, LayerZero, Chainlink CCIP |   0 |   0 |   0 |   4 |  10 |   3 |
+| [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   | Lending, DeFi Integrations |   0 |   0 |   0 |   2 |   8 |   9 |
+| [Linea Update](./reports/2025-01-06-cyfrin-linea-v2.2.pdf)                                | L2, Cross-Chain     |   0 |   0 |   1 |   1 |   5 |   5 |
+| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | Stablecoin, Lending, Vault, Vesting, LayerZero |   0 |   4 |   9 |  17 |  18 |  15 |
+| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       | Lottery, NFT, Chainlink VRF & Functions |   1 |   0 |   2 |   2 |   7 |  25 |
+| [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       | Perpetuals, Leverage Trading |   5 |   3 |  12 |  12 |   7 |  24 |
+| [Linea](./reports/2024-05-24-cyfrin-linea-v2.0.pdf)                                       | L2, Cross-Chain     |   0 |   2 |   2 |   4 |   6 |  13 |
+| [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         | Real-World Assets   |   0 |   0 |   0 |   7 |   7 |  10 |
+| [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)        | Concentrated Liquidity Manager, CLM/AMM |   1 |   1 |   4 |  10 |   9 |   9 |
+| [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)                   | Liquid Staking, NFT |   0 |   0 |   2 |  11 |   4 |   7 |
+| [Solidly V3](./reports/2024-01-24-cyfrin-solidlyV3-v2.0.pdf)                              | UniswapV3 Fork, DEX/AMM |   0 |   0 |   3 |   4 |   8 |   6 |
+| [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)                 | Cross-Chain, Wormhole |   0 |   1 |   2 |   1 |   5 |   3 |
+| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       | Lottery, Chainlink VRF, ERC1155 |   2 |   3 |   2 |   1 |   4 |   8 |
+| [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)                 | Stablecoin          |   0 |   2 |   4 |   6 |   9 |   6 |
+| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    | DAO, Crowdfunding, NFT |   3 |   9 |  14 |   4 |   8 |   8 |
+| **Total** _(41 reports)_                                                                  |                     |  22 |  40 | 135 | 253 | 347 | 341 |
+| **Average Findings Per Audit**<br>* Crit/High 1.51<br>* Medium 3.29<br>* Low 6.17<br>* Info 8.46<br>* Gas 8.32 |
+
+
 ## Immeas
 
 | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
@@ -832,54 +883,6 @@
 | [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) | Stablecoin, Lending, Vault |   2 |   2 |   3 |   8 |   5 |   2 |
 | **Total** _(41 reports)_                                                                  |                     |  14 |  20 |  82 | 190 | 296 |  92 |
 | **Average Findings Per Audit**<br>* Crit/High 0.83<br>* Medium 2<br>* Low 4.63<br>* Info 7.22<br>* Gas 2.24 |
-
-
-## Dacian
-
-| Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
-| [Securitize ZKSync Exit Bridge](./reports/2026-06-10-cyfrin-securitize-zksync-exit-bridge-v2.0.pdf) | TradFi, Real-World Assets, Cross-Chain, ZKSync |   0 |   0 |   0 |   4 |   2 |   3 |
-| [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) | DAO, Governance, Crowdfunding, Token Sale, Formal Verification |   0 |   3 |  10 |  15 |  15 |  11 |
-| [Lido Circuit Breaker](./reports/2026-05-01-cyfrin-lido-circuit-breaker-v2.1.pdf), [(AI Formal Verf.)](./reports/2026-04-08-cyfrin-lido-circuit-breaker-fv-v2.0.pdf) | Lido, Formal Verification |   0 |   0 |   0 |   0 |   2 |   3 |
-| [BridgeX](./reports/2026-04-01-cyfrin-bridgex-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-13-cyfrin-bridgex-fv-v2.0.pdf) | Cross-Chain, Bridge, Formal Verification |   0 |   0 |   1 |   7 |  10 |   9 |
-| [ETHCF Swapboard](./reports/2026-03-04-cyfrin-ethcf-swapboard-v2.0.pdf)                   | OTC                 |   0 |   0 |   0 |   2 |   3 |   6 |
-| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) | Vault, Yield, Chainlink, Lido, Curve, Formal Verification |   1 |   1 |   4 |  10 |   9 |  11 |
-| [Aarc BTCY](./reports/2026-02-20-cyfrin-aarc-btcy-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-02-16-cyfrin-aarc-btcy-fv-v2.0.pdf) | ERC4626, Vault, Yield, Formal Verification |   0 |   0 |   1 |  12 |  21 |  12 |
-| [Linea Forced Transactions](./reports/2026-06-18-cyfrin-linea-forced-txns-v2.0.pdf)       | L2, Cross-Chain     |   0 |   0 |   0 |   1 |   6 |   3 |
-| [Securitize EVM Whitelister](./reports/2026-02-11-cyfrin-securitize-evm-whitelister-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   0 |   6 |   2 |
-| [Linea Mixed Upgrade](./reports/2026-03-27-cyfrin-linea-mixed-upgrade-v2.0.pdf)           | L2, Cross-Chain     |   1 |   0 |   0 |   1 |   6 |   0 |
-| [Securitize Public Stock On/Off Ramp](./reports/2025-12-24-cyfrin-securitize-public-stock-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, AMM |   0 |   0 |   4 |  14 |  10 |  13 |
-| [WannaBetV2](./reports/2025-12-24-cyfrin-wannabetv2-v2.0.pdf)                             | Gaming, AaveV3      |   0 |   0 |   3 |   4 |  11 |   5 |
-| [Linea Yield Manager](./reports/2026-02-12-cyfrin-linea-yield-manager-v2.0.pdf)           | L2, Cross-Chain, LidoV3, Yield |   0 |   1 |   7 |   6 |   9 |   2 |
-| [Securitize Global Registry](./reports/2025-11-06-cyfrin-securitize-global-registry-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   3 |   6 |   4 |
-| [Securitize Bridge CCTPv2](./reports/2025-10-07-cyfrin-securitize-bridge-cctpv2-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Wormhole, Circle CCTPv2 |   0 |   0 |   4 |   4 |  15 |   9 |
-| [Securitize DSToken Rebasing](./reports/2025-10-10-cyfrin-securitize-dstoken-rebasing-v2.1.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rebasing |   1 |   0 |  10 |  23 |  25 |  20 |
-| [Avant Max](./reports/2025-08-28-cyfrin-avant-max-v2.0.pdf)                               | Request-Based Token Wrap/Unwrap |   0 |   0 |   0 |   2 |   7 |   5 |
-| [Syntetika](./reports/2025-08-01-cyfrin-syntetika-v2.0.pdf)                               | TradFi, Vault, Yield |   0 |   1 |   1 |   7 |  19 |   6 |
-| [Majority](./reports/2026-01-27-cyfrin-majority-protocol-v2.0.pdf)                        | Gaming              |   3 |   5 |   9 |   7 |  14 |   8 |
-| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       | Real-World Assets, Real-Estate Tokenization, Yield, Crowdfunding |   3 |   3 |  17 |  13 |   9 |  12 |
-| [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             | NFT, Chainlink Oracle |   0 |   0 |   0 |   5 |   6 |   4 |
-| [Strata PreDeposit](./reports/2025-06-11-cyfrin-strata-predeposit-v2.1.pdf)               | Vault, Yield        |   1 |   1 |   3 |  16 |   9 |   8 |
-| [Ethena Timelock](./reports/2025-05-16-cyfrin-ethena-timelock-v2.0.pdf)                   | DAO, Timelock       |   0 |   0 |   0 |   4 |   4 |   1 |
-| [Aave V3.3 Gas](./reports/2025-05-08-cyfrin-gas-aave3.3-v1.0.pdf)                         | Gas Optimization, AaveV3 |   0 |   0 |   0 |   0 |   0 |  26 |
-| [Cryptoart.com](./reports/2025-04-24-cyfrin-cryptoart-v2.0.pdf)                           | NFT                 |   0 |   0 |   1 |   6 |   5 |   6 |
-| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             | Real-World Assets, Commodities Tokenization, LayerZero, Chainlink CCIP |   0 |   0 |   0 |   4 |  10 |   3 |
-| [Rocko Refinance](./reports/2025-03-28-cyfrin-rocko-refinance-v2.0.pdf)                   | Lending, DeFi Integrations |   0 |   0 |   0 |   2 |   8 |   9 |
-| [Linea Update](./reports/2025-01-06-cyfrin-linea-v2.2.pdf)                                | L2, Cross-Chain     |   0 |   0 |   1 |   1 |   5 |   5 |
-| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         | Stablecoin, Lending, Vault, Vesting, LayerZero |   0 |   4 |   9 |  17 |  18 |  15 |
-| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       | Lottery, NFT, Chainlink VRF & Functions |   1 |   0 |   2 |   2 |   7 |  25 |
-| [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       | Perpetuals, Leverage Trading |   5 |   3 |  12 |  12 |   7 |  24 |
-| [Linea](./reports/2024-05-24-cyfrin-linea-v2.0.pdf)                                       | L2, Cross-Chain     |   0 |   2 |   2 |   4 |   6 |  13 |
-| [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         | Real-World Assets   |   0 |   0 |   0 |   7 |   7 |  10 |
-| [Beefy Concentrated Liquidity](./reports/2024-04-06-cyfrin-beefy-finance-v2.0.pdf)        | Concentrated Liquidity Manager, CLM/AMM |   1 |   1 |   4 |  10 |   9 |   9 |
-| [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)                   | Liquid Staking, NFT |   0 |   0 |   2 |  11 |   4 |   7 |
-| [Solidly V3](./reports/2024-01-24-cyfrin-solidlyV3-v2.0.pdf)                              | UniswapV3 Fork, DEX/AMM |   0 |   0 |   3 |   4 |   8 |   6 |
-| [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)                 | Cross-Chain, Wormhole |   0 |   1 |   2 |   1 |   5 |   3 |
-| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       | Lottery, Chainlink VRF, ERC1155 |   2 |   3 |   2 |   1 |   4 |   8 |
-| [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)                 | Stablecoin          |   0 |   2 |   4 |   6 |   9 |   6 |
-| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    | DAO, Crowdfunding, NFT |   3 |   9 |  14 |   4 |   8 |   8 |
-| **Total** _(40 reports)_                                                                  |                     |  22 |  40 | 135 | 252 | 344 | 340 |
-| **Average Findings Per Audit**<br>* Crit/High 1.55<br>* Medium 3.38<br>* Low 6.3<br>* Info 8.6<br>* Gas 8.5 |
 
 
 ## Kage
