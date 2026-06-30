@@ -4,6 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-06-23  | 2026-06-26 | [Accountable PR75](./reports/2026-06-30-cyfrin-accountable-pr75-v2.0.pdf)                 | Vault, Lending      |   0 |   0 |   4 |   7 |  11 |   3 |
 | 2026-06-15  | 2026-06-19 | [Avant RequestManagerV2](./reports/2026-06-24-cyfrin-avant-requestmanagerv2-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-06-25-cyfrin-avant-requestmanagerv2-FV-v2.0.pdf) | Request-Based Token Wrap/Unwrap, Formal Verification |   0 |   0 |   0 |   1 |   3 |   1 |
 | 2026-06-10  | 2026-06-17 | [Securitize Bridge ACL Ext](./reports/2026-06-26-cyfrin-securitize-svm-bridge-acl-support-v2.0.pdf) | TradFi, Real-World Assets, Cross-Chain, Rust, Solana |   0 |   0 |   0 |   4 |   7 |   1 |
 | 2026-06-09  | 2026-06-10 | [Securitize MatchHandler](./reports/2026-06-11-cyfrin-securitize-matchHandler-v2.0.pdf)   | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   2 |   2 |   2 |
@@ -236,7 +237,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(232 reports)_ | 112 | 300 | 725 | 1147 | 1534 | 748 |
+|             | **Total**  |                                                                                           | _(233 reports)_ | 112 | 300 | 729 | 1154 | 1545 | 751 |
 
 
 ## Legend
@@ -327,6 +328,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Accountable PR75](./reports/2026-06-30-cyfrin-accountable-pr75-v2.0.pdf)                 |   0 |   0 |   4 |   7 |  11 |   3 |
 | REDACTED SE Y S                                                                           |   0 |   0 |   0 |  13 |  16 |   1 |
 | [STBL ESS / Redemptions](./reports/2026-06-17-cyfrin-stbl-ess-v2.0.pdf)                   |   2 |   8 |   8 |   9 |   9 |   0 |
 | [Syntetika CCIP-CCT](./reports/2026-05-02-cyfrin-syntetika-ccip-cct-v2.0.pdf)             |   0 |   1 |   3 |  13 |  17 |   2 |
@@ -387,8 +389,8 @@
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(60 reports)_                                                                  |  60 | 120 | 277 | 392 | 443 | 182 |
-| **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 4.62<br>* Low 6.53<br>* Info 7.38<br>* Gas 3.03 |
+| **Total** _(61 reports)_                                                                  |  60 | 120 | 281 | 399 | 454 | 185 |
+| **Average Findings Per Audit**<br>* Crit/High 2.95<br>* Medium 4.61<br>* Low 6.54<br>* Info 7.44<br>* Gas 3.03 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -484,6 +486,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Accountable PR75](./reports/2026-06-30-cyfrin-accountable-pr75-v2.0.pdf)                 |   0 |   0 |   4 |   7 |  11 |   3 |
 | [Spiral Stake V2](./reports/2026-03-12-cyfrin-spiral-stake-v2-v2.0.pdf)                   |   1 |   2 |   9 |   7 |  16 |   1 |
 | [Firm Money](./reports/2026-03-09-cyfrin-firm-money-v2.0.pdf)                             |   0 |   0 |   0 |   5 |   3 |   0 |
 | REDACTED BS                                                                               |   0 |   7 |  22 |  29 |  23 |   6 |
@@ -505,8 +508,8 @@
 | [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       |   5 |   3 |  12 |  12 |   7 |  24 |
 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(21 reports)_                                                                  |  24 |  65 | 148 | 175 | 185 |  86 |
-| **Average Findings Per Audit**<br>* Crit/High 4.24<br>* Medium 7.05<br>* Low 8.33<br>* Info 8.81<br>* Gas 4.1 |
+| **Total** _(22 reports)_                                                                  |  24 |  65 | 152 | 182 | 196 |  89 |
+| **Average Findings Per Audit**<br>* Crit/High 4.05<br>* Medium 6.91<br>* Low 8.27<br>* Info 8.91<br>* Gas 4.05 |
 
 
 ## Chainlink Integration
