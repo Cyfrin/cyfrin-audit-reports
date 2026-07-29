@@ -15,6 +15,7 @@ FULLTIME_AUDITORS = [
     ('Farouk', {'farouk'}),
     ('Stalin', {'stalin', '0xstalin'}),
     ('Alix40', {'alix40'}),
+    ('Hans', {'hans'}),
 ]
 
 REPORTS_MD_DIR = 'reports_md'
