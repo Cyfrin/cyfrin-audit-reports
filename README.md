@@ -808,6 +808,19 @@
 | **Average Findings Per Audit**<br>* Crit/High 0.29<br>* Medium 1.43<br>* Low 4.86<br>* Info 7.14<br>* Gas 0.71 |
 
 
+## ZK / Cryptography
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED ZK S                                                                             |   0 |   0 |   0 |   7 |  17 |   3 |
+| [Aztec Polynomial](./reports/2026-05-08-cyfrin-aztec-polynomial-v2.0.pdf)                 |   0 |   0 |   0 |  15 |   8 |   0 |
+| [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             |   0 |   0 |   0 |   4 |   4 |   0 |
+| Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   1 |
+| REDACTED LA                                                                               |   0 |   0 |   4 |   3 |   4 |   0 |
+| **Total** _(5 reports)_                                                                   |   0 |   0 |   4 |  29 |  36 |   4 |
+| **Average Findings Per Audit**<br>* Crit/High 0<br>* Medium 0.8<br>* Low 5.8<br>* Info 7.2<br>* Gas 0.8 |
+
+
 # Audits by Cyfrin Auditor
 
 ## Immeas

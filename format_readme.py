@@ -238,10 +238,7 @@ def create_averages_row(avgs):
     return f"| {values} |"
 
 def create_additional_table(df, heading):
-    if heading == 'Staking':
-        rows = df[df['Tech'].apply(lambda x: any('Staking' in tech and 'Liquid Staking' not in tech for tech in x.split(',')))]
-    else:
-        rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
+    rows = rows_for_heading(df, heading)
     
     if rows.empty:
         return ""
@@ -281,8 +278,17 @@ def map_tech_to_headings():
         'UniswapV4 Hooks': ['UniswapV4'],
         'Solana': ['Solana'],
         'Formal Verification': ['Formal Verification'],
-        'Prediction Market': ['Prediction Market']
+        'Prediction Market': ['Prediction Market'],
+        'ZK/Cryptography': ['ZK', 'Cryptography']
     }
+
+
+def rows_for_heading(df, heading):
+    if heading == 'Staking':
+        return df[df['Tech'].apply(lambda x: any('Staking' in tech and 'Liquid Staking' not in tech for tech in x.split(',')))]
+    if heading == 'ZK/Cryptography':
+        return df[df['Tech'].apply(lambda x: any(tech.strip() in heading_tech_map[heading] for tech in x.split(',')))]
+    return df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
 
 def update_readme(file_path):
     global heading_tech_map
@@ -339,10 +345,7 @@ def update_readme(file_path):
         # Calculate report counts and AVG(C+H) for each heading
         heading_metrics = {}
         for heading in heading_tech_map.keys():
-            if heading == 'Staking':
-                rows = df[df['Tech'].apply(lambda x: any('Staking' in tech and 'Liquid Staking' not in tech for tech in x.split(',')))]
-            else:
-                rows = df[df['Tech'].apply(lambda x: any(tech in x for tech in heading_tech_map[heading]))]
+            rows = rows_for_heading(df, heading)
             
             if not rows.empty:
                 report_count = len(rows)
