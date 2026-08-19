@@ -279,7 +279,8 @@ def map_tech_to_headings():
         'Solana': ['Solana'],
         'Formal Verification': ['Formal Verification'],
         'Prediction Market': ['Prediction Market'],
-        'ZK/Cryptography': ['ZK', 'Cryptography']
+        'ZK/Cryptography': ['ZK', 'Cryptography'],
+        'Tranche Products': ['Tranche']
     }
 
 
