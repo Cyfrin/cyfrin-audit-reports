@@ -198,7 +198,7 @@ When `count` reaches `u64::MAX`, it saturates and stays at `u64::MAX`. The next 
 
 **Recommended Mitigation:** If this intentional, document the permissionless design as intentional.
 
-**Securitize:** Fixed in [4a09894](https://github.com/securitize-io/bc-solana-whitelister/commit/4a09894fe802d324d7dceee0442ab873841e4c3d).
+**Securitize:** Fixed in commits [b7ebcf17](https://github.com/securitize-io/audit-2026-08-securitize-svm-vaultregistrar-spl-acl/commit/b7ebcf17fcbaed8c2c3d0a0e4999a6d7e8a512b4) and [4a09894](https://github.com/securitize-io/bc-solana-whitelister/commit/4a09894fe802d324d7dceee0442ab873841e4c3d).
 
 **Cyfrin:** Verified.
 
