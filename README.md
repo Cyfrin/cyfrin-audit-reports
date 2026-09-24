@@ -4,6 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-09-14  | 2026-09-16 | REDACTED MA R                                                                             | TradFi, RWA, NFT, Real-Estate Tokenization |   0 |   0 |   1 |   8 |   7 |   1 |
 | 2026-09-07  | 2026-09-08 | [Securitize BUIDL-I Deploy Diff](./reports/2026-09-09-cyfrin-securitize-evm-buildi-deploy-diff-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   0 |   0 |   0 |
 | 2026-09-03  | 2026-09-04 | [Securitize Global Deny List](./reports/2026-09-11-cyfrin-securitize-evm-globaldenylist-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   4 |   7 |   1 |
 | 2026-08-31  | 2026-09-02 | [GreekFi Core](./reports/2026-09-08-cyfrin-greekfi-core-v2.0.pdf)                         | Options, Derivatives |   0 |   0 |   1 |   4 |   9 |   3 |
@@ -264,7 +265,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(260 reports)_ | 116 | 328 | 839 | 1514 | 1903 | 821 |
+|             | **Total**  |                                                                                           | _(261 reports)_ | 116 | 328 | 840 | 1522 | 1910 | 822 |
 
 
 ## Legend
@@ -284,6 +285,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED MA R                                                                             |   0 |   0 |   1 |   8 |   7 |   1 |
 | [Securitize BUIDL-I Deploy Diff](./reports/2026-09-09-cyfrin-securitize-evm-buildi-deploy-diff-v2.0.pdf) |   0 |   0 |   0 |   0 |   0 |   0 |
 | [Securitize Global Deny List](./reports/2026-09-11-cyfrin-securitize-evm-globaldenylist-v2.0.pdf) |   0 |   0 |   0 |   4 |   7 |   1 |
 | [Securitize DSToken Timelocks](./reports/2026-09-07-cyfrin-securitize-evm-dstoken-timelocks-v2.0.pdf) |   0 |   0 |   0 |   3 |  12 |   0 |
@@ -357,8 +359,8 @@
 | [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Securitize Redemptions](./reports/2024-07-18-cyfrin-securitize-redemptions-v2.0.pdf)     |   2 |   3 |   4 |   6 |   3 |   0 |
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| **Total** _(73 reports)_                                                                  |  30 |  65 | 207 | 414 | 499 | 213 |
-| **Average Findings Per Audit**<br>* Crit/High 1.3<br>* Medium 2.84<br>* Low 5.67<br>* Info 6.84<br>* Gas 2.92 |
+| **Total** _(74 reports)_                                                                  |  30 |  65 | 208 | 422 | 506 | 214 |
+| **Average Findings Per Audit**<br>* Crit/High 1.28<br>* Medium 2.81<br>* Low 5.7<br>* Info 6.84<br>* Gas 2.89 |
 
 
 ## ERC4626 / Vault / Yield
@@ -720,6 +722,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED MA R                                                                             |   0 |   0 |   1 |   8 |   7 |   1 |
 | REDACTED MA O R R R                                                                       |   0 |   0 |   4 |  20 |  22 |   1 |
 | REDACTED IE R S                                                                           |   1 |   6 |  17 |  37 |  41 |   5 |
 | [STBL ESS / Redemptions](./reports/2026-06-17-cyfrin-stbl-ess-v2.0.pdf)                   |   2 |   8 |   8 |   9 |   9 |   0 |
@@ -735,8 +738,8 @@
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Sudoswap sudoAMM v2](./reports/2023-06-01-sudoswap-report.pdf)                           | n/a |   3 |   4 |   3 |   6 |   4 |
-| **Total** _(15 reports)_                                                                  |   9 |  30 |  62 | 121 | 136 |  78 |
-| **Average Findings Per Audit**<br>* Crit/High 2.6<br>* Medium 4.13<br>* Low 8.07<br>* Info 9.07<br>* Gas 5.2 |
+| **Total** _(16 reports)_                                                                  |   9 |  30 |  63 | 129 | 143 |  79 |
+| **Average Findings Per Audit**<br>* Crit/High 2.44<br>* Medium 3.94<br>* Low 8.06<br>* Info 8.94<br>* Gas 4.94 |
 
 
 ## DAO
