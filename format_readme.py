@@ -16,6 +16,7 @@ FULLTIME_AUDITORS = [
     ('Stalin', {'stalin', '0xstalin'}),
     ('Alix40', {'alix40'}),
     ('Hans', {'hans'}),
+    ('Raiders', {'raiders'}),
 ]
 
 REPORTS_MD_DIR = 'reports_md'
@@ -280,7 +281,8 @@ def map_tech_to_headings():
         'Formal Verification': ['Formal Verification'],
         'Prediction Market': ['Prediction Market'],
         'ZK/Cryptography': ['ZK', 'Cryptography'],
-        'Tranche Products': ['Tranche']
+        'Tranche Products': ['Tranche'],
+        'Off-Chain, Web2Sec, Pentest': ['Off-Chain', 'Off-chain', 'Web2Sec', 'Pentest']
     }
 
 
