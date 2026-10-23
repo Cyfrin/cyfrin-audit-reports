@@ -50,6 +50,7 @@
 | 2026-05-18  | 2026-05-20 | [Securitize SVM Whitelist ACL Support](./reports/2026-06-02-cyfrin-securitize-svm-whitelist-acl-support-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   1 |   4 |   0 |
 | 2026-05-13  | 2026-05-19 | REDACTED LO C P                                                                           | Off-Chain, Web2Sec, Pentest |   1 |   3 |   3 |  10 |   6 |   0 |
 | 2026-05-13  | 2026-05-15 | [Securitize Full Investor Locks](./reports/2026-05-29-cyfrin-securitize-full-investor-locks-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   6 |  10 |   4 |   0 |
+| 2026-05-05  | 2026-05-11 | REDACTED PL 3 U                                                                           | Stablecoin, Vault, Yield, EIP-3009 |   0 |   0 |   0 |   1 |   7 |   0 |
 | 2026-04-29  | 2026-04-29 | [wTAO](./reports/2026-05-01-cyfrin-wtao-v2.0.pdf)                                         | Cross-Chain, LayerZero, OFT, Token Wrapper |   0 |   0 |   0 |   3 |   3 |   1 |
 | 2026-04-27  | 2026-05-06 | [Molecule OnChainLab](./reports/2026-05-12-cyfrin-molecule-onchainlab-v2.0.pdf)           | Account Abstraction, Smart Wallet, ERC4337, ERC7579, ERC6551, NFT, ERC1271, ERC7739 |   1 |   2 |   4 |  11 |  13 |   5 |
 | 2026-04-23  | 2026-04-25 | [Securitize Compliance Permissionless (Diff)](./reports/2026-06-04-cyfrin-securitize-compliance-permissionless-diff-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   3 |   2 |   0 |   0 |
@@ -273,7 +274,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(269 reports)_ | 117 | 332 | 869 | 1591 | 1996 | 833 |
+|             | **Total**  |                                                                                           | _(270 reports)_ | 117 | 332 | 869 | 1592 | 2003 | 833 |
 
 
 ## Legend
@@ -386,6 +387,7 @@
 | [Accountable PR75](./reports/2026-06-30-cyfrin-accountable-pr75-v2.0.pdf)                 |   0 |   0 |   4 |   7 |  11 |   3 |
 | REDACTED SE Y S                                                                           |   0 |   0 |   0 |  13 |  16 |   1 |
 | [STBL ESS / Redemptions](./reports/2026-06-17-cyfrin-stbl-ess-v2.0.pdf)                   |   2 |   8 |   8 |   9 |   9 |   0 |
+| REDACTED PL 3 U                                                                           |   0 |   0 |   0 |   1 |   7 |   0 |
 | [Syntetika CCIP-CCT](./reports/2026-05-02-cyfrin-syntetika-ccip-cct-v2.0.pdf)             |   0 |   1 |   3 |  13 |  17 |   2 |
 | [MetaMask Veda Adapter](./reports/2026-04-20-cyfrin-metamask-veda-adapter-v2.0.pdf)       |   0 |   0 |   0 |   3 |   2 |   2 |
 | REDACTED TS F                                                                             |   1 |   5 |   7 |  16 |  29 |   5 |
@@ -445,8 +447,8 @@
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(68 reports)_                                                                  |  61 | 133 | 325 | 494 | 551 | 215 |
-| **Average Findings Per Audit**<br>* Crit/High 2.85<br>* Medium 4.78<br>* Low 7.26<br>* Info 8.1<br>* Gas 3.16 |
+| **Total** _(69 reports)_                                                                  |  61 | 133 | 325 | 495 | 558 | 215 |
+| **Average Findings Per Audit**<br>* Crit/High 2.81<br>* Medium 4.71<br>* Low 7.17<br>* Info 8.09<br>* Gas 3.12 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -687,6 +689,7 @@
 | REDACTED WI R P                                                                           |   0 |   0 |   3 |   8 |  14 |   1 |
 | REDACTED ZK S                                                                             |   0 |   0 |   0 |   7 |  17 |   3 |
 | [STBL ESS / Redemptions](./reports/2026-06-17-cyfrin-stbl-ess-v2.0.pdf)                   |   2 |   8 |   8 |   9 |   9 |   0 |
+| REDACTED PL 3 U                                                                           |   0 |   0 |   0 |   1 |   7 |   0 |
 | REDACTED WI R P                                                                           |   0 |   1 |   7 |  13 |   6 |   3 |
 | REDACTED WI S E                                                                           |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Firm Money](./reports/2026-03-09-cyfrin-firm-money-v2.0.pdf)                             |   0 |   0 |   0 |   5 |   3 |   0 |
@@ -705,8 +708,8 @@
 | [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)                 |   0 |   2 |   4 |   6 |   9 |   6 |
 | [Beanstalk BIP-38](./reports/2023-10-13-cyfrin-beanstalk-bip-38.pdf)                      | n/a |   1 |   1 |   1 |  13 |   0 |
 | [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | n/a |   2 |   4 |  11 |  35 |  11 |
-| **Total** _(22 reports)_                                                                  |  22 |  42 |  75 | 148 | 216 |  51 |
-| **Average Findings Per Audit**<br>* Crit/High 2.91<br>* Medium 3.41<br>* Low 6.73<br>* Info 9.82<br>* Gas 2.32 |
+| **Total** _(23 reports)_                                                                  |  22 |  42 |  75 | 149 | 223 |  51 |
+| **Average Findings Per Audit**<br>* Crit/High 2.78<br>* Medium 3.26<br>* Low 6.48<br>* Info 9.7<br>* Gas 2.22 |
 
 
 ## NFT
