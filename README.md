@@ -4,6 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-10-16  | 2026-10-19 | REDACTED SE E D S A                                                                       | TradFi, Real-World Assets, Securities Tokenization, ERC-8056, Rebasing |   0 |   0 |   0 |   1 |   5 |   0 |
 | 2026-09-26  | 2026-09-27 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, DEX, AMM, Jump, Rust, Solana |   0 |   0 |   0 |   0 |   2 |   0 |
 | 2026-09-21  | 2026-09-22 | REDACTED SK P                                                                             | Liquid Staking, Chainlink |   0 |   0 |   0 |   0 |   4 |   0 |
 | 2026-09-17  | 2026-09-30 | [Note Systems Frontend](./reports/2026-10-02-cyfrin-note-systems-frontend-v2.0.pdf)       | Off-Chain, Web2Sec, Pentest |   0 |   0 |   7 |  29 |  14 |   0 |
@@ -276,7 +277,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(272 reports)_ | 117 | 334 | 870 | 1601 | 2018 | 833 |
+|             | **Total**  |                                                                                           | _(273 reports)_ | 117 | 334 | 870 | 1602 | 2023 | 833 |
 
 
 ## Legend
@@ -296,6 +297,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED SE E D S A                                                                       |   0 |   0 |   0 |   1 |   5 |   0 |
 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [Securitize Stellar DSToken](./reports/2026-09-23-cyfrin-securitize-stellar-dstoken-v2.0.pdf) |   0 |   0 |   3 |   5 |   2 |   0 |
 | REDACTED MA R                                                                             |   0 |   0 |   1 |   8 |   7 |   1 |
@@ -372,8 +374,8 @@
 | [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Securitize Redemptions](./reports/2024-07-18-cyfrin-securitize-redemptions-v2.0.pdf)     |   2 |   3 |   4 |   6 |   3 |   0 |
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| **Total** _(76 reports)_                                                                  |  30 |  65 | 211 | 427 | 510 | 214 |
-| **Average Findings Per Audit**<br>* Crit/High 1.25<br>* Medium 2.78<br>* Low 5.62<br>* Info 6.71<br>* Gas 2.82 |
+| **Total** _(77 reports)_                                                                  |  30 |  65 | 211 | 428 | 515 | 214 |
+| **Average Findings Per Audit**<br>* Crit/High 1.23<br>* Medium 2.74<br>* Low 5.56<br>* Info 6.69<br>* Gas 2.78 |
 
 
 ## ERC4626 / Vault / Yield
