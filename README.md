@@ -13,6 +13,7 @@
 | 2026-09-10  | 2026-09-16 | [Tuo](./reports/2026-09-28-cyfrin-tuo-v2.0.pdf)                                           | Vault, Yield, CLM, NFT, Uniswap |   0 |   3 |   7 |  10 |  16 |   4 |
 | 2026-09-08  | 2026-09-09 | [Dowgo](./reports/2026-10-08-cyfrin-dowgo-v2.0.pdf)                                       | ERC3643, UniswapV4 Hooks, UniswapV4 Permissioned Pools |   0 |   0 |   5 |   4 |   1 |   0 |
 | 2026-09-07  | 2026-09-25 | REDACTED PS                                                                               | Stablecoin, CDP, Bonding Curve, Lending, DAO, Formal Verification |   1 |   0 |   4 |  14 |  19 |   0 |
+| 2026-09-07  | 2026-09-16 | REDACTED LS F U                                                                           | Lending, Vault, Yield, Tranche, Morpho, Coinbase Prime |   0 |   2 |   1 |   7 |  11 |   0 |
 | 2026-09-07  | 2026-09-08 | [Securitize BUIDL-I Deploy Diff](./reports/2026-09-09-cyfrin-securitize-evm-buildi-deploy-diff-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   0 |   0 |   0 |
 | 2026-09-03  | 2026-09-04 | [Securitize Global Deny List](./reports/2026-09-11-cyfrin-securitize-evm-globaldenylist-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   4 |   7 |   1 |
 | 2026-08-31  | 2026-09-02 | [GreekFi Core](./reports/2026-09-08-cyfrin-greekfi-core-v2.0.pdf)                         | Options, Derivatives |   0 |   0 |   1 |   4 |   9 |   3 |
@@ -275,7 +276,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(271 reports)_ | 117 | 332 | 869 | 1594 | 2007 | 833 |
+|             | **Total**  |                                                                                           | _(272 reports)_ | 117 | 334 | 870 | 1601 | 2018 | 833 |
 
 
 ## Legend
@@ -380,6 +381,7 @@
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | [Tuo](./reports/2026-09-28-cyfrin-tuo-v2.0.pdf)                                           |   0 |   3 |   7 |  10 |  16 |   4 |
+| REDACTED LS F U                                                                           |   0 |   2 |   1 |   7 |  11 |   0 |
 | REDACTED QO R                                                                             |   0 |   0 |   8 |  12 |   6 |   5 |
 | REDACTED SE Y O I                                                                         |   0 |   0 |   0 |   0 |   3 |   0 |
 | [Securitize EVM Async Vault](./reports/2026-08-20-cyfrin-securitize-evm-async-vault-v2.0.pdf) |   0 |   1 |   1 |  11 |   4 |   4 |
@@ -449,8 +451,8 @@
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(70 reports)_                                                                  |  61 | 133 | 325 | 497 | 562 | 215 |
-| **Average Findings Per Audit**<br>* Crit/High 2.77<br>* Medium 4.64<br>* Low 7.1<br>* Info 8.03<br>* Gas 3.07 |
+| **Total** _(71 reports)_                                                                  |  61 | 135 | 326 | 504 | 573 | 215 |
+| **Average Findings Per Audit**<br>* Crit/High 2.76<br>* Medium 4.59<br>* Low 7.1<br>* Info 8.07<br>* Gas 3.03 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -520,6 +522,7 @@
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | REDACTED PS                                                                               |   1 |   0 |   4 |  14 |  19 |   0 |
+| REDACTED LS F U                                                                           |   0 |   2 |   1 |   7 |  11 |   0 |
 | [GreekFi Oracle](./reports/2026-09-08-cyfrin-greekfi-oracle-v2.0.pdf)                     |   0 |   0 |   2 |   1 |   4 |   0 |
 | REDACTED WI R P                                                                           |   0 |   0 |   3 |   8 |  14 |   1 |
 | REDACTED QO R                                                                             |   0 |   0 |   8 |  12 |   6 |   5 |
@@ -549,8 +552,8 @@
 | [Zaros](./reports/2024-07-13-cyfrin-zaros-v2.0.pdf)                                       |   5 |   3 |  12 |  12 |   7 |  24 |
 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(30 reports)_                                                                  |  25 |  71 | 199 | 281 | 296 | 116 |
-| **Average Findings Per Audit**<br>* Crit/High 3.2<br>* Medium 6.63<br>* Low 9.37<br>* Info 9.87<br>* Gas 3.87 |
+| **Total** _(31 reports)_                                                                  |  25 |  73 | 200 | 288 | 307 | 116 |
+| **Average Findings Per Audit**<br>* Crit/High 3.16<br>* Medium 6.45<br>* Low 9.29<br>* Info 9.9<br>* Gas 3.74 |
 
 
 ## CLM / DEX / AMM / Concentrated Liquidity
@@ -916,14 +919,15 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED LS F U                                                                           |   0 |   2 |   1 |   7 |  11 |   0 |
 | REDACTED SE Y O I                                                                         |   0 |   0 |   0 |   0 |   3 |   0 |
 | REDACTED LS                                                                               |   0 |   4 |  13 |  19 |  18 |   6 |
 | REDACTED SE Y S                                                                           |   0 |   0 |   0 |  13 |  16 |   1 |
 | REDACTED HE                                                                               |   1 |   7 |  17 |   8 |   2 |   0 |
 | [Strata Shares Cooldown](./reports/2026-01-23-cyfrin-strata-shares-cooldown-v2.0.pdf)     |   0 |   0 |   6 |   3 |  10 |   2 |
 | [Strata Tranches](./reports/2025-10-08-cyfrin-strata-tranches-v2.0.pdf)                   |   1 |   2 |   6 |   5 |  12 |   2 |
-| **Total** _(6 reports)_                                                                   |   2 |  13 |  42 |  48 |  61 |  11 |
-| **Average Findings Per Audit**<br>* Crit/High 2.5<br>* Medium 7<br>* Low 8<br>* Info 10.17<br>* Gas 1.83 |
+| **Total** _(7 reports)_                                                                   |   2 |  15 |  43 |  55 |  72 |  11 |
+| **Average Findings Per Audit**<br>* Crit/High 2.43<br>* Medium 6.14<br>* Low 7.86<br>* Info 10.29<br>* Gas 1.57 |
 
 
 ## Off-Chain, Web2Sec, Pentest
