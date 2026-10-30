@@ -7,6 +7,7 @@
 | 2026-10-16  | 2026-10-19 | REDACTED SE E D S A                                                                       | TradFi, Real-World Assets, Securities Tokenization, ERC-8056, Rebasing |   0 |   0 |   0 |   1 |   5 |   0 |
 | 2026-09-26  | 2026-09-27 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, DEX, AMM, Jump, Rust, Solana |   0 |   0 |   0 |   0 |   2 |   0 |
 | 2026-09-21  | 2026-09-22 | REDACTED SK P                                                                             | Liquid Staking, Chainlink |   0 |   0 |   0 |   0 |   4 |   0 |
+| 2026-09-17  | 2026-10-28 | [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) | TradFi, RWA, Tokenization, Structured Products, ERC1155, Vault, Yield, ERC4626, Staking, DAO, Chainlink, Pyth, Uniswap |   0 |   1 |  41 | 101 |  34 |   6 |
 | 2026-09-17  | 2026-09-30 | [Note Systems Frontend](./reports/2026-10-02-cyfrin-note-systems-frontend-v2.0.pdf)       | Off-Chain, Web2Sec, Pentest |   0 |   0 |   7 |  29 |  14 |   0 |
 | 2026-09-15  | 2026-09-21 | [Securitize Stellar DSToken](./reports/2026-09-23-cyfrin-securitize-stellar-dstoken-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Stellar, Soroban, Rust |   0 |   0 |   3 |   5 |   2 |   0 |
 | 2026-09-14  | 2026-09-23 | REDACTED WI S                                                                             | Staking, NFT, Governance |   0 |   0 |   1 |   2 |  16 |   1 |
@@ -277,7 +278,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(273 reports)_ | 117 | 334 | 870 | 1602 | 2023 | 833 |
+|             | **Total**  |                                                                                           | _(274 reports)_ | 117 | 335 | 911 | 1703 | 2057 | 839 |
 
 
 ## Legend
@@ -299,6 +300,7 @@
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | REDACTED SE E D S A                                                                       |   0 |   0 |   0 |   1 |   5 |   0 |
 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
+| [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) |   0 |   1 |  41 | 101 |  34 |   6 |
 | [Securitize Stellar DSToken](./reports/2026-09-23-cyfrin-securitize-stellar-dstoken-v2.0.pdf) |   0 |   0 |   3 |   5 |   2 |   0 |
 | REDACTED MA R                                                                             |   0 |   0 |   1 |   8 |   7 |   1 |
 | [Securitize BUIDL-I Deploy Diff](./reports/2026-09-09-cyfrin-securitize-evm-buildi-deploy-diff-v2.0.pdf) |   0 |   0 |   0 |   0 |   0 |   0 |
@@ -374,14 +376,15 @@
 | [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Securitize Redemptions](./reports/2024-07-18-cyfrin-securitize-redemptions-v2.0.pdf)     |   2 |   3 |   4 |   6 |   3 |   0 |
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| **Total** _(77 reports)_                                                                  |  30 |  65 | 211 | 428 | 515 | 214 |
-| **Average Findings Per Audit**<br>* Crit/High 1.23<br>* Medium 2.74<br>* Low 5.56<br>* Info 6.69<br>* Gas 2.78 |
+| **Total** _(78 reports)_                                                                  |  30 |  66 | 252 | 529 | 549 | 220 |
+| **Average Findings Per Audit**<br>* Crit/High 1.23<br>* Medium 3.23<br>* Low 6.78<br>* Info 7.04<br>* Gas 2.82 |
 
 
 ## ERC4626 / Vault / Yield
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) |   0 |   1 |  41 | 101 |  34 |   6 |
 | [Tuo](./reports/2026-09-28-cyfrin-tuo-v2.0.pdf)                                           |   0 |   3 |   7 |  10 |  16 |   4 |
 | REDACTED LS F U                                                                           |   0 |   2 |   1 |   7 |  11 |   0 |
 | REDACTED QO R                                                                             |   0 |   0 |   8 |  12 |   6 |   5 |
@@ -453,8 +456,8 @@
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(71 reports)_                                                                  |  61 | 135 | 326 | 504 | 573 | 215 |
-| **Average Findings Per Audit**<br>* Crit/High 2.76<br>* Medium 4.59<br>* Low 7.1<br>* Info 8.07<br>* Gas 3.03 |
+| **Total** _(72 reports)_                                                                  |  61 | 136 | 367 | 605 | 607 | 221 |
+| **Average Findings Per Audit**<br>* Crit/High 2.74<br>* Medium 5.1<br>* Low 8.4<br>* Info 8.43<br>* Gas 3.07 |
 
 
 ## Cross-Chain / Wormhole / Chainlink CCIP / LayerZero / L2<->L1
@@ -592,6 +595,39 @@
 | **Average Findings Per Audit**<br>* Crit/High 3.35<br>* Medium 5.31<br>* Low 6.27<br>* Info 8.85<br>* Gas 4.12 |
 
 
+## Chainlink Integration
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED SK P                                                                             |   0 |   0 |   0 |   0 |   4 |   0 |
+| [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) |   0 |   1 |  41 | 101 |  34 |   6 |
+| [GreekFi Oracle](./reports/2026-09-08-cyfrin-greekfi-oracle-v2.0.pdf)                     |   0 |   0 |   2 |   1 |   4 |   0 |
+| REDACTED DO P M                                                                           |   0 |   7 |  18 |  50 |  44 |   6 |
+| [Syntetika CCIP-CCT](./reports/2026-05-02-cyfrin-syntetika-ccip-cct-v2.0.pdf)             |   0 |   1 |   3 |  13 |  17 |   2 |
+| [Predict.Fun CRE Integration](./reports/2026-04-25-cyfrin-predict-cre-integration-v2.1.pdf) |   0 |   0 |   5 |   6 |  12 |   7 |
+| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
+| [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
+| REDACTED MK X E [EVM, Sui]                                                                |   0 |   0 |   0 |   6 |  23 |   3 |
+| REDACTED CO                                                                               |   2 |  14 |  21 |   8 |   6 |   0 |
+| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
+| [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
+| [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
+| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
+| [Stake.Link Polygon Staking](./reports/2025-05-19-cyfrin-stakedotlink-polygon-staking-v2.0.pdf) |   0 |   0 |   2 |   4 |   8 |   2 |
+| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
+| [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
+| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
+| REDACTED SM S                                                                             |   0 |   0 |   0 |   1 |   5 |   0 |
+| [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
+| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
+| [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             |   2 |   5 |   6 |   5 |   0 |   3 |
+| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
+| [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                       |   1 |   0 |   5 |   0 |   3 |   0 |
+| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
+| **Total** _(25 reports)_                                                                  |  11 |  37 | 124 | 245 | 237 |  91 |
+| **Average Findings Per Audit**<br>* Crit/High 1.92<br>* Medium 4.96<br>* Low 9.8<br>* Info 9.48<br>* Gas 3.64 |
+
+
 ## Solana
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -655,38 +691,6 @@
 | [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | n/a |   2 |   4 |  11 |  35 |  11 |
 | **Total** _(24 reports)_                                                                  |  22 |  42 |  75 | 151 | 227 |  51 |
 | **Average Findings Per Audit**<br>* Crit/High 2.67<br>* Medium 3.12<br>* Low 6.29<br>* Info 9.46<br>* Gas 2.12 |
-
-
-## Chainlink Integration
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED SK P                                                                             |   0 |   0 |   0 |   0 |   4 |   0 |
-| [GreekFi Oracle](./reports/2026-09-08-cyfrin-greekfi-oracle-v2.0.pdf)                     |   0 |   0 |   2 |   1 |   4 |   0 |
-| REDACTED DO P M                                                                           |   0 |   7 |  18 |  50 |  44 |   6 |
-| [Syntetika CCIP-CCT](./reports/2026-05-02-cyfrin-syntetika-ccip-cct-v2.0.pdf)             |   0 |   1 |   3 |  13 |  17 |   2 |
-| [Predict.Fun CRE Integration](./reports/2026-04-25-cyfrin-predict-cre-integration-v2.1.pdf) |   0 |   0 |   5 |   6 |  12 |   7 |
-| [Sablier Bob Escrow](./reports/2026-03-25-cyfrin-sablier-bob-escrow-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-27-cyfrin-sablier-bob-escrow-fv-v2.0.pdf) |   1 |   1 |   4 |  10 |   9 |  11 |
-| [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
-| REDACTED MK X E [EVM, Sui]                                                                |   0 |   0 |   0 |   6 |  23 |   3 |
-| REDACTED CO                                                                               |   2 |  14 |  21 |   8 |   6 |   0 |
-| [Linea SpinGame V2](./reports/2025-06-30-cyfrin-linea-spingame-v2-v2.1.pdf)               |   0 |   0 |   0 |   2 |   6 |   3 |
-| [Evo SoulBoundToken](./reports/2025-06-02-cyfrin-evo-soulboundtoken-v2.0.pdf)             |   0 |   0 |   0 |   5 |   6 |   4 |
-| [Stake.Link PR152 LINKMigrator](./reports/2025-06-04-cyfrin-stakelink-pr152-linkmigrator-v2.0.pdf) |   0 |   0 |   0 |   3 |   3 |   2 |
-| [YieldFi PR#19 vyToken](./reports/2025-06-17-cyfrin-yieldfi-pr19-vytoken-v2.2.pdf)        |   0 |   0 |   0 |   1 |   3 |   1 |
-| [Stake.Link Polygon Staking](./reports/2025-05-19-cyfrin-stakedotlink-polygon-staking-v2.0.pdf) |   0 |   0 |   2 |   4 |   8 |   2 |
-| [Matrixdock](./reports/2025-04-09-cyfrin-matrixdock-v2.0.pdf)                             |   0 |   0 |   0 |   4 |  10 |   3 |
-| [YieldFi CCIP](./reports/2025-04-24-cyfrin-yieldfi-v2.0.pdf)                              |   2 |   1 |   5 |   7 |  10 |   4 |
-| [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     |   0 |   0 |   1 |   3 |   4 |   0 |
-| REDACTED SM S                                                                             |   0 |   0 |   0 |   1 |   5 |   0 |
-| [ShibuyaToken](./reports/2024-12-23-cyfrin-soneium-shibuya-v2.0.pdf)                      |   0 |   0 |   0 |   1 |   5 |   0 |
-| [Stake.Link Metis Staking](./reports/2024-11-18-cyfrin-stake.link-metis-staking-v2.0.pdf) |   0 |   3 |   2 |   1 |   0 |   0 |
-| [Stake.link](./reports/2024-09-17-cyfrin-stake-link-v2.0.pdf)                             |   2 |   5 |   6 |   5 |   0 |   3 |
-| [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
-| [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                       |   1 |   0 |   5 |   0 |   3 |   0 |
-| [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
-| **Total** _(24 reports)_                                                                  |  11 |  36 |  83 | 144 | 203 |  85 |
-| **Average Findings Per Audit**<br>* Crit/High 1.96<br>* Medium 3.46<br>* Low 6<br>* Info 8.46<br>* Gas 3.54 |
 
 
 ## Formal Verification
@@ -776,6 +780,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) |   0 |   1 |  41 | 101 |  34 |   6 |
 | REDACTED PS                                                                               |   1 |   0 |   4 |  14 |  19 |   0 |
 | [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) |   0 |   3 |  10 |  15 |  15 |  11 |
 | [Shutter Security Council](./reports/2026-03-12-cyfrin-shutter-security-council-v2.0.pdf), [ENS Registrar Manager](./reports/2026-03-23-cyfrin-ens-registrar-manager-v2.0.pdf), [(AI Formal Verf.)](./reports/2026-03-23-cyfrin-registrar-manager-FV-v2.0.pdf) |   0 |   0 |   0 |   2 |   3 |   0 |
@@ -791,8 +796,8 @@
 | [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                               |   0 |   3 |  10 |   4 |   4 |   0 |
 | [Goldilocks](./reports/2024-04-14-cyfrin-goldilocks-v1.1.pdf)                             |   0 |   6 |   6 |   7 |   2 |   5 |
 | [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
-| **Total** _(15 reports)_                                                                  |   8 |  54 | 108 | 113 | 131 |  33 |
-| **Average Findings Per Audit**<br>* Crit/High 4.13<br>* Medium 7.2<br>* Low 7.53<br>* Info 8.73<br>* Gas 2.2 |
+| **Total** _(16 reports)_                                                                  |   8 |  55 | 149 | 214 | 165 |  39 |
+| **Average Findings Per Audit**<br>* Crit/High 3.94<br>* Medium 9.31<br>* Low 13.38<br>* Info 10.31<br>* Gas 2.44 |
 
 
 ## ERC4337 / Account Abstraction / Smart Wallet
@@ -852,6 +857,23 @@
 | **Average Findings Per Audit**<br>* Crit/High 3.9<br>* Medium 7.3<br>* Low 9.6<br>* Info 10.8<br>* Gas 6.2 |
 
 
+## Staking
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) |   0 |   1 |  41 | 101 |  34 |   6 |
+| REDACTED WI S                                                                             |   0 |   0 |   1 |   2 |  16 |   1 |
+| REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
+| [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
+| REDACTED SL M                                                                             |   6 |   2 |   3 |   4 |   4 |   2 |
+| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
+| REDACTED ST                                                                               |   6 |   1 |   3 |   4 |   6 |   1 |
+| REDACTED FD T S                                                                           |   2 |   0 |   0 |   2 |   4 |   0 |
+| [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                               |   0 |   3 |  10 |   4 |   4 |   0 |
+| **Total** _(9 reports)_                                                                   |  16 |  15 |  66 | 132 |  95 |  17 |
+| **Average Findings Per Audit**<br>* Crit/High 3.44<br>* Medium 7.33<br>* Low 14.67<br>* Info 10.56<br>* Gas 1.89 |
+
+
 ## Gaming / Lottery
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -867,22 +889,6 @@
 | [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
 | **Total** _(9 reports)_                                                                   |   6 |  12 |  26 |  47 |  77 |  62 |
 | **Average Findings Per Audit**<br>* Crit/High 2<br>* Medium 2.89<br>* Low 5.22<br>* Info 8.56<br>* Gas 6.89 |
-
-
-## Staking
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED WI S                                                                             |   0 |   0 |   1 |   2 |  16 |   1 |
-| REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
-| [StatusL2](./reports/2026-01-05-cyfrin-statusl2-v2.0.pdf)                                 |   2 |   6 |   8 |   8 |   9 |   0 |
-| REDACTED SL M                                                                             |   6 |   2 |   3 |   4 |   4 |   2 |
-| [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
-| REDACTED ST                                                                               |   6 |   1 |   3 |   4 |   6 |   1 |
-| REDACTED FD T S                                                                           |   2 |   0 |   0 |   2 |   4 |   0 |
-| [TempleDAO](./reports/2024-06-17-cyfrin-templedao-v2.1.pdf)                               |   0 |   3 |  10 |   4 |   4 |   0 |
-| **Total** _(8 reports)_                                                                   |  16 |  14 |  25 |  31 |  61 |  11 |
-| **Average Findings Per Audit**<br>* Crit/High 3.75<br>* Medium 3.12<br>* Low 3.88<br>* Info 7.62<br>* Gas 1.38 |
 
 
 ## Prediction Market
