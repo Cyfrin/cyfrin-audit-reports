@@ -1,3 +1,8 @@
 .DS_Store
 .venv/
 __pycache__/
+*-full.pdf
+*.md
+!README.md
+reports_md/
+*.csv
