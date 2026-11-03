@@ -7,6 +7,7 @@
 | 2026-10-16  | 2026-10-19 | REDACTED SE E D S A                                                                       | TradFi, Real-World Assets, Securities Tokenization, ERC-8056, Rebasing |   0 |   0 |   0 |   1 |   5 |   0 |
 | 2026-10-14  | 2026-10-16 | [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) | Real-World Assets, Stablecoin, Oracle |   0 |   0 |   0 |   3 |   9 |   0 |
 | 2026-10-12  | 2026-10-23 | [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               | Token Sale, AMM, UniswapV4 Hooks, Dutch Auction |   0 |   0 |   0 |   3 |   7 |   1 |
+| 2026-10-07  | 2026-10-09 | [Highway Substrate Foreign Asset Transfers](./reports/2026-11-03-cyfrin-highway-substrate-foreign-asset-transfers-v2.0.pdf) | Cross-Chain, Bridge, Substrate, Rust, Cryptography, BLS12-381 |   0 |   0 |   0 |  17 |   4 |   0 |
 | 2026-09-26  | 2026-09-27 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, DEX, AMM, Jump, Rust, Solana |   0 |   0 |   0 |   0 |   2 |   0 |
 | 2026-09-21  | 2026-09-22 | REDACTED SK P                                                                             | Liquid Staking, Chainlink |   0 |   0 |   0 |   0 |   4 |   0 |
 | 2026-09-17  | 2026-10-28 | [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) | TradFi, RWA, Tokenization, Structured Products, ERC1155, Vault, Yield, ERC4626, Staking, DAO, Chainlink, Pyth, Uniswap |   0 |   1 |  41 | 101 |  34 |   6 |
@@ -281,7 +282,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(277 reports)_ | 125 | 337 | 918 | 1735 | 2082 | 841 |
+|             | **Total**  |                                                                                           | _(278 reports)_ | 125 | 337 | 918 | 1752 | 2086 | 841 |
 
 
 ## Legend
@@ -468,6 +469,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Highway Substrate Foreign Asset Transfers](./reports/2026-11-03-cyfrin-highway-substrate-foreign-asset-transfers-v2.0.pdf) |   0 |   0 |   0 |  17 |   4 |   0 |
 | REDACTED OS C E                                                                           |   0 |   0 |   2 |  15 |  14 |   1 |
 | [Highway Solana](./reports/2026-09-29-cyfrin-highway-solana-v2.1.pdf)                     |   1 |   1 |   3 |  40 |  33 |   2 |
 | REDACTED DO P M                                                                           |   0 |   7 |  18 |  50 |  44 |   6 |
@@ -522,8 +524,8 @@
 | [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)               |   0 |   0 |   2 |   3 |   8 |   0 |
 | [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)                 |   0 |   1 |   2 |   1 |   5 |   3 |
 | [Hyperliquid Dex](./reports/2023-04-11-cyfrin-hyperliquid-dex-report.pdf)                 | n/a |   0 |   2 |   1 |  15 |   0 |
-| **Total** _(54 reports)_                                                                  |  15 |  61 | 168 | 371 | 435 | 134 |
-| **Average Findings Per Audit**<br>* Crit/High 1.41<br>* Medium 3.11<br>* Low 6.87<br>* Info 8.06<br>* Gas 2.48 |
+| **Total** _(55 reports)_                                                                  |  15 |  61 | 168 | 388 | 439 | 134 |
+| **Average Findings Per Audit**<br>* Crit/High 1.38<br>* Medium 3.05<br>* Low 7.05<br>* Info 7.98<br>* Gas 2.44 |
 
 
 ## Perpetuals / Leverage / Lending / Borrowing
@@ -900,6 +902,23 @@
 | **Average Findings Per Audit**<br>* Crit/High 2<br>* Medium 2.89<br>* Low 5.22<br>* Info 8.56<br>* Gas 6.89 |
 
 
+## ZK / Cryptography
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Highway Substrate Foreign Asset Transfers](./reports/2026-11-03-cyfrin-highway-substrate-foreign-asset-transfers-v2.0.pdf) |   0 |   0 |   0 |  17 |   4 |   0 |
+| [Highway Solana](./reports/2026-09-29-cyfrin-highway-solana-v2.1.pdf)                     |   1 |   1 |   3 |  40 |  33 |   2 |
+| [Highway Substrate](./reports/2026-09-29-cyfrin-highway-substrate-v2.1.pdf)               |   1 |   0 |   5 |  32 |   1 |   0 |
+| REDACTED ZK S                                                                             |   0 |   0 |   0 |   7 |  17 |   3 |
+| [Highway EVM](./reports/2026-09-29-cyfrin-highway-evm-v2.1.pdf)                           |   0 |   1 |   7 |  18 |  12 |   4 |
+| [Aztec Polynomial](./reports/2026-05-08-cyfrin-aztec-polynomial-v2.0.pdf)                 |   0 |   0 |   0 |  15 |   8 |   0 |
+| [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             |   0 |   0 |   0 |   4 |   4 |   0 |
+| Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   1 |
+| REDACTED LA                                                                               |   0 |   0 |   4 |   3 |   4 |   0 |
+| **Total** _(9 reports)_                                                                   |   2 |   2 |  19 | 136 |  86 |  10 |
+| **Average Findings Per Audit**<br>* Crit/High 0.44<br>* Medium 2.11<br>* Low 15.11<br>* Info 9.56<br>* Gas 1.11 |
+
+
 ## Prediction Market
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -914,22 +933,6 @@
 | REDACTED OE M                                                                             |   0 |   0 |   0 |   3 |   1 |   0 |
 | **Total** _(8 reports)_                                                                   |   0 |   9 |  28 |  84 |  94 |  11 |
 | **Average Findings Per Audit**<br>* Crit/High 1.12<br>* Medium 3.5<br>* Low 10.5<br>* Info 11.75<br>* Gas 1.38 |
-
-
-## ZK / Cryptography
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [Highway Solana](./reports/2026-09-29-cyfrin-highway-solana-v2.1.pdf)                     |   1 |   1 |   3 |  40 |  33 |   2 |
-| [Highway Substrate](./reports/2026-09-29-cyfrin-highway-substrate-v2.1.pdf)               |   1 |   0 |   5 |  32 |   1 |   0 |
-| REDACTED ZK S                                                                             |   0 |   0 |   0 |   7 |  17 |   3 |
-| [Highway EVM](./reports/2026-09-29-cyfrin-highway-evm-v2.1.pdf)                           |   0 |   1 |   7 |  18 |  12 |   4 |
-| [Aztec Polynomial](./reports/2026-05-08-cyfrin-aztec-polynomial-v2.0.pdf)                 |   0 |   0 |   0 |  15 |   8 |   0 |
-| [Aztec Logic Module](./reports/2026-04-06-cyfrin-aztec-logic-module-v2.0.pdf)             |   0 |   0 |   0 |   4 |   4 |   0 |
-| Symbiotic [[KeyRegistry](./reports/2025-12-03-cyfrin-symbiotic-key-registry-v2.0.pdf), [BLS12381](./reports/2025-12-03-cyfrin-symbiotic-bls12381-v2.0.pdf)] |   0 |   0 |   0 |   0 |   3 |   1 |
-| REDACTED LA                                                                               |   0 |   0 |   4 |   3 |   4 |   0 |
-| **Total** _(8 reports)_                                                                   |   2 |   2 |  19 | 119 |  82 |  10 |
-| **Average Findings Per Audit**<br>* Crit/High 0.5<br>* Medium 2.38<br>* Low 14.88<br>* Info 10.25<br>* Gas 1.25 |
 
 
 ## Tranche Products
@@ -1246,6 +1249,7 @@
 
 | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| [Highway Substrate Foreign Asset Transfers](./reports/2026-11-03-cyfrin-highway-substrate-foreign-asset-transfers-v2.0.pdf) | Cross-Chain, Bridge, Substrate, Rust, Cryptography, BLS12-381 |   0 |   0 |   0 |  17 |   4 |   0 |
 | [Highway Solana](./reports/2026-09-29-cyfrin-highway-solana-v2.1.pdf)                     | Cross-Chain, Bridge, Solana, Rust, Cryptography, BN254 |   1 |   1 |   3 |  40 |  33 |   2 |
 | [Highway Substrate](./reports/2026-09-29-cyfrin-highway-substrate-v2.1.pdf)               | Cross-Chain, Bridge, Substrate, Rust, Cryptography, BLS12-381 |   1 |   0 |   5 |  32 |   1 |   0 |
 | [Highway EVM](./reports/2026-09-29-cyfrin-highway-evm-v2.1.pdf)                           | Cross-Chain, Bridge, Cryptography, BLS12-381 |   0 |   1 |   7 |  18 |  12 |   4 |
@@ -1277,8 +1281,8 @@
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) | DEX, Leverage Trading, Vault |   0 |   1 |   1 |   3 |   3 |   1 |
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     | Lottery, NFT, Gelato VRF |   0 |   0 |   1 |   3 |   4 |   0 |
 | REDACTED LA                                                                               | TradFi, Real-World Assets, Securities Tokenization, Rust, ZK |   0 |   0 |   4 |   3 |   4 |   0 |
-| **Total** _(31 reports)_                                                                  |                     |   8 |  32 |  88 | 221 | 192 |  32 |
-| **Average Findings Per Audit**<br>* Crit/High 1.29<br>* Medium 2.84<br>* Low 7.13<br>* Info 6.19<br>* Gas 1.03 |
+| **Total** _(32 reports)_                                                                  |                     |   8 |  32 |  88 | 238 | 196 |  32 |
+| **Average Findings Per Audit**<br>* Crit/High 1.25<br>* Medium 2.75<br>* Low 7.44<br>* Info 6.12<br>* Gas 1 |
 
 
 ## Alix40
