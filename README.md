@@ -5,6 +5,7 @@
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
 | 2026-10-16  | 2026-10-19 | REDACTED SE E D S A                                                                       | TradFi, Real-World Assets, Securities Tokenization, ERC-8056, Rebasing |   0 |   0 |   0 |   1 |   5 |   0 |
+| 2026-10-14  | 2026-10-16 | [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) | Real-World Assets, Stablecoin, Oracle |   0 |   0 |   0 |   3 |   9 |   0 |
 | 2026-10-12  | 2026-10-23 | [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               | Token Sale, AMM, UniswapV4 Hooks, Dutch Auction |   0 |   0 |   0 |   3 |   7 |   1 |
 | 2026-09-26  | 2026-09-27 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, DEX, AMM, Jump, Rust, Solana |   0 |   0 |   0 |   0 |   2 |   0 |
 | 2026-09-21  | 2026-09-22 | REDACTED SK P                                                                             | Liquid Staking, Chainlink |   0 |   0 |   0 |   0 |   4 |   0 |
@@ -280,7 +281,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(276 reports)_ | 125 | 337 | 918 | 1732 | 2073 | 841 |
+|             | **Total**  |                                                                                           | _(277 reports)_ | 125 | 337 | 918 | 1735 | 2082 | 841 |
 
 
 ## Legend
@@ -301,6 +302,7 @@
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | REDACTED SE E D S A                                                                       |   0 |   0 |   0 |   1 |   5 |   0 |
+| [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) |   0 |   0 |   0 |   3 |   9 |   0 |
 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [Note Systems Smart Contracts](./reports/2026-10-30-cyfrin-note-systems-smart-contracts-v2.0.pdf) |   0 |   1 |  41 | 101 |  34 |   6 |
 | [Securitize Stellar DSToken](./reports/2026-09-23-cyfrin-securitize-stellar-dstoken-v2.0.pdf) |   0 |   0 |   3 |   5 |   2 |   0 |
@@ -378,8 +380,8 @@
 | [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Securitize Redemptions](./reports/2024-07-18-cyfrin-securitize-redemptions-v2.0.pdf)     |   2 |   3 |   4 |   6 |   3 |   0 |
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| **Total** _(78 reports)_                                                                  |  30 |  66 | 252 | 529 | 549 | 220 |
-| **Average Findings Per Audit**<br>* Crit/High 1.23<br>* Medium 3.23<br>* Low 6.78<br>* Info 7.04<br>* Gas 2.82 |
+| **Total** _(79 reports)_                                                                  |  30 |  66 | 252 | 532 | 558 | 220 |
+| **Average Findings Per Audit**<br>* Crit/High 1.22<br>* Medium 3.19<br>* Low 6.73<br>* Info 7.06<br>* Gas 2.78 |
 
 
 ## ERC4626 / Vault / Yield
@@ -599,6 +601,39 @@
 | **Average Findings Per Audit**<br>* Crit/High 3.22<br>* Medium 5.11<br>* Low 6.15<br>* Info 8.78<br>* Gas 4 |
 
 
+## Stablecoin
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) |   0 |   0 |   0 |   3 |   9 |   0 |
+| REDACTED PS                                                                               |   1 |   0 |   4 |  14 |  19 |   0 |
+| REDACTED WI R P                                                                           |   0 |   0 |   3 |   8 |  14 |   1 |
+| REDACTED ZK S                                                                             |   0 |   0 |   0 |   7 |  17 |   3 |
+| REDACTED PL S F                                                                           |   0 |   0 |   0 |   2 |   4 |   0 |
+| [STBL ESS / Redemptions](./reports/2026-06-17-cyfrin-stbl-ess-v2.0.pdf)                   |   2 |   8 |   8 |   9 |   9 |   0 |
+| REDACTED PL 3 U                                                                           |   0 |   0 |   0 |   1 |   7 |   0 |
+| REDACTED WI R P                                                                           |   0 |   1 |   7 |  13 |   6 |   3 |
+| REDACTED WI S E                                                                           |   0 |   0 |   0 |   1 |   3 |   1 |
+| [Firm Money](./reports/2026-03-09-cyfrin-firm-money-v2.0.pdf)                             |   0 |   0 |   0 |   5 |   3 |   0 |
+| [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
+| REDACTED SL S                                                                             |   2 |   5 |   3 |   6 |   4 |   1 |
+| [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
+| REDACTED SL P                                                                             |   2 |   5 |   6 |   7 |   9 |   0 |
+| REDACTED SE                                                                               |   5 |   5 |   6 |   4 |   1 |   4 |
+| REDACTED SL M                                                                             |   6 |   2 |   3 |   4 |   4 |   2 |
+| [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
+| [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           |   0 |   0 |   0 |   2 |  10 |   0 |
+| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
+| REDACTED EA U                                                                             |   0 |   0 |   0 |   3 |   4 |   0 |
+| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
+| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
+| [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)                 |   0 |   2 |   4 |   6 |   9 |   6 |
+| [Beanstalk BIP-38](./reports/2023-10-13-cyfrin-beanstalk-bip-38.pdf)                      | n/a |   1 |   1 |   1 |  13 |   0 |
+| [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | n/a |   2 |   4 |  11 |  35 |  11 |
+| **Total** _(25 reports)_                                                                  |  22 |  42 |  75 | 154 | 236 |  51 |
+| **Average Findings Per Audit**<br>* Crit/High 2.56<br>* Medium 3<br>* Low 6.16<br>* Info 9.44<br>* Gas 2.04 |
+
+
 ## Chainlink Integration
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
@@ -663,38 +698,6 @@
 | [Securitize Solana Vault](./reports/2025-05-23-cyfrin-securitize-solana-vault-v2.0.pdf)   |   0 |   1 |   1 |   5 |   3 |   0 |
 | **Total** _(25 reports)_                                                                  |   4 |  38 |  84 | 181 | 232 |  24 |
 | **Average Findings Per Audit**<br>* Crit/High 1.68<br>* Medium 3.36<br>* Low 7.24<br>* Info 9.28<br>* Gas 0.96 |
-
-
-## Stablecoin
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED PS                                                                               |   1 |   0 |   4 |  14 |  19 |   0 |
-| REDACTED WI R P                                                                           |   0 |   0 |   3 |   8 |  14 |   1 |
-| REDACTED ZK S                                                                             |   0 |   0 |   0 |   7 |  17 |   3 |
-| REDACTED PL S F                                                                           |   0 |   0 |   0 |   2 |   4 |   0 |
-| [STBL ESS / Redemptions](./reports/2026-06-17-cyfrin-stbl-ess-v2.0.pdf)                   |   2 |   8 |   8 |   9 |   9 |   0 |
-| REDACTED PL 3 U                                                                           |   0 |   0 |   0 |   1 |   7 |   0 |
-| REDACTED WI R P                                                                           |   0 |   1 |   7 |  13 |   6 |   3 |
-| REDACTED WI S E                                                                           |   0 |   0 |   0 |   1 |   3 |   1 |
-| [Firm Money](./reports/2026-03-09-cyfrin-firm-money-v2.0.pdf)                             |   0 |   0 |   0 |   5 |   3 |   0 |
-| [Parallel 3.1](./reports/2026-03-04-cyfrin-parallel3.1-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-03-04-cyfrin-parallel3.1-FV-v2.0.pdf) |   0 |   1 |   5 |  10 |  10 |   1 |
-| REDACTED SL S                                                                             |   2 |   5 |   3 |   6 |   4 |   1 |
-| [Boundary](./reports/2026-01-10-cyfrin-boundary-v2.2.pdf)                                 |   0 |   0 |   0 |   3 |   9 |   0 |
-| REDACTED SL P                                                                             |   2 |   5 |   6 |   7 |   9 |   0 |
-| REDACTED SE                                                                               |   5 |   5 |   6 |   4 |   1 |   4 |
-| REDACTED SL M                                                                             |   6 |   2 |   3 |   4 |   4 |   2 |
-| [STBL](./reports/2025-09-05-cyfrin-stbl-v2.0.pdf)                                         |   0 |   0 |   4 |   7 |   6 |   1 |
-| [Ondo Global Markets](./reports/2025-07-14-cyfrin-ondo-global-markets-v2.0.pdf)           |   0 |   0 |   0 |   2 |  10 |   0 |
-| [The Standard Auto Redemption](./reports/2024-12-18-cyfrin-the-standard-auto-redemption-v2.0.pdf) |   2 |   4 |   5 |   2 |   8 |   0 |
-| REDACTED EA U                                                                             |   0 |   0 |   0 |   3 |   4 |   0 |
-| [The Standard Smart Vault](./reports/2024-09-13-cyfrin-the-standard-smart-vault-v2.0.pdf) |   2 |   2 |   3 |   8 |   5 |   2 |
-| [Bima](./reports/2024-09-27-cyfrin-bima-v2.0.pdf)                                         |   0 |   4 |   9 |  17 |  18 |  15 |
-| [Beanstalk BIP-39](./reports/2024-05-02-cyfrin-beanstalk-bip-39-v1-2.pdf)                 |   0 |   2 |   4 |   6 |   9 |   6 |
-| [Beanstalk BIP-38](./reports/2023-10-13-cyfrin-beanstalk-bip-38.pdf)                      | n/a |   1 |   1 |   1 |  13 |   0 |
-| [Beanstalk](./reports/2023-09-12-cyfrin-beanstalk.pdf)                                    | n/a |   2 |   4 |  11 |  35 |  11 |
-| **Total** _(24 reports)_                                                                  |  22 |  42 |  75 | 151 | 227 |  51 |
-| **Average Findings Per Audit**<br>* Crit/High 2.67<br>* Medium 3.12<br>* Low 6.29<br>* Info 9.46<br>* Gas 2.12 |
 
 
 ## Formal Verification
@@ -1095,6 +1098,7 @@
 
 | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) | Real-World Assets, Stablecoin, Oracle |   0 |   0 |   0 |   3 |   9 |   0 |
 | REDACTED WI R P                                                                           | TradFi, RWA, Lending, Stablecoin |   0 |   0 |   3 |   8 |  14 |   1 |
 | [Securitize Tempo TIP-20](./reports/2026-08-28-cyfrin-securitize-tempo-tip20-v2.0.pdf)    | TradFi, Real-World Assets, Securities Tokenization, Tempo, TIP-20, TIP-403 |   0 |   0 |   1 |   8 |  16 |   0 |
 | [Securitize MatchHandler](./reports/2026-06-11-cyfrin-securitize-matchHandler-v2.0.pdf)   | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   2 |   2 |   2 |
@@ -1146,8 +1150,8 @@
 | [Stake Pet](./reports/2023-09-19-cyfrin-stakepet.pdf)                                     | Vault, Yield, NFT   | n/a |   2 |   1 |   2 |   0 |   6 |
 | [Woosh Deposit Vault](./reports/2023-09-06-cyfrin-woosh.pdf)                              | Vault               | n/a |   0 |   2 |   1 |   3 |   4 |
 | [Dolomite Margin](./reports/2023-08-26-cyfrin-dolomite-margin.pdf)                        | DEX, Leverage Trading, Vault | n/a |   0 |   5 |   6 |   4 |   0 |
-| **Total** _(51 reports)_                                                                  |                     |  25 |  84 | 184 | 219 | 218 | 100 |
-| **Average Findings Per Audit**<br>* Crit/High 2.14<br>* Medium 3.61<br>* Low 4.29<br>* Info 4.27<br>* Gas 1.96 |
+| **Total** _(52 reports)_                                                                  |                     |  25 |  84 | 184 | 222 | 227 | 100 |
+| **Average Findings Per Audit**<br>* Crit/High 2.1<br>* Medium 3.54<br>* Low 4.27<br>* Info 4.37<br>* Gas 1.92 |
 
 
 ## Hans
