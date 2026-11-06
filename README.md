@@ -6,6 +6,7 @@
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
 | 2026-10-28  | 2026-10-30 | REDACTED MK M C                                                                           | TradFi, Real-World Assets, Securities Tokenization, Timelock |   0 |   0 |   0 |   7 |  18 |   3 |
 | 2026-10-28  | 2026-10-30 | REDACTED SE E S D                                                                         | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   4 |   1 |   0 |
+| 2026-10-16  | 2026-11-03 | [vibe/vibe](./reports/2026-11-06-cyfrin-vibe-vibe-v2.0.pdf)                               | Token Sale, AMM, UniswapV4 Hooks, Bonding Curve |   0 |   0 |   5 |  22 |  16 |   0 |
 | 2026-10-16  | 2026-10-19 | REDACTED SE E D S A                                                                       | TradFi, Real-World Assets, Securities Tokenization, ERC-8056, Rebasing |   0 |   0 |   0 |   1 |   5 |   0 |
 | 2026-10-14  | 2026-10-16 | [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) | Real-World Assets, Stablecoin, Oracle |   0 |   0 |   0 |   3 |   9 |   0 |
 | 2026-10-12  | 2026-10-23 | [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               | Token Sale, AMM, UniswapV4 Hooks, Dutch Auction |   0 |   0 |   0 |   3 |   7 |   1 |
@@ -285,7 +286,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(281 reports)_ | 125 | 337 | 923 | 1804 | 2124 | 849 |
+|             | **Total**  |                                                                                           | _(282 reports)_ | 125 | 337 | 928 | 1826 | 2140 | 849 |
 
 
 ## Legend
@@ -577,6 +578,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [vibe/vibe](./reports/2026-11-06-cyfrin-vibe-vibe-v2.0.pdf)                               |   0 |   0 |   5 |  22 |  16 |   0 |
 | [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               |   0 |   0 |   0 |   3 |   7 |   1 |
 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [Steer Phantom Liquidity Hook](./reports/2026-11-03-cyfrin-steer-phantom-liquidity-hook-v2.0.pdf) |   0 |   0 |   5 |  41 |  19 |   5 |
@@ -605,8 +607,8 @@
 | [Sudoswap sudoAMM v2](./reports/2023-06-01-sudoswap-report.pdf)                           | n/a |   3 |   4 |   3 |   6 |   4 |
 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | n/a |   4 |   2 |   3 |  18 |   2 |
 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | n/a |   4 |   3 |   1 |  10 |   2 |
-| **Total** _(28 reports)_                                                                  |  11 |  76 | 143 | 207 | 256 | 113 |
-| **Average Findings Per Audit**<br>* Crit/High 3.11<br>* Medium 5.11<br>* Low 7.39<br>* Info 9.14<br>* Gas 4.04 |
+| **Total** _(29 reports)_                                                                  |  11 |  76 | 148 | 229 | 272 | 113 |
+| **Average Findings Per Audit**<br>* Crit/High 3<br>* Medium 5.1<br>* Low 7.9<br>* Info 9.38<br>* Gas 3.9 |
 
 
 ## Stablecoin
@@ -822,6 +824,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [vibe/vibe](./reports/2026-11-06-cyfrin-vibe-vibe-v2.0.pdf)                               |   0 |   0 |   5 |  22 |  16 |   0 |
 | [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               |   0 |   0 |   0 |   3 |   7 |   1 |
 | [Steer Phantom Liquidity Hook](./reports/2026-11-03-cyfrin-steer-phantom-liquidity-hook-v2.0.pdf) |   0 |   0 |   5 |  41 |  19 |   5 |
 | [Dowgo](./reports/2026-10-08-cyfrin-dowgo-v2.0.pdf)                                       |   0 |   0 |   5 |   4 |   1 |   0 |
@@ -835,8 +838,28 @@
 | [EulerSwap](./reports/2025-06-06-cyfrin-eulerswap-v2.1.pdf)                               |   0 |   0 |   0 |   2 |   3 |   2 |
 | [Bunni v2](reports/2025-06-10-cyfrin-bunni-v2.1.pdf)                                      |   1 |   1 |  16 |   7 |  20 |   5 |
 | [Paladin Valkyrie](./reports/2025-03-12-cyfrin-paladin-valkyrie-v2.0.pdf)                 |   3 |  12 |   7 |   7 |   6 |   6 |
-| **Total** _(13 reports)_                                                                  |  13 |  33 |  56 |  97 | 120 |  52 |
-| **Average Findings Per Audit**<br>* Crit/High 3.54<br>* Medium 4.31<br>* Low 7.46<br>* Info 9.23<br>* Gas 4 |
+| **Total** _(14 reports)_                                                                  |  13 |  33 |  61 | 119 | 136 |  52 |
+| **Average Findings Per Audit**<br>* Crit/High 3.29<br>* Medium 4.36<br>* Low 8.5<br>* Info 9.71<br>* Gas 3.71 |
+
+
+## Token Sale / Crowd Funding
+
+| Report                                                                                    | C   | H   | M   | L   | I   | G   |
+| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [vibe/vibe](./reports/2026-11-06-cyfrin-vibe-vibe-v2.0.pdf)                               |   0 |   0 |   5 |  22 |  16 |   0 |
+| [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               |   0 |   0 |   0 |   3 |   7 |   1 |
+| REDACTED IE R S                                                                           |   1 |   6 |  17 |  37 |  41 |   5 |
+| [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) |   0 |   3 |  10 |  15 |  15 |  11 |
+| REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
+| [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
+| [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
+| REDACTED AA N                                                                             |   1 |   0 |   4 |   3 |   5 |   2 |
+| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
+| REDACTED PD C                                                                             |   1 |   1 |   2 |  15 |  13 |  16 |
+| REDACTED SL                                                                               |   1 |   1 |   1 |   2 |   3 |   0 |
+| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
+| **Total** _(12 reports)_                                                                  |  12 |  27 |  78 | 121 | 131 |  63 |
+| **Average Findings Per Audit**<br>* Crit/High 3.25<br>* Medium 6.5<br>* Low 10.08<br>* Info 10.92<br>* Gas 5.25 |
 
 
 ## ERC4337 / Account Abstraction / Smart Wallet
@@ -857,25 +880,6 @@
 | [Metamask Delegation Framework 1](./reports/2025-03-18-cyfrin-Metamask-DelegationFramework1-v2.0.pdf) |   0 |   1 |   2 |   5 |   4 |   1 |
 | **Total** _(12 reports)_                                                                  |   1 |   9 |  24 |  47 |  60 |  21 |
 | **Average Findings Per Audit**<br>* Crit/High 0.83<br>* Medium 2<br>* Low 3.92<br>* Info 5<br>* Gas 1.75 |
-
-
-## Token Sale / Crowd Funding
-
-| Report                                                                                    | C   | H   | M   | L   | I   | G   |
-| ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               |   0 |   0 |   0 |   3 |   7 |   1 |
-| REDACTED IE R S                                                                           |   1 |   6 |  17 |  37 |  41 |   5 |
-| [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) |   0 |   3 |  10 |  15 |  15 |  11 |
-| REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
-| [Remora Final](./reports/2025-12-05-cyfrin-remora-final-v2.0.pdf)                         |   0 |   0 |   1 |   0 |   1 |   1 |
-| [Remora Dynamic Tokens](./reports/2025-10-22-cyfrin-remora-dynamic-tokens-v2.1.pdf)       |   2 |   4 |   7 |   4 |   6 |   0 |
-| REDACTED AA N                                                                             |   1 |   0 |   4 |   3 |   5 |   2 |
-| [Remora Pledge](./reports/2025-07-04-cyfrin-remora-pledge-v2.0.pdf)                       |   3 |   3 |  17 |  13 |   9 |  12 |
-| REDACTED PD C                                                                             |   1 |   1 |   2 |  15 |  13 |  16 |
-| REDACTED SL                                                                               |   1 |   1 |   1 |   2 |   3 |   0 |
-| [DeXe](./reports/2023-11-10-cyfrin-dexe-v2.0.pdf) (\*)                                    |   3 |   9 |  14 |   4 |   8 |   8 |
-| **Total** _(11 reports)_                                                                  |  12 |  27 |  73 |  99 | 115 |  63 |
-| **Average Findings Per Audit**<br>* Crit/High 3.55<br>* Medium 6.64<br>* Low 9<br>* Info 10.45<br>* Gas 5.73 |
 
 
 ## Staking
