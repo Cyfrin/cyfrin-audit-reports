@@ -9,7 +9,7 @@
 | 2026-10-28  | 2026-10-30 | REDACTED MK M C                                                                           | TradFi, Real-World Assets, Securities Tokenization, Timelock |   0 |   0 |   0 |   7 |  18 |   3 |
 | 2026-10-28  | 2026-10-30 | REDACTED SE E S D                                                                         | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   4 |   1 |   0 |
 | 2026-10-24  | 2026-10-25 | REDACTED SE E T                                                                           | TradFi, Real-World Assets, Securities Tokenization, UniswapV4 Permissioned Pools |   0 |   0 |   0 |   2 |   2 |   0 |
-| 2026-10-19  | 2026-10-27 | REDACTED YY                                                                               | Account Abstraction, Smart Wallet, ERC4337, Vault, Yield, Stablecoin, Aave, Morpho |   0 |   0 |   1 |  22 |  16 |   5 |
+| 2026-10-19  | 2026-10-27 | [Yieldy EVM Contracts](./reports/2026-11-12-cyfrin-yieldy-evm-contracts-v2.0.pdf)         | Account Abstraction, Smart Wallet, ERC4337, Vault, Yield, Stablecoin, Aave, Morpho |   0 |   0 |   1 |  22 |  16 |   5 |
 | 2026-10-16  | 2026-11-03 | [vibe/vibe](./reports/2026-11-06-cyfrin-vibe-vibe-v2.0.pdf)                               | Token Sale, AMM, UniswapV4 Hooks, Bonding Curve |   0 |   0 |   5 |  22 |  16 |   0 |
 | 2026-10-16  | 2026-10-19 | REDACTED SE E D S A                                                                       | TradFi, Real-World Assets, Securities Tokenization, ERC-8056, Rebasing |   0 |   0 |   0 |   1 |   5 |   0 |
 | 2026-10-14  | 2026-10-16 | [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) | Real-World Assets, Stablecoin, Oracle |   0 |   0 |   0 |   3 |   9 |   0 |
@@ -420,7 +420,7 @@
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | REDACTED TQ Z                                                                             |   0 |   0 |   1 |   5 |   0 |   0 |
-| REDACTED YY                                                                               |   0 |   0 |   1 |  22 |  16 |   5 |
+| [Yieldy EVM Contracts](./reports/2026-11-12-cyfrin-yieldy-evm-contracts-v2.0.pdf)         |   0 |   0 |   1 |  22 |  16 |   5 |
 | REDACTED MK V M H                                                                         |   0 |   0 |   0 |   4 |   7 |   0 |
 | REDACTED SE T A V                                                                         |   0 |   0 |   1 |   6 |   8 |   0 |
 | REDACTED SL E R                                                                           |   1 |   4 |   8 |  11 |  14 |   0 |
@@ -612,7 +612,7 @@
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | REDACTED WI S B R                                                                         |   0 |   0 |   0 |   0 |   1 |   0 |
 | REDACTED TQ Z                                                                             |   0 |   0 |   1 |   5 |   0 |   0 |
-| REDACTED YY                                                                               |   0 |   0 |   1 |  22 |  16 |   5 |
+| [Yieldy EVM Contracts](./reports/2026-11-12-cyfrin-yieldy-evm-contracts-v2.0.pdf)         |   0 |   0 |   1 |  22 |  16 |   5 |
 | [Ondo Scheduled Oracle Switch](./reports/2026-10-31-cyfrin-ondo-scheduled-oracle-switch-v2.0.pdf) |   0 |   0 |   0 |   3 |   9 |   0 |
 | REDACTED SL E R                                                                           |   1 |   4 |   8 |  11 |  14 |   0 |
 | [Steer Phantom Liquidity Hook](./reports/2026-11-03-cyfrin-steer-phantom-liquidity-hook-v2.0.pdf) |   0 |   0 |   5 |  41 |  19 |   5 |
@@ -865,7 +865,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED YY                                                                               |   0 |   0 |   1 |  22 |  16 |   5 |
+| [Yieldy EVM Contracts](./reports/2026-11-12-cyfrin-yieldy-evm-contracts-v2.0.pdf)         |   0 |   0 |   1 |  22 |  16 |   5 |
 | REDACTED MK V M H                                                                         |   0 |   0 |   0 |   4 |   7 |   0 |
 | REDACTED MK C V A                                                                         |   0 |   0 |   0 |   1 |   8 |   0 |
 | REDACTED ZK S                                                                             |   0 |   0 |   0 |   7 |  17 |   3 |
