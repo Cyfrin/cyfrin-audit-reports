@@ -4,7 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
-| 2026-11-11  | 2026-11-12 | REDACTED EL V                                                                             | AMM, Uniswap V2 LP, Fee-on-Transfer |   0 |   0 |   2 |   6 |   4 |   0 |
+| 2026-11-11  | 2026-11-12 | [ECOREAL V3](./reports/2026-11-12-cyfrin-ecoreal-v3-v2.0.pdf)                             | AMM, Uniswap V2 LP, Fee-on-Transfer |   0 |   0 |   2 |   6 |   4 |   0 |
 | 2026-11-04  | 2026-11-04 | REDACTED WI S B R                                                                         | Stablecoin, EIP3009 |   0 |   0 |   0 |   0 |   1 |   0 |
 | 2026-11-02  | 2026-11-05 | REDACTED TQ Z                                                                             | Stablecoin, Yield, Real-World Assets, Permissioned Token |   0 |   0 |   1 |   5 |   0 |   0 |
 | 2026-10-28  | 2026-11-10 | [OkuMoney](./reports/2026-11-12-cyfrin-okumoney-v2.0.pdf)                                 | Stablecoin, Yield, Real-World Assets, PSM, Rebasing, Cross-Chain, Bridge, Solana, Rust |   0 |   0 |   2 |   8 |   8 |   0 |
@@ -660,7 +660,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
-| REDACTED EL V                                                                             |   0 |   0 |   2 |   6 |   4 |   0 |
+| [ECOREAL V3](./reports/2026-11-12-cyfrin-ecoreal-v3-v2.0.pdf)                             |   0 |   0 |   2 |   6 |   4 |   0 |
 | [vibe/vibe](./reports/2026-11-06-cyfrin-vibe-vibe-v2.0.pdf)                               |   0 |   0 |   5 |  22 |  16 |   0 |
 | [GlazeCorp](./reports/2026-10-31-cyfrin-glazecorp-v2.0.pdf)                               |   0 |   0 |   0 |   3 |   7 |   1 |
 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
