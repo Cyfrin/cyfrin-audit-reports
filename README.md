@@ -4,6 +4,7 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-11-12  | 2026-11-12 | [Securitize EVM On/Off Ramp](./reports/2026-11-13-cyfrin-securitize-evm-on-off-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, EIP-712, Signature Authorization |   0 |   0 |   0 |   1 |   0 |   0 |
 | 2026-11-11  | 2026-11-12 | [ECOREAL V3](./reports/2026-11-12-cyfrin-ecoreal-v3-v2.0.pdf)                             | AMM, Uniswap V2 LP, Fee-on-Transfer |   0 |   0 |   2 |   6 |   4 |   0 |
 | 2026-11-04  | 2026-11-04 | REDACTED WI S B R                                                                         | Stablecoin, EIP3009 |   0 |   0 |   0 |   0 |   1 |   0 |
 | 2026-11-02  | 2026-11-05 | REDACTED TQ Z                                                                             | Stablecoin, Yield, Real-World Assets, Permissioned Token |   0 |   0 |   1 |   5 |   0 |   0 |
@@ -306,7 +307,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(302 reports)_ | 127 | 359 | 1013 | 2024 | 2316 | 870 |
+|             | **Total**  |                                                                                           | _(303 reports)_ | 127 | 359 | 1013 | 2025 | 2316 | 870 |
 
 
 ## Legend
@@ -326,6 +327,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [Securitize EVM On/Off Ramp](./reports/2026-11-13-cyfrin-securitize-evm-on-off-ramp-v2.0.pdf) |   0 |   0 |   0 |   1 |   0 |   0 |
 | REDACTED TQ Z                                                                             |   0 |   0 |   1 |   5 |   0 |   0 |
 | [OkuMoney](./reports/2026-11-12-cyfrin-okumoney-v2.0.pdf)                                 |   0 |   0 |   2 |   8 |   8 |   0 |
 | REDACTED MK M C                                                                           |   0 |   0 |   0 |   7 |  18 |   3 |
@@ -416,8 +418,8 @@
 | [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Securitize Redemptions](./reports/2024-07-18-cyfrin-securitize-redemptions-v2.0.pdf)     |   2 |   3 |   4 |   6 |   3 |   0 |
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| **Total** _(90 reports)_                                                                  |  31 |  72 | 275 | 621 | 652 | 228 |
-| **Average Findings Per Audit**<br>* Crit/High 1.14<br>* Medium 3.06<br>* Low 6.9<br>* Info 7.24<br>* Gas 2.53 |
+| **Total** _(91 reports)_                                                                  |  31 |  72 | 275 | 622 | 652 | 228 |
+| **Average Findings Per Audit**<br>* Crit/High 1.13<br>* Medium 3.02<br>* Low 6.84<br>* Info 7.16<br>* Gas 2.51 |
 
 
 ## ERC4626 / Vault / Yield
