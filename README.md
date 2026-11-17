@@ -57,7 +57,7 @@
 | 2026-07-13  | 2026-07-22 | REDACTED SE O                                                                             | Solana, Oracle      |   0 |   0 |   1 |   7 |   9 |   2 |
 | 2026-07-07  | 2026-07-09 | REDACTED VS P H                                                                           | UniswapV4, Prediction Market |   0 |   0 |   1 |   3 |   8 |   0 |
 | 2026-07-06  | 2026-08-18 | [Lido Lend](./reports/2026-10-26-cyfrin-lido-lend-v2.0.pdf), Human Formal Verf. [Part 1](./reports/2026-09-01-cyfrin-lido-lend-part1-FV-v2.0.pdf), [Part 2](./reports/2026-09-15-cyfrin-lido-lend-part2-FV-v2.0.pdf) | Lending, Vault, Yield, Lido, Morpho, Formal Verification |   0 |   0 |   8 |  27 |  21 |   6 |
-| 2026-06-29  | 2026-09-16 | REDACTED LS                                                                               | Lending, Vault, Yield, Tranche, Morpho, Coinbase Prime, Formal Verification |   0 |   6 |  14 |  26 |  29 |   6 |
+| 2026-06-29  | 2026-09-16 | [Lotus](./reports/2026-11-12-cyfrin-lotus-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-08-19-cyfrin-lotus-fv-v2.0.pdf) | Lending, Vault, Yield, Tranche, Morpho, Coinbase Prime, Formal Verification |   0 |   6 |  14 |  26 |  29 |   6 |
 | 2026-06-29  | 2026-07-22 | REDACTED DO P M                                                                           | Prediction Market, Cross-Chain, Chainlink CCIP |   0 |   7 |  18 |  50 |  44 |   6 |
 | 2026-06-29  | 2026-07-17 | [Highway Substrate](./reports/2026-09-29-cyfrin-highway-substrate-v2.1.pdf)               | Cross-Chain, Bridge, Substrate, Rust, Cryptography, BLS12-381 |   1 |   0 |   5 |  32 |   1 |   0 |
 | 2026-06-29  | 2026-07-03 | REDACTED BP A                                                                             | DEX/AMM, Swap Router, Permit2 |   0 |   2 |   3 |   7 |   4 |   2 |
@@ -442,7 +442,7 @@
 | REDACTED SE Y O I                                                                         |   0 |   0 |   0 |   0 |   3 |   0 |
 | [Securitize EVM Async Vault](./reports/2026-08-20-cyfrin-securitize-evm-async-vault-v2.0.pdf) |   0 |   1 |   1 |  11 |   4 |   4 |
 | [Lido Lend](./reports/2026-10-26-cyfrin-lido-lend-v2.0.pdf), Human Formal Verf. [Part 1](./reports/2026-09-01-cyfrin-lido-lend-part1-FV-v2.0.pdf), [Part 2](./reports/2026-09-15-cyfrin-lido-lend-part2-FV-v2.0.pdf) |   0 |   0 |   8 |  27 |  21 |   6 |
-| REDACTED LS                                                                               |   0 |   6 |  14 |  26 |  29 |   6 |
+| [Lotus](./reports/2026-11-12-cyfrin-lotus-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-08-19-cyfrin-lotus-fv-v2.0.pdf) |   0 |   6 |  14 |  26 |  29 |   6 |
 | [Accountable PR75](./reports/2026-06-30-cyfrin-accountable-pr75-v2.0.pdf)                 |   0 |   0 |   4 |   7 |  11 |   3 |
 | REDACTED PL S F                                                                           |   0 |   0 |   0 |   2 |   4 |   0 |
 | REDACTED SE Y S                                                                           |   0 |   0 |   0 |  13 |  16 |   1 |
@@ -590,7 +590,7 @@
 | REDACTED WI R P                                                                           |   0 |   0 |   3 |   8 |  14 |   1 |
 | REDACTED QO R                                                                             |   0 |   0 |   8 |  12 |   6 |   5 |
 | [Lido Lend](./reports/2026-10-26-cyfrin-lido-lend-v2.0.pdf), Human Formal Verf. [Part 1](./reports/2026-09-01-cyfrin-lido-lend-part1-FV-v2.0.pdf), [Part 2](./reports/2026-09-15-cyfrin-lido-lend-part2-FV-v2.0.pdf) |   0 |   0 |   8 |  27 |  21 |   6 |
-| REDACTED LS                                                                               |   0 |   6 |  14 |  26 |  29 |   6 |
+| [Lotus](./reports/2026-11-12-cyfrin-lotus-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-08-19-cyfrin-lotus-fv-v2.0.pdf) |   0 |   6 |  14 |  26 |  29 |   6 |
 | [Accountable PR75](./reports/2026-06-30-cyfrin-accountable-pr75-v2.0.pdf)                 |   0 |   0 |   4 |   7 |  11 |   3 |
 | REDACTED WI R P                                                                           |   0 |   1 |   7 |  13 |   6 |   3 |
 | REDACTED WI L                                                                             |   0 |   1 |   2 |   5 |  12 |   6 |
@@ -777,7 +777,7 @@
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | REDACTED PS                                                                               |   1 |   0 |   4 |  14 |  19 |   0 |
 | [Lido Lend](./reports/2026-10-26-cyfrin-lido-lend-v2.0.pdf), Human Formal Verf. [Part 1](./reports/2026-09-01-cyfrin-lido-lend-part1-FV-v2.0.pdf), [Part 2](./reports/2026-09-15-cyfrin-lido-lend-part2-FV-v2.0.pdf) |   0 |   0 |   8 |  27 |  21 |   6 |
-| REDACTED LS                                                                               |   0 |   6 |  14 |  26 |  29 |   6 |
+| [Lotus](./reports/2026-11-12-cyfrin-lotus-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-08-19-cyfrin-lotus-fv-v2.0.pdf) |   0 |   6 |  14 |  26 |  29 |   6 |
 | [Avant RequestManagerV2](./reports/2026-06-24-cyfrin-avant-requestmanagerv2-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-06-25-cyfrin-avant-requestmanagerv2-FV-v2.0.pdf) |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Armada Crowdfund & Governance](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-05-13-cyfrin-armada-crowdfund-governance-fv-v2.0.pdf) |   0 |   3 |  10 |  15 |  15 |  11 |
 | REDACTED MO                                                                               |   0 |   0 |   0 |   3 |   7 |   7 |
@@ -1026,7 +1026,7 @@
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
 | REDACTED SA M S                                                                           |   0 |   5 |  29 |  35 |  29 |   0 |
 | REDACTED SE Y O I                                                                         |   0 |   0 |   0 |   0 |   3 |   0 |
-| REDACTED LS                                                                               |   0 |   6 |  14 |  26 |  29 |   6 |
+| [Lotus](./reports/2026-11-12-cyfrin-lotus-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-08-19-cyfrin-lotus-fv-v2.0.pdf) |   0 |   6 |  14 |  26 |  29 |   6 |
 | REDACTED SE Y S                                                                           |   0 |   0 |   0 |  13 |  16 |   1 |
 | REDACTED HE                                                                               |   1 |   7 |  17 |   8 |   2 |   0 |
 | [Strata Shares Cooldown](./reports/2026-01-23-cyfrin-strata-shares-cooldown-v2.0.pdf)     |   0 |   0 |   6 |   3 |  10 |   2 |
@@ -1059,7 +1059,7 @@
 | [Dowgo](./reports/2026-10-08-cyfrin-dowgo-v2.0.pdf)                                       | ERC3643, UniswapV4 Hooks, UniswapV4 Permissioned Pools |   0 |   0 |   5 |   4 |   1 |   0 |
 | [Securitize Global Deny List](./reports/2026-09-11-cyfrin-securitize-evm-globaldenylist-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization |   0 |   0 |   0 |   4 |   7 |   1 |
 | [Securitize DSToken Timelocks](./reports/2026-09-07-cyfrin-securitize-evm-dstoken-timelocks-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, Timelock |   0 |   0 |   0 |   3 |  12 |   0 |
-| REDACTED LS                                                                               | Lending, Vault, Yield, Tranche, Morpho, Coinbase Prime, Formal Verification |   0 |   6 |  14 |  26 |  29 |   6 |
+| [Lotus](./reports/2026-11-12-cyfrin-lotus-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-08-19-cyfrin-lotus-fv-v2.0.pdf) | Lending, Vault, Yield, Tranche, Morpho, Coinbase Prime, Formal Verification |   0 |   6 |  14 |  26 |  29 |   6 |
 | [Avant RequestManagerV2](./reports/2026-06-24-cyfrin-avant-requestmanagerv2-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-06-25-cyfrin-avant-requestmanagerv2-FV-v2.0.pdf) | Request-Based Token Wrap/Unwrap, Formal Verification |   0 |   0 |   0 |   1 |   3 |   1 |
 | [Securitize ZKSync Exit Bridge](./reports/2026-06-10-cyfrin-securitize-zksync-exit-bridge-v2.0.pdf) | TradFi, Real-World Assets, Cross-Chain, ZKSync |   0 |   0 |   0 |   4 |   2 |   3 |
 | REDACTED CS C A                                                                           | Arbitrum, Stylus, Automation |   0 |   0 |   0 |   8 |  12 |  10 |
@@ -1354,7 +1354,7 @@
 | REDACTED SE E D S A                                                                       | TradFi, Real-World Assets, Securities Tokenization, ERC-8056, Rebasing |   0 |   0 |   0 |   1 |   5 |   0 |
 | REDACTED SA M S                                                                           | Vault, Yield, Tranche, ERC4626, Restaking, Symbiotic |   0 |   5 |  29 |  35 |  29 |   0 |
 | REDACTED MA O R R R                                                                       | TradFi, RWA, NFT, Real-Estate Tokenization |   0 |   0 |   4 |  20 |  22 |   1 |
-| REDACTED LS                                                                               | Lending, Vault, Yield, Tranche, Morpho, Coinbase Prime, Formal Verification |   0 |   6 |  14 |  26 |  29 |   6 |
+| [Lotus](./reports/2026-11-12-cyfrin-lotus-v2.0.pdf), [(Human Formal Verf.)](./reports/2026-08-19-cyfrin-lotus-fv-v2.0.pdf) | Lending, Vault, Yield, Tranche, Morpho, Coinbase Prime, Formal Verification |   0 |   6 |  14 |  26 |  29 |   6 |
 | REDACTED PL S F                                                                           | Stablecoin, Vault, Yield |   0 |   0 |   0 |   2 |   4 |   0 |
 | [STBL ESS / Redemptions](./reports/2026-06-17-cyfrin-stbl-ess-v2.0.pdf)                   | Stablecoin, Vault, Yield, Real-World Assets, NFT |   2 |   8 |   8 |   9 |   9 |   0 |
 | REDACTED PL 3 U                                                                           | Stablecoin, Vault, Yield, EIP-3009 |   0 |   0 |   0 |   1 |   7 |   0 |
