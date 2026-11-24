@@ -4,12 +4,16 @@
 
 | Audit Start | Audit End  | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| 2026-11-17  | 2026-11-23 | REDACTED AM S E                                                                           | TradFi, Cross-Chain, Payments, Stellar, Soroban, Rust |   0 |   0 |   0 |   8 |  12 |   2 |
 | 2026-11-12  | 2026-11-12 | [Securitize EVM On/Off Ramp](./reports/2026-11-13-cyfrin-securitize-evm-on-off-ramp-v2.0.pdf) | TradFi, Real-World Assets, Securities Tokenization, EIP-712, Signature Authorization |   0 |   0 |   0 |   1 |   0 |   0 |
 | 2026-11-11  | 2026-11-12 | [ECOREAL V3](./reports/2026-11-12-cyfrin-ecoreal-v3-v2.0.pdf)                             | AMM, Uniswap V2 LP, Fee-on-Transfer |   0 |   0 |   2 |   6 |   4 |   0 |
+| 2026-11-09  | 2026-11-13 | [BENQI FIFO Withdrawals](./reports/2026-11-23-cyfrin-benqi-fifo-withdrawals-v2.0.pdf)     | Liquid Staking      |   0 |   0 |   0 |   2 |   5 |   1 |
+| 2026-11-06  | 2026-11-16 | REDACTED SE C B                                                                           | TradFi, Real-World Assets, Securities Tokenization, Cross-Chain, Chainlink CCIP, Rust, Solana |   0 |   1 |   7 |  16 |   4 |   0 |
 | 2026-11-04  | 2026-11-04 | REDACTED WI S B R                                                                         | Stablecoin, EIP3009 |   0 |   0 |   0 |   0 |   1 |   0 |
 | 2026-11-02  | 2026-11-16 | [SandCastle](./reports/2026-11-17-cyfrin-sandcastle-v2.0.pdf)                             | Lending, Morpho, CLM, Concentrated Liquidity, NFT, Chainlink, Uniswap, Aerodrome |   0 |   1 |   6 |  23 |   6 |   0 |
 | 2026-11-02  | 2026-11-05 | REDACTED TQ Z                                                                             | Stablecoin, Yield, Real-World Assets, Permissioned Token |   0 |   0 |   1 |   5 |   0 |   0 |
 | 2026-10-28  | 2026-11-10 | [OkuMoney](./reports/2026-11-12-cyfrin-okumoney-v2.0.pdf)                                 | Stablecoin, Yield, Real-World Assets, PSM, Rebasing, Cross-Chain, Bridge, Solana, Rust |   0 |   0 |   2 |   8 |   8 |   0 |
+| 2026-10-28  | 2026-11-04 | REDACTED SE S S 3                                                                         | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana, Token-2022, sRFC-37 |   0 |   0 |   2 |  10 |   2 |   0 |
 | 2026-10-28  | 2026-10-30 | REDACTED MK M C                                                                           | TradFi, Real-World Assets, Securities Tokenization, Timelock |   0 |   0 |   0 |   7 |  18 |   3 |
 | 2026-10-28  | 2026-10-30 | REDACTED SE E S D                                                                         | TradFi, Real-World Assets, Securities Tokenization, Rust, Solana |   0 |   0 |   0 |   4 |   1 |   0 |
 | 2026-10-24  | 2026-10-25 | REDACTED SE E T                                                                           | TradFi, Real-World Assets, Securities Tokenization, UniswapV4 Permissioned Pools |   0 |   0 |   0 |   2 |   2 |   0 |
@@ -308,7 +312,7 @@
 | 2023-03-10  | 2023-03-24 | [Beanstalk Wells v2.0](./reports/2023-06-16-cyfrin-beanstalk-wells.pdf)                   | Constant Func AMM   | n/a |   4 |   2 |   3 |  18 |   2 |
 | 2023-02-07  | 2023-02-24 | [Beanstalk Wells v0.1](./reports/2023-03-13-beanstalk_wells_v0.1.pdf)                     | Constant Func AMM   | n/a |   4 |   3 |   1 |  10 |   2 |
 | 2023-02-06  | 2023-02-13 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | Liquid Staking      | n/a |   2 |   5 |  10 |   9 |  13 |
-|             | **Total**  |                                                                                           | _(304 reports)_ | 127 | 360 | 1019 | 2048 | 2322 | 870 |
+|             | **Total**  |                                                                                           | _(308 reports)_ | 127 | 361 | 1028 | 2084 | 2345 | 873 |
 
 
 ## Legend
@@ -328,9 +332,12 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED AM S E                                                                           |   0 |   0 |   0 |   8 |  12 |   2 |
 | [Securitize EVM On/Off Ramp](./reports/2026-11-13-cyfrin-securitize-evm-on-off-ramp-v2.0.pdf) |   0 |   0 |   0 |   1 |   0 |   0 |
+| REDACTED SE C B                                                                           |   0 |   1 |   7 |  16 |   4 |   0 |
 | REDACTED TQ Z                                                                             |   0 |   0 |   1 |   5 |   0 |   0 |
 | [OkuMoney](./reports/2026-11-12-cyfrin-okumoney-v2.0.pdf)                                 |   0 |   0 |   2 |   8 |   8 |   0 |
+| REDACTED SE S S 3                                                                         |   0 |   0 |   2 |  10 |   2 |   0 |
 | REDACTED MK M C                                                                           |   0 |   0 |   0 |   7 |  18 |   3 |
 | REDACTED SE E S D                                                                         |   0 |   0 |   0 |   4 |   1 |   0 |
 | REDACTED SE E T                                                                           |   0 |   0 |   0 |   2 |   2 |   0 |
@@ -419,8 +426,8 @@
 | [Securitize Vault V1](./reports/2024-08-10-cyfrin-securitize-vault-v1-v2.0.pdf)           |   1 |   0 |   0 |   1 |   4 |   1 |
 | [Securitize Redemptions](./reports/2024-07-18-cyfrin-securitize-redemptions-v2.0.pdf)     |   2 |   3 |   4 |   6 |   3 |   0 |
 | [Ondo Finance](./reports/2024-04-18-cyfrin-ondo-finance-v2.0.pdf)                         |   0 |   0 |   0 |   7 |   7 |  10 |
-| **Total** _(91 reports)_                                                                  |  31 |  72 | 275 | 622 | 652 | 228 |
-| **Average Findings Per Audit**<br>* Crit/High 1.13<br>* Medium 3.02<br>* Low 6.84<br>* Info 7.16<br>* Gas 2.51 |
+| **Total** _(94 reports)_                                                                  |  31 |  73 | 284 | 656 | 670 | 230 |
+| **Average Findings Per Audit**<br>* Crit/High 1.11<br>* Medium 3.02<br>* Low 6.98<br>* Info 7.13<br>* Gas 2.45 |
 
 
 ## ERC4626 / Vault / Yield
@@ -515,6 +522,8 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED AM S E                                                                           |   0 |   0 |   0 |   8 |  12 |   2 |
+| REDACTED SE C B                                                                           |   0 |   1 |   7 |  16 |   4 |   0 |
 | [OkuMoney](./reports/2026-11-12-cyfrin-okumoney-v2.0.pdf)                                 |   0 |   0 |   2 |   8 |   8 |   0 |
 | REDACTED WI C L                                                                           |   0 |   1 |   4 |  21 |   5 |   0 |
 | REDACTED AD W                                                                             |   0 |   0 |   1 |  20 |  10 |   0 |
@@ -575,8 +584,8 @@
 | [Wormhole EVM-CCTP](./reports/2024-04-09-cyfrin-wormhole-evm-cctp-v2-1.pdf)               |   0 |   0 |   2 |   3 |   8 |   0 |
 | [Wormhole Thermae](./reports/2024-01-10-cyfrin-wormhole-thermae-v2.1.pdf)                 |   0 |   1 |   2 |   1 |   5 |   3 |
 | [Hyperliquid Dex](./reports/2023-04-11-cyfrin-hyperliquid-dex-report.pdf)                 | n/a |   0 |   2 |   1 |  15 |   0 |
-| **Total** _(60 reports)_                                                                  |  15 |  67 | 198 | 462 | 477 | 136 |
-| **Average Findings Per Audit**<br>* Crit/High 1.37<br>* Medium 3.3<br>* Low 7.7<br>* Info 7.95<br>* Gas 2.27 |
+| **Total** _(62 reports)_                                                                  |  15 |  68 | 205 | 486 | 493 | 138 |
+| **Average Findings Per Audit**<br>* Crit/High 1.34<br>* Medium 3.31<br>* Low 7.84<br>* Info 7.95<br>* Gas 2.23 |
 
 
 ## Perpetuals / Leverage / Lending / Borrowing
@@ -703,6 +712,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED SE C B                                                                           |   0 |   1 |   7 |  16 |   4 |   0 |
 | [SandCastle](./reports/2026-11-17-cyfrin-sandcastle-v2.0.pdf)                             |   0 |   1 |   6 |  23 |   6 |   0 |
 | REDACTED WI C L                                                                           |   0 |   1 |   4 |  21 |   5 |   0 |
 | REDACTED SK P                                                                             |   0 |   0 |   0 |   0 |   4 |   0 |
@@ -732,15 +742,17 @@
 | [EARNM DropBox](./reports/2024-08-15-cyfrin-earnm-dropbox-v2.0.pdf)                       |   1 |   0 |   2 |   2 |   7 |  25 |
 | [Tunnl](./reports/2024-07-01-cyfrin-tunnl-v2.0.pdf)                                       |   1 |   0 |   5 |   0 |   3 |   0 |
 | [EARNM MysteryBox](./reports/2023-11-20-cyfrin-mode-earnm-v2.0.pdf)                       |   2 |   3 |   2 |   1 |   4 |   8 |
-| **Total** _(29 reports)_                                                                  |  11 |  39 | 142 | 345 | 276 |  97 |
-| **Average Findings Per Audit**<br>* Crit/High 1.72<br>* Medium 4.9<br>* Low 11.9<br>* Info 9.52<br>* Gas 3.34 |
+| **Total** _(30 reports)_                                                                  |  11 |  40 | 149 | 361 | 280 |  97 |
+| **Average Findings Per Audit**<br>* Crit/High 1.7<br>* Medium 4.97<br>* Low 12.03<br>* Info 9.33<br>* Gas 3.23 |
 
 
 ## Solana
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED SE C B                                                                           |   0 |   1 |   7 |  16 |   4 |   0 |
 | [OkuMoney](./reports/2026-11-12-cyfrin-okumoney-v2.0.pdf)                                 |   0 |   0 |   2 |   8 |   8 |   0 |
+| REDACTED SE S S 3                                                                         |   0 |   0 |   2 |  10 |   2 |   0 |
 | REDACTED SE E S D                                                                         |   0 |   0 |   0 |   4 |   1 |   0 |
 | [Securitize SVM Jump Router Market Account](./reports/2026-09-29-cyfrin-securitize-svm-jump-router-market-account-v2.0.pdf) |   0 |   0 |   0 |   0 |   2 |   0 |
 | [Securitize SVM Vault Registrar SPL ACL](./reports/2026-09-17-cyfrin-securitize-svm-vaultregistrar-spl-acl-v2.0.pdf) |   0 |   0 |   0 |   5 |   6 |   1 |
@@ -767,8 +779,8 @@
 | REDACTED LE S G                                                                           |   0 |   3 |   2 |   2 |   3 |   0 |
 | [Doryoku](./reports/2025-07-22-cyfrin-doryoku-v2.0.pdf)                                   |   0 |   2 |   0 |   4 |  11 |   0 |
 | [Securitize Solana Vault](./reports/2025-05-23-cyfrin-securitize-solana-vault-v2.0.pdf)   |   0 |   1 |   1 |   5 |   3 |   0 |
-| **Total** _(27 reports)_                                                                  |   4 |  38 |  86 | 193 | 241 |  24 |
-| **Average Findings Per Audit**<br>* Crit/High 1.56<br>* Medium 3.19<br>* Low 7.15<br>* Info 8.93<br>* Gas 0.89 |
+| **Total** _(29 reports)_                                                                  |   4 |  39 |  95 | 219 | 247 |  24 |
+| **Average Findings Per Audit**<br>* Crit/High 1.48<br>* Medium 3.28<br>* Low 7.55<br>* Info 8.52<br>* Gas 0.83 |
 
 
 ## Formal Verification
@@ -836,6 +848,7 @@
 
 | Report                                                                                    | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |
+| [BENQI FIFO Withdrawals](./reports/2026-11-23-cyfrin-benqi-fifo-withdrawals-v2.0.pdf)     |   0 |   0 |   0 |   2 |   5 |   1 |
 | REDACTED SK P                                                                             |   0 |   0 |   0 |   0 |   4 |   0 |
 | REDACTED SK B R D                                                                         |   0 |   0 |   1 |   1 |   0 |   0 |
 | [Stake.link Espresso Staking](./reports/2026-02-04-cyfrin-stakedotlink-espresso-v2.0.pdf) |   0 |   0 |   2 |   5 |   2 |   0 |
@@ -855,8 +868,8 @@
 | [Swell Barracuda](./reports/2024-02-23-cyfrin-swell-barracuda-v2.0.pdf)                   |   0 |   0 |   2 |  11 |   4 |   7 |
 | [stake.link](./reports/2023-08-25-cyfrin-stake-link.pdf)                                  | n/a |   0 |   2 |   1 |   3 |   0 |
 | [LinkPool LiquidSDIndexPool](./reports/2023-03-07-linkpool_liquid_sd_index_pool.pdf)      | n/a |   2 |   5 |  10 |   9 |  13 |
-| **Total** _(19 reports)_                                                                  |  11 |  28 |  55 |  76 |  70 |  46 |
-| **Average Findings Per Audit**<br>* Crit/High 2.05<br>* Medium 2.89<br>* Low 4<br>* Info 3.68<br>* Gas 2.42 |
+| **Total** _(20 reports)_                                                                  |  11 |  28 |  55 |  78 |  75 |  47 |
+| **Average Findings Per Audit**<br>* Crit/High 1.95<br>* Medium 2.75<br>* Low 3.9<br>* Info 3.75<br>* Gas 2.35 |
 
 
 ## DAO
@@ -1307,6 +1320,7 @@
 
 | Report                                                                                    | Tech                | C   | H   | M   | L   | I   | G   |
 | ----------------------------------------------------------------------------------------- | ------------------- | --- | --- | --- | --- | --- | --- |
+| REDACTED AM S E                                                                           | TradFi, Cross-Chain, Payments, Stellar, Soroban, Rust |   0 |   0 |   0 |   8 |  12 |   2 |
 | REDACTED AD W                                                                             | Gaming, NFT, Cross-Chain, Bridge, Cryptography, BLS12-381 |   0 |   0 |   1 |  20 |  10 |   0 |
 | [Highway Substrate Foreign Asset Transfers](./reports/2026-11-03-cyfrin-highway-substrate-foreign-asset-transfers-v2.0.pdf) | Cross-Chain, Bridge, Substrate, Rust, Cryptography, BLS12-381 |   0 |   0 |   0 |  17 |   4 |   0 |
 | REDACTED RY S                                                                             | Cross-Chain, Bridge, Intents, ERC6909, Oracle, TEE |   0 |   5 |  23 |  21 |   6 |   0 |
@@ -1343,8 +1357,8 @@
 | [Dolomite Proof Of Liquidity Vaults](./reports/2025-04-24-cyfrin-dolomite-POLVaults-v2.0.pdf) | DEX, Leverage Trading, Vault |   0 |   1 |   1 |   3 |   3 |   1 |
 | [Linea SpinGame](./reports/2025-03-19-cyfrin-linea-spingame-v2.0.pdf)                     | Lottery, NFT, Gelato VRF |   0 |   0 |   1 |   3 |   4 |   0 |
 | REDACTED LA                                                                               | TradFi, Real-World Assets, Securities Tokenization, Rust, ZK |   0 |   0 |   4 |   3 |   4 |   0 |
-| **Total** _(36 reports)_                                                                  |                     |   9 |  43 | 117 | 289 | 231 |  43 |
-| **Average Findings Per Audit**<br>* Crit/High 1.44<br>* Medium 3.25<br>* Low 8.03<br>* Info 6.42<br>* Gas 1.19 |
+| **Total** _(37 reports)_                                                                  |                     |   9 |  43 | 117 | 297 | 243 |  45 |
+| **Average Findings Per Audit**<br>* Crit/High 1.41<br>* Medium 3.16<br>* Low 8.03<br>* Info 6.57<br>* Gas 1.22 |
 
 
 ## Stalin
